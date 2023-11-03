@@ -1,0 +1,32 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1699029757.441462 gym-duckietown 2019.0.0
+
+time=1699029759.0528624 Registering gym environment id: Duckietown-4way-v0
+time=1699029759.0529337 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1699029759.0529885 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1699029759.053065 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1699029759.0531182 Registering gym environment id: Duckietown-loop_empty-v0
+time=1699029759.0531592 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1699029759.0532124 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1699029759.0532916 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1699029759.053342 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1699029759.053394 Registering gym environment id: Duckietown-small_loop-v0
+time=1699029759.053444 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1699029759.0534906 Registering gym environment id: Duckietown-straight_road-v0
+time=1699029759.053536 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1699029759.053591 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1699029759.053636 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1699029759.053684 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1699029759.0537286 Registering gym environment id: Duckietown-udem1-v0
+time=1699029759.0537758 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 6, in <module>
+    checkers=[FloatStopAtCoordinatesChecker(), TimeChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 88, in __init__
+    super().__init__(checkers)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ado_qualification.solutions.solution' has no attribute 'AdoQualificationTaskSolution'
