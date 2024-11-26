@@ -1,0 +1,992 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1732618014.467587 gym-duckietown 2019.0.0
+
+time=1732618014.5736742 Registering gym environment id: Duckietown-4way-v0
+time=1732618014.5737526 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1732618014.5737875 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1732618014.5738535 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1732618014.5739155 Registering gym environment id: Duckietown-loop_empty-v0
+time=1732618014.5739934 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1732618014.5740483 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1732618014.574098 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1732618014.5741463 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1732618014.5741942 Registering gym environment id: Duckietown-small_loop-v0
+time=1732618014.5742412 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1732618014.5742888 Registering gym environment id: Duckietown-straight_road-v0
+time=1732618014.5743334 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1732618014.5743823 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1732618014.574431 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1732618014.5744784 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1732618014.574525 Registering gym environment id: Duckietown-udem1-v0
+time=1732618014.5745702 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1732618015.9055297 Falling back to non-multisampled frame buffer
+time=1732618015.9072707 Falling back to non-multisampled frame buffer
+time=1732618015.9101443 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_only_duckies.yaml"
+time=1732618015.919426 loading mesh "duckiebot.obj"
+time=1732618015.9196184 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1732618016.1789644 loading mesh "duckie.obj"
+time=1732618016.2079828 loading texture "duckie.png"
+time=1732618016.5256658 loading mesh "cone.obj"
+time=1732618016.5332017 loading texture "cone.png"
+time=1732618016.5611885 loading mesh "barrier.obj"
+time=1732618016.5711792 loading texture "barrier.png"
+time=1732618016.649331 loading texture "floor_1.png"
+time=1732618016.7251577 loading texture "curve_left_1.png"
+time=1732618016.731146 loading texture "straight_1.png"
+time=1732618016.7392824 loading texture "curve_right_1.png"
+time=1732618016.746758 using user tile start: (1, 1)
+time=1732618016.7473245 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fd13e22cf10>, 'color': array([1, 1, 1])}
+time=1732618016.7490313 road_tile_size=0.585
+time=1732618016.749207 Starting at [1.02713335 0.         1.12267441] 4.2818000345241085
+time=1732618016.7494733 Pos: [1.02713335 0.         1.12267441] angle 4.2818000345241085
+time=1732618016.8920953 using DuckietownEnv
+time=1732618017.0279226 Pos: [1.02713335 0.         1.12267441] angle 4.2818000345241085
+time=1732618017.2045925 Pos: [1.02308122 0.         1.13106399] angle 4.243074201773118
+time=1732618017.2471497 Pos: [1.01877555 0.         1.13932675] angle 4.220945154486838
+time=1732618017.2887723 Pos: [1.01429819 0.         1.14749781] angle 4.201291066436523
+time=1732618017.3312266 Pos: [1.00966992 0.         1.15558438] angle 4.183820765947355
+time=1732618017.373669 Pos: [1.00485988 0.         1.16356395] angle 4.156013871002095
+time=1732618017.4149542 Pos: [0.99989209 0.         1.17144658] angle 4.144075832334496
+time=1732618017.4549158 Pos: [0.99487445 0.         1.17929763] angle 4.143347903147448
+time=1732618017.4946053 Pos: [0.98985396 0.         1.18714685] angle 4.143347903147448
+time=1732618017.5396519 Pos: [0.9848369  0.         1.19499827] angle 4.144221418171906
+time=1732618017.5779293 Pos: [0.97982955 0.         1.20285589] angle 4.1458228623834135
+time=1732618017.616835 Pos: [0.97480221 0.         1.21070071] angle 4.139125913862566
+time=1732618017.655192 Pos: [0.96976516 0.         1.21853931] angle 4.143347903147449
+time=1732618017.6963055 Pos: [0.9647859  0.         1.22641471] angle 4.153830083440949
+time=1732618017.7346964 Pos: [0.95988946 0.         1.23434186] angle 4.16431226373445
+time=1732618017.7728648 Pos: [0.9550758  0.         1.24231955] angle 4.174648858190541
+time=1732618017.8135555 Pos: [0.95034486 0.         1.25034658] angle 4.184985452646632
+time=1732618017.8587384 Pos: [0.94569714 0.         1.25842207] angle 4.1953220471027235
+time=1732618017.904589 Pos: [0.94111422 0.         1.26653455] angle 4.200999894761703
+time=1732618017.9456017 Pos: [0.93660057 0.         1.27468573] angle 4.212355590079663
+time=1732618017.9875953 Pos: [0.93217858 0.         1.282887  ] angle 4.223420113722803
+time=1732618018.0322814 Pos: [0.9278482 0.        1.291137 ] angle 4.234630223203353
+time=1732618018.0797496 Pos: [0.92361058 0.         1.29943503] angle 4.245840332683903
+time=1732618018.1317596 Pos: [0.91946745 0.         1.30778065] angle 4.257341613839272
+time=1732618018.1870418 Pos: [0.91542242 0.         1.31617424] angle 4.269279652506871
+time=1732618018.2305305 Pos: [0.91147727 0.         1.32461523] angle 4.281072105337059
+time=1732618018.2792432 Pos: [0.90763192 0.         1.33310217] angle 4.292864558167247
+time=1732618018.3203325 Pos: [0.90388693 0.         1.34163385] angle 4.304657010997436
+time=1732618018.363157 Pos: [0.90024342 0.         1.35020937] angle 4.316595049665034
+time=1732618018.4036508 Pos: [0.89670004 0.         1.35882675] angle 4.327950744982994
+time=1732618018.4437323 Pos: [0.89325473 0.         1.36748381] angle 4.339306440300954
+time=1732618018.4846983 Pos: [0.8899257  0.         1.37618619] angle 4.3547385390663855
+time=1732618018.5243995 Pos: [0.88672881 0.         1.38493799] angle 4.3695882944821784
+time=1732618018.5629494 Pos: [0.88365966 0.         1.39373541] angle 4.383855706548332
+time=1732618018.605824 Pos: [0.88071377 0.         1.40257487] angle 4.397540775264847
+time=1732618018.6447961 Pos: [0.87788717 0.         1.4114532 ] angle 4.4107890864691335
+time=1732618018.6843796 Pos: [0.87517714 0.         1.4203678 ] angle 4.4237462259986
+time=1732618018.7245045 Pos: [0.87258154 0.         1.4293164 ] angle 4.436412193853247
+time=1732618018.7633972 Pos: [0.87009883 0.         1.43829697] angle 4.448932575870485
+time=1732618018.802616 Pos: [0.86772744 0.         1.44730759] angle 4.4611617862129025
+time=1732618018.8421652 Pos: [0.86546576 0.         1.45634636] angle 4.473245410717911
+time=1732618018.8815072 Pos: [0.86331347 0.         1.4654118 ] angle 4.485329035222919
+time=1732618018.9203448 Pos: [0.86127153 0.         1.47450274] angle 4.497558245565337
+time=1732618018.959282 Pos: [0.85934092 0.         1.48361796] angle 4.509787455907754
+time=1732618018.9980447 Pos: [0.85751926 0.         1.49275559] angle 4.521434322900533
+time=1732618019.0391898 Pos: [0.85579882 0.         1.50191283] angle 4.531916503194034
+time=1732618019.0784504 Pos: [0.85417445 0.         1.51108759] angle 4.5423986834875345
+time=1732618019.1193252 Pos: [0.85264634 0.         1.52027888] angle 4.552880863781035
+time=1732618019.1578755 Pos: [0.85121466 0.         1.52948568] angle 4.563363044074536
+time=1732618019.1975124 Pos: [0.84988024 0.         1.53870708] angle 4.573990810205447
+time=1732618019.236247 Pos: [0.84862305 0.         1.54793936] angle 4.580105415376656
+time=1732618019.274607 Pos: [0.84742368 0.         1.55717932] angle 4.586511192222685
+time=1732618019.3126674 Pos: [0.84628487 0.         1.56642694] angle 4.593208140743532
+time=1732618019.3541284 Pos: [0.84520936 0.         1.57568213] angle 4.6001962609391995
+time=1732618019.3943703 Pos: [0.84422216 0.         1.58494712] angle 4.612279885444208
+time=1732618019.4393058 Pos: [0.84332335 0.         1.59422115] angle 4.619268005639875
+time=1732618019.4785604 Pos: [0.8424914 0.        1.6035014] angle 4.626692883347772
+time=1732618019.518345 Pos: [0.8417054  0.         1.61278568] angle 4.629167842583738
+time=1732618019.559624 Pos: [0.84094507 0.         1.6220721 ] angle 4.632225145169342
+time=1732618019.5992253 Pos: [0.84021585 0.         1.63136101] angle 4.635864791104586
+time=1732618019.6393313 Pos: [0.83954953 0.         1.6406546 ] angle 4.645764628048449
+time=1732618019.6822581 Pos: [0.83894749 0.         1.64995262] angle 4.649695445658511
+0.585
+0.9887362754063528 0.9009893549319746
+0.585
+1.0271333510824756 1.1226744050994617
+r: 436
+ffff
+Step : 0 	 Curent position = [1.02308122 1.13106399] 	 Target position = [2.6325  3.36375] 	 distance = 2.7522927983235106
+r: 322
+ffff
+Step : 1 	 Curent position = [1.01877555 1.13932675] 	 Target position = [2.6325  3.36375] 	 distance = 2.748120336012484
+r: 305
+ffff
+Step : 2 	 Curent position = [1.01429819 1.14749781] 	 Target position = [2.6325  3.36375] 	 distance = 2.744148479567789
+r: 290
+ffff
+Step : 3 	 Curent position = [1.00966992 1.15558438] 	 Target position = [2.6325  3.36375] 	 distance = 2.7403599913457293
+r: 361
+ffff
+Step : 4 	 Curent position = [1.00485988 1.16356395] 	 Target position = [2.6325  3.36375] 	 distance = 2.7367921030108207
+r: 252
+ffff
+Step : 5 	 Curent position = [0.99989209 1.17144658] 	 Target position = [2.6325  3.36375] 	 distance = 2.7334232910918588
+r: 175
+ffff
+Step : 6 	 Curent position = [0.99487445 1.17929763] 	 Target position = [2.6325  3.36375] 	 distance = 2.7301372851726793
+r: 170
+ffff
+Step : 7 	 Curent position = [0.98985396 1.18714685] 	 Target position = [2.6325  3.36375] 	 distance = 2.726882335814705
+r: 164
+ffff
+Step : 8 	 Curent position = [0.9848369  1.19499827] 	 Target position = [2.6325  3.36375] 	 distance = 2.723651551938558
+r: 159
+ffff
+Step : 9 	 Curent position = [0.97982955 1.20285589] 	 Target position = [2.6325  3.36375] 	 distance = 2.7204380122944287
+r: 216
+ffff
+Step : 10 	 Curent position = [0.97480221 1.21070071] 	 Target position = [2.6325  3.36375] 	 distance = 2.717274959318584
+r: 141
+ffff
+Step : 11 	 Curent position = [0.96976516 1.21853931] 	 Target position = [2.6325  3.36375] 	 distance = 2.7141510697813787
+r: 98
+ffff
+Step : 12 	 Curent position = [0.9647859  1.22641471] 	 Target position = [2.6325  3.36375] 	 distance = 2.7109910507313524
+r: 98
+ffff
+Step : 13 	 Curent position = [0.95988946 1.23434186] 	 Target position = [2.6325  3.36375] 	 distance = 2.707767539238684
+r: 99
+ffff
+Step : 14 	 Curent position = [0.9550758  1.24231955] 	 Target position = [2.6325  3.36375] 	 distance = 2.7044812977171744
+r: 99
+ffff
+Step : 15 	 Curent position = [0.95034486 1.25034658] 	 Target position = [2.6325  3.36375] 	 distance = 2.701133087681466
+r: 99
+ffff
+Step : 16 	 Curent position = [0.94569714 1.25842207] 	 Target position = [2.6325  3.36375] 	 distance = 2.697723036810777
+r: 131
+ffff
+Step : 17 	 Curent position = [0.94111422 1.26653455] 	 Target position = [2.6325  3.36375] 	 distance = 2.694271427876197
+r: 92
+ffff
+Step : 18 	 Curent position = [0.93660057 1.27468573] 	 Target position = [2.6325  3.36375] 	 distance = 2.6907739435481344
+r: 94
+ffff
+Step : 19 	 Curent position = [0.93217858 1.282887  ] 	 Target position = [2.6325  3.36375] 	 distance = 2.6872074318836385
+r: 93
+ffff
+Step : 20 	 Curent position = [0.9278482 1.291137 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.683572693127773
+r: 93
+ffff
+Step : 21 	 Curent position = [0.92361058 1.29943503] 	 Target position = [2.6325  3.36375] 	 distance = 2.6798692781540274
+r: 91
+ffff
+Step : 22 	 Curent position = [0.91946745 1.30778065] 	 Target position = [2.6325  3.36375] 	 distance = 2.6760961280478655
+r: 88
+ffff
+Step : 23 	 Curent position = [0.91542242 1.31617424] 	 Target position = [2.6325  3.36375] 	 distance = 2.6722503442725025
+r: 89
+ffff
+Step : 24 	 Curent position = [0.91147727 1.32461523] 	 Target position = [2.6325  3.36375] 	 distance = 2.668330908383873
+r: 89
+ffff
+Step : 25 	 Curent position = [0.90763192 1.33310217] 	 Target position = [2.6325  3.36375] 	 distance = 2.664338662196104
+r: 89
+ffff
+Step : 26 	 Curent position = [0.90388693 1.34163385] 	 Target position = [2.6325  3.36375] 	 distance = 2.660273834340074
+r: 88
+ffff
+Step : 27 	 Curent position = [0.90024342 1.35020937] 	 Target position = [2.6325  3.36375] 	 distance = 2.656136050574541
+r: 92
+ffff
+Step : 28 	 Curent position = [0.89670004 1.35882675] 	 Target position = [2.6325  3.36375] 	 distance = 2.6519273670102383
+r: 92
+ffff
+Step : 29 	 Curent position = [0.89325473 1.36748381] 	 Target position = [2.6325  3.36375] 	 distance = 2.6476504322083847
+r: 64
+ffff
+Step : 30 	 Curent position = [0.8899257  1.37618619] 	 Target position = [2.6325  3.36375] 	 distance = 2.6432886832332474
+r: 68
+ffff
+Step : 31 	 Curent position = [0.88672881 1.38493799] 	 Target position = [2.6325  3.36375] 	 distance = 2.6388281509545704
+r: 72
+ffff
+Step : 32 	 Curent position = [0.88365966 1.39373541] 	 Target position = [2.6325  3.36375] 	 distance = 2.6342740957450705
+r: 76
+ffff
+Step : 33 	 Curent position = [0.88071377 1.40257487] 	 Target position = [2.6325  3.36375] 	 distance = 2.6296317073428783
+r: 79
+ffff
+Step : 34 	 Curent position = [0.87788717 1.4114532 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.6249055217644606
+r: 81
+ffff
+Step : 35 	 Curent position = [0.87517714 1.4203678 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.62009885321206
+r: 83
+ffff
+Step : 36 	 Curent position = [0.87258154 1.4293164 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.61521439766916
+r: 84
+ffff
+Step : 37 	 Curent position = [0.87009883 1.43829697] 	 Target position = [2.6325  3.36375] 	 distance = 2.6102542471464694
+r: 86
+ffff
+Step : 38 	 Curent position = [0.86772744 1.44730759] 	 Target position = [2.6325  3.36375] 	 distance = 2.605220471175488
+r: 87
+ffff
+Step : 39 	 Curent position = [0.86546576 1.45634636] 	 Target position = [2.6325  3.36375] 	 distance = 2.60011511963484
+r: 87
+ffff
+Step : 40 	 Curent position = [0.86331347 1.4654118 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.5949390920221833
+r: 86
+ffff
+Step : 41 	 Curent position = [0.86127153 1.47450274] 	 Target position = [2.6325  3.36375] 	 distance = 2.589692162318172
+r: 86
+ffff
+Step : 42 	 Curent position = [0.85934092 1.48361796] 	 Target position = [2.6325  3.36375] 	 distance = 2.5843741181601505
+r: 90
+ffff
+Step : 43 	 Curent position = [0.85751926 1.49275559] 	 Target position = [2.6325  3.36375] 	 distance = 2.5789875300472267
+r: 98
+ffff
+Step : 44 	 Curent position = [0.85579882 1.50191283] 	 Target position = [2.6325  3.36375] 	 distance = 2.573539342370948
+r: 98
+ffff
+Step : 45 	 Curent position = [0.85417445 1.51108759] 	 Target position = [2.6325  3.36375] 	 distance = 2.568034219376173
+r: 98
+ffff
+Step : 46 	 Curent position = [0.85264634 1.52027888] 	 Target position = [2.6325  3.36375] 	 distance = 2.562472400948128
+r: 98
+ffff
+Step : 47 	 Curent position = [0.85121466 1.52948568] 	 Target position = [2.6325  3.36375] 	 distance = 2.556854130217976
+r: 97
+ffff
+Step : 48 	 Curent position = [0.84988024 1.53870708] 	 Target position = [2.6325  3.36375] 	 distance = 2.551179115772627
+r: 128
+ffff
+Step : 49 	 Curent position = [0.84862305 1.54793936] 	 Target position = [2.6325  3.36375] 	 distance = 2.545463667708198
+r: 126
+ffff
+Step : 50 	 Curent position = [0.84742368 1.55717932] 	 Target position = [2.6325  3.36375] 	 distance = 2.539723431678981
+r: 124
+ffff
+Step : 51 	 Curent position = [0.84628487 1.56642694] 	 Target position = [2.6325  3.36375] 	 distance = 2.533956331475733
+r: 122
+ffff
+Step : 52 	 Curent position = [0.84520936 1.57568213] 	 Target position = [2.6325  3.36375] 	 distance = 2.5281603048078733
+r: 87
+ffff
+Step : 53 	 Curent position = [0.84422216 1.58494712] 	 Target position = [2.6325  3.36375] 	 distance = 2.5223158590969295
+r: 122
+ffff
+Step : 54 	 Curent position = [0.84332335 1.59422115] 	 Target position = [2.6325  3.36375] 	 distance = 2.5164231427957984
+r: 119
+ffff
+Step : 55 	 Curent position = [0.8424914 1.6035014] 	 Target position = [2.6325  3.36375] 	 distance = 2.5104991350954027
+r: 153
+ffff
+Step : 56 	 Curent position = [0.8417054  1.61278568] 	 Target position = [2.6325  3.36375] 	 distance = 2.504560113917955
+r: 149
+ffff
+Step : 57 	 Curent position = [0.84094507 1.6220721 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.4986218152341713
+r: 145
+ffff
+Step : 58 	 Curent position = [0.84021585 1.63136101] 	 Target position = [2.6325  3.36375] 	 distance = 2.4926801044106695
+r: 102
+ffff
+Step : 59 	 Curent position = [0.83954953 1.6406546 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.4867105040479824
+r: 143
+ffff
+time=1732618019.7288625 Pos: [0.83838471 0.         1.6592531 ] angle 4.654208606618213
+time=1732618019.7675972 Pos: [0.83786662 0.         1.66855616] angle 4.659304110927554
+time=1732618019.8062615 Pos: [0.83737292 0.         1.67786057] angle 4.6594496967649635
+time=1732618019.8454056 Pos: [0.83688463 0.         1.68716526] angle 4.660468797626832
+time=1732618019.884665 Pos: [0.83640853 0.         1.69647058] angle 4.6620702418383395
+time=1732618019.926212 Pos: [0.83595072 0.         1.70577682] angle 4.664399615236896
+time=1732618019.965395 Pos: [0.8355444  0.         1.71508542] angle 4.67313476548148
+time=1732618020.010148 Pos: [0.83519298 0.         1.72439628] angle 4.676192068067085
+time=1732618020.0549576 Pos: [0.83487341 0.         1.73370828] angle 4.679977299839738
+time=1732618020.0937543 Pos: [0.83456469 0.         1.74302066] angle 4.678521441465641
+time=1732618020.131964 Pos: [0.83424648 0.         1.75233272] angle 4.677939098116002
+time=1732618020.170892 Pos: [0.83392691 0.         1.76164473] angle 4.678230269790821
+time=1732618020.2091556 Pos: [0.83361412 0.         1.77095697] angle 4.679394956490099
+time=1732618020.2474747 Pos: [0.83331557 0.         1.78026968] angle 4.681287572376426
+time=1732618020.2865858 Pos: [0.83303803 0.         1.78958304] angle 4.683908117449801
+time=1732618020.3286433 Pos: [0.83276117 0.         1.79889641] angle 4.681433158213835
+time=1732618020.370608 Pos: [0.83246736 0.         1.80820927] angle 4.680268471514557
+time=1732618020.4150586 Pos: [0.83216474 0.         1.81752185] angle 4.6795405423275085
+time=1732618020.4570544 Pos: [0.83185941 0.         1.82683434] angle 4.679686128164918
+time=1732618020.4963021 Pos: [0.83156154 0.         1.83614707] angle 4.681141986539015
+time=1732618020.536678 Pos: [0.83130773 0.         1.84546108] angle 4.689149207596551
+time=1732618020.5770206 Pos: [0.83109935 0.         1.85477624] angle 4.690896237645468
+time=1732618020.618203 Pos: [0.83091267 0.         1.86409186] angle 4.693807954393663
+time=1732618020.6594555 Pos: [0.83075515 0.         1.87340802] angle 4.697156428654087
+time=1732618020.7000313 Pos: [0.83063221 0.         1.8827247 ] angle 4.701232832101559
+time=1732618020.7393703 Pos: [0.83054929 0.         1.89204181] angle 4.705745993061261
+time=1732618020.7780418 Pos: [0.83051046 0.         1.90135922] angle 4.710695911533192
+time=1732618020.8298056 Pos: [0.83051842 0.         1.9106767 ] angle 4.715791415842533
+time=1732618020.8708653 Pos: [0.83053656 0.         1.91999417] angle 4.712879699094338
+time=1732618020.9100544 Pos: [0.83053231 0.         1.92931166] angle 4.710987083208011
+time=1732618020.9521108 Pos: [0.83051654 0.         1.93862914] angle 4.710404739858372
+time=1732618020.9905882 Pos: [0.83050008 0.         1.94794662] angle 4.710841497370602
+time=1732618021.0368268 Pos: [0.83048634 0.         1.9572641 ] angle 4.710987083208011
+time=1732618021.0851693 Pos: [0.8304726  0.         1.96658159] angle 4.710841497370602
+time=1732618021.1227345 Pos: [0.83043173 0.         1.97589898] angle 4.705163649711622
+time=1732618021.1623266 Pos: [0.83034339 0.         1.98521605] angle 4.70065048875192
+time=1732618021.202703 Pos: [0.83021706 0.         1.99453268] angle 4.697010842816677
+time=1732618021.2404788 Pos: [0.83006225 0.         2.00384888] angle 4.694535883580711
+time=1732618021.2791047 Pos: [0.82988845 0.         2.01316475] angle 4.692934439369203
+time=1732618021.3177712 Pos: [0.82970449 0.         2.02248043] angle 4.692352096019564
+time=1732618021.3554683 Pos: [0.82951848 0.         2.03179607] angle 4.692497681856974
+time=1732618021.3937342 Pos: [0.82933858 0.         2.04111182] angle 4.693662368556252
+time=1732618021.4359734 Pos: [0.82917292 0.         2.05042784] angle 4.695554984442579
+time=1732618021.4737604 Pos: [0.82902897 0.         2.05974422] angle 4.698321115353363
+time=1732618021.5122354 Pos: [0.82891417 0.         2.069061  ] angle 4.7018151754511965
+time=1732618021.550297 Pos: [0.82883532 0.         2.07837816] angle 4.706037164736079
+time=1732618021.5881398 Pos: [0.8287958  0.         2.08769556] angle 4.710259154020962
+time=1732618021.6274323 Pos: [0.82877664 0.         2.09701303] angle 4.7104047398583715
+time=1732618021.6652434 Pos: [0.8287629  0.         2.10633052] angle 4.71142384072024
+time=1732618021.7034981 Pos: [0.82876204 0.         2.11564801] angle 4.713170870769157
+time=1732618021.7424161 Pos: [0.82878154 0.         2.12496548] angle 4.715791415842532
+time=1732618021.7797406 Pos: [0.82882884 0.         2.13428285] angle 4.719139890102956
+time=1732618021.8179038 Pos: [0.82888157 0.         2.14360019] angle 4.71695610254181
+time=1732618021.856156 Pos: [0.8289187  0.         2.15291761] angle 4.715791415842532
+time=1732618021.8945649 Pos: [0.82894904 0.         2.16223506] angle 4.715500244167713
+time=1732618021.9339561 Pos: [0.82900991 0.         2.17155233] angle 4.722342778525971
+time=1732618021.9730573 Pos: [0.82910604 0.         2.18086933] angle 4.72307070771302
+time=1732618022.0117233 Pos: [0.82921235 0.         2.19018622] angle 4.724526566087117
+time=1732618022.0537472 Pos: [0.8293078  0.         2.19950321] angle 4.7207413343144635
+time=1732618022.1134338 Pos: [0.82937274 0.         2.20882048] angle 4.717975203403679
+Step : 60 	 Curent position = [0.83894749 1.64995262] 	 Target position = [2.6325  3.36375] 	 distance = 2.480712006301137
+r: 139
+ffff
+Step : 61 	 Curent position = [0.83838471 1.6592531 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.4747038933606302
+r: 135
+ffff
+Step : 62 	 Curent position = [0.83786662 1.66855616] 	 Target position = [2.6325  3.36375] 	 distance = 2.468682056110439
+r: 169
+ffff
+Step : 63 	 Curent position = [0.83737292 1.67786057] 	 Target position = [2.6325  3.36375] 	 distance = 2.46266206032367
+r: 163
+ffff
+Step : 64 	 Curent position = [0.83688463 1.68716526] 	 Target position = [2.6325  3.36375] 	 distance = 2.4566584963117273
+r: 159
+ffff
+Step : 65 	 Curent position = [0.83640853 1.69647058] 	 Target position = [2.6325  3.36375] 	 distance = 2.4506662852556453
+r: 154
+ffff
+Step : 66 	 Curent position = [0.83595072 1.70577682] 	 Target position = [2.6325  3.36375] 	 distance = 2.4446808361339407
+r: 110
+ffff
+Step : 67 	 Curent position = [0.8355444  1.71508542] 	 Target position = [2.6325  3.36375] 	 distance = 2.438676755481087
+r: 149
+ffff
+Step : 68 	 Curent position = [0.83519298 1.72439628] 	 Target position = [2.6325  3.36375] 	 distance = 2.4326514648261393
+r: 144
+ffff
+Step : 69 	 Curent position = [0.83487341 1.73370828] 	 Target position = [2.6325  3.36375] 	 distance = 2.4266226203222065
+r: 180
+ffff
+Step : 70 	 Curent position = [0.83456469 1.74302066] 	 Target position = [2.6325  3.36375] 	 distance = 2.4206063215310465
+r: 174
+ffff
+Step : 71 	 Curent position = [0.83424648 1.75233272] 	 Target position = [2.6325  3.36375] 	 distance = 2.414618267148041
+r: 168
+ffff
+Step : 72 	 Curent position = [0.83392691 1.76164473] 	 Target position = [2.6325  3.36375] 	 distance = 2.408652412600761
+r: 162
+ffff
+Step : 73 	 Curent position = [0.83361412 1.77095697] 	 Target position = [2.6325  3.36375] 	 distance = 2.4027026502096422
+r: 157
+ffff
+Step : 74 	 Curent position = [0.83331557 1.78026968] 	 Target position = [2.6325  3.36375] 	 distance = 2.396763345683613
+r: 152
+ffff
+Step : 75 	 Curent position = [0.83303803 1.78958304] 	 Target position = [2.6325  3.36375] 	 distance = 2.3908293539773617
+r: 187
+ffff
+Step : 76 	 Curent position = [0.83276117 1.79889641] 	 Target position = [2.6325  3.36375] 	 distance = 2.3849164747352836
+r: 178
+ffff
+Step : 77 	 Curent position = [0.83246736 1.80820927] 	 Target position = [2.6325  3.36375] 	 distance = 2.3790385534333325
+r: 175
+ffff
+Step : 78 	 Curent position = [0.83216474 1.81752185] 	 Target position = [2.6325  3.36375] 	 distance = 2.3731895248022665
+r: 169
+ffff
+Step : 79 	 Curent position = [0.83185941 1.82683434] 	 Target position = [2.6325  3.36375] 	 distance = 2.3673648367790276
+r: 160
+ffff
+Step : 80 	 Curent position = [0.83156154 1.83614707] 	 Target position = [2.6325  3.36375] 	 distance = 2.3615567021686688
+r: 115
+ffff
+Step : 81 	 Curent position = [0.83130773 1.84546108] 	 Target position = [2.6325  3.36375] 	 distance = 2.3557365804130983
+r: 158
+ffff
+Step : 82 	 Curent position = [0.83109935 1.85477624] 	 Target position = [2.6325  3.36375] 	 distance = 2.3499034241218615
+r: 150
+ffff
+Step : 83 	 Curent position = [0.83091267 1.86409186] 	 Target position = [2.6325  3.36375] 	 distance = 2.3440758180262624
+r: 147
+ffff
+Step : 84 	 Curent position = [0.83075515 1.87340802] 	 Target position = [2.6325  3.36375] 	 distance = 2.3382480043714953
+r: 142
+ffff
+Step : 85 	 Curent position = [0.83063221 1.8827247 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.332415801725972
+r: 139
+ffff
+Step : 86 	 Curent position = [0.83054929 1.89204181] 	 Target position = [2.6325  3.36375] 	 distance = 2.3265750235209812
+r: 136
+ffff
+Step : 87 	 Curent position = [0.83051046 1.90135922] 	 Target position = [2.6325  3.36375] 	 distance = 2.3207225421528554
+r: 135
+ffff
+Step : 88 	 Curent position = [0.83051842 1.9106767 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.314856289021666
+r: 190
+ffff
+Step : 89 	 Curent position = [0.83053656 1.91999417] 	 Target position = [2.6325  3.36375] 	 distance = 2.3090047958241935
+r: 183
+ffff
+Step : 90 	 Curent position = [0.83053231 1.92931166] 	 Target position = [2.6325  3.36375] 	 distance = 2.3031936298772453
+r: 174
+ffff
+Step : 91 	 Curent position = [0.83051654 1.93862914] 	 Target position = [2.6325  3.36375] 	 distance = 2.297414604212082
+r: 167
+ffff
+Step : 92 	 Curent position = [0.83050008 1.94794662] 	 Target position = [2.6325  3.36375] 	 distance = 2.2916594226704605
+r: 169
+ffff
+Step : 93 	 Curent position = [0.83048634 1.9572641 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.2859255885783694
+r: 171
+ffff
+Step : 94 	 Curent position = [0.8304726  1.96658159] 	 Target position = [2.6325  3.36375] 	 distance = 2.2802154097571257
+r: 209
+ffff
+Step : 95 	 Curent position = [0.83043173 1.97589898] 	 Target position = [2.6325  3.36375] 	 distance = 2.274550614632909
+r: 201
+ffff
+Step : 96 	 Curent position = [0.83034339 1.98521605] 	 Target position = [2.6325  3.36375] 	 distance = 2.2689478452713283
+r: 195
+ffff
+Step : 97 	 Curent position = [0.83021706 1.99453268] 	 Target position = [2.6325  3.36375] 	 distance = 2.263400068440631
+r: 187
+ffff
+Step : 98 	 Curent position = [0.83006225 2.00384888] 	 Target position = [2.6325  3.36375] 	 distance = 2.2579001052028915
+r: 181
+ffff
+Step : 99 	 Curent position = [0.82988845 2.01316475] 	 Target position = [2.6325  3.36375] 	 distance = 2.2524406513959696
+r: 174
+ffff
+Step : 100 	 Curent position = [0.82970449 2.02248043] 	 Target position = [2.6325  3.36375] 	 distance = 2.2470148462934203
+r: 169
+ffff
+Step : 101 	 Curent position = [0.82951848 2.03179607] 	 Target position = [2.6325  3.36375] 	 distance = 2.241616297514846
+r: 162
+ffff
+Step : 102 	 Curent position = [0.82933858 2.04111182] 	 Target position = [2.6325  3.36375] 	 distance = 2.2362385465657066
+r: 157
+ffff
+Step : 103 	 Curent position = [0.82917292 2.05042784] 	 Target position = [2.6325  3.36375] 	 distance = 2.23087508103308
+r: 151
+ffff
+Step : 104 	 Curent position = [0.82902897 2.05974422] 	 Target position = [2.6325  3.36375] 	 distance = 2.225519902778731
+r: 146
+ffff
+Step : 105 	 Curent position = [0.82891417 2.069061  ] 	 Target position = [2.6325  3.36375] 	 distance = 2.220166985342196
+r: 141
+ffff
+Step : 106 	 Curent position = [0.82883532 2.07837816] 	 Target position = [2.6325  3.36375] 	 distance = 2.2148108400342372
+r: 141
+ffff
+Step : 107 	 Curent position = [0.8287958  2.08769556] 	 Target position = [2.6325  3.36375] 	 distance = 2.209448745024732
+r: 169
+ffff
+Step : 108 	 Curent position = [0.82877664 2.09701303] 	 Target position = [2.6325  3.36375] 	 distance = 2.204096301376385
+r: 163
+ffff
+Step : 109 	 Curent position = [0.8287629  2.10633052] 	 Target position = [2.6325  3.36375] 	 distance = 2.198765855832851
+r: 158
+ffff
+Step : 110 	 Curent position = [0.82876204 2.11564801] 	 Target position = [2.6325  3.36375] 	 distance = 2.193451433542667
+r: 152
+ffff
+Step : 111 	 Curent position = [0.82878154 2.12496548] 	 Target position = [2.6325  3.36375] 	 distance = 2.1881470190252426
+r: 147
+ffff
+Step : 112 	 Curent position = [0.82882884 2.13428285] 	 Target position = [2.6325  3.36375] 	 distance = 2.182846565702393
+r: 185
+ffff
+Step : 113 	 Curent position = [0.82888157 2.14360019] 	 Target position = [2.6325  3.36375] 	 distance = 2.1775685994992764
+r: 178
+ffff
+Step : 114 	 Curent position = [0.8289187  2.15291761] 	 Target position = [2.6325  3.36375] 	 distance = 2.1723306832268388
+r: 172
+ffff
+Step : 115 	 Curent position = [0.82894904 2.16223506] 	 Target position = [2.6325  3.36375] 	 distance = 2.1671257981651166
+r: 123
+ffff
+Step : 116 	 Curent position = [0.82900991 2.17155233] 	 Target position = [2.6325  3.36375] 	 distance = 2.161923170562571
+r: 165
+ffff
+Step : 117 	 Curent position = [0.82910604 2.18086933] 	 Target position = [2.6325  3.36375] 	 distance = 2.1567189090114844
+r: 160
+ffff
+Step : 118 	 Curent position = [0.82921235 2.19018622] 	 Target position = [2.6325  3.36375] 	 distance = 2.1515339438666943
+r: 196
+ffff
+Step : 119 	 Curent position = [0.8293078  2.19950321] 	 Target position = [2.6325  3.36375] 	 distance = 2.1463859563520438
+r: 189
+ffff
+time=1732618022.154414 Pos: [0.82941665 0.         2.21813787] angle 4.716228173354762
+time=1732618022.1941378 Pos: [0.82944903 0.         2.2274553 ] angle 4.715500244167713
+time=1732618022.2320786 Pos: [0.82950922 0.         2.23677259] angle 4.722197192688561
+time=1732618022.271701 Pos: [0.82960128 0.         2.24608963] angle 4.72234277852597
+time=1732618022.310152 Pos: [0.82969877 0.         2.25540661] angle 4.723361879387839
+time=1732618022.3511398 Pos: [0.8297827  0.         2.26472372] angle 4.719431061777776
+time=1732618022.3914895 Pos: [0.82983475 0.         2.27404106] angle 4.716519345029581
+time=1732618022.4342444 Pos: [0.82986442 0.         2.28335851] angle 4.714626729143254
+time=1732618022.4743059 Pos: [0.82988052 0.         2.29267599] angle 4.713607628281386
+time=1732618022.513241 Pos: [0.82992104 0.         2.30199338] angle 4.7198678192900045
+time=1732618022.5521438 Pos: [0.8299914  0.         2.31131061] angle 4.720013405127414
+time=1732618022.5930002 Pos: [0.83006719 0.         2.32062779] angle 4.721032505989283
+time=1732618022.6313884 Pos: [0.83012805 0.         2.32994508] angle 4.7168105167044
+time=1732618022.6705656 Pos: [0.83015501 0.         2.33926253] angle 4.713753214118795
+time=1732618022.7088573 Pos: [0.83015822 0.         2.34858002] angle 4.711715012395059
+time=1732618022.7472222 Pos: [0.83014652 0.         2.35789751] angle 4.710550325695781
+time=1732618022.7841084 Pos: [0.83012871 0.         2.36721498] angle 4.7104047398583715
+time=1732618022.821803 Pos: [0.83011361 0.         2.37653246] angle 4.71113266904542
+time=1732618022.8593764 Pos: [0.83008156 0.         2.3858499 ] angle 4.706765093923128
+time=1732618022.8969283 Pos: [0.83001356 0.         2.39516714] angle 4.703416619662704
+time=1732618022.9340224 Pos: [0.82992114 0.         2.40448417] angle 4.7015240037763775
+time=1732618022.971931 Pos: [0.82981381 0.         2.41380104] angle 4.70021373123969
+time=1732618023.0109568 Pos: [0.82969833 0.         2.42311782] angle 4.69977697372746
+time=1732618023.0494747 Pos: [0.82961338 0.         2.43243491] angle 4.706765093923128
+time=1732618023.0869277 Pos: [0.82956369 0.         2.44175227] angle 4.707347437272767
+time=1732618023.1243231 Pos: [0.8295235  0.         2.45106968] angle 4.708803295646864
+time=1732618023.162231 Pos: [0.82950094 0.         2.46038714] angle 4.71113266904542
+time=1732618023.1998758 Pos: [0.82946685 0.         2.46970456] angle 4.706328336410898
+time=1732618023.237697 Pos: [0.82943209 0.         2.47902198] angle 4.71098708320801
+time=1732618023.2752366 Pos: [0.82944276 0.         2.48833946] angle 4.71608258751735
+time=1732618023.3133426 Pos: [0.82950159 0.         2.49765676] angle 4.721323677664101
+time=1732618023.3507817 Pos: [0.8295706  0.         2.50697399] angle 4.718266375078496
+time=1732618023.3882403 Pos: [0.82961722 0.         2.51629137] angle 4.716519345029579
+time=1732618023.4269414 Pos: [0.82965232 0.         2.5256088 ] angle 4.7157914158425305
+time=1732618023.4649816 Pos: [0.82968538 0.         2.53492623] angle 4.7160825875173495
+time=1732618023.5027173 Pos: [0.82971979 0.         2.54424366] angle 4.7160825875173495
+time=1732618023.5400193 Pos: [0.82975149 0.         2.5535611 ] angle 4.7155002441677105
+time=1732618023.577301 Pos: [0.82973029 0.         2.56287852] angle 4.70472689219939
+time=1732618023.6156852 Pos: [0.82963923 0.         2.57219557] angle 4.700504902914507
+time=1732618023.6534674 Pos: [0.82951358 0.         2.58151221] angle 4.697302014491493
+time=1732618023.6946692 Pos: [0.82936352 0.         2.59082849] angle 4.695263812767757
+time=1732618023.7333097 Pos: [0.82919854 0.         2.60014452] angle 4.694099126068479
+time=1732618023.771618 Pos: [0.82902678 0.         2.60946044] angle 4.69380795439366
+time=1732618023.8102443 Pos: [0.82885637 0.         2.61877637] angle 4.694390297743299
+time=1732618023.8520248 Pos: [0.82869478 0.         2.62809246] angle 4.695700570279986
+time=1732618023.8906648 Pos: [0.82854947 0.         2.63740882] angle 4.697884357841132
+time=1732618023.9283063 Pos: [0.82842789 0.         2.64672552] angle 4.700796074589327
+time=1732618023.9688163 Pos: [0.82833683 0.         2.65604256] angle 4.704435720524571
+time=1732618024.0070946 Pos: [0.82828375 0.         2.6653599 ] angle 4.708948881484273
+time=1732618024.0453494 Pos: [0.82827069 0.         2.67467737] angle 4.713025284931745
+time=1732618024.082642 Pos: [0.82825492 0.         2.68399485] angle 4.708366538134634
+time=1732618024.1218534 Pos: [0.82820116 0.         2.69331218] angle 4.7048724780368
+time=1732618024.160052 Pos: [0.82812027 0.         2.70262932] angle 4.702543104638244
+time=1732618024.1982372 Pos: [0.82802243 0.         2.7119463 ] angle 4.701232832101557
+time=1732618024.2362444 Pos: [0.82791713 0.         2.7212632 ] angle 4.700941660426738
+time=1732618024.2741747 Pos: [0.82780572 0.         2.73058002] angle 4.699922559564869
+time=1732618024.3118095 Pos: [0.82768889 0.         2.73989679] angle 4.6997769737274595
+time=1732618024.3497405 Pos: [0.8275741  0.         2.74921357] angle 4.7003593170770985
+time=1732618024.3871555 Pos: [0.82746812 0.         2.75853046] angle 4.701669589613786
+Step : 120 	 Curent position = [0.82937274 2.20882048] 	 Target position = [2.6325  3.36375] 	 distance = 2.141291693310175
+r: 182
+ffff
+Step : 121 	 Curent position = [0.82941665 2.21813787] 	 Target position = [2.6325  3.36375] 	 distance = 2.1362436013056167
+r: 175
+ffff
+Step : 122 	 Curent position = [0.82944903 2.2274553 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.131234016440509
+r: 124
+ffff
+Step : 123 	 Curent position = [0.82950922 2.23677259] 	 Target position = [2.6325  3.36375] 	 distance = 2.1262299612871063
+r: 169
+ffff
+Step : 124 	 Curent position = [0.82960128 2.24608963] 	 Target position = [2.6325  3.36375] 	 distance = 2.1212280631520724
+r: 163
+ffff
+Step : 125 	 Curent position = [0.82969877 2.25540661] 	 Target position = [2.6325  3.36375] 	 distance = 2.116250773230126
+r: 197
+ffff
+Step : 126 	 Curent position = [0.8297827  2.26472372] 	 Target position = [2.6325  3.36375] 	 distance = 2.1113143851861422
+r: 190
+ffff
+Step : 127 	 Curent position = [0.82983475 2.27404106] 	 Target position = [2.6325  3.36375] 	 distance = 2.106434801850902
+r: 183
+ffff
+Step : 128 	 Curent position = [0.82986442 2.28335851] 	 Target position = [2.6325  3.36375] 	 distance = 2.1016043450926913
+r: 177
+ffff
+Step : 129 	 Curent position = [0.82988052 2.29267599] 	 Target position = [2.6325  3.36375] 	 distance = 2.096815808447053
+r: 127
+ffff
+Step : 130 	 Curent position = [0.82992104 2.30199338] 	 Target position = [2.6325  3.36375] 	 distance = 2.0920368159753804
+r: 169
+ffff
+Step : 131 	 Curent position = [0.8299914  2.31131061] 	 Target position = [2.6325  3.36375] 	 distance = 2.087262784960863
+r: 163
+ffff
+Step : 132 	 Curent position = [0.83006719 2.32062779] 	 Target position = [2.6325  3.36375] 	 distance = 2.0825148232842974
+r: 199
+ffff
+Step : 133 	 Curent position = [0.83012805 2.32994508] 	 Target position = [2.6325  3.36375] 	 distance = 2.0778106867506594
+r: 191
+ffff
+Step : 134 	 Curent position = [0.83015501 2.33926253] 	 Target position = [2.6325  3.36375] 	 distance = 2.0731671540345626
+r: 184
+ffff
+Step : 135 	 Curent position = [0.83015822 2.34858002] 	 Target position = [2.6325  3.36375] 	 distance = 2.0685758303508814
+r: 178
+ffff
+Step : 136 	 Curent position = [0.83014652 2.35789751] 	 Target position = [2.6325  3.36375] 	 distance = 2.0640293876935862
+r: 171
+ffff
+Step : 137 	 Curent position = [0.83012871 2.36721498] 	 Target position = [2.6325  3.36375] 	 distance = 2.059520408811708
+r: 165
+ffff
+Step : 138 	 Curent position = [0.83011361 2.37653246] 	 Target position = [2.6325  3.36375] 	 distance = 2.055041400546214
+r: 200
+ffff
+Step : 139 	 Curent position = [0.83008156 2.3858499 ] 	 Target position = [2.6325  3.36375] 	 distance = 2.0506098738362635
+r: 193
+ffff
+Step : 140 	 Curent position = [0.83001356 2.39516714] 	 Target position = [2.6325  3.36375] 	 distance = 2.0462429317127255
+r: 183
+ffff
+Step : 141 	 Curent position = [0.82992114 2.40448417] 	 Target position = [2.6325  3.36375] 	 distance = 2.0419308186798037
+r: 179
+ffff
+Step : 142 	 Curent position = [0.82981381 2.41380104] 	 Target position = [2.6325  3.36375] 	 distance = 2.0376654604876023
+r: 173
+ffff
+Step : 143 	 Curent position = [0.82969833 2.42311782] 	 Target position = [2.6325  3.36375] 	 distance = 2.0334411096762675
+r: 122
+ffff
+Step : 144 	 Curent position = [0.82961338 2.43243491] 	 Target position = [2.6325  3.36375] 	 distance = 2.029223489866737
+r: 166
+ffff
+Step : 145 	 Curent position = [0.82956369 2.44175227] 	 Target position = [2.6325  3.36375] 	 distance = 2.0250084323019704
+r: 160
+ffff
+Step : 146 	 Curent position = [0.8295235  2.45106968] 	 Target position = [2.6325  3.36375] 	 distance = 2.0208190515456677
+r: 154
+ffff
+Step : 147 	 Curent position = [0.82950094 2.46038714] 	 Target position = [2.6325  3.36375] 	 distance = 2.0166482251431246
+r: 203
+ffff
+Step : 148 	 Curent position = [0.82946685 2.46970456] 	 Target position = [2.6325  3.36375] 	 distance = 2.0125222417022264
+r: 138
+ffff
+Step : 149 	 Curent position = [0.82943209 2.47902198] 	 Target position = [2.6325  3.36375] 	 distance = 2.0084316177275188
+r: 135
+ffff
+Step : 150 	 Curent position = [0.82944276 2.48833946] 	 Target position = [2.6325  3.36375] 	 distance = 2.004335054614464
+r: 134
+ffff
+Step : 151 	 Curent position = [0.82950159 2.49765676] 	 Target position = [2.6325  3.36375] 	 distance = 2.0002301749545706
+r: 191
+ffff
+Step : 152 	 Curent position = [0.8295706  2.50697399] 	 Target position = [2.6325  3.36375] 	 distance = 1.9961511838025996
+r: 182
+ffff
+Step : 153 	 Curent position = [0.82961722 2.51629137] 	 Target position = [2.6325  3.36375] 	 distance = 1.992127616094595
+r: 175
+ffff
+Step : 154 	 Curent position = [0.82965232 2.5256088 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.9881500063664947
+r: 168
+ffff
+Step : 155 	 Curent position = [0.82968538 2.53492623] 	 Target position = [2.6325  3.36375] 	 distance = 1.9842100221599075
+r: 170
+ffff
+Step : 156 	 Curent position = [0.82971979 2.54424366] 	 Target position = [2.6325  3.36375] 	 distance = 1.9803048060180184
+r: 174
+ffff
+Step : 157 	 Curent position = [0.82975149 2.5535611 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.976438269978816
+r: 244
+ffff
+Step : 158 	 Curent position = [0.82973029 2.56287852] 	 Target position = [2.6325  3.36375] 	 distance = 1.9726565191201355
+r: 199
+ffff
+Step : 159 	 Curent position = [0.82963923 2.57219557] 	 Target position = [2.6325  3.36375] 	 distance = 1.968975715787532
+r: 192
+ffff
+Step : 160 	 Curent position = [0.82951358 2.58151221] 	 Target position = [2.6325  3.36375] 	 distance = 1.9653640821324496
+r: 184
+ffff
+Step : 161 	 Curent position = [0.82936352 2.59082849] 	 Target position = [2.6325  3.36375] 	 distance = 1.9618126340723758
+r: 178
+ffff
+Step : 162 	 Curent position = [0.82919854 2.60014452] 	 Target position = [2.6325  3.36375] 	 distance = 1.9583129141838684
+r: 172
+ffff
+Step : 163 	 Curent position = [0.82902678 2.60946044] 	 Target position = [2.6325  3.36375] 	 distance = 1.9548576429074978
+r: 166
+ffff
+Step : 164 	 Curent position = [0.82885637 2.61877637] 	 Target position = [2.6325  3.36375] 	 distance = 1.9514394789914344
+r: 161
+ffff
+Step : 165 	 Curent position = [0.82869478 2.62809246] 	 Target position = [2.6325  3.36375] 	 distance = 1.9480516608095855
+r: 155
+ffff
+Step : 166 	 Curent position = [0.82854947 2.63740882] 	 Target position = [2.6325  3.36375] 	 distance = 1.9446873857433868
+r: 150
+ffff
+Step : 167 	 Curent position = [0.82842789 2.64672552] 	 Target position = [2.6325  3.36375] 	 distance = 1.941339816939485
+r: 145
+ffff
+Step : 168 	 Curent position = [0.82833683 2.65604256] 	 Target position = [2.6325  3.36375] 	 distance = 1.9380027240326227
+r: 139
+ffff
+Step : 169 	 Curent position = [0.82828375 2.6653599 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.9346692235001035
+r: 142
+ffff
+Step : 170 	 Curent position = [0.82827069 2.67467737] 	 Target position = [2.6325  3.36375] 	 distance = 1.9313374860382466
+r: 202
+ffff
+Step : 171 	 Curent position = [0.82825492 2.68399485] 	 Target position = [2.6325  3.36375] 	 distance = 1.92804756032649
+r: 194
+ffff
+Step : 172 	 Curent position = [0.82820116 2.69331218] 	 Target position = [2.6325  3.36375] 	 distance = 1.9248327666722291
+r: 186
+ffff
+Step : 173 	 Curent position = [0.82812027 2.70262932] 	 Target position = [2.6325  3.36375] 	 distance = 1.9216833124447787
+r: 179
+ffff
+Step : 174 	 Curent position = [0.82802243 2.7119463 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.9185899404187403
+r: 172
+ffff
+Step : 175 	 Curent position = [0.82791713 2.7212632 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.9155439504274812
+r: 177
+ffff
+Step : 176 	 Curent position = [0.82780572 2.73058002] 	 Target position = [2.6325  3.36375] 	 distance = 1.912544285835994
+r: 171
+ffff
+Step : 177 	 Curent position = [0.82768889 2.73989679] 	 Target position = [2.6325  3.36375] 	 distance = 1.9095905222297649
+r: 166
+ffff
+Step : 178 	 Curent position = [0.8275741  2.74921357] 	 Target position = [2.6325  3.36375] 	 distance = 1.9066757815041013
+r: 161
+ffff
+Step : 179 	 Curent position = [0.82746812 2.75853046] 	 Target position = [2.6325  3.36375] 	 distance = 1.9037937876637696
+time=1732618024.4288313 Pos: [0.82737774 0.         2.76784752] angle 4.703707791337522
+time=1732618024.4666834 Pos: [0.82730974 0.         2.77716476] angle 4.706473922248307
+time=1732618024.5052493 Pos: [0.82728243 0.         2.7864822 ] angle 4.712442941582106
+time=1732618024.5433896 Pos: [0.8273121  0.         2.79579963] angle 4.718703132590725
+time=1732618024.5817463 Pos: [0.82740077 0.         2.80511668] angle 4.725108909436753
+time=1732618024.619837 Pos: [0.82747385 0.         2.81443385] angle 4.715354658330301
+time=1732618024.657355 Pos: [0.82746214 0.         2.82375131] angle 4.7069106797605365
+time=1732618024.6968563 Pos: [0.82737719 0.         2.8330684 ] angle 4.69963138789005
+time=1732618024.7345877 Pos: [0.82731868 0.         2.84238564] angle 4.712588527419516
+time=1732618024.7726662 Pos: [0.82738023 0.         2.85170287] angle 4.725400081111573
+time=1732618024.8113418 Pos: [0.82759096 0.         2.86101784] angle 4.744617411649658
+time=1732618024.849492 Pos: [0.82797727 0.         2.87032719] angle 4.763106813000695
+time=1732618024.8887908 Pos: [0.82853157 0.         2.87962806] angle 4.780722699327273
+time=1732618024.9282186 Pos: [0.82924623 0.         2.88891799] angle 4.797610656466802
+time=1732618024.968439 Pos: [0.83011363 0.         2.89819492] angle 4.813625098581873
+time=1732618025.0078585 Pos: [0.83112677 0.         2.90745708] angle 4.829057197347305
+time=1732618025.0468593 Pos: [0.83228003 0.         2.91670284] angle 4.843906952763098
+time=1732618025.08575 Pos: [0.83356844 0.         2.92593074] angle 4.858319950666663
+time=1732618025.1241765 Pos: [0.83495956 0.         2.93514378] angle 4.866181585886788
+time=1732618025.1624928 Pos: [0.83642305 0.         2.94434559] angle 4.874043221106914
+time=1732618025.2021055 Pos: [0.83802701 0.         2.95352379] angle 4.896754611742833
+time=1732618025.2417135 Pos: [0.83983699 0.         2.9626636 ] angle 4.919029244866523
+time=1732618025.2812061 Pos: [0.8418481  0.         2.97176127] angle 4.940867120477983
+time=1732618025.321041 Pos: [0.84405542 0.         2.98081335] angle 4.962268238577215
+time=1732618025.3627791 Pos: [0.84645397 0.         2.98981665] angle 4.983232599164217
+time=1732618025.402926 Pos: [0.84899643 0.         2.9987805 ] angle 4.994297122807357
+time=1732618025.4439979 Pos: [0.85168013 0.         3.00770297] angle 5.0148247258821295
+time=1732618025.4868746 Pos: [0.85454511 0.         3.01656889] angle 5.035061157282083
+time=1732618025.5316906 Pos: [0.85758636 0.         3.02537592] angle 5.054715245332398
+time=1732618025.5714939 Pos: [0.86079755 0.         3.03412242] angle 5.073786990033073
+time=1732618025.6102605 Pos: [0.86417622 0.         3.0428056 ] angle 5.093149906408568
+time=1732618025.6491501 Pos: [0.86772989 0.         3.0514186 ] angle 5.11425985283298
+time=1732618025.6877034 Pos: [0.87147079 0.         3.05995194] angle 5.136825657631489
+time=1732618025.7265038 Pos: [0.87540879 0.         3.06839609] angle 5.160701734966685
+time=1732618025.7649765 Pos: [0.87916459 0.         3.0769212 ] angle 5.094023421433026
+time=1732618025.8032062 Pos: [0.88235426 0.         3.08567401] angle 5.029674481297922
+time=1732618025.8417864 Pos: [0.88235426 0.         3.08567401] angle 5.043650721689257
+time=1732618025.8787737 Pos: [0.88510242 0.         3.09457536] angle 4.980029710741202
+time=1732618025.916902 Pos: [0.88728306 0.         3.10363251] angle 4.917282214817606
+time=1732618025.9554186 Pos: [0.88888811 0.         3.11280913] angle 4.853806789706961
+time=1732618025.9934866 Pos: [0.88888811 0.         3.11280913] angle 4.867783030098296
+time=1732618026.0305684 Pos: [0.88888811 0.         3.11280913] angle 4.88175927048963
+time=1732618026.0676117 Pos: [0.88888811 0.         3.11280913] angle 4.895735510880965
+time=1732618026.1059237 Pos: [0.88888811 0.         3.11280913] angle 4.9097117512723
+time=1732618026.1427193 Pos: [0.88888811 0.         3.11280913] angle 4.923687991663635
+time=1732618026.1798968 Pos: [0.88888811 0.         3.11280913] angle 4.93766423205497
+time=1732618026.2227125 Pos: [0.88888811 0.         3.11280913] angle 4.951640472446305
+time=1732618026.25944 Pos: [0.88888811 0.         3.11280913] angle 4.965616712837639
+time=1732618026.297162 Pos: [0.88888811 0.         3.11280913] angle 4.979592953228974
+time=1732618026.3340492 Pos: [0.88888811 0.         3.11280913] angle 4.993569193620309
+time=1732618026.37073 Pos: [0.88888811 0.         3.11280913] angle 5.007545434011644
+time=1732618026.406647 Pos: [0.88888811 0.         3.11280913] angle 5.021521674402979
+time=1732618026.4444952 Pos: [0.88888811 0.         3.11280913] angle 5.0354979147943135
+time=1732618026.4810398 Pos: [0.88888811 0.         3.11280913] angle 5.049474155185648
+time=1732618026.5178227 Pos: [0.88888811 0.         3.11280913] angle 5.063450395576983
+time=1732618026.5550153 Pos: [0.88888811 0.         3.11280913] angle 5.077426635968318
+time=1732618026.5919986 Invalid pose. Collision free: False On drivable area: True
+time=1732618026.5920777 safety_factor: 1.0
+time=1732618026.592288 pos: [0.880008   0.         3.09051241]
+time=1732618026.592457 l_pos: [0.94968525 0.         3.06276207]
+time=1732618026.5926228 r_pos: [0.81033076 0.         3.11826275]
+time=1732618026.5927563 f_pos: [0.91330841 0.         3.17412511]
+time=1732618026.5927901 Stopping the simulator because we are at an invalid pose.
+time=1732618026.5929778 Pos: [0.88888811 0.         3.11280913] angle 5.091402876359653
+r: 156
+ffff
+Step : 180 	 Curent position = [0.82737774 2.76784752] 	 Target position = [2.6325  3.36375] 	 distance = 1.9009382306753013
+r: 151
+ffff
+Step : 181 	 Curent position = [0.82730974 2.77716476] 	 Target position = [2.6325  3.36375] 	 distance = 1.898102771649144
+r: 129
+ffff
+Step : 182 	 Curent position = [0.82728243 2.7864822 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.8952700557814863
+r: 127
+ffff
+Step : 183 	 Curent position = [0.8273121  2.79579963] 	 Target position = [2.6325  3.36375] 	 distance = 1.892424630407235
+r: 126
+ffff
+Step : 184 	 Curent position = [0.82740077 2.80511668] 	 Target position = [2.6325  3.36375] 	 distance = 1.8895646064902232
+r: 237
+ffff
+Step : 185 	 Curent position = [0.82747385 2.81443385] 	 Target position = [2.6325  3.36375] 	 distance = 1.8867611511180638
+r: 228
+ffff
+Step : 186 	 Curent position = [0.82746214 2.82375131] 	 Target position = [2.6325  3.36375] 	 distance = 1.8840807449925279
+r: 220
+ffff
+Step : 187 	 Curent position = [0.82737719 2.8330684 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.8815130440676644
+r: 81
+ffff
+Step : 188 	 Curent position = [0.82731868 2.84238564] 	 Target position = [2.6325  3.36375] 	 distance = 1.8789625814319986
+r: 82
+ffff
+Step : 189 	 Curent position = [0.82738023 2.85170287] 	 Target position = [2.6325  3.36375] 	 distance = 1.8763394310063983
+r: 38
+ffff
+Step : 190 	 Curent position = [0.82759096 2.86101784] 	 Target position = [2.6325  3.36375] 	 distance = 1.8736158233925513
+r: 43
+ffff
+Step : 191 	 Curent position = [0.82797727 2.87032719] 	 Target position = [2.6325  3.36375] 	 distance = 1.870766779161509
+r: 49
+ffff
+Step : 192 	 Curent position = [0.82853157 2.87962806] 	 Target position = [2.6325  3.36375] 	 distance = 1.8677998155399338
+r: 54
+ffff
+Step : 193 	 Curent position = [0.82924623 2.88891799] 	 Target position = [2.6325  3.36375] 	 distance = 1.8647223862624287
+r: 60
+ffff
+Step : 194 	 Curent position = [0.83011363 2.89819492] 	 Target position = [2.6325  3.36375] 	 distance = 1.8615418785362992
+r: 64
+ffff
+Step : 195 	 Curent position = [0.83112677 2.90745708] 	 Target position = [2.6325  3.36375] 	 distance = 1.8582649811665728
+r: 68
+ffff
+Step : 196 	 Curent position = [0.83228003 2.91670284] 	 Target position = [2.6325  3.36375] 	 distance = 1.8548970586496991
+r: 71
+ffff
+Step : 197 	 Curent position = [0.83356844 2.92593074] 	 Target position = [2.6325  3.36375] 	 distance = 1.8514428020861748
+r: 116
+ffff
+Step : 198 	 Curent position = [0.83495956 2.93514378] 	 Target position = [2.6325  3.36375] 	 distance = 1.8479326136127423
+r: 116
+ffff
+Step : 199 	 Curent position = [0.83642305 2.94434559] 	 Target position = [2.6325  3.36375] 	 distance = 1.8443948752834651
+r: 14
+ffff
+Step : 200 	 Curent position = [0.83802701 2.95352379] 	 Target position = [2.6325  3.36375] 	 distance = 1.840765836375337
+r: 17
+ffff
+Step : 201 	 Curent position = [0.83983699 2.9626636 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.836984209369323
+r: 20
+ffff
+Step : 202 	 Curent position = [0.8418481  2.97176127] 	 Target position = [2.6325  3.36375] 	 distance = 1.8330546623621462
+r: 23
+ffff
+Step : 203 	 Curent position = [0.84405542 2.98081335] 	 Target position = [2.6325  3.36375] 	 distance = 1.8289818233960229
+r: 26
+ffff
+Step : 204 	 Curent position = [0.84645397 2.98981665] 	 Target position = [2.6325  3.36375] 	 distance = 1.8247702767316287
+r: 94
+ffff
+Step : 205 	 Curent position = [0.84899643 2.9987805 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.820463597349472
+r: 29
+ffff
+Step : 206 	 Curent position = [0.85168013 3.00770297] 	 Target position = [2.6325  3.36375] 	 distance = 1.8160641234515338
+r: 31
+ffff
+Step : 207 	 Curent position = [0.85454511 3.01656889] 	 Target position = [2.6325  3.36375] 	 distance = 1.8115347898373992
+r: 35
+ffff
+Step : 208 	 Curent position = [0.85758636 3.02537592] 	 Target position = [2.6325  3.36375] 	 distance = 1.8068800356948522
+r: 39
+ffff
+Step : 209 	 Curent position = [0.86079755 3.03412242] 	 Target position = [2.6325  3.36375] 	 distance = 1.8021054127593974
+r: 37
+ffff
+Step : 210 	 Curent position = [0.86417622 3.0428056 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.7972129256147884
+r: 25
+ffff
+Step : 211 	 Curent position = [0.86772989 3.0514186 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.792195421072666
+r: 15
+ffff
+Step : 212 	 Curent position = [0.87147079 3.05995194] 	 Target position = [2.6325  3.36375] 	 distance = 1.7870414536589472
+r: 6
+ffff
+Step : 213 	 Curent position = [0.87540879 3.06839609] 	 Target position = [2.6325  3.36375] 	 distance = 1.7817416882718173
+r: 628
+ffff
+Step : 214 	 Curent position = [0.87916459 3.0769212 ] 	 Target position = [2.6325  3.36375] 	 distance = 1.77664172428552
+r: 612
+ffff
+Step : 215 	 Curent position = [0.88235426 3.08567401] 	 Target position = [2.6325  3.36375] 	 distance = 1.772099421470995
+ffff
+Step : 216 	 Curent position = [0.88235426 3.08567401] 	 Target position = [2.6325  3.36375] 	 distance = 1.772099421470995
+r: 607
+ffff
+Step : 217 	 Curent position = [0.88510242 3.09457536] 	 Target position = [2.6325  3.36375] 	 distance = 1.7680082820089464
+r: 601
+ffff
+Step : 218 	 Curent position = [0.88728306 3.10363251] 	 Target position = [2.6325  3.36375] 	 distance = 1.7644951942173945
+r: 606
+ffff
+Step : 219 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 220 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 221 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 222 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 223 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 224 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 225 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 226 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 227 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 228 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 229 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 230 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 231 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 232 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 233 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 234 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+ffff
+Step : 235 	 Curent position = [0.88888811 3.11280913] 	 Target position = [2.6325  3.36375] 	 distance = 1.761577059804915
+total reward =  -291.24491527668806
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
