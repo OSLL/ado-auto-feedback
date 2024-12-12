@@ -1,0 +1,512 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1733968902.9807138 gym-duckietown 2019.0.0
+
+time=1733968903.0837247 Registering gym environment id: Duckietown-4way-v0
+time=1733968903.0838015 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1733968903.0838373 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1733968903.0838678 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1733968903.0838938 Registering gym environment id: Duckietown-loop_empty-v0
+time=1733968903.0839803 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1733968903.084054 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1733968903.084124 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1733968903.0841668 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1733968903.084216 Registering gym environment id: Duckietown-small_loop-v0
+time=1733968903.0842717 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1733968903.084348 Registering gym environment id: Duckietown-straight_road-v0
+time=1733968903.0843942 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1733968903.0844393 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1733968903.0844803 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1733968903.0845356 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1733968903.084598 Registering gym environment id: Duckietown-udem1-v0
+time=1733968903.0846493 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1733968904.9952612 Falling back to non-multisampled frame buffer
+time=1733968904.9971452 Falling back to non-multisampled frame buffer
+time=1733968904.9997075 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1733968905.006206 loading mesh "duckiebot.obj"
+time=1733968905.006354 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1733968905.2454474 loading texture "straight_1.png"
+time=1733968905.260851 using user tile start: [20, 0]
+time=1733968905.2616284 tile: {'coords': (20, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[11.7    ,  0.     ,  0.4095 ],
+        [11.84625,  0.     ,  0.4095 ],
+        [12.13875,  0.     ,  0.4095 ],
+        [12.285  ,  0.     ,  0.4095 ]],
+
+       [[12.285  ,  0.     ,  0.1755 ],
+        [12.13875,  0.     ,  0.1755 ],
+        [11.84625,  0.     ,  0.1755 ],
+        [11.7    ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f4c1a720f10>, 'color': array([1, 1, 1])}
+time=1733968905.2635505 road_tile_size=0.585
+time=1733968905.2638278 Starting at [12.09074675  0.          0.42894833] 0.2302710585176529
+time=1733968905.2640138 Pos: [12.09074675  0.          0.42894833] angle 0.2302710585176529
+time=1733968905.368296 using DuckietownEnv
+time=1733968905.500919 Pos: [12.09074675  0.          0.42894833] angle 0.2302710585176529
+time=1733968905.6707852 Pos: [12.09074675  0.          0.42894833] angle 0.27685852648876863
+time=1733968905.7175171 Pos: [12.09074675  0.          0.42894833] angle 0.3234459944598844
+time=1733968905.768633 Pos: [12.09074675  0.          0.42894833] angle 0.3700334624310002
+time=1733968905.8070428 Pos: [12.09074675  0.          0.42894833] angle 0.416620930402116
+time=1733968905.8462265 Pos: [12.09074675  0.          0.42894833] angle 0.4632083983732318
+time=1733968905.885652 Pos: [12.09074675  0.          0.42894833] angle 0.5097958663443476
+time=1733968905.9241467 Pos: [12.09074675  0.          0.42894833] angle 0.5563833343154634
+time=1733968905.9624662 Pos: [12.09074675  0.          0.42894833] angle 0.6029708022865792
+time=1733968906.0020053 Pos: [12.09074675  0.          0.42894833] angle 0.649558270257695
+time=1733968906.0418806 Pos: [12.09074675  0.          0.42894833] angle 0.6961457382288108
+time=1733968906.079393 Pos: [12.09074675  0.          0.42894833] angle 0.7427332061999266
+time=1733968906.1178434 Pos: [12.09074675  0.          0.42894833] angle 0.7893206741710423
+time=1733968906.1575723 Pos: [12.09074675  0.          0.42894833] angle 0.8359081421421581
+time=1733968906.1948984 Pos: [12.09074675  0.          0.42894833] angle 0.8824956101132739
+time=1733968906.2322524 Pos: [12.09074675  0.          0.42894833] angle 0.9290830780843897
+time=1733968906.2710788 Pos: [12.09074675  0.          0.42894833] angle 0.9756705460555055
+time=1733968906.3077767 Pos: [12.09074675  0.          0.42894833] angle 1.0222580140266213
+time=1733968906.3446891 Pos: [12.09074675  0.          0.42894833] angle 1.068845481997737
+time=1733968906.3814833 Pos: [12.09074675  0.          0.42894833] angle 1.115432949968853
+time=1733968906.419521 Pos: [12.09074675  0.          0.42894833] angle 1.1620204179399687
+time=1733968906.4580379 Pos: [12.09074675  0.          0.42894833] angle 1.2086078859110845
+time=1733968906.499784 Pos: [12.09074675  0.          0.42894833] angle 1.2551953538822003
+time=1733968906.536845 Pos: [12.09074675  0.          0.42894833] angle 1.301782821853316
+time=1733968906.5760136 Pos: [12.09074675  0.          0.42894833] angle 1.3483702898244319
+time=1733968906.6137786 Pos: [12.09074675  0.          0.42894833] angle 1.3949577577955476
+time=1733968906.6505034 Pos: [12.09074675  0.          0.42894833] angle 1.4415452257666634
+time=1733968906.6872082 Pos: [12.09074675  0.          0.42894833] angle 1.4881326937377792
+time=1733968906.7239861 Pos: [12.09074675  0.          0.42894833] angle 1.534720161708895
+time=1733968906.7608929 Pos: [12.09074675  0.          0.42894833] angle 1.5813076296800108
+time=1733968906.797218 Pos: [12.09074675  0.          0.42894833] angle 1.6278950976511266
+time=1733968906.8335922 Pos: [12.09074675  0.          0.42894833] angle 1.6744825656222424
+time=1733968906.8702278 Pos: [12.09074675  0.          0.42894833] angle 1.7210700335933582
+time=1733968906.9078472 Pos: [12.09074675  0.          0.42894833] angle 1.767657501564474
+time=1733968906.9451454 Pos: [12.09074675  0.          0.42894833] angle 1.8142449695355898
+time=1733968906.9823997 Pos: [12.09074675  0.          0.42894833] angle 1.8608324375067056
+time=1733968907.0197768 Pos: [12.09074675  0.          0.42894833] angle 1.9074199054778214
+time=1733968907.0594673 Pos: [12.09074675  0.          0.42894833] angle 1.9540073734489372
+time=1733968907.096599 Pos: [12.09074675  0.          0.42894833] angle 2.0005948414200527
+time=1733968907.1339 Pos: [12.09074675  0.          0.42894833] angle 2.0471823093911685
+time=1733968907.1705534 Pos: [12.09074675  0.          0.42894833] angle 2.0937697773622843
+time=1733968907.2076993 Pos: [12.09074675  0.          0.42894833] angle 2.1403572453334
+time=1733968907.2445483 Pos: [12.09074675  0.          0.42894833] angle 2.186944713304516
+time=1733968907.281285 Pos: [12.09074675  0.          0.42894833] angle 2.2335321812756317
+time=1733968907.3180432 Pos: [12.09074675  0.          0.42894833] angle 2.2801196492467475
+0.585
+12.090746746321333 0.42894833356905276
+0.585
+12.090746746321333 0.42894833356905276
+yellow_pixels_left =  3550
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[132.           0.9599311 ]]
+
+ [[134.           0.94247776]]
+
+ [[174.           0.87266463]]
+
+ [[175.           0.8552113 ]]
+
+ [[ 78.           1.6929693 ]]
+
+ [[131.           0.9773844 ]]
+
+ [[172.           0.8901179 ]]]
+lines_right =  None
+yellow_pixels_left =  3428
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[194.           0.87266463]]
+
+ [[150.           0.9599311 ]]
+
+ [[197.           0.8552113 ]]
+
+ [[153.           0.94247776]]
+
+ [[149.           0.9773844 ]]
+
+ [[ 34.           1.6755161 ]]
+
+ [[ 67.           1.7104226 ]]]
+lines_right =  None
+yellow_pixels_left =  3258
+yellow_pixels_right =  88
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[169.           0.9599311 ]]
+
+ [[215.           0.87266463]]
+
+ [[218.           0.8552113 ]]
+
+ [[171.           0.94247776]]
+
+ [[213.           0.8901179 ]]]
+lines_right =  None
+yellow_pixels_left =  2670
+yellow_pixels_right =  645
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[187.           0.9599311 ]]
+
+ [[190.           0.94247776]]
+
+ [[237.           0.87266463]]
+
+ [[234.           0.8901179 ]]
+
+ [[240.           0.8552113 ]]]
+lines_right =  [[[31.          0.87266463]]]
+yellow_pixels_left =  1844
+yellow_pixels_right =  1486
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[206.           0.9599311 ]]
+
+ [[209.           0.94247776]]]
+lines_right =  [[[53.          0.87266463]]]
+yellow_pixels_left =  785
+yellow_pixels_right =  2622
+white_pixels_left =  0
+white_pixels_right =  0
+lines_left =  [[[221.          0.9773844]]
+
+ [[225.          0.9599311]]]
+lines_right =  [[[75.          0.87266463]]
+
+ [[42.          0.9599311 ]]]
+yellow_pixels_left =  54
+yellow_pixels_right =  3465
+white_pixels_left =  56
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[97.          0.8901179 ]]
+
+ [[61.          0.9773844 ]]
+
+ [[98.          0.87266463]]
+
+ [[42.          1.7627826 ]]]
+yellow_pixels_left =  3
+yellow_pixels_right =  3678
+white_pixels_left =  258
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[ 81.           0.9773844 ]]
+
+ [[120.           0.8901179 ]]
+
+ [[119.           0.9075712 ]]
+
+ [[ 80.           0.99483764]]
+
+ [[ 69.           1.8325957 ]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  3892
+white_pixels_left =  584
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[100.           0.99483764]]
+
+ [[143.           0.9075712 ]]
+
+ [[144.           0.8901179 ]]
+
+ [[101.           0.9773844 ]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  4095
+white_pixels_left =  996
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[121.           0.99483764]]
+
+ [[168.           0.9075712 ]]
+
+ [[119.           1.012291  ]]
+
+ [[165.           0.9250245 ]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  4289
+white_pixels_left =  1261
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[191.           0.9250245 ]]
+
+ [[140.           1.012291  ]]
+
+ [[138.           1.0297443 ]]
+
+ [[188.           0.94247776]]
+
+ [[ 13.           1.8151424 ]]
+
+ [[193.           0.9075712 ]]
+
+ [[  3.           1.7802358 ]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  4106
+white_pixels_left =  1872
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[160.           1.0297443 ]]
+
+ [[214.           0.94247776]]
+
+ [[157.           1.0471976 ]]
+
+ [[217.           0.9250245 ]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  3036
+white_pixels_left =  2456
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[179.          1.0471976]]
+
+ [[183.          1.0297443]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  1669
+white_pixels_left =  3130
+white_pixels_right =  0
+lines_left =  None
+lines_right =  [[[199.          1.0646509]]
+
+ [[196.          1.0821041]]]
+yellow_pixels_left =  0
+yellow_pixels_right =  412
+white_pixels_left =  3849
+white_pixels_right =  0
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  4594
+white_pixels_right =  0
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  5362
+white_pixels_right =  0
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  6164
+white_pixels_right =  0
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  6954
+white_pixels_right =  28
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  7668
+white_pixels_right =  139
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8103
+white_pixels_right =  586
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8417
+white_pixels_right =  1232
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8576
+white_pixels_right =  2106
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8642
+white_pixels_right =  3299
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8650
+white_pixels_right =  4758
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8642
+white_pixels_right =  6030
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8616
+white_pixels_right =  7023
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8548
+white_pixels_right =  7659
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8477
+white_pixels_right =  8181
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8369
+white_pixels_right =  8353
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  8240
+white_pixels_right =  8531
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  7934
+white_pixels_right =  8608
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  7080
+white_pixels_right =  8655
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  5897
+white_pixels_right =  8664
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  4456
+white_pixels_right =  8642
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  3025
+white_pixels_right =  8598
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  1942
+white_pixels_right =  8468
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  1142
+white_pixels_right =  8218
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  565
+white_pixels_right =  7857
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  197
+white_pixels_right =  7360
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  18
+white_pixels_right =  6756
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  6012
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  0
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  5296
+lines_left =  None
+lines_right =  None
+yellow_pixels_left =  27
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  4613
+lines_left =  None
+lines_right =  None
+time=1733968907.3558862 Pos: [12.07095629  0.          0.40245668] angle 2.1446871394154217
+time=1733968907.395492 Pos: [12.0506558   0.          0.37440173] angle 2.249682503505619
+time=1733968907.4365993 Pos: [12.02608446  0.          0.34491593] angle 2.2813802513212607
+time=1733968907.4750788 Pos: [12.00059098  0.          0.31622367] angle 2.3130779991369024
+time=1733968907.5141177 Pos: [11.97420099  0.          0.28835377] angle 2.344775746952544
+time=1733968907.552193 Pos: [11.94694098  0.          0.26133423] angle 2.376473494768186
+time=1733968907.5900102 Pos: [11.91883836  0.          0.2351922 ] angle 2.4081712425838275
+time=1733968907.6271293 Pos: [11.88992134  0.          0.20995395] angle 2.4398689903994693
+time=1733968907.665441 Pos: [11.860219    0.          0.18564482] angle 2.471566738215111
+time=1733968907.7030165 Pos: [11.82976115  0.          0.16228924] angle 2.5032644860307527
+time=1733968907.741043 Pos: [11.79857841  0.          0.13991068] angle 2.5349622338463944
+time=1733968907.7778044 Pos: [11.76670211  0.          0.11853162] angle 2.566659981662036
+time=1733968907.8150187 Pos: [11.73416426  0.          0.09817354] angle 2.598357729477678
+time=1733968907.8516738 Pos: [11.70099756  0.          0.07885689] angle 2.6300554772933196
+time=1733968907.8883266 Pos: [11.66723532  0.          0.06060107] angle 2.6617532251089613
+time=1733968907.9246602 No tile found at [11.68703843  0.         -0.01377061] (19, -1)
+time=1733968907.925006 Invalid pose. Collision free: True On drivable area: False
+time=1733968907.9250479 safety_factor: 1.0
+time=1733968907.9252536 pos: [11.65454157  0.          0.05382343]
+time=1733968907.9254563 l_pos: [11.62204471  0.          0.12141746]
+time=1733968907.9256988 r_pos: [11.68703843  0.         -0.01377061]
+time=1733968907.9259193 f_pos: [11.57342872  0.          0.01482719]
+time=1733968907.925959 Stopping the simulator because we are at an invalid pose.
+time=1733968907.9261565 Pos: [11.63291148  0.          0.04342443] angle 2.693450972924603
+yellow_pixels_left =  847
+yellow_pixels_right =  0
+white_pixels_left =  0
+white_pixels_right =  3953
+lines_left =  None
+lines_right =  None
+error =  91
+rotation =  -8.586666666666668
+error =  155
+rotation =  7.28
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+error =  155
+rotation =  4.133333333333333
+total reward =  -47.686607703401855
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
