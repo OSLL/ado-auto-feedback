@@ -1,0 +1,922 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1735920206.2294786 gym-duckietown 2019.0.0
+
+time=1735920206.3295553 Registering gym environment id: Duckietown-4way-v0
+time=1735920206.3296316 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1735920206.3296666 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1735920206.3297124 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1735920206.3297672 Registering gym environment id: Duckietown-loop_empty-v0
+time=1735920206.3298092 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1735920206.3298883 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1735920206.3299909 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1735920206.3300393 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1735920206.3301153 Registering gym environment id: Duckietown-small_loop-v0
+time=1735920206.3301623 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1735920206.330206 Registering gym environment id: Duckietown-straight_road-v0
+time=1735920206.3302512 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1735920206.3303006 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1735920206.330348 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1735920206.3303993 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1735920206.3304508 Registering gym environment id: Duckietown-udem1-v0
+time=1735920206.3304982 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1735920207.696421 Falling back to non-multisampled frame buffer
+time=1735920207.6984546 Falling back to non-multisampled frame buffer
+time=1735920207.7009022 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1735920207.7071 loading mesh "duckiebot.obj"
+time=1735920207.7072358 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1735920207.946134 loading texture "floor_1.png"
+time=1735920208.030271 loading texture "curve_right_1.png"
+time=1735920208.03627 loading texture "straight_1.png"
+time=1735920208.0419793 loading texture "curve_left_1.png"
+time=1735920208.0485263 loading texture "4way_1.png"
+time=1735920208.234617 using user tile start: (0, 9)
+time=1735920208.2352498 tile: {'coords': (0, 9), 'kind': 'curve_right', 'angle': 3, 'drivable': True, 'curves': array([[[0.585 , 0.    , 5.4405],
+        [0.4095, 0.    , 5.4405],
+        [0.4095, 0.    , 5.382 ],
+        [0.4095, 0.    , 5.265 ]],
+
+       [[0.1755, 0.    , 5.265 ],
+        [0.1755, 0.    , 5.382 ],
+        [0.2925, 0.    , 5.733 ],
+        [0.585 , 0.    , 5.6745]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f0f379ebfd0>, 'color': array([1, 1, 1])}
+time=1735920208.2363734 road_tile_size=0.585
+time=1735920208.2366166 Starting at [0.29173037 0.         5.57438288] 5.275124646760185
+time=1735920208.2368 Pos: [0.29173037 0.         5.57438288] angle 5.275124646760185
+time=1735920208.3532338 using DuckietownEnv
+time=1735920208.3539326 Target tile: (4, 4)
+time=1735920208.486049 Pos: [0.29173037 0.         5.57438288] angle 5.228537178789069
+time=1735920208.671502 Pos: [0.29173037 0.         5.57438288] angle 5.181949710817953
+time=1735920208.7305317 Pos: [0.29173037 0.         5.57438288] angle 5.1353622428468375
+time=1735920208.7760131 Pos: [0.29173037 0.         5.57438288] angle 5.088774774875722
+time=1735920208.822036 Pos: [0.29173037 0.         5.57438288] angle 5.042187306904606
+time=1735920208.8664026 Pos: [0.29173037 0.         5.57438288] angle 4.99559983893349
+time=1735920208.9103825 Pos: [0.29173037 0.         5.57438288] angle 4.949012370962374
+time=1735920208.9541402 Pos: [0.29173037 0.         5.57438288] angle 4.9024249029912585
+time=1735920208.9982224 Pos: [0.29173037 0.         5.57438288] angle 4.855837435020143
+time=1735920209.0435817 Pos: [0.29173037 0.         5.57438288] angle 4.809249967049027
+time=1735920209.087923 Pos: [0.29173037 0.         5.57438288] angle 4.762662499077911
+time=1735920209.1315281 Pos: [0.29173037 0.         5.57438288] angle 4.716075031106795
+time=1735920209.1748934 Pos: [0.29173037 0.         5.57438288] angle 4.66948756313568
+time=1735920209.2202282 Pos: [0.29173037 0.         5.57438288] angle 4.622900095164564
+time=1735920209.264483 Pos: [0.29173037 0.         5.57438288] angle 4.576312627193448
+time=1735920209.3130455 Pos: [0.29173037 0.         5.57438288] angle 4.529725159222332
+time=1735920209.356491 Pos: [0.29173037 0.         5.57438288] angle 4.483137691251216
+time=1735920209.4011333 Pos: [0.29173037 0.         5.57438288] angle 4.436550223280101
+time=1735920209.4473176 Pos: [0.29173037 0.         5.57438288] angle 4.389962755308985
+time=1735920209.4935448 Pos: [0.29173037 0.         5.57438288] angle 4.343375287337869
+time=1735920209.5364437 Pos: [0.29173037 0.         5.57438288] angle 4.296787819366753
+time=1735920209.57975 Pos: [0.29173037 0.         5.57438288] angle 4.2502003513956375
+time=1735920209.6232908 Pos: [0.29173037 0.         5.57438288] angle 4.203612883424522
+time=1735920209.666787 Pos: [0.29173037 0.         5.57438288] angle 4.157025415453406
+time=1735920209.7105777 Pos: [0.29173037 0.         5.57438288] angle 4.11043794748229
+time=1735920209.75607 Pos: [0.29173037 0.         5.57438288] angle 4.063850479511174
+time=1735920209.800269 Pos: [0.29173037 0.         5.57438288] angle 4.0172630115400585
+time=1735920209.8441286 Pos: [0.29173037 0.         5.57438288] angle 3.9706755435689427
+time=1735920209.890166 Pos: [0.29173037 0.         5.57438288] angle 3.924088075597827
+time=1735920209.9336197 Pos: [0.28512281 0.         5.58095219] angle 3.924088075597827
+time=1735920209.978238 Pos: [0.27851525 0.         5.5875215 ] angle 3.924088075597827
+time=1735920210.0363379 Pos: [0.27190769 0.         5.59409081] angle 3.924088075597827
+time=1735920210.081507 Pos: [0.26530013 0.         5.60066012] angle 3.924088075597827
+time=1735920210.1264513 Pos: [0.25869257 0.         5.60722943] angle 3.924088075597827
+time=1735920210.1710935 Pos: [0.25208501 0.         5.61379874] angle 3.924088075597827
+time=1735920210.2238257 Pos: [0.24547745 0.         5.62036805] angle 3.924088075597827
+time=1735920210.2769885 Pos: [0.23886989 0.         5.62693736] angle 3.924088075597827
+time=1735920210.3314426 Pos: [0.23226233 0.         5.63350667] angle 3.924088075597827
+time=1735920210.3890877 Pos: [0.22565477 0.         5.64007598] angle 3.924088075597827
+time=1735920210.4438784 Pos: [0.21904721 0.         5.64664529] angle 3.924088075597827
+time=1735920210.497931 Pos: [0.21243965 0.         5.6532146 ] angle 3.924088075597827
+time=1735920210.5509646 Pos: [0.20583209 0.         5.65978391] angle 3.924088075597827
+time=1735920210.6040568 Pos: [0.19922453 0.         5.66635322] angle 3.924088075597827
+time=1735920210.6562793 Pos: [0.19261697 0.         5.67292253] angle 3.924088075597827
+time=1735920210.7112625 Pos: [0.18600941 0.         5.67949185] angle 3.924088075597827
+time=1735920210.7662835 Pos: [0.17940185 0.         5.68606116] angle 3.924088075597827
+time=1735920210.8266113 Pos: [0.17279429 0.         5.69263047] angle 3.924088075597827
+time=1735920210.8818865 Pos: [0.16618673 0.         5.69919978] angle 3.924088075597827
+time=1735920210.9338534 Pos: [0.15957917 0.         5.70576909] angle 3.924088075597827
+time=1735920210.9868822 Pos: [0.15297161 0.         5.7123384 ] angle 3.924088075597827
+time=1735920211.0596185 Pos: [0.14636405 0.         5.71890771] angle 3.924088075597827
+time=1735920211.1120284 Pos: [0.13975649 0.         5.72547702] angle 3.924088075597827
+time=1735920211.1648045 Pos: [0.13314893 0.         5.73204633] angle 3.924088075597827
+time=1735920211.217849 Pos: [0.12654138 0.         5.73861564] angle 3.924088075597827
+time=1735920211.270942 Pos: [0.11993382 0.         5.74518495] angle 3.924088075597827
+time=1735920211.3143194 Pos: [0.11993382 0.         5.74518495] angle 3.877500607626711
+time=1735920211.3567467 Pos: [0.11993382 0.         5.74518495] angle 3.8309131396555953
+time=1735920211.398987 Pos: [0.11993382 0.         5.74518495] angle 3.7843256716844795
+time=1735920211.4418247 Pos: [0.11993382 0.         5.74518495] angle 3.7377382037133637
+time=1735920211.4841895 Pos: [0.11993382 0.         5.74518495] angle 3.691150735742248
+time=1735920211.5303514 Pos: [0.11993382 0.         5.74518495] angle 3.644563267771132
+time=1735920211.5770407 Pos: [0.11993382 0.         5.74518495] angle 3.5979757998000164
+time=1735920211.6200433 Pos: [0.11993382 0.         5.74518495] angle 3.5513883318289006
+time=1735920211.6625977 Pos: [0.11993382 0.         5.74518495] angle 3.5048008638577848
+time=1735920211.706178 Pos: [0.11993382 0.         5.74518495] angle 3.458213395886669
+time=1735920211.7485828 Pos: [0.11993382 0.         5.74518495] angle 3.411625927915553
+time=1735920211.7916546 Pos: [0.11993382 0.         5.74518495] angle 3.3650384599444374
+time=1735920211.8342743 Pos: [0.11993382 0.         5.74518495] angle 3.3184509919733216
+time=1735920211.8766904 Pos: [0.11993382 0.         5.74518495] angle 3.271863524002206
+time=1735920211.9195046 Pos: [0.11993382 0.         5.74518495] angle 3.22527605603109
+time=1735920211.9619272 Pos: [0.11993382 0.         5.74518495] angle 3.1786885880599742
+time=1735920212.005468 Pos: [0.11993382 0.         5.74518495] angle 3.1321011200888584
+time=1735920212.0481935 Pos: [0.11993382 0.         5.74518495] angle 3.0855136521177426
+time=1735920212.1091812 Pos: [0.11993382 0.         5.74518495] angle 3.038926184146627
+time=1735920212.152374 Pos: [0.11993382 0.         5.74518495] angle 2.992338716175511
+time=1735920212.2000484 Pos: [0.11993382 0.         5.74518495] angle 2.9457512482043953
+time=1735920212.2428336 Pos: [0.11993382 0.         5.74518495] angle 2.8991637802332795
+time=1735920212.285573 Pos: [0.11993382 0.         5.74518495] angle 2.8525763122621637
+time=1735920212.331692 Pos: [0.11993382 0.         5.74518495] angle 2.805988844291048
+time=1735920212.3764124 Pos: [0.11993382 0.         5.74518495] angle 2.759401376319932
+time=1735920212.4205577 Pos: [0.11993382 0.         5.74518495] angle 2.7128139083488163
+time=1735920212.463607 Pos: [0.11993382 0.         5.74518495] angle 2.6662264403777005
+time=1735920212.507243 Pos: [0.11993382 0.         5.74518495] angle 2.6196389724065847
+time=1735920212.553091 Pos: [0.11993382 0.         5.74518495] angle 2.573051504435469
+time=1735920212.5962555 Pos: [0.11993382 0.         5.74518495] angle 2.526464036464353
+time=1735920212.640245 Pos: [0.11993382 0.         5.74518495] angle 2.4798765684932373
+time=1735920212.6854134 Pos: [0.11993382 0.         5.74518495] angle 2.4332891005221216
+time=1735920212.731843 Pos: [0.11993382 0.         5.74518495] angle 2.3867016325510058
+time=1735920212.7749686 Pos: [0.11314745 0.         5.73880052] angle 2.3867016325510058
+time=1735920212.8179848 Pos: [0.10636109 0.         5.73241608] angle 2.3867016325510058
+time=1735920212.8614256 Pos: [0.09957473 0.         5.72603165] angle 2.3867016325510058
+time=1735920212.9049377 Pos: [0.09278837 0.         5.71964722] angle 2.3867016325510058
+time=1735920212.9483 Pos: [0.08600201 0.         5.71326278] angle 2.3867016325510058
+time=1735920212.9922261 Pos: [0.07921565 0.         5.70687835] angle 2.3867016325510058
+time=1735920213.0457 Pos: [0.07242929 0.         5.70049392] angle 2.3867016325510058
+time=1735920213.0973477 Pos: [0.06564293 0.         5.69410948] angle 2.3867016325510058
+time=1735920213.1495907 Pos: [0.05885656 0.         5.68772505] angle 2.3867016325510058
+time=1735920213.2035031 Pos: [0.0520702  0.         5.68134062] angle 2.3867016325510058
+time=1735920213.2555554 No tile found at [-2.78700893e-03  0.00000000e+00  5.62973237e+00] (-1, 9)
+time=1735920213.2559485 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.2560132 safety_factor: 1.0
+time=1735920213.256227 pos: [0.06276415 0.         5.69140121]
+time=1735920213.256394 l_pos: [0.01137345 0.         5.74602717]
+time=1735920213.2565691 r_pos: [0.11415485 0.         5.63677524]
+time=1735920213.2567606 f_pos: [-2.78700893e-03  0.00000000e+00  5.62973237e+00]
+time=1735920213.2567935 Stopping the simulator because we are at an invalid pose.
+time=1735920213.2570045 Pos: [0.04528384 0.         5.67495618] angle 2.3867016325510058
+time=1735920213.271329 No tile found at [-0.00957337  0.          5.62334794] (-1, 9)
+time=1735920213.271726 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.271771 safety_factor: 1.0
+time=1735920213.2720032 pos: [0.05597779 0.         5.68501677]
+time=1735920213.2721481 l_pos: [4.58709233e-03 0.00000000e+00 5.73964274e+00]
+time=1735920213.272286 r_pos: [0.10736849 0.         5.63039081]
+time=1735920213.27242 f_pos: [-0.00957337  0.          5.62334794]
+time=1735920213.2724555 Stopping the simulator because we are at an invalid pose.
+time=1735920213.2726355 Pos: [0.03849748 0.         5.66857175] angle 2.3867016325510058
+time=1735920213.289693 No tile found at [-2.19926892e-03  0.00000000e+00  5.73325831e+00] (-1, 9)
+time=1735920213.2900455 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.2901483 safety_factor: 1.0
+time=1735920213.2903075 pos: [0.04919143 0.         5.67863234]
+time=1735920213.2904963 l_pos: [-2.19926892e-03  0.00000000e+00  5.73325831e+00]
+time=1735920213.290688 r_pos: [0.10058213 0.         5.62400638]
+time=1735920213.2908857 f_pos: [-0.01635973  0.          5.6169635 ]
+time=1735920213.2909353 Stopping the simulator because we are at an invalid pose.
+time=1735920213.2911685 Pos: [0.03171112 0.         5.66218732] angle 2.3867016325510058
+time=1735920213.3091302 No tile found at [-0.00898563  0.          5.72687387] (-1, 9)
+time=1735920213.3094141 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.309493 safety_factor: 1.0
+time=1735920213.3097336 pos: [0.04240507 0.         5.67224791]
+time=1735920213.3099267 l_pos: [-0.00898563  0.          5.72687387]
+time=1735920213.310102 r_pos: [0.09379576 0.         5.61762194]
+time=1735920213.310304 f_pos: [-0.02314609  0.          5.61057907]
+time=1735920213.3103437 Stopping the simulator because we are at an invalid pose.
+time=1735920213.3105068 Pos: [0.02492476 0.         5.65580289] angle 2.3867016325510058
+time=1735920213.3255255 No tile found at [-0.01577199  0.          5.72048944] (-1, 9)
+time=1735920213.3258648 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.325912 safety_factor: 1.0
+time=1735920213.3261685 pos: [0.03561871 0.         5.66586348]
+time=1735920213.3264308 l_pos: [-0.01577199  0.          5.72048944]
+time=1735920213.3266752 r_pos: [0.0870094  0.         5.61123751]
+time=1735920213.3268409 f_pos: [-0.02993245  0.          5.60419464]
+time=1735920213.3268805 Stopping the simulator because we are at an invalid pose.
+time=1735920213.3274162 Pos: [0.0181384  0.         5.64941845] angle 2.3867016325510058
+time=1735920213.3429883 No tile found at [-0.02255835  0.          5.71410501] (-1, 9)
+time=1735920213.3433301 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.3433728 safety_factor: 1.0
+time=1735920213.3435228 pos: [0.02883234 0.         5.65947904]
+time=1735920213.3437226 l_pos: [-0.02255835  0.          5.71410501]
+time=1735920213.343872 r_pos: [0.08022304 0.         5.60485308]
+time=1735920213.343997 f_pos: [-0.03671882  0.          5.59781021]
+time=1735920213.344029 Stopping the simulator because we are at an invalid pose.
+time=1735920213.3441775 Pos: [0.01135204 0.         5.64303402] angle 2.3867016325510058
+time=1735920213.3583734 No tile found at [-0.02934471  0.          5.70772058] (-1, 9)
+time=1735920213.3586547 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.3587036 safety_factor: 1.0
+time=1735920213.3589058 pos: [0.02204598 0.         5.65309461]
+time=1735920213.359088 l_pos: [-0.02934471  0.          5.70772058]
+time=1735920213.3592525 r_pos: [0.07343668 0.         5.59846864]
+time=1735920213.359376 f_pos: [-0.04350518  0.          5.59142577]
+time=1735920213.3594203 Stopping the simulator because we are at an invalid pose.
+time=1735920213.359578 Pos: [4.56567416e-03 0.00000000e+00 5.63664959e+00] angle 2.3867016325510058
+time=1735920213.374105 No tile found at [-0.03613108  0.          5.70133614] (-1, 9)
+time=1735920213.374379 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.374433 safety_factor: 1.0
+time=1735920213.374597 pos: [0.01525962 0.         5.64671018]
+time=1735920213.3747628 l_pos: [-0.03613108  0.          5.70133614]
+time=1735920213.3749433 r_pos: [0.06665032 0.         5.59208421]
+time=1735920213.375122 f_pos: [-0.05029154  0.          5.58504134]
+time=1735920213.3751621 Stopping the simulator because we are at an invalid pose.
+time=1735920213.3753502 Pos: [-2.22068708e-03  0.00000000e+00  5.63026515e+00] angle 2.3867016325510058
+time=1735920213.3933024 No tile found at [-0.04291744  0.          5.69495171] (-1, 9)
+time=1735920213.3935432 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.393592 safety_factor: 1.0
+time=1735920213.3937666 pos: [0.00847326 0.         5.64032574]
+time=1735920213.3939097 l_pos: [-0.04291744  0.          5.69495171]
+time=1735920213.3940365 r_pos: [0.05986396 0.         5.58569978]
+time=1735920213.3942137 f_pos: [-0.0570779   0.          5.57865691]
+time=1735920213.3942554 Stopping the simulator because we are at an invalid pose.
+time=1735920213.3944418 Pos: [-0.00900705  0.          5.62388072] angle 2.3867016325510058
+time=1735920213.410681 No tile found at [-0.0497038   0.          5.68856728] (-1, 9)
+time=1735920213.4110146 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4110665 safety_factor: 1.0
+time=1735920213.4112735 pos: [1.68689972e-03 0.00000000e+00 5.63394131e+00]
+time=1735920213.4114735 l_pos: [-0.0497038   0.          5.68856728]
+time=1735920213.4116464 r_pos: [0.0530776  0.         5.57931534]
+time=1735920213.4118388 f_pos: [-0.06386426  0.          5.57227247]
+time=1735920213.411878 Stopping the simulator because we are at an invalid pose.
+time=1735920213.4120514 Pos: [-0.01579341  0.          5.61749629] angle 2.3867016325510058
+time=1735920213.4265728 No tile found at [-5.09946152e-03  0.00000000e+00  5.62755688e+00] (-1, 9)
+time=1735920213.4268205 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4268675 safety_factor: 1.0
+time=1735920213.4270394 pos: [-5.09946152e-03  0.00000000e+00  5.62755688e+00]
+time=1735920213.4271688 l_pos: [-0.05649016  0.          5.68218284]
+time=1735920213.4273112 r_pos: [0.04629124 0.         5.57293091]
+time=1735920213.4274526 f_pos: [-0.07065062  0.          5.56588804]
+time=1735920213.4274948 Stopping the simulator because we are at an invalid pose.
+time=1735920213.4276736 Pos: [-0.02257977  0.          5.61111185] angle 2.3867016325510058
+time=1735920213.443093 No tile found at [-0.01188582  0.          5.62117244] (-1, 9)
+time=1735920213.4433362 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4433799 safety_factor: 1.0
+time=1735920213.4435642 pos: [-0.01188582  0.          5.62117244]
+time=1735920213.4437027 l_pos: [-0.06327652  0.          5.67579841]
+time=1735920213.4438376 r_pos: [0.03950487 0.         5.56654648]
+time=1735920213.4439704 f_pos: [-0.07743698  0.          5.55950361]
+time=1735920213.4440038 Stopping the simulator because we are at an invalid pose.
+time=1735920213.4441464 Pos: [-0.02936613  0.          5.60472742] angle 2.3867016325510058
+time=1735920213.4585028 No tile found at [-0.01867218  0.          5.61478801] (-1, 9)
+time=1735920213.4588175 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4588947 safety_factor: 1.0
+time=1735920213.459044 pos: [-0.01867218  0.          5.61478801]
+time=1735920213.4592063 l_pos: [-0.07006288  0.          5.66941398]
+time=1735920213.459364 r_pos: [0.03271851 0.         5.56016204]
+time=1735920213.459535 f_pos: [-0.08422334  0.          5.55311917]
+time=1735920213.4595745 Stopping the simulator because we are at an invalid pose.
+time=1735920213.4597619 Pos: [-0.03615249  0.          5.59834299] angle 2.3867016325510058
+time=1735920213.477255 No tile found at [-0.02545855  0.          5.60840358] (-1, 9)
+time=1735920213.477543 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4775913 safety_factor: 1.0
+time=1735920213.4777918 pos: [-0.02545855  0.          5.60840358]
+time=1735920213.4780042 l_pos: [-0.07684924  0.          5.66302954]
+time=1735920213.478227 r_pos: [0.02593215 0.         5.55377761]
+time=1735920213.4784565 f_pos: [-0.09100971  0.          5.54673474]
+time=1735920213.478511 Stopping the simulator because we are at an invalid pose.
+time=1735920213.478785 Pos: [-0.04293885  0.          5.59195855] angle 2.3867016325510058
+time=1735920213.4948783 No tile found at [-0.03224491  0.          5.60201914] (-1, 9)
+time=1735920213.4951923 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.4952369 safety_factor: 1.0
+time=1735920213.4953864 pos: [-0.03224491  0.          5.60201914]
+time=1735920213.4955444 l_pos: [-0.0836356   0.          5.65664511]
+time=1735920213.4957292 r_pos: [0.01914579 0.         5.54739318]
+time=1735920213.4958842 f_pos: [-0.09779607  0.          5.54035031]
+time=1735920213.495917 Stopping the simulator because we are at an invalid pose.
+time=1735920213.4961236 Pos: [-0.04972522  0.          5.58557412] angle 2.3867016325510058
+time=1735920213.510694 No tile found at [-0.03903127  0.          5.59563471] (-1, 9)
+time=1735920213.5110278 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5110753 safety_factor: 1.0
+time=1735920213.5113323 pos: [-0.03903127  0.          5.59563471]
+time=1735920213.5115664 l_pos: [-0.09042197  0.          5.65026068]
+time=1735920213.5117583 r_pos: [0.01235943 0.         5.54100874]
+time=1735920213.5119457 f_pos: [-0.10458243  0.          5.53396587]
+time=1735920213.5119882 Stopping the simulator because we are at an invalid pose.
+time=1735920213.5122297 Pos: [-0.05651158  0.          5.57918969] angle 2.3867016325510058
+time=1735920213.5281992 No tile found at [-0.04581763  0.          5.58925028] (-1, 9)
+time=1735920213.52848 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5285168 safety_factor: 1.0
+time=1735920213.528674 pos: [-0.04581763  0.          5.58925028]
+time=1735920213.5288198 l_pos: [-0.09720833  0.          5.64387624]
+time=1735920213.5289543 r_pos: [0.00557307 0.         5.53462431]
+time=1735920213.5291092 f_pos: [-0.11136879  0.          5.52758144]
+time=1735920213.5291495 Stopping the simulator because we are at an invalid pose.
+time=1735920213.5293205 Pos: [-0.06329794  0.          5.57280525] angle 2.3867016325510058
+time=1735920213.545652 No tile found at [-0.05260399  0.          5.58286584] (-1, 9)
+time=1735920213.545947 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5459926 safety_factor: 1.0
+time=1735920213.5461674 pos: [-0.05260399  0.          5.58286584]
+time=1735920213.5463412 l_pos: [-0.10399469  0.          5.63749181]
+time=1735920213.5465086 r_pos: [-1.21329288e-03  0.00000000e+00  5.52823988e+00]
+time=1735920213.5466692 f_pos: [-0.11815515  0.          5.52119701]
+time=1735920213.5467093 Stopping the simulator because we are at an invalid pose.
+time=1735920213.5468788 Pos: [-0.0700843   0.          5.56642082] angle 2.3867016325510058
+time=1735920213.5629659 No tile found at [-0.05939035  0.          5.57648141] (-1, 9)
+time=1735920213.5633597 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5634277 safety_factor: 1.0
+time=1735920213.5636132 pos: [-0.05939035  0.          5.57648141]
+time=1735920213.563782 l_pos: [-0.11078105  0.          5.63110738]
+time=1735920213.5639694 r_pos: [-0.00799965  0.          5.52185544]
+time=1735920213.564152 f_pos: [-0.12494151  0.          5.51481257]
+time=1735920213.5642195 Stopping the simulator because we are at an invalid pose.
+time=1735920213.5644364 Pos: [-0.07687066  0.          5.56003639] angle 2.3867016325510058
+time=1735920213.5792923 No tile found at [-0.06617671  0.          5.57009698] (-1, 9)
+time=1735920213.579556 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5796413 safety_factor: 1.0
+time=1735920213.5798337 pos: [-0.06617671  0.          5.57009698]
+time=1735920213.5800266 l_pos: [-0.11756741  0.          5.62472294]
+time=1735920213.5802188 r_pos: [-0.01478602  0.          5.51547101]
+time=1735920213.5803795 f_pos: [-0.13172787  0.          5.50842814]
+time=1735920213.5804212 Stopping the simulator because we are at an invalid pose.
+time=1735920213.5806346 Pos: [-0.08365702  0.          5.55365195] angle 2.3867016325510058
+time=1735920213.5975869 No tile found at [-0.07296307  0.          5.56371254] (-1, 9)
+time=1735920213.5979233 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.5979648 safety_factor: 1.0
+time=1735920213.5981162 pos: [-0.07296307  0.          5.56371254]
+time=1735920213.5982587 l_pos: [-0.12435377  0.          5.61833851]
+time=1735920213.5984247 r_pos: [-0.02157238  0.          5.50908658]
+time=1735920213.5986288 f_pos: [-0.13851423  0.          5.50204371]
+time=1735920213.598668 Stopping the simulator because we are at an invalid pose.
+time=1735920213.598921 Pos: [-0.09044338  0.          5.54726752] angle 2.3867016325510058
+time=1735920213.6167467 No tile found at [-0.07974944  0.          5.55732811] (-1, 9)
+time=1735920213.6170366 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.617075 safety_factor: 1.0
+time=1735920213.6172621 pos: [-0.07974944  0.          5.55732811]
+time=1735920213.6174304 l_pos: [-0.13114013  0.          5.61195408]
+time=1735920213.617595 r_pos: [-0.02835874  0.          5.50270214]
+time=1735920213.6177723 f_pos: [-0.1453006   0.          5.49565927]
+time=1735920213.6178052 Stopping the simulator because we are at an invalid pose.
+time=1735920213.6179998 Pos: [-0.09722974  0.          5.54088309] angle 2.3867016325510058
+time=1735920213.632303 No tile found at [-0.0865358   0.          5.55094368] (-1, 9)
+time=1735920213.6327 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.632752 safety_factor: 1.0
+time=1735920213.6329603 pos: [-0.0865358   0.          5.55094368]
+time=1735920213.633164 l_pos: [-0.13792649  0.          5.60556964]
+time=1735920213.6334054 r_pos: [-0.0351451   0.          5.49631771]
+time=1735920213.6336186 f_pos: [-0.15208696  0.          5.48927484]
+time=1735920213.633672 Stopping the simulator because we are at an invalid pose.
+time=1735920213.6338644 Pos: [-0.10401611  0.          5.53449865] angle 2.3867016325510058
+time=1735920213.6482792 No tile found at [-0.09332216  0.          5.54455924] (-1, 9)
+time=1735920213.648613 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.6486769 safety_factor: 1.0
+time=1735920213.6488547 pos: [-0.09332216  0.          5.54455924]
+time=1735920213.6490045 l_pos: [-0.14471286  0.          5.59918521]
+time=1735920213.6491814 r_pos: [-0.04193146  0.          5.48993328]
+time=1735920213.6493514 f_pos: [-0.15887332  0.          5.48289041]
+time=1735920213.649392 Stopping the simulator because we are at an invalid pose.
+time=1735920213.6495721 Pos: [-0.11080247  0.          5.52811422] angle 2.3867016325510058
+time=1735920213.6660085 No tile found at [-0.10010852  0.          5.53817481] (-1, 9)
+time=1735920213.6663384 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.6663935 safety_factor: 1.0
+time=1735920213.666636 pos: [-0.10010852  0.          5.53817481]
+time=1735920213.6667771 l_pos: [-0.15149922  0.          5.59280078]
+time=1735920213.666954 r_pos: [-0.04871782  0.          5.48354884]
+time=1735920213.6671312 f_pos: [-0.16565968  0.          5.47650597]
+time=1735920213.6671638 Stopping the simulator because we are at an invalid pose.
+time=1735920213.6673374 Pos: [-0.11758883  0.          5.52172979] angle 2.3867016325510058
+time=1735920213.6825962 No tile found at [-0.10689488  0.          5.53179038] (-1, 9)
+time=1735920213.68298 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.683025 safety_factor: 1.0
+time=1735920213.683222 pos: [-0.10689488  0.          5.53179038]
+time=1735920213.6834354 l_pos: [-0.15828558  0.          5.58641634]
+time=1735920213.683609 r_pos: [-0.05550418  0.          5.47716441]
+time=1735920213.6837816 f_pos: [-0.17244604  0.          5.47012154]
+time=1735920213.6838155 Stopping the simulator because we are at an invalid pose.
+time=1735920213.6839907 Pos: [-0.12437519  0.          5.51534535] angle 2.3867016325510058
+time=1735920213.7015073 No tile found at [-0.11368124  0.          5.52540594] (-1, 9)
+time=1735920213.7017934 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.701842 safety_factor: 1.0
+time=1735920213.702033 pos: [-0.11368124  0.          5.52540594]
+time=1735920213.702212 l_pos: [-0.16507194  0.          5.58003191]
+time=1735920213.702401 r_pos: [-0.06229054  0.          5.47077998]
+time=1735920213.7025752 f_pos: [-0.1792324   0.          5.46373711]
+time=1735920213.7026145 Stopping the simulator because we are at an invalid pose.
+time=1735920213.702801 Pos: [-0.13116155  0.          5.50896092] angle 2.3867016325510058
+time=1735920213.7199342 No tile found at [-0.1204676   0.          5.51902151] (-1, 9)
+time=1735920213.7202685 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.7203526 safety_factor: 1.0
+time=1735920213.7206197 pos: [-0.1204676   0.          5.51902151]
+time=1735920213.7208567 l_pos: [-0.1718583   0.          5.57364748]
+time=1735920213.7210917 r_pos: [-0.06907691  0.          5.46439554]
+time=1735920213.7213135 f_pos: [-0.18601876  0.          5.45735267]
+time=1735920213.7213519 Stopping the simulator because we are at an invalid pose.
+time=1735920213.7215767 Pos: [-0.13794791  0.          5.50257649] angle 2.3867016325510058
+time=1735920213.7382467 No tile found at [-0.12725396  0.          5.51263708] (-1, 9)
+time=1735920213.738494 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.738545 safety_factor: 1.0
+time=1735920213.7387612 pos: [-0.12725396  0.          5.51263708]
+time=1735920213.7390099 l_pos: [-0.17864466  0.          5.56726304]
+time=1735920213.7391992 r_pos: [-0.07586327  0.          5.45801111]
+time=1735920213.7393756 f_pos: [-0.19280512  0.          5.45096824]
+time=1735920213.7394285 Stopping the simulator because we are at an invalid pose.
+time=1735920213.7396266 Pos: [-0.14473427  0.          5.49619205] angle 2.3867016325510058
+time=1735920213.757185 No tile found at [-0.13404033  0.          5.50625264] (-1, 9)
+time=1735920213.7575376 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.7575805 safety_factor: 1.0
+time=1735920213.757793 pos: [-0.13404033  0.          5.50625264]
+time=1735920213.757991 l_pos: [-0.18543102  0.          5.56087861]
+time=1735920213.7581694 r_pos: [-0.08264963  0.          5.45162668]
+time=1735920213.7583697 f_pos: [-0.19959149  0.          5.44458381]
+time=1735920213.7584128 Stopping the simulator because we are at an invalid pose.
+time=1735920213.7585933 Pos: [-0.15152063  0.          5.48980762] angle 2.3867016325510058
+time=1735920213.7757409 No tile found at [-0.14082669  0.          5.49986821] (-1, 9)
+time=1735920213.7761014 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.7761402 safety_factor: 1.0
+time=1735920213.7763398 pos: [-0.14082669  0.          5.49986821]
+time=1735920213.77652 l_pos: [-0.19221738  0.          5.55449418]
+time=1735920213.7767096 r_pos: [-0.08943599  0.          5.44524224]
+time=1735920213.7769182 f_pos: [-0.20637785  0.          5.43819937]
+time=1735920213.77696 Stopping the simulator because we are at an invalid pose.
+time=1735920213.7771637 Pos: [-0.158307    0.          5.48342319] angle 2.3867016325510058
+time=1735920213.7917852 No tile found at [-0.14761305  0.          5.49348378] (-1, 9)
+time=1735920213.792077 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.7921574 safety_factor: 1.0
+time=1735920213.7923937 pos: [-0.14761305  0.          5.49348378]
+time=1735920213.7925744 l_pos: [-0.19900375  0.          5.54810974]
+time=1735920213.7927392 r_pos: [-0.09622235  0.          5.43885781]
+time=1735920213.7928958 f_pos: [-0.21316421  0.          5.43181494]
+time=1735920213.7929282 Stopping the simulator because we are at an invalid pose.
+time=1735920213.7931023 Pos: [-0.16509336  0.          5.47703875] angle 2.3867016325510058
+time=1735920213.807734 No tile found at [-0.15439941  0.          5.48709934] (-1, 9)
+time=1735920213.8079884 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.8080313 safety_factor: 1.0
+time=1735920213.8082085 pos: [-0.15439941  0.          5.48709934]
+time=1735920213.808372 l_pos: [-0.20579011  0.          5.54172531]
+time=1735920213.8085358 r_pos: [-0.10300871  0.          5.43247338]
+time=1735920213.8086991 f_pos: [-0.21995057  0.          5.42543051]
+time=1735920213.8087392 Stopping the simulator because we are at an invalid pose.
+time=1735920213.8089232 Pos: [-0.17187972  0.          5.47065432] angle 2.3867016325510058
+time=1735920213.82345 No tile found at [-0.16118577  0.          5.48071491] (-1, 9)
+time=1735920213.8237998 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.8238528 safety_factor: 1.0
+time=1735920213.8240876 pos: [-0.16118577  0.          5.48071491]
+time=1735920213.8243084 l_pos: [-0.21257647  0.          5.53534088]
+time=1735920213.8245106 r_pos: [-0.10979507  0.          5.42608894]
+time=1735920213.8247 f_pos: [-0.22673693  0.          5.41904607]
+time=1735920213.8247344 Stopping the simulator because we are at an invalid pose.
+time=1735920213.8249137 Pos: [-0.17866608  0.          5.46426989] angle 2.3867016325510058
+time=1735920213.839434 No tile found at [-0.16797213  0.          5.47433048] (-1, 9)
+time=1735920213.839743 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.8397799 safety_factor: 1.0
+time=1735920213.8400111 pos: [-0.16797213  0.          5.47433048]
+time=1735920213.8402529 l_pos: [-0.21936283  0.          5.52895644]
+time=1735920213.8404915 r_pos: [-0.11658143  0.          5.41970451]
+time=1735920213.8407133 f_pos: [-0.23352329  0.          5.41266164]
+time=1735920213.8407457 Stopping the simulator because we are at an invalid pose.
+time=1735920213.840979 Pos: [-0.18545244  0.          5.45788545] angle 2.3867016325510058
+time=1735920213.855634 No tile found at [-0.17475849  0.          5.46794604] (-1, 9)
+time=1735920213.855968 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.856033 safety_factor: 1.0
+time=1735920213.8561873 pos: [-0.17475849  0.          5.46794604]
+time=1735920213.8563824 l_pos: [-0.22614919  0.          5.52257201]
+time=1735920213.8565497 r_pos: [-0.1233678   0.          5.41332008]
+time=1735920213.856706 f_pos: [-0.24030965  0.          5.40627721]
+time=1735920213.856745 Stopping the simulator because we are at an invalid pose.
+time=1735920213.8569236 Pos: [-0.1922388   0.          5.45150102] angle 2.3867016325510058
+time=1735920213.871323 No tile found at [-0.18154485  0.          5.46156161] (-1, 9)
+time=1735920213.8716948 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.871734 safety_factor: 1.0
+time=1735920213.8719625 pos: [-0.18154485  0.          5.46156161]
+time=1735920213.8721504 l_pos: [-0.23293555  0.          5.51618758]
+time=1735920213.872303 r_pos: [-0.13015416  0.          5.40693564]
+time=1735920213.8724518 f_pos: [-0.24709601  0.          5.39989277]
+time=1735920213.8725035 Stopping the simulator because we are at an invalid pose.
+time=1735920213.8727152 Pos: [-0.19902516  0.          5.44511659] angle 2.3867016325510058
+time=1735920213.887551 No tile found at [-0.18833122  0.          5.45517718] (-1, 9)
+time=1735920213.8878047 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.8878481 safety_factor: 1.0
+time=1735920213.8880146 pos: [-0.18833122  0.          5.45517718]
+time=1735920213.8881924 l_pos: [-0.23972191  0.          5.50980314]
+time=1735920213.8883636 r_pos: [-0.13694052  0.          5.40055121]
+time=1735920213.888526 f_pos: [-0.25388238  0.          5.39350834]
+time=1735920213.8885663 Stopping the simulator because we are at an invalid pose.
+time=1735920213.88874 Pos: [-0.20581152  0.          5.43873215] angle 2.3867016325510058
+time=1735920213.904847 No tile found at [-0.19511758  0.          5.44879274] (-1, 9)
+time=1735920213.9051113 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.905152 safety_factor: 1.0
+time=1735920213.9053085 pos: [-0.19511758  0.          5.44879274]
+time=1735920213.905455 l_pos: [-0.24650827  0.          5.50341871]
+time=1735920213.9056342 r_pos: [-0.14372688  0.          5.39416678]
+time=1735920213.9058244 f_pos: [-0.26066874  0.          5.38712391]
+time=1735920213.9058669 Stopping the simulator because we are at an invalid pose.
+time=1735920213.906073 Pos: [-0.21259789  0.          5.43234772] angle 2.3867016325510058
+time=1735920213.92227 No tile found at [-0.20190394  0.          5.44240831] (-1, 9)
+time=1735920213.9226046 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.9226437 safety_factor: 1.0
+time=1735920213.9228332 pos: [-0.20190394  0.          5.44240831]
+time=1735920213.9230633 l_pos: [-0.25329464  0.          5.49703428]
+time=1735920213.923258 r_pos: [-0.15051324  0.          5.38778234]
+time=1735920213.9234843 f_pos: [-0.2674551   0.          5.38073947]
+time=1735920213.9235184 Stopping the simulator because we are at an invalid pose.
+time=1735920213.9236755 Pos: [-0.21938425  0.          5.42596329] angle 2.3867016325510058
+time=1735920213.9379337 No tile found at [-0.2086903   0.          5.43602388] (-1, 9)
+time=1735920213.9382486 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.9383252 safety_factor: 1.0
+time=1735920213.938516 pos: [-0.2086903   0.          5.43602388]
+time=1735920213.938658 l_pos: [-0.260081    0.          5.49064984]
+time=1735920213.9388437 r_pos: [-0.1572996   0.          5.38139791]
+time=1735920213.9389777 f_pos: [-0.27424146  0.          5.37435504]
+time=1735920213.9390104 Stopping the simulator because we are at an invalid pose.
+time=1735920213.9391847 Pos: [-0.22617061  0.          5.41957886] angle 2.3867016325510058
+time=1735920213.95673 No tile found at [-0.21547666  0.          5.42963944] (-1, 9)
+time=1735920213.957136 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.9571724 safety_factor: 1.0
+time=1735920213.9574077 pos: [-0.21547666  0.          5.42963944]
+time=1735920213.957633 l_pos: [-0.26686736  0.          5.48426541]
+time=1735920213.9578192 r_pos: [-0.16408596  0.          5.37501348]
+time=1735920213.958043 f_pos: [-0.28102782  0.          5.36797061]
+time=1735920213.9580767 Stopping the simulator because we are at an invalid pose.
+time=1735920213.9582536 Pos: [-0.23295697  0.          5.41319442] angle 2.3867016325510058
+time=1735920213.9727643 No tile found at [-0.22226302  0.          5.42325501] (-1, 9)
+time=1735920213.9731066 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.973144 safety_factor: 1.0
+time=1735920213.9733598 pos: [-0.22226302  0.          5.42325501]
+time=1735920213.9735644 l_pos: [-0.27365372  0.          5.47788098]
+time=1735920213.9737298 r_pos: [-0.17087232  0.          5.36862905]
+time=1735920213.973912 f_pos: [-0.28781418  0.          5.36158617]
+time=1735920213.9739776 Stopping the simulator because we are at an invalid pose.
+time=1735920213.974135 Pos: [-0.23974333  0.          5.40680999] angle 2.3867016325510058
+time=1735920213.996975 No tile found at [-0.22904938  0.          5.41687058] (-1, 9)
+time=1735920213.9972322 Invalid pose. Collision free: True On drivable area: False
+time=1735920213.9972708 safety_factor: 1.0
+time=1735920213.9974115 pos: [-0.22904938  0.          5.41687058]
+time=1735920213.9975464 l_pos: [-0.28044008  0.          5.47149655]
+time=1735920213.9976788 r_pos: [-0.17765869  0.          5.36224461]
+time=1735920213.997823 f_pos: [-0.29460054  0.          5.35520174]
+time=1735920213.9978569 Stopping the simulator because we are at an invalid pose.
+time=1735920213.9979997 Pos: [-0.24652969  0.          5.40042556] angle 2.3867016325510058
+time=1735920214.0157602 No tile found at [-0.23583574  0.          5.41048615] (-1, 9)
+time=1735920214.0161102 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.016159 safety_factor: 1.0
+time=1735920214.0163808 pos: [-0.23583574  0.          5.41048615]
+time=1735920214.0165343 l_pos: [-0.28722644  0.          5.46511211]
+time=1735920214.0166671 r_pos: [-0.18444505  0.          5.35586018]
+time=1735920214.0167983 f_pos: [-0.3013869   0.          5.34881731]
+time=1735920214.016831 Stopping the simulator because we are at an invalid pose.
+time=1735920214.0169933 Pos: [-0.25331605  0.          5.39404112] angle 2.3867016325510058
+time=1735920214.0315168 No tile found at [-0.24262211  0.          5.40410171] (-1, 9)
+time=1735920214.031862 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.0319235 safety_factor: 1.0
+time=1735920214.032172 pos: [-0.24262211  0.          5.40410171]
+time=1735920214.0323617 l_pos: [-0.2940128   0.          5.45872768]
+time=1735920214.0325572 r_pos: [-0.19123141  0.          5.34947575]
+time=1735920214.0327442 f_pos: [-0.30817327  0.          5.34243288]
+time=1735920214.032783 Stopping the simulator because we are at an invalid pose.
+time=1735920214.032952 Pos: [-0.26010241  0.          5.38765669] angle 2.3867016325510058
+time=1735920214.048651 No tile found at [-0.24940847  0.          5.39771728] (-1, 9)
+time=1735920214.0489585 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.0490086 safety_factor: 1.0
+time=1735920214.0492 pos: [-0.24940847  0.          5.39771728]
+time=1735920214.0494134 l_pos: [-0.30079916  0.          5.45234325]
+time=1735920214.049586 r_pos: [-0.19801777  0.          5.34309131]
+time=1735920214.0497608 f_pos: [-0.31495963  0.          5.33604844]
+time=1735920214.0498016 Stopping the simulator because we are at an invalid pose.
+time=1735920214.049984 Pos: [-0.26688878  0.          5.38127226] angle 2.3867016325510058
+time=1735920214.0643268 No tile found at [-0.25619483  0.          5.39133285] (-1, 9)
+time=1735920214.0646515 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.0646977 safety_factor: 1.0
+time=1735920214.0649338 pos: [-0.25619483  0.          5.39133285]
+time=1735920214.0651271 l_pos: [-0.30758553  0.          5.44595881]
+time=1735920214.065322 r_pos: [-0.20480413  0.          5.33670688]
+time=1735920214.0655177 f_pos: [-0.32174599  0.          5.32966401]
+time=1735920214.0655584 Stopping the simulator because we are at an invalid pose.
+time=1735920214.0657504 Pos: [-0.27367514  0.          5.37488782] angle 2.3867016325510058
+time=1735920214.0822608 No tile found at [-0.26298119  0.          5.38494841] (-1, 9)
+time=1735920214.0825372 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.082578 safety_factor: 1.0
+time=1735920214.0827196 pos: [-0.26298119  0.          5.38494841]
+time=1735920214.0828896 l_pos: [-0.31437189  0.          5.43957438]
+time=1735920214.0830564 r_pos: [-0.21159049  0.          5.33032245]
+time=1735920214.0832186 f_pos: [-0.32853235  0.          5.32327958]
+time=1735920214.0832586 Stopping the simulator because we are at an invalid pose.
+time=1735920214.0834324 Pos: [-0.2804615   0.          5.36850339] angle 2.3867016325510058
+time=1735920214.109702 No tile found at [-0.26976755  0.          5.37856398] (-1, 9)
+time=1735920214.1100962 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.1101365 safety_factor: 1.0
+time=1735920214.1103504 pos: [-0.26976755  0.          5.37856398]
+time=1735920214.1105654 l_pos: [-0.32115825  0.          5.43318995]
+time=1735920214.1107454 r_pos: [-0.21837685  0.          5.32393801]
+time=1735920214.110902 f_pos: [-0.33531871  0.          5.31689514]
+time=1735920214.110941 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1111152 Pos: [-0.28724786  0.          5.36211896] angle 2.3867016325510058
+time=1735920214.125548 No tile found at [-0.27655391  0.          5.37217955] (-1, 9)
+time=1735920214.1258953 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.1259413 safety_factor: 1.0
+time=1735920214.1261 pos: [-0.27655391  0.          5.37217955]
+time=1735920214.1262355 l_pos: [-0.32794461  0.          5.42680551]
+time=1735920214.1263714 r_pos: [-0.22516321  0.          5.31755358]
+time=1735920214.126501 f_pos: [-0.34210507  0.          5.31051071]
+time=1735920214.1265337 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1266816 Pos: [-0.29403422  0.          5.35573452] angle 2.3867016325510058
+time=1735920214.1408584 No tile found at [-0.28334027  0.          5.36579511] (-1, 9)
+time=1735920214.1411595 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.1412435 safety_factor: 1.0
+time=1735920214.1413932 pos: [-0.28334027  0.          5.36579511]
+time=1735920214.1415503 l_pos: [-0.33473097  0.          5.42042108]
+time=1735920214.1417162 r_pos: [-0.23194958  0.          5.31116915]
+time=1735920214.1418693 f_pos: [-0.34889143  0.          5.30412628]
+time=1735920214.1419034 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1420784 Pos: [-0.30082058  0.          5.34935009] angle 2.3867016325510058
+time=1735920214.156321 No tile found at [-0.29012663  0.          5.35941068] (-1, 9)
+time=1735920214.1566389 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.1566985 safety_factor: 1.0
+time=1735920214.156878 pos: [-0.29012663  0.          5.35941068]
+time=1735920214.157019 l_pos: [-0.34151733  0.          5.41403665]
+time=1735920214.15715 r_pos: [-0.23873594  0.          5.30478471]
+time=1735920214.1573038 f_pos: [-0.35567779  0.          5.29774184]
+time=1735920214.1573436 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1574929 Pos: [-0.30760694  0.          5.34296566] angle 2.3867016325510058
+time=1735920214.1717565 No tile found at [-0.296913    0.          5.35302625] (-1, 9)
+time=1735920214.172117 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.1721804 safety_factor: 1.0
+time=1735920214.172352 pos: [-0.296913    0.          5.35302625]
+time=1735920214.1725237 l_pos: [-0.34830369  0.          5.40765221]
+time=1735920214.1726987 r_pos: [-0.2455223   0.          5.29840028]
+time=1735920214.1729188 f_pos: [-0.36246416  0.          5.29135741]
+time=1735920214.1729546 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1731591 Pos: [-0.3143933   0.          5.33658122] angle 2.3867016325510058
+time=1735920214.1900673 No tile found at [-0.30369936  0.          5.34664181] (-1, 9)
+time=1735920214.1903975 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.190443 safety_factor: 1.0
+time=1735920214.1906712 pos: [-0.30369936  0.          5.34664181]
+time=1735920214.1908529 l_pos: [-0.35509005  0.          5.40126778]
+time=1735920214.1910286 r_pos: [-0.25230866  0.          5.29201585]
+time=1735920214.1912012 f_pos: [-0.36925052  0.          5.28497298]
+time=1735920214.191243 Stopping the simulator because we are at an invalid pose.
+time=1735920214.1914973 Pos: [-0.32117967  0.          5.33019679] angle 2.3867016325510058
+time=1735920214.2081122 No tile found at [-0.31048572  0.          5.34025738] (-1, 9)
+time=1735920214.20842 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.2084708 safety_factor: 1.0
+time=1735920214.2086515 pos: [-0.31048572  0.          5.34025738]
+time=1735920214.2087946 l_pos: [-0.36187642  0.          5.39488335]
+time=1735920214.2089336 r_pos: [-0.25909502  0.          5.28563141]
+time=1735920214.2090642 f_pos: [-0.37603688  0.          5.27858854]
+time=1735920214.2090964 Stopping the simulator because we are at an invalid pose.
+time=1735920214.209244 Pos: [-0.32796603  0.          5.32381236] angle 2.3867016325510058
+time=1735920214.2259145 No tile found at [-0.31727208  0.          5.33387295] (-1, 9)
+time=1735920214.2262523 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.2263246 safety_factor: 1.0
+time=1735920214.2265267 pos: [-0.31727208  0.          5.33387295]
+time=1735920214.226733 l_pos: [-0.36866278  0.          5.38849891]
+time=1735920214.226924 r_pos: [-0.26588138  0.          5.27924698]
+time=1735920214.2271094 f_pos: [-0.38282324  0.          5.27220411]
+time=1735920214.227151 Stopping the simulator because we are at an invalid pose.
+time=1735920214.2273784 Pos: [-0.33475239  0.          5.31742792] angle 2.3867016325510058
+time=1735920214.2436283 No tile found at [-0.32405844  0.          5.32748851] (-1, 9)
+time=1735920214.244 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.244047 safety_factor: 1.0
+time=1735920214.2442644 pos: [-0.32405844  0.          5.32748851]
+time=1735920214.244491 l_pos: [-0.37544914  0.          5.38211448]
+time=1735920214.2446792 r_pos: [-0.27266774  0.          5.27286255]
+time=1735920214.2448788 f_pos: [-0.3896096   0.          5.26581968]
+time=1735920214.2449195 Stopping the simulator because we are at an invalid pose.
+time=1735920214.2451549 Pos: [-0.34153875  0.          5.31104349] angle 2.3867016325510058
+time=1735920214.2612007 No tile found at [-0.3308448   0.          5.32110408] (-1, 9)
+time=1735920214.261546 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.2615912 safety_factor: 1.0
+time=1735920214.261781 pos: [-0.3308448   0.          5.32110408]
+time=1735920214.2619412 l_pos: [-0.3822355   0.          5.37573005]
+time=1735920214.2621017 r_pos: [-0.2794541   0.          5.26647811]
+time=1735920214.2623005 f_pos: [-0.39639596  0.          5.25943524]
+time=1735920214.2623398 Stopping the simulator because we are at an invalid pose.
+time=1735920214.262519 Pos: [-0.34832511  0.          5.30465906] angle 2.3867016325510058
+time=1735920214.276743 No tile found at [-0.33763116  0.          5.31471965] (-1, 9)
+time=1735920214.277084 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.2771425 safety_factor: 1.0
+time=1735920214.2773511 pos: [-0.33763116  0.          5.31471965]
+time=1735920214.2775095 l_pos: [-0.38902186  0.          5.36934561]
+time=1735920214.2776713 r_pos: [-0.28624047  0.          5.26009368]
+time=1735920214.2778816 f_pos: [-0.40318232  0.          5.25305081]
+time=1735920214.2779195 Stopping the simulator because we are at an invalid pose.
+time=1735920214.2781973 Pos: [-0.35511147  0.          5.29827462] angle 2.3867016325510058
+time=1735920214.294507 No tile found at [-0.34441752  0.          5.30833521] (-1, 9)
+time=1735920214.2948508 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.2949052 safety_factor: 1.0
+time=1735920214.2951427 pos: [-0.34441752  0.          5.30833521]
+time=1735920214.2953525 l_pos: [-0.39580822  0.          5.36296118]
+time=1735920214.2954912 r_pos: [-0.29302683  0.          5.25370925]
+time=1735920214.2956507 f_pos: [-0.40996868  0.          5.24666638]
+time=1735920214.2956843 Stopping the simulator because we are at an invalid pose.
+time=1735920214.295864 Pos: [-0.36189783  0.          5.29189019] angle 2.3867016325510058
+time=1735920214.312067 No tile found at [-0.35120389  0.          5.30195078] (-1, 9)
+time=1735920214.3123372 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.312382 safety_factor: 1.0
+time=1735920214.3125648 pos: [-0.35120389  0.          5.30195078]
+time=1735920214.3127325 l_pos: [-0.40259458  0.          5.35657675]
+time=1735920214.312902 r_pos: [-0.29981319  0.          5.24732481]
+time=1735920214.3130622 f_pos: [-0.41675505  0.          5.24028194]
+time=1735920214.313101 Stopping the simulator because we are at an invalid pose.
+time=1735920214.3132787 Pos: [-0.36868419  0.          5.28550576] angle 2.3867016325510058
+time=1735920214.3276908 No tile found at [-0.35799025  0.          5.29556635] (-1, 9)
+time=1735920214.328017 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.328079 safety_factor: 1.0
+time=1735920214.3283072 pos: [-0.35799025  0.          5.29556635]
+time=1735920214.3285208 l_pos: [-0.40938094  0.          5.35019231]
+time=1735920214.3287385 r_pos: [-0.30659955  0.          5.24094038]
+time=1735920214.3289347 f_pos: [-0.42354141  0.          5.23389751]
+time=1735920214.328967 Stopping the simulator because we are at an invalid pose.
+time=1735920214.329136 Pos: [-0.37547056  0.          5.27912132] angle 2.3867016325510058
+time=1735920214.3438473 No tile found at [-0.36477661  0.          5.28918191] (-1, 9)
+time=1735920214.344138 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.3441763 safety_factor: 1.0
+time=1735920214.3443267 pos: [-0.36477661  0.          5.28918191]
+time=1735920214.3445632 l_pos: [-0.41616731  0.          5.34380788]
+time=1735920214.3447638 r_pos: [-0.31338591  0.          5.23455595]
+time=1735920214.3448937 f_pos: [-0.43032777  0.          5.22751308]
+time=1735920214.3449268 Stopping the simulator because we are at an invalid pose.
+time=1735920214.3450963 Pos: [-0.38225692  0.          5.27273689] angle 2.3867016325510058
+time=1735920214.3595226 No tile found at [-0.37156297  0.          5.28279748] (-1, 9)
+time=1735920214.359815 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.3598783 safety_factor: 1.0
+time=1735920214.3600988 pos: [-0.37156297  0.          5.28279748]
+time=1735920214.3602695 l_pos: [-0.42295367  0.          5.33742345]
+time=1735920214.3604372 r_pos: [-0.32017227  0.          5.22817151]
+time=1735920214.3606267 f_pos: [-0.43711413  0.          5.22112864]
+time=1735920214.36066 Stopping the simulator because we are at an invalid pose.
+time=1735920214.3607943 Pos: [-0.38904328  0.          5.26635246] angle 2.3867016325510058
+time=1735920214.3753386 No tile found at [-0.37834933  0.          5.27641305] (-1, 9)
+time=1735920214.3756378 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.375678 safety_factor: 1.0
+time=1735920214.3758314 pos: [-0.37834933  0.          5.27641305]
+time=1735920214.3759942 l_pos: [-0.42974003  0.          5.33103901]
+time=1735920214.376121 r_pos: [-0.32695863  0.          5.22178708]
+time=1735920214.3762457 f_pos: [-0.44390049  0.          5.21474421]
+time=1735920214.3762786 Stopping the simulator because we are at an invalid pose.
+time=1735920214.3764179 Pos: [-0.39582964  0.          5.25996802] angle 2.3867016325510058
+time=1735920214.3905609 No tile found at [-0.38513569  0.          5.27002861] (-1, 9)
+time=1735920214.3908675 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.3909159 safety_factor: 1.0
+time=1735920214.3911529 pos: [-0.38513569  0.          5.27002861]
+time=1735920214.3913448 l_pos: [-0.43652639  0.          5.32465458]
+time=1735920214.3915038 r_pos: [-0.33374499  0.          5.21540265]
+time=1735920214.3917043 f_pos: [-0.45068685  0.          5.20835978]
+time=1735920214.39176 Stopping the simulator because we are at an invalid pose.
+time=1735920214.391992 Pos: [-0.402616    0.          5.25358359] angle 2.3867016325510058
+time=1735920214.4064312 No tile found at [-0.39192205  0.          5.26364418] (-1, 8)
+time=1735920214.4067597 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.4068203 safety_factor: 1.0
+time=1735920214.4070644 pos: [-0.39192205  0.          5.26364418]
+time=1735920214.4072669 l_pos: [-0.44331275  0.          5.31827015]
+time=1735920214.4074783 r_pos: [-0.34053136  0.          5.20901821]
+time=1735920214.407648 f_pos: [-0.45747321  0.          5.20197534]
+time=1735920214.4076874 Stopping the simulator because we are at an invalid pose.
+time=1735920214.4079034 Pos: [-0.40940236  0.          5.24719916] angle 2.3867016325510058
+time=1735920214.4229264 No tile found at [-0.39870841  0.          5.25725975] (-1, 8)
+time=1735920214.4231944 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.4232342 safety_factor: 1.0
+time=1735920214.4233882 pos: [-0.39870841  0.          5.25725975]
+time=1735920214.4235501 l_pos: [-0.45009911  0.          5.31188571]
+time=1735920214.4236917 r_pos: [-0.34731772  0.          5.20263378]
+time=1735920214.4238474 f_pos: [-0.46425957  0.          5.19559091]
+time=1735920214.4238877 Stopping the simulator because we are at an invalid pose.
+time=1735920214.424065 Pos: [-0.41618872  0.          5.24081472] angle 2.3867016325510058
+time=1735920214.4385538 No tile found at [-0.40549478  0.          5.25087531] (-1, 8)
+time=1735920214.438833 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.4388688 safety_factor: 1.0
+time=1735920214.4390266 pos: [-0.40549478  0.          5.25087531]
+time=1735920214.439191 l_pos: [-0.45688547  0.          5.30550128]
+time=1735920214.4393694 r_pos: [-0.35410408  0.          5.19624935]
+time=1735920214.4395418 f_pos: [-0.47104594  0.          5.18920648]
+time=1735920214.4395823 Stopping the simulator because we are at an invalid pose.
+time=1735920214.4397364 Pos: [-0.42297508  0.          5.23443029] angle 2.3867016325510058
+time=1735920214.4599054 No tile found at [-0.41228114  0.          5.24449088] (-1, 8)
+time=1735920214.460161 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.460212 safety_factor: 1.0
+time=1735920214.4603767 pos: [-0.41228114  0.          5.24449088]
+time=1735920214.460517 l_pos: [-0.46367183  0.          5.29911685]
+time=1735920214.460689 r_pos: [-0.36089044  0.          5.18986491]
+time=1735920214.460872 f_pos: [-0.4778323   0.          5.18282204]
+time=1735920214.460907 Stopping the simulator because we are at an invalid pose.
+time=1735920214.4610686 Pos: [-0.42976145  0.          5.22804586] angle 2.3867016325510058
+time=1735920214.4755843 No tile found at [-0.4190675   0.          5.23810645] (-1, 8)
+time=1735920214.475863 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.4759102 safety_factor: 1.0
+time=1735920214.4760933 pos: [-0.4190675   0.          5.23810645]
+time=1735920214.4762678 l_pos: [-0.4704582   0.          5.29273241]
+time=1735920214.4764373 r_pos: [-0.3676768   0.          5.18348048]
+time=1735920214.4766092 f_pos: [-0.48461866  0.          5.17643761]
+time=1735920214.4766498 Stopping the simulator because we are at an invalid pose.
+time=1735920214.4768214 Pos: [-0.43654781  0.          5.22166142] angle 2.3867016325510058
+time=1735920214.4912274 No tile found at [-0.42585386  0.          5.23172201] (-1, 8)
+time=1735920214.4914877 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.4915347 safety_factor: 1.0
+time=1735920214.4916925 pos: [-0.42585386  0.          5.23172201]
+time=1735920214.4918694 l_pos: [-0.47724456  0.          5.28634798]
+time=1735920214.4920309 r_pos: [-0.37446316  0.          5.17709605]
+time=1735920214.4921908 f_pos: [-0.49140502  0.          5.17005318]
+time=1735920214.4922302 Stopping the simulator because we are at an invalid pose.
+time=1735920214.4923992 Pos: [-0.44333417  0.          5.21527699] angle 2.3867016325510058
+time=1735920214.5098467 No tile found at [-0.43264022  0.          5.22533758] (-1, 8)
+time=1735920214.510178 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.5102172 safety_factor: 1.0
+time=1735920214.5104454 pos: [-0.43264022  0.          5.22533758]
+time=1735920214.510683 l_pos: [-0.48403092  0.          5.27996355]
+time=1735920214.5109015 r_pos: [-0.38124952  0.          5.17071161]
+time=1735920214.511087 f_pos: [-0.49819138  0.          5.16366874]
+time=1735920214.5111256 Stopping the simulator because we are at an invalid pose.
+time=1735920214.511358 Pos: [-0.45012053  0.          5.20889256] angle 2.3867016325510058
+time=1735920214.5284367 No tile found at [-0.43942658  0.          5.21895315] (-1, 8)
+time=1735920214.5287793 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.52883 safety_factor: 1.0
+time=1735920214.5290656 pos: [-0.43942658  0.          5.21895315]
+time=1735920214.529233 l_pos: [-0.49081728  0.          5.27357911]
+time=1735920214.5294092 r_pos: [-0.38803588  0.          5.16432718]
+time=1735920214.5295825 f_pos: [-0.50497774  0.          5.15728431]
+time=1735920214.5296264 Stopping the simulator because we are at an invalid pose.
+time=1735920214.5298 Pos: [-0.45690689  0.          5.20250812] angle 2.3867016325510058
+time=1735920214.5442448 No tile found at [-0.44621294  0.          5.21256871] (-1, 8)
+time=1735920214.5446343 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.5446932 safety_factor: 1.0
+time=1735920214.5448997 pos: [-0.44621294  0.          5.21256871]
+time=1735920214.5450978 l_pos: [-0.49760364  0.          5.26719468]
+time=1735920214.5452712 r_pos: [-0.39482225  0.          5.15794275]
+time=1735920214.545432 f_pos: [-0.5117641   0.          5.15089988]
+time=1735920214.5454774 Stopping the simulator because we are at an invalid pose.
+time=1735920214.5456574 Pos: [-0.46369325  0.          5.19612369] angle 2.3867016325510058
+time=1735920214.5507889 No tile found at [-0.44699776  0.          5.21336494] (-1, 8)
+time=1735920214.5510917 Invalid pose. Collision free: True On drivable area: False
+time=1735920214.5511296 safety_factor: 1.0
+time=1735920214.5513606 pos: [-0.44699776  0.          5.21336494]
+time=1735920214.5515308 l_pos: [-0.50087667  0.          5.26553834]
+time=1735920214.5516803 r_pos: [-0.39311886  0.          5.16119154]
+time=1735920214.5518608 f_pos: [-0.50960584  0.          5.14871026]
+time=1735920214.5519042 Stopping the simulator because we are at an invalid pose.
+time=1735920214.5520895 Pos: [-0.46369325  0.          5.19612369] angle 2.34011416457989
+0.585
+0.2917303682089535 5.574382875885538
+Generated task keys: dict_keys(['run_times', 'target_coordinates', 'env'])
+Start position (tile): (9, 0)
+Target position (tile): (4, 4)
+Map size: 11 x 7
+Path found: [(0, 1), (0, 1), (-1, 0), (-1, 0), (-1, 0), (0, 1), (0, 1), (-1, 0), (-1, 0)]
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+Error during edge following: Stopping the simulator because we are at an invalid pose.
+total reward =  -292.6486964736546
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
