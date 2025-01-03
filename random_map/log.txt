@@ -1,0 +1,72 @@
+False: Incorrect solution execution: Стартовая или целевая точка находятся в недопустимой позиции.
+time=1735924141.6972017 gym-duckietown 2019.0.0
+
+time=1735924141.797119 Registering gym environment id: Duckietown-4way-v0
+time=1735924141.797198 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1735924141.7972472 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1735924141.7972775 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1735924141.7973258 Registering gym environment id: Duckietown-loop_empty-v0
+time=1735924141.797385 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1735924141.7974207 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1735924141.7974677 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1735924141.7975159 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1735924141.7975602 Registering gym environment id: Duckietown-small_loop-v0
+time=1735924141.7976038 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1735924141.797647 Registering gym environment id: Duckietown-straight_road-v0
+time=1735924141.7976906 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1735924141.7977502 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1735924141.7977955 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1735924141.797839 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1735924141.7978823 Registering gym environment id: Duckietown-udem1-v0
+time=1735924141.7979252 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1735924143.212038 Falling back to non-multisampled frame buffer
+time=1735924143.2137725 Falling back to non-multisampled frame buffer
+time=1735924143.2167187 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1735924143.223827 loading mesh "duckiebot.obj"
+time=1735924143.2239575 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1735924143.4603782 loading texture "curve_right_1.png"
+time=1735924143.4729974 loading texture "straight_1.png"
+time=1735924143.4793918 loading texture "curve_left_1.png"
+time=1735924143.4851003 loading texture "floor_1.png"
+time=1735924143.5597827 loading texture "3way_left_1.png"
+time=1735924143.7420776 loading texture "4way_1.png"
+time=1735924143.9305396 using user tile start: (0, 2)
+time=1735924143.9314291 tile: {'coords': (0, 2), 'kind': '3way_left', 'angle': 0, 'drivable': True, 'curves': array([[[0.1755 , 0.     , 1.17   ],
+        [0.1755 , 0.     , 1.31625],
+        [0.1755 , 0.     , 1.60875],
+        [0.1755 , 0.     , 1.755  ]],
+
+       [[0.1755 , 0.     , 1.17   ],
+        [0.1755 , 0.     , 1.4625 ],
+        [0.2925 , 0.     , 1.5795 ],
+        [0.585  , 0.     , 1.5795 ]],
+
+       [[0.4095 , 0.     , 1.755  ],
+        [0.4095 , 0.     , 1.60875],
+        [0.4095 , 0.     , 1.31625],
+        [0.4095 , 0.     , 1.17   ]],
+
+       [[0.585  , 0.     , 1.3455 ],
+        [0.468  , 0.     , 1.3455 ],
+        [0.4095 , 0.     , 1.3455 ],
+        [0.4095 , 0.     , 1.17   ]],
+
+       [[0.4095 , 0.     , 1.755  ],
+        [0.4095 , 0.     , 1.5795 ],
+        [0.468  , 0.     , 1.5795 ],
+        [0.585  , 0.     , 1.5795 ]],
+
+       [[0.585  , 0.     , 1.3455 ],
+        [0.468  , 0.     , 1.3455 ],
+        [0.1755 , 0.     , 1.4625 ],
+        [0.1755 , 0.     , 1.755  ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f3c04e5c040>, 'color': array([1, 1, 1])}
+time=1735924143.932263 road_tile_size=0.585
+time=1735924143.932499 Starting at [0.2920129  0.         1.48587353] 3.9548963108570283
+time=1735924143.9327245 Pos: [0.2920129  0.         1.48587353] angle 3.9548963108570283
+time=1735924144.0488007 using DuckietownEnv
+time=1735924144.0494967 Target tile: (5, 8)
+0.585
+0.2920129000797026 1.4858735315244676
+Диагностика карты: Стартовая позиция: (2, 0) Целевая позиция: (3, 0) Карта: [['curve_right/N', 'straight/E', 'curve_left/N', 'floor', 'floor', 'floor', 'floor'], ['straight/N', 'floor', 'straight/N', 'floor', 'floor', 'floor', 'floor'], ['3way_left/S', 'straight/E', '3way_left/N', 'floor', 'curve_right/N', 'straight/E', 'curve_left/N'], ['straight/N', 'floor', 'straight/N', 'floor', 'straight/N', 'floor', 'straight/N'], ['curve_right/W', 'straight/E', '4way', 'straight/E', '4way', 'straight/E', 'curve_left/E'], ['floor', 'floor', 'straight/N', 'floor', 'straight/N', 'floor', 'floor'], ['floor', 'floor', 'curve_right/W', 'straight/E', '4way', 'straight/E', 'curve_left/N'], ['floor', 'floor', 'floor', 'floor', 'straight/N', 'floor', 'straight/N'], ['floor', 'floor', 'floor', 'floor', 'curve_right/W', 'straight/E', 'curve_left/E'], ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor'], ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor']]
+total reward =  0
+False: Incorrect solution execution: Стартовая или целевая точка находятся в недопустимой позиции.
