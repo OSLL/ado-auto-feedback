@@ -1,0 +1,101 @@
+False: Incorrect solution execution: Путь от стартовой до целевой клетки не найден
+time=1735978717.3228881 gym-duckietown 2019.0.0
+
+time=1735978717.423025 Registering gym environment id: Duckietown-4way-v0
+time=1735978717.423103 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1735978717.423137 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1735978717.423166 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1735978717.423218 Registering gym environment id: Duckietown-loop_empty-v0
+time=1735978717.4233003 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1735978717.4233973 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1735978717.4234715 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1735978717.4235156 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1735978717.4235628 Registering gym environment id: Duckietown-small_loop-v0
+time=1735978717.423617 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1735978717.423666 Registering gym environment id: Duckietown-straight_road-v0
+time=1735978717.4237192 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1735978717.4237673 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1735978717.4238212 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1735978717.423868 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1735978717.4239237 Registering gym environment id: Duckietown-udem1-v0
+time=1735978717.4239707 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1735978719.1152174 Falling back to non-multisampled frame buffer
+time=1735978719.117074 Falling back to non-multisampled frame buffer
+time=1735978719.1201468 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1735978719.1276507 loading mesh "duckiebot.obj"
+time=1735978719.1278129 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1735978719.3625166 loading texture "floor_1.png"
+time=1735978719.445987 loading texture "curve_right_1.png"
+time=1735978719.45214 loading texture "curve_left_1.png"
+time=1735978719.4581933 loading texture "straight_1.png"
+time=1735978719.4637687 loading texture "4way_1.png"
+time=1735978719.654302 loading texture "3way_left_1.png"
+time=1735978719.8474364 using user tile start: (2, 1)
+time=1735978719.8487124 tile: {'coords': (2, 1), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[1.3455 , 0.     , 0.585  ],
+        [1.3455 , 0.     , 0.8775 ],
+        [1.4625 , 0.     , 0.9945 ],
+        [1.755  , 0.     , 0.9945 ]],
+
+       [[1.3455 , 0.     , 0.585  ],
+        [1.3455 , 0.     , 0.73125],
+        [1.3455 , 0.     , 1.02375],
+        [1.3455 , 0.     , 1.17   ]],
+
+       [[1.3455 , 0.     , 0.585  ],
+        [1.3455 , 0.     , 0.7605 ],
+        [1.287  , 0.     , 0.7605 ],
+        [1.17   , 0.     , 0.7605 ]],
+
+       [[1.17   , 0.     , 0.9945 ],
+        [1.4625 , 0.     , 0.9945 ],
+        [1.5795 , 0.     , 0.8775 ],
+        [1.5795 , 0.     , 0.585  ]],
+
+       [[1.17   , 0.     , 0.9945 ],
+        [1.31625, 0.     , 0.9945 ],
+        [1.60875, 0.     , 0.9945 ],
+        [1.755  , 0.     , 0.9945 ]],
+
+       [[1.17   , 0.     , 0.9945 ],
+        [1.3455 , 0.     , 0.9945 ],
+        [1.3455 , 0.     , 1.053  ],
+        [1.3455 , 0.     , 1.17   ]],
+
+       [[1.5795 , 0.     , 1.17   ],
+        [1.5795 , 0.     , 0.8775 ],
+        [1.4625 , 0.     , 0.7605 ],
+        [1.17   , 0.     , 0.7605 ]],
+
+       [[1.5795 , 0.     , 1.17   ],
+        [1.5795 , 0.     , 1.02375],
+        [1.5795 , 0.     , 0.73125],
+        [1.5795 , 0.     , 0.585  ]],
+
+       [[1.5795 , 0.     , 1.17   ],
+        [1.5795 , 0.     , 0.9945 ],
+        [1.638  , 0.     , 0.9945 ],
+        [1.755  , 0.     , 0.9945 ]],
+
+       [[1.755  , 0.     , 0.7605 ],
+        [1.4625 , 0.     , 0.7605 ],
+        [1.3455 , 0.     , 0.8775 ],
+        [1.3455 , 0.     , 1.17   ]],
+
+       [[1.755  , 0.     , 0.7605 ],
+        [1.60875, 0.     , 0.7605 ],
+        [1.31625, 0.     , 0.7605 ],
+        [1.17   , 0.     , 0.7605 ]],
+
+       [[1.755  , 0.     , 0.7605 ],
+        [1.5795 , 0.     , 0.7605 ],
+        [1.5795 , 0.     , 0.702  ],
+        [1.5795 , 0.     , 0.585  ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fccd254f040>, 'color': array([1, 1, 1])}
+time=1735978719.8496053 road_tile_size=0.585
+time=1735978719.8498044 Starting at [1.44515946 0.         0.86632024] 5.115981521789474
+time=1735978719.8500001 Pos: [1.44515946 0.         0.86632024] angle 5.115981521789474
+time=1735978719.970486 using DuckietownEnv
+time=1735978719.9714 Target tile: (6, 8)
+0.585
+1.4451594592750368 0.8663202436521927
+total reward =  0
+False: Incorrect solution execution: Путь от стартовой до целевой клетки не найден
