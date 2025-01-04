@@ -1,0 +1,91 @@
+False: Incorrect solution execution: Путь от стартовой до целевой клетки не найден
+time=1735980236.4703438 gym-duckietown 2019.0.0
+
+time=1735980236.5708907 Registering gym environment id: Duckietown-4way-v0
+time=1735980236.5709682 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1735980236.5710151 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1735980236.571081 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1735980236.5711243 Registering gym environment id: Duckietown-loop_empty-v0
+time=1735980236.5711658 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1735980236.5712302 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1735980236.5713027 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1735980236.5713444 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1735980236.5713856 Registering gym environment id: Duckietown-small_loop-v0
+time=1735980236.5714276 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1735980236.571468 Registering gym environment id: Duckietown-straight_road-v0
+time=1735980236.5715077 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1735980236.5715485 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1735980236.5715904 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1735980236.571631 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1735980236.5716732 Registering gym environment id: Duckietown-udem1-v0
+time=1735980236.5717165 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1735980237.9501307 Falling back to non-multisampled frame buffer
+time=1735980237.95186 Falling back to non-multisampled frame buffer
+time=1735980237.9543428 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1735980237.961313 loading mesh "duckiebot.obj"
+time=1735980237.9615066 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1735980238.2082758 loading texture "floor_1.png"
+time=1735980238.2908344 loading texture "curve_right_1.png"
+time=1735980238.2967577 loading texture "straight_1.png"
+time=1735980238.3025024 loading texture "curve_left_1.png"
+time=1735980238.3099892 loading texture "4way_1.png"
+time=1735980238.4943347 loading texture "3way_left_1.png"
+time=1735980238.6844378 using user tile start: (4, 5)
+time=1735980238.6850042 tile: {'coords': (4, 5), 'kind': 'straight', 'angle': 2, 'drivable': True, 'curves': array([[[2.7495 , 0.     , 3.51   ],
+        [2.7495 , 0.     , 3.36375],
+        [2.7495 , 0.     , 3.07125],
+        [2.7495 , 0.     , 2.925  ]],
+
+       [[2.5155 , 0.     , 2.925  ],
+        [2.5155 , 0.     , 3.07125],
+        [2.5155 , 0.     , 3.36375],
+        [2.5155 , 0.     , 3.51   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f4c05e6eb50>, 'color': array([1, 1, 1])}
+time=1735980238.6858711 road_tile_size=0.585
+time=1735980238.6860604 Starting at [2.62766878 0.         3.19130751] 4.601203675374087
+time=1735980238.6863062 Pos: [2.62766878 0.         3.19130751] angle 4.601203675374087
+time=1735980238.8046267 using DuckietownEnv
+time=1735980238.805275 Target tile: (0, 1)
+0.585
+2.6276687777178123 3.191307505644094
+Соседи для (4, 5): [(4, 4), (4, 6)]
+Соседи для (4, 4): [(3, 4), (5, 4), (4, 3), (4, 5)]
+Соседи для (3, 4): [(2, 4), (4, 4)]
+Соседи для (2, 4): [(1, 4), (3, 4)]
+Соседи для (1, 4): [(2, 4), (1, 5)]
+Соседи для (4, 3): [(4, 2), (4, 4)]
+Соседи для (4, 2): [(3, 2), (5, 2), (4, 1), (4, 3)]
+Соседи для (3, 2): [(2, 2), (4, 2)]
+Соседи для (2, 2): [(1, 2), (3, 2)]
+Соседи для (1, 2): [(2, 2), (1, 1)]
+Соседи для (1, 1): [(1, 0), (1, 2)]
+Соседи для (1, 0): [(2, 0), (1, 1)]
+Соседи для (4, 1): [(4, 0), (4, 2)]
+Соседи для (4, 0): [(3, 0), (4, 1)]
+Соседи для (3, 0): [(2, 0), (4, 0)]
+Соседи для (2, 0): [(1, 0), (3, 0)]
+Соседи для (1, 5): [(1, 4), (1, 6)]
+Соседи для (2, 0): [(1, 0), (3, 0)]
+Соседи для (4, 6): [(3, 6), (5, 6), (4, 5)]
+Соседи для (3, 6): [(2, 6), (4, 6)]
+Соседи для (2, 6): [(1, 6), (3, 6)]
+Соседи для (1, 6): [(2, 6), (1, 5)]
+Соседи для (5, 2): [(4, 2), (6, 2)]
+Соседи для (5, 4): [(4, 4), (6, 4)]
+Соседи для (1, 6): [(2, 6), (1, 5)]
+Соседи для (5, 6): [(4, 6), (6, 6)]
+Соседи для (6, 2): [(5, 2), (7, 2), (6, 1), (6, 3)]
+Соседи для (6, 1): [(6, 0), (6, 2)]
+Соседи для (6, 0): [(7, 0), (6, 1)]
+Соседи для (6, 4): [(5, 4), (6, 3), (6, 5)]
+Соседи для (6, 3): [(6, 2), (6, 4)]
+Соседи для (6, 3): [(6, 2), (6, 4)]
+Соседи для (6, 5): [(6, 4), (6, 6)]
+Соседи для (6, 6): [(5, 6), (6, 5)]
+Соседи для (7, 0): [(6, 0), (8, 0)]
+Соседи для (7, 2): [(6, 2), (8, 2)]
+Соседи для (8, 0): [(7, 0), (8, 1)]
+Соседи для (8, 2): [(7, 2), (8, 1)]
+Соседи для (8, 1): [(8, 0), (8, 2)]
+Соседи для (8, 1): [(8, 0), (8, 2)]
+total reward =  0
+False: Incorrect solution execution: Путь от стартовой до целевой клетки не найден
