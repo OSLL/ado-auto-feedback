@@ -1,0 +1,868 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1736345471.1060445 gym-duckietown 2019.0.0
+
+time=1736345471.2056482 Registering gym environment id: Duckietown-4way-v0
+time=1736345471.205731 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1736345471.2057908 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1736345471.2058606 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1736345471.2059412 Registering gym environment id: Duckietown-loop_empty-v0
+time=1736345471.2060163 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1736345471.2060866 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1736345471.2061243 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1736345471.2061765 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1736345471.2062228 Registering gym environment id: Duckietown-small_loop-v0
+time=1736345471.2062726 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1736345471.2063136 Registering gym environment id: Duckietown-straight_road-v0
+time=1736345471.206356 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1736345471.2064002 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1736345471.2064474 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1736345471.206496 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1736345471.2065399 Registering gym environment id: Duckietown-udem1-v0
+time=1736345471.2065866 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1736345472.4395072 Falling back to non-multisampled frame buffer
+time=1736345472.4412966 Falling back to non-multisampled frame buffer
+time=1736345472.4438813 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1736345472.4506655 loading mesh "duckiebot.obj"
+time=1736345472.4507966 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1736345472.6875715 loading mesh "trafficlight.obj"
+time=1736345472.6877022 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1736345472.711375 loading texture "trafficlight_card.jpg"
+time=1736345473.907739 loading texture "trafficlight_cover.jpg"
+time=1736345475.1260157 loading texture "trafficlight_card0.jpg"
+time=1736345476.348397 loading texture "trafficlight_card1.jpg"
+time=1736345477.5696213 loading texture "trafficlight_card0.jpg"
+time=1736345478.7958786 loading texture "trafficlight_card1.jpg"
+time=1736345480.0341215 loading texture "trafficlight_card0.jpg"
+time=1736345481.2545116 loading texture "trafficlight_card1.jpg"
+time=1736345482.5045063 loading texture "trafficlight_card0.jpg"
+time=1736345483.7332475 loading texture "trafficlight_card1.jpg"
+time=1736345484.9586248 loading texture "trafficlight_card0.jpg"
+time=1736345486.1713634 loading texture "trafficlight_card1.jpg"
+time=1736345487.404404 loading texture "trafficlight_card0.jpg"
+time=1736345488.6631753 loading texture "trafficlight_card1.jpg"
+time=1736345489.9016924 loading texture "straight_1.png"
+time=1736345489.9097013 road_tile_size=0.585
+time=1736345489.9099796 Starting at [0.2925 0.     0.2925] 0
+time=1736345489.9102128 Pos: [0.2925 0.     0.2925] angle 0
+time=1736345490.074898 using DuckietownEnv
+time=1736345490.2115326 Pos: [0.3325 0.     0.2925] angle 0
+time=1736345490.3782048 Pos: [0.3725 0.     0.2925] angle 0
+time=1736345490.4375145 Pos: [0.4125 0.     0.2925] angle 0
+time=1736345490.483954 Pos: [0.4525 0.     0.2925] angle 0
+time=1736345490.5300062 Pos: [0.4925 0.     0.2925] angle 0
+time=1736345490.5751007 Pos: [0.5325 0.     0.2925] angle 0
+time=1736345490.621736 Pos: [0.5725 0.     0.2925] angle 0
+time=1736345490.6660948 Pos: [0.6125 0.     0.2925] angle 0
+time=1736345490.7119327 Pos: [0.6525 0.     0.2925] angle 0
+time=1736345490.7561123 Pos: [0.6925 0.     0.2925] angle 0
+time=1736345490.8005817 Pos: [0.7325 0.     0.2925] angle 0
+time=1736345490.844936 Pos: [0.7725 0.     0.2925] angle 0
+time=1736345490.8892455 Pos: [0.8125 0.     0.2925] angle 0
+time=1736345490.9353082 Pos: [0.8525 0.     0.2925] angle 0
+time=1736345490.9800453 Pos: [0.8925 0.     0.2925] angle 0
+time=1736345491.0312283 Pos: [0.9325 0.     0.2925] angle 0
+time=1736345491.0915399 Pos: [0.9725 0.     0.2925] angle 0
+time=1736345491.1364756 Pos: [1.0125 0.     0.2925] angle 0
+time=1736345491.1807766 Pos: [1.0525 0.     0.2925] angle 0
+time=1736345491.2247996 Pos: [1.0925 0.     0.2925] angle 0
+time=1736345491.2691581 Pos: [1.1325 0.     0.2925] angle 0
+time=1736345491.315411 Pos: [1.1725 0.     0.2925] angle 0
+time=1736345491.3609486 Pos: [1.2125 0.     0.2925] angle 0
+time=1736345491.404572 Pos: [1.2525 0.     0.2925] angle 0
+time=1736345491.4485354 Pos: [1.2925 0.     0.2925] angle 0
+time=1736345491.4932477 Pos: [1.3325 0.     0.2925] angle 0
+time=1736345491.5379627 Pos: [1.3725 0.     0.2925] angle 0
+time=1736345491.5829937 Pos: [1.4125 0.     0.2925] angle 0
+time=1736345491.628923 Pos: [1.4525 0.     0.2925] angle 0
+time=1736345491.673221 Pos: [1.4925 0.     0.2925] angle 0
+time=1736345491.7172937 Pos: [1.5325 0.     0.2925] angle 0
+time=1736345491.7619135 Pos: [1.5725 0.     0.2925] angle 0
+time=1736345491.8072937 Pos: [1.6125 0.     0.2925] angle 0
+time=1736345491.8542972 Pos: [1.6525 0.     0.2925] angle 0
+time=1736345491.8982224 Pos: [1.6925 0.     0.2925] angle 0
+time=1736345491.942485 Pos: [1.7325 0.     0.2925] angle 0
+time=1736345491.986574 Pos: [1.7725 0.     0.2925] angle 0
+time=1736345492.0321226 Pos: [1.8125 0.     0.2925] angle 0
+time=1736345492.0905132 Pos: [1.8525 0.     0.2925] angle 0
+time=1736345492.139273 Pos: [1.8925 0.     0.2925] angle 0
+time=1736345492.1851144 Pos: [1.9325 0.     0.2925] angle 0
+time=1736345492.2292528 Pos: [1.9725 0.     0.2925] angle 0
+time=1736345492.2737544 Pos: [2.0125 0.     0.2925] angle 0
+time=1736345492.317818 Pos: [2.0525 0.     0.2925] angle 0
+time=1736345492.3624115 Pos: [2.0925 0.     0.2925] angle 0
+time=1736345492.4090686 Pos: [2.1325 0.     0.2925] angle 0
+time=1736345492.4534802 Pos: [2.1725 0.     0.2925] angle 0
+time=1736345492.5001705 Pos: [2.2125 0.     0.2925] angle 0
+time=1736345492.5440686 Pos: [2.2525 0.     0.2925] angle 0
+time=1736345492.5894055 Pos: [2.2925 0.     0.2925] angle 0
+time=1736345492.6340628 Pos: [2.3325 0.     0.2925] angle 0
+time=1736345492.6785371 Pos: [2.3725 0.     0.2925] angle 0
+time=1736345492.723009 Pos: [2.4125 0.     0.2925] angle 0
+time=1736345492.7665634 Pos: [2.4525 0.     0.2925] angle 0
+time=1736345492.8107574 Pos: [2.4925 0.     0.2925] angle 0
+time=1736345492.8552663 Pos: [2.5325 0.     0.2925] angle 0
+time=1736345492.8985639 Pos: [2.5725 0.     0.2925] angle 0
+time=1736345492.9424217 Pos: [2.6125 0.     0.2925] angle 0
+time=1736345492.986893 Pos: [2.6525 0.     0.2925] angle 0
+time=1736345493.0344794 Pos: [2.6925 0.     0.2925] angle 0
+time=1736345493.0787241 Pos: [2.7325 0.     0.2925] angle 0
+time=1736345493.1256564 Pos: [2.7725 0.     0.2925] angle 0
+time=1736345493.169385 Pos: [2.8125 0.     0.2925] angle 0
+time=1736345493.2145975 Pos: [2.8525 0.     0.2925] angle 0
+time=1736345493.2593856 Pos: [2.8925 0.     0.2925] angle 0
+time=1736345493.30328 Pos: [2.9325 0.     0.2925] angle 0
+time=1736345493.3472974 Pos: [2.9725 0.     0.2925] angle 0
+time=1736345493.3916726 Pos: [3.0125 0.     0.2925] angle 0
+time=1736345493.4353366 Pos: [3.0525 0.     0.2925] angle 0
+time=1736345493.479292 Pos: [3.0925 0.     0.2925] angle 0
+time=1736345493.5228648 Pos: [3.1325 0.     0.2925] angle 0
+time=1736345493.5671782 Pos: [3.1725 0.     0.2925] angle 0
+time=1736345493.6111095 Pos: [3.2125 0.     0.2925] angle 0
+time=1736345493.6555817 Pos: [3.2525 0.     0.2925] angle 0
+time=1736345493.6992466 Pos: [3.2925 0.     0.2925] angle 0
+time=1736345493.7429032 Pos: [3.3325 0.     0.2925] angle 0
+time=1736345493.7866411 Pos: [3.3725 0.     0.2925] angle 0
+time=1736345493.8305535 Pos: [3.4125 0.     0.2925] angle 0
+time=1736345493.874621 Pos: [3.4525 0.     0.2925] angle 0
+time=1736345493.9182022 Pos: [3.4925 0.     0.2925] angle 0
+time=1736345493.9622197 Pos: [3.5325 0.     0.2925] angle 0
+time=1736345494.0104244 Pos: [3.5725 0.     0.2925] angle 0
+time=1736345494.0550103 Pos: [3.6125 0.     0.2925] angle 0
+time=1736345494.0990455 Pos: [3.6525 0.     0.2925] angle 0
+time=1736345494.1431074 Pos: [3.6925 0.     0.2925] angle 0
+time=1736345494.1892638 Pos: [3.7325 0.     0.2925] angle 0
+time=1736345494.2331793 Pos: [3.7725 0.     0.2925] angle 0
+time=1736345494.2775486 Pos: [3.8125 0.     0.2925] angle 0
+time=1736345494.3221374 Pos: [3.8525 0.     0.2925] angle 0
+time=1736345494.3662782 Pos: [3.8925 0.     0.2925] angle 0
+time=1736345494.410052 Pos: [3.9325 0.     0.2925] angle 0
+time=1736345494.4538038 Pos: [3.9725 0.     0.2925] angle 0
+time=1736345494.4974368 Pos: [4.0125 0.     0.2925] angle 0
+time=1736345494.5431643 Pos: [4.0525 0.     0.2925] angle 0
+time=1736345494.5888286 Pos: [4.0925 0.     0.2925] angle 0
+time=1736345494.6362834 Pos: [4.1325 0.     0.2925] angle 0
+time=1736345494.6798606 Pos: [4.1725 0.     0.2925] angle 0
+time=1736345494.7259052 Pos: [4.2125 0.     0.2925] angle 0
+time=1736345494.769387 Pos: [4.2525 0.     0.2925] angle 0
+time=1736345494.8126438 Pos: [4.2925 0.     0.2925] angle 0
+time=1736345494.85583 Pos: [4.3325 0.     0.2925] angle 0
+time=1736345494.8985465 Pos: [4.3725 0.     0.2925] angle 0
+time=1736345494.941592 Pos: [4.4125 0.     0.2925] angle 0
+time=1736345494.984736 Pos: [4.4525 0.     0.2925] angle 0
+time=1736345495.0288217 Pos: [4.4925 0.     0.2925] angle 0
+time=1736345495.0716143 Pos: [4.5325 0.     0.2925] angle 0
+time=1736345495.1141765 Pos: [4.5725 0.     0.2925] angle 0
+time=1736345495.1569467 Pos: [4.6125 0.     0.2925] angle 0
+time=1736345495.20207 Pos: [4.6525 0.     0.2925] angle 0
+time=1736345495.251158 Pos: [4.6925 0.     0.2925] angle 0
+time=1736345495.293653 Pos: [4.7325 0.     0.2925] angle 0
+time=1736345495.336632 Pos: [4.7725 0.     0.2925] angle 0
+time=1736345495.3807118 Pos: [4.8125 0.     0.2925] angle 0
+time=1736345495.4232316 Pos: [4.8525 0.     0.2925] angle 0
+time=1736345495.465852 Pos: [4.8925 0.     0.2925] angle 0
+time=1736345495.5084877 Pos: [4.9325 0.     0.2925] angle 0
+time=1736345495.5513039 Pos: [4.9725 0.     0.2925] angle 0
+time=1736345495.5942085 Pos: [5.0125 0.     0.2925] angle 0
+time=1736345495.6371624 Pos: [5.0525 0.     0.2925] angle 0
+time=1736345495.6801443 Pos: [5.0925 0.     0.2925] angle 0
+time=1736345495.7264268 Pos: [5.1325 0.     0.2925] angle 0
+time=1736345495.7702177 Pos: [5.1725 0.     0.2925] angle 0
+time=1736345495.8129897 Pos: [5.2125 0.     0.2925] angle 0
+time=1736345495.8561532 Pos: [5.2525 0.     0.2925] angle 0
+time=1736345495.8989604 Pos: [5.2925 0.     0.2925] angle 0
+time=1736345495.9415104 Pos: [5.3325 0.     0.2925] angle 0
+time=1736345495.9843175 Pos: [5.3725 0.     0.2925] angle 0
+time=1736345496.0277565 Pos: [5.4125 0.     0.2925] angle 0
+time=1736345496.0710225 Pos: [5.4525 0.     0.2925] angle 0
+time=1736345496.1143284 Pos: [5.4925 0.     0.2925] angle 0
+time=1736345496.158092 Pos: [5.5325 0.     0.2925] angle 0
+time=1736345496.205525 Pos: [5.5725 0.     0.2925] angle 0
+time=1736345496.2488496 Pos: [5.6125 0.     0.2925] angle 0
+time=1736345496.292662 Pos: [5.6525 0.     0.2925] angle 0
+time=1736345496.335928 Pos: [5.6925 0.     0.2925] angle 0
+time=1736345496.3817883 Pos: [5.7325 0.     0.2925] angle 0
+time=1736345496.424763 Pos: [5.7725 0.     0.2925] angle 0
+time=1736345496.4675956 Pos: [5.8125 0.     0.2925] angle 0
+time=1736345496.51023 Pos: [5.8525 0.     0.2925] angle 0
+time=1736345496.5548239 Pos: [5.8925 0.     0.2925] angle 0
+time=1736345496.59705 Pos: [5.9325 0.     0.2925] angle 0
+time=1736345496.6395197 Pos: [5.9725 0.     0.2925] angle 0
+time=1736345496.6821947 Pos: [6.0125 0.     0.2925] angle 0
+time=1736345496.7259042 Pos: [6.0525 0.     0.2925] angle 0
+time=1736345496.7684224 Pos: [6.0925 0.     0.2925] angle 0
+time=1736345496.8114944 Pos: [6.1325 0.     0.2925] angle 0
+time=1736345496.8542738 Pos: [6.1725 0.     0.2925] angle 0
+time=1736345496.8964596 Pos: [6.2125 0.     0.2925] angle 0
+time=1736345496.9391983 Pos: [6.2525 0.     0.2925] angle 0
+time=1736345496.9814923 Pos: [6.2925 0.     0.2925] angle 0
+time=1736345497.0237322 Pos: [6.3325 0.     0.2925] angle 0
+0.585
+0.2925 0.2925
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+time=1736345497.0657682 Pos: [6.3725 0.     0.2925] angle 0
+time=1736345497.1076558 Pos: [6.4125 0.     0.2925] angle 0
+time=1736345497.1498585 Pos: [6.4525 0.     0.2925] angle 0
+time=1736345497.1915233 Pos: [6.4925 0.     0.2925] angle 0
+time=1736345497.2332313 Pos: [6.5325 0.     0.2925] angle 0
+time=1736345497.2748775 Pos: [6.5725 0.     0.2925] angle 0
+time=1736345497.3177564 Pos: [6.6125 0.     0.2925] angle 0
+time=1736345497.3597033 Pos: [6.6525 0.     0.2925] angle 0
+time=1736345497.4028723 Pos: [6.6925 0.     0.2925] angle 0
+time=1736345497.4444454 Pos: [6.7325 0.     0.2925] angle 0
+time=1736345497.4864044 Pos: [6.7725 0.     0.2925] angle 0
+time=1736345497.5284529 Pos: [6.8125 0.     0.2925] angle 0
+time=1736345497.5702424 Pos: [6.8525 0.     0.2925] angle 0
+time=1736345497.6151097 Pos: [6.8925 0.     0.2925] angle 0
+time=1736345497.6571946 Pos: [6.9325 0.     0.2925] angle 0
+time=1736345497.6989174 Pos: [6.9725 0.     0.2925] angle 0
+time=1736345497.7460203 Pos: [7.0125 0.     0.2925] angle 0
+time=1736345497.7883866 Pos: [7.0525 0.     0.2925] angle 0
+time=1736345497.831292 Pos: [7.0925 0.     0.2925] angle 0
+time=1736345497.8739536 Pos: [7.1325 0.     0.2925] angle 0
+time=1736345497.915573 Pos: [7.1725 0.     0.2925] angle 0
+time=1736345497.9575741 Pos: [7.2125 0.     0.2925] angle 0
+time=1736345497.999613 Pos: [7.2525 0.     0.2925] angle 0
+time=1736345498.042484 Pos: [7.2925 0.     0.2925] angle 0
+time=1736345498.0847054 Pos: [7.3325 0.     0.2925] angle 0
+time=1736345498.1268897 Pos: [7.3725 0.     0.2925] angle 0
+time=1736345498.1693444 Pos: [7.4125 0.     0.2925] angle 0
+time=1736345498.2118444 Pos: [7.4525 0.     0.2925] angle 0
+time=1736345498.2539694 Pos: [7.4925 0.     0.2925] angle 0
+time=1736345498.2979903 Pos: [7.5325 0.     0.2925] angle 0
+time=1736345498.3407843 Pos: [7.5725 0.     0.2925] angle 0
+time=1736345498.3827386 Pos: [7.6125 0.     0.2925] angle 0
+time=1736345498.423893 Pos: [7.6525 0.     0.2925] angle 0
+time=1736345498.4652672 Pos: [7.6925 0.     0.2925] angle 0
+time=1736345498.506544 Pos: [7.7325 0.     0.2925] angle 0
+time=1736345498.5475678 Pos: [7.7725 0.     0.2925] angle 0
+time=1736345498.5892506 Pos: [7.8125 0.     0.2925] angle 0
+time=1736345498.630842 Pos: [7.8525 0.     0.2925] angle 0
+time=1736345498.6724188 Pos: [7.8925 0.     0.2925] angle 0
+time=1736345498.7163212 Pos: [7.9325 0.     0.2925] angle 0
+time=1736345498.7576926 Pos: [7.9725 0.     0.2925] angle 0
+time=1736345498.8015394 Pos: [8.0125 0.     0.2925] angle 0
+time=1736345498.843008 Pos: [8.0525 0.     0.2925] angle 0
+time=1736345498.8867373 Pos: [8.0925 0.     0.2925] angle 0
+time=1736345498.9276717 Pos: [8.1325 0.     0.2925] angle 0
+time=1736345498.9711366 Pos: [8.1725 0.     0.2925] angle 0
+time=1736345499.0139742 Pos: [8.2125 0.     0.2925] angle 0
+time=1736345499.0551305 Pos: [8.2525 0.     0.2925] angle 0
+time=1736345499.0969605 Pos: [8.2925 0.     0.2925] angle 0
+time=1736345499.140292 Pos: [8.3325 0.     0.2925] angle 0
+time=1736345499.181584 Pos: [8.3725 0.     0.2925] angle 0
+time=1736345499.222483 Pos: [8.4125 0.     0.2925] angle 0
+time=1736345499.2632773 Pos: [8.4525 0.     0.2925] angle 0
+time=1736345499.3038497 Pos: [8.4925 0.     0.2925] angle 0
+time=1736345499.3458838 Pos: [8.5325 0.     0.2925] angle 0
+time=1736345499.387117 Pos: [8.5725 0.     0.2925] angle 0
+time=1736345499.4285653 Pos: [8.6125 0.     0.2925] angle 0
+time=1736345499.4695811 Pos: [8.6525 0.     0.2925] angle 0
+time=1736345499.5105624 Pos: [8.6925 0.     0.2925] angle 0
+time=1736345499.551584 Pos: [8.7325 0.     0.2925] angle 0
+time=1736345499.5952778 Pos: [8.7725 0.     0.2925] angle 0
+time=1736345499.6387331 Pos: [8.8125 0.     0.2925] angle 0
+time=1736345499.680831 Pos: [8.8525 0.     0.2925] angle 0
+time=1736345499.724812 Pos: [8.8925 0.     0.2925] angle 0
+time=1736345499.7684422 Pos: [8.9325 0.     0.2925] angle 0
+time=1736345499.8123734 Pos: [8.9725 0.     0.2925] angle 0
+time=1736345499.8544676 Pos: [9.0125 0.     0.2925] angle 0
+time=1736345499.8953693 Pos: [9.0525 0.     0.2925] angle 0
+time=1736345499.9367564 Pos: [9.0925 0.     0.2925] angle 0
+time=1736345499.9781501 Pos: [9.1325 0.     0.2925] angle 0
+time=1736345500.0206978 Pos: [9.1725 0.     0.2925] angle 0
+time=1736345500.0615153 Pos: [9.2125 0.     0.2925] angle 0
+time=1736345500.1029203 Pos: [9.2525 0.     0.2925] angle 0
+time=1736345500.1432343 Pos: [9.2925 0.     0.2925] angle 0
+time=1736345500.1873806 Pos: [9.3325 0.     0.2925] angle 0
+time=1736345500.229292 Pos: [9.3725 0.     0.2925] angle 0
+time=1736345500.2694626 Pos: [9.4125 0.     0.2925] angle 0
+time=1736345500.309687 Pos: [9.4525 0.     0.2925] angle 0
+time=1736345500.3505216 Pos: [9.4925 0.     0.2925] angle 0
+time=1736345500.390971 Pos: [9.5325 0.     0.2925] angle 0
+time=1736345500.432003 Pos: [9.5725 0.     0.2925] angle 0
+time=1736345500.4724863 Pos: [9.6125 0.     0.2925] angle 0
+time=1736345500.5148902 Pos: [9.6525 0.     0.2925] angle 0
+time=1736345500.5560474 Pos: [9.6925 0.     0.2925] angle 0
+time=1736345500.5963185 Pos: [9.7325 0.     0.2925] angle 0
+time=1736345500.636981 Pos: [9.7725 0.     0.2925] angle 0
+time=1736345500.6774006 Pos: [9.8125 0.     0.2925] angle 0
+time=1736345500.7172709 Pos: [9.8525 0.     0.2925] angle 0
+time=1736345500.7564774 Pos: [9.8925 0.     0.2925] angle 0
+time=1736345500.7962346 Pos: [9.9325 0.     0.2925] angle 0
+time=1736345500.8366756 Pos: [9.9725 0.     0.2925] angle 0
+time=1736345500.876466 Pos: [10.0125  0.      0.2925] angle 0
+time=1736345500.9186587 Pos: [10.0525  0.      0.2925] angle 0
+time=1736345500.9579897 Pos: [10.0925  0.      0.2925] angle 0
+time=1736345500.9971318 Pos: [10.1325  0.      0.2925] angle 0
+time=1736345501.0404546 Pos: [10.1725  0.      0.2925] angle 0
+time=1736345501.0831888 Pos: [10.2125  0.      0.2925] angle 0
+time=1736345501.1298652 Pos: [10.2525  0.      0.2925] angle 0
+time=1736345501.1695454 Pos: [10.2925  0.      0.2925] angle 0
+time=1736345501.2092035 Pos: [10.3325  0.      0.2925] angle 0
+time=1736345501.269482 Pos: [10.3725  0.      0.2925] angle 0
+time=1736345501.3097122 Pos: [10.4125  0.      0.2925] angle 0
+time=1736345501.349829 Pos: [10.4525  0.      0.2925] angle 0
+time=1736345501.390069 Pos: [10.4925  0.      0.2925] angle 0
+time=1736345501.433046 Pos: [10.5325  0.      0.2925] angle 0
+time=1736345501.472405 Pos: [10.5725  0.      0.2925] angle 0
+time=1736345501.512025 Pos: [10.6125  0.      0.2925] angle 0
+time=1736345501.5508943 Pos: [10.6525  0.      0.2925] angle 0
+time=1736345501.5904381 Pos: [10.6925  0.      0.2925] angle 0
+time=1736345501.632362 Pos: [10.7325  0.      0.2925] angle 0
+time=1736345501.6734846 Pos: [10.7725  0.      0.2925] angle 0
+time=1736345501.7131634 Pos: [10.8125  0.      0.2925] angle 0
+time=1736345501.7549775 Pos: [10.8525  0.      0.2925] angle 0
+time=1736345501.7940063 Pos: [10.8925  0.      0.2925] angle 0
+time=1736345501.8367178 Pos: [10.9325  0.      0.2925] angle 0
+time=1736345501.8763208 Pos: [10.9725  0.      0.2925] angle 0
+time=1736345501.915789 Pos: [11.0125  0.      0.2925] angle 0
+time=1736345501.9556174 Pos: [11.0525  0.      0.2925] angle 0
+time=1736345501.9950492 Pos: [11.0925  0.      0.2925] angle 0
+time=1736345502.0353878 Pos: [11.1325  0.      0.2925] angle 0
+time=1736345502.0743268 Pos: [11.1725  0.      0.2925] angle 0
+time=1736345502.1132636 Pos: [11.2125  0.      0.2925] angle 0
+time=1736345502.152203 Pos: [11.2525  0.      0.2925] angle 0
+time=1736345502.1912017 Pos: [11.2925  0.      0.2925] angle 0
+time=1736345502.2328935 Pos: [11.3325  0.      0.2925] angle 0
+time=1736345502.2716415 Pos: [11.3725  0.      0.2925] angle 0
+time=1736345502.311527 Pos: [11.4125  0.      0.2925] angle 0
+time=1736345502.3512766 Pos: [11.4525  0.      0.2925] angle 0
+time=1736345502.3902075 Pos: [11.4925  0.      0.2925] angle 0
+time=1736345502.4287868 Pos: [11.5325  0.      0.2925] angle 0
+time=1736345502.4673753 Pos: [11.5725  0.      0.2925] angle 0
+time=1736345502.5060134 Pos: [11.6125  0.      0.2925] angle 0
+time=1736345502.5442593 Pos: [11.6525  0.      0.2925] angle 0
+time=1736345502.5829046 Pos: [11.6925  0.      0.2925] angle 0
+time=1736345502.6220443 Pos: [11.7325  0.      0.2925] angle 0
+time=1736345502.66074 Pos: [11.7725  0.      0.2925] angle 0
+time=1736345502.7001119 Pos: [11.8125  0.      0.2925] angle 0
+time=1736345502.7389386 Pos: [11.8525  0.      0.2925] angle 0
+time=1736345502.779666 Pos: [11.8925  0.      0.2925] angle 0
+time=1736345502.8183033 Pos: [11.9325  0.      0.2925] angle 0
+time=1736345502.8522596 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1736345502.8524785 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1736345502.8527477 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1736345502.852921 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1736345502.853101 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1736345502.8532822 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1736345502.8534591 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 1.5394999999999999
+time=1736345502.8536084 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 3.2944999999999998
+time=1736345502.8537679 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 5.0495
+time=1736345502.8539038 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 6.8045
+time=1736345502.8540435 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 8.5595
+time=1736345502.8541965 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 10.314499999999999
+time=1736345502.8543534 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 1.4994999999999998
+time=1736345502.8545194 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 3.2544999999999997
+time=1736345502.854712 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 5.0095
+time=1736345502.8548858 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 6.7645
+time=1736345502.8550653 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 8.519499999999999
+time=1736345502.8552542 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 10.274499999999998
+time=1736345502.8554702 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 1.4595
+time=1736345502.8556476 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 3.2144999999999997
+time=1736345502.8558393 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 4.9695
+time=1736345502.8559892 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 6.7245
+time=1736345502.8561437 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 8.4795
+time=1736345502.8563082 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 10.234499999999999
+time=1736345502.8564727 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 1.4195
+time=1736345502.8566477 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 3.1745
+time=1736345502.8568518 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 4.9295
+time=1736345502.857014 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 6.6845
+time=1736345502.8571765 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 8.439499999999999
+time=1736345502.8573387 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 10.194499999999998
+time=1736345502.8575263 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 1.3795
+time=1736345502.8576906 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 3.1345
+time=1736345502.85794 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 4.8895
+time=1736345502.8581705 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 6.6445
+time=1736345502.8583992 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 8.3995
+time=1736345502.8586268 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 10.154499999999999
+time=1736345502.8588624 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 1.3395000000000001
+time=1736345502.859104 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 3.0945
+time=1736345502.8592849 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 4.8495
+time=1736345502.859498 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 6.6045
+time=1736345502.8597238 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 8.359499999999999
+time=1736345502.8599489 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 10.114499999999998
+time=1736345502.86018 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 1.2995
+time=1736345502.8603675 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 3.0545
+time=1736345502.8605466 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 4.8095
+time=1736345502.8607244 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 6.5645
+time=1736345502.8609016 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 8.3195
+time=1736345502.8610923 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 10.074499999999999
+time=1736345502.8612957 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 1.2595
+time=1736345502.8614864 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 3.0145
+time=1736345502.8616626 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 4.7695
+time=1736345502.8618572 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 6.5245
+time=1736345502.8620756 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 8.279499999999999
+time=1736345502.8622856 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 10.034499999999998
+time=1736345502.862443 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 1.2195
+time=1736345502.862693 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 2.9745
+time=1736345502.8629203 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 4.7295
+time=1736345502.863112 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 6.4845
+time=1736345502.8633277 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 8.2395
+time=1736345502.8635802 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 9.994499999999999
+time=1736345502.8638217 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 1.1795
+time=1736345502.86403 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 2.9345
+time=1736345502.8642557 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 4.6895
+time=1736345502.864456 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 6.4445
+time=1736345502.8647046 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 8.199499999999999
+time=1736345502.8649042 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 9.954499999999998
+time=1736345502.8651054 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 1.1395
+time=1736345502.8653088 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 2.8945
+time=1736345502.865486 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 4.6495
+time=1736345502.8656614 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 6.4045
+time=1736345502.865843 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 8.1595
+time=1736345502.8660207 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 9.914499999999999
+time=1736345502.866198 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 1.0995
+time=1736345502.8663747 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 2.8545
+time=1736345502.866551 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 4.6095
+time=1736345502.8667262 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 6.3645
+time=1736345502.866903 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 8.119499999999999
+time=1736345502.8670526 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 9.874499999999998
+time=1736345502.8672054 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 1.0594999999999999
+time=1736345502.867375 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 2.8145
+time=1736345502.8675382 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 4.5695
+time=1736345502.8677034 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 6.3245
+time=1736345502.8679018 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 8.0795
+time=1736345502.8681152 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 9.834499999999998
+time=1736345502.8683279 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 1.0194999999999999
+time=1736345502.8685422 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1736345502.8687541 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 4.5295
+time=1736345502.868968 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1736345502.8691802 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1736345502.8693585 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1736345502.8695242 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 0.9794999999999997
+time=1736345502.8696682 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 2.7344999999999997
+time=1736345502.8698065 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 4.4895
+time=1736345502.8699436 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 6.2444999999999995
+time=1736345502.870072 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 7.999499999999999
+time=1736345502.8702002 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 9.754499999999998
+time=1736345502.8703287 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 0.9394999999999997
+time=1736345502.8704603 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 2.6944999999999997
+time=1736345502.8705952 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 4.4495
+time=1736345502.870748 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 6.2044999999999995
+time=1736345502.8708904 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 7.959499999999999
+time=1736345502.8710253 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 9.714499999999997
+time=1736345502.8711674 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1736345502.8713195 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1736345502.8714592 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1736345502.871599 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1736345502.871754 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1736345502.8719628 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1736345502.8721445 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 0.8594999999999997
+time=1736345502.8723478 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 2.6144999999999996
+time=1736345502.8725407 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 4.3694999999999995
+time=1736345502.872734 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 6.124499999999999
+time=1736345502.8729289 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 7.879499999999999
+time=1736345502.8731217 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 9.6345
+time=1736345502.8733163 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 0.8194999999999997
+time=1736345502.8735006 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 2.5744999999999996
+time=1736345502.8737004 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 4.3294999999999995
+time=1736345502.8738804 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 6.084499999999999
+time=1736345502.874019 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 7.839499999999999
+time=1736345502.874165 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 9.594499999999998
+time=1736345502.8743515 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 0.7794999999999996
+time=1736345502.8745067 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 2.5344999999999995
+time=1736345502.87466 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 4.289499999999999
+time=1736345502.8748128 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 6.044499999999999
+time=1736345502.8749654 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 7.799499999999999
+time=1736345502.875117 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 9.554499999999997
+time=1736345502.8752694 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 0.7394999999999996
+time=1736345502.8754413 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 2.4944999999999995
+time=1736345502.8756282 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 4.249499999999999
+time=1736345502.8758056 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 6.004499999999999
+time=1736345502.8759708 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 7.759499999999999
+time=1736345502.8761365 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 9.514499999999998
+time=1736345502.8763013 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 0.6994999999999996
+time=1736345502.8764682 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 2.4544999999999995
+time=1736345502.8766308 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 4.209499999999999
+time=1736345502.8767927 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 5.964499999999999
+time=1736345502.8769555 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 7.719499999999999
+time=1736345502.8771203 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 9.474499999999999
+time=1736345502.877258 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 0.6594999999999995
+time=1736345502.8775892 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 2.4144999999999994
+time=1736345502.8777535 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 4.169499999999999
+time=1736345502.877915 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 5.924499999999999
+time=1736345502.878093 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 7.679499999999999
+time=1736345502.8782666 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 9.434499999999998
+time=1736345502.8784347 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 0.6194999999999995
+time=1736345502.8786006 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 2.3744999999999994
+time=1736345502.878739 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 4.129499999999999
+time=1736345502.8788676 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 5.884499999999999
+time=1736345502.878997 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 7.639499999999999
+time=1736345502.8791258 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 9.394499999999997
+time=1736345502.8792565 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 0.5794999999999995
+time=1736345502.8793857 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 2.3344999999999994
+time=1736345502.8795369 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 4.089499999999999
+time=1736345502.8797004 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 5.844499999999999
+time=1736345502.879843 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 7.599499999999999
+time=1736345502.8799784 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 9.354499999999998
+time=1736345502.8801074 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1736345502.8802352 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1736345502.880362 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1736345502.880512 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 5.804499999999999
+time=1736345502.8806746 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 7.559499999999999
+time=1736345502.8808386 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1736345502.880982 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 0.4994999999999994
+time=1736345502.8811119 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 2.2544999999999993
+time=1736345502.8812444 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 4.009499999999999
+time=1736345502.8813796 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 5.764499999999999
+time=1736345502.881533 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 7.519499999999999
+time=1736345502.8816998 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 9.274499999999998
+time=1736345502.881846 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 0.45949999999999935
+time=1736345502.8819833 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 2.2144999999999992
+time=1736345502.8821135 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 3.969499999999999
+time=1736345502.8822436 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 5.724499999999999
+time=1736345502.8823783 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 7.479499999999999
+time=1736345502.882507 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 9.234499999999997
+time=1736345502.8826394 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 0.4194999999999993
+time=1736345502.882774 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 2.174499999999999
+time=1736345502.8829064 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 3.929499999999999
+time=1736345502.8830395 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 5.684499999999999
+time=1736345502.8831701 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 7.439499999999999
+time=1736345502.8833032 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 9.194499999999998
+time=1736345502.8834336 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 0.3794999999999993
+time=1736345502.8835678 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 2.134499999999999
+time=1736345502.8836997 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 3.889499999999999
+time=1736345502.8838358 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 5.644499999999999
+time=1736345502.8839667 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 7.399499999999999
+time=1736345502.8841255 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 9.154499999999999
+time=1736345502.8842914 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 0.33949999999999925
+time=1736345502.8844583 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 2.094499999999999
+time=1736345502.884622 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 3.849499999999999
+time=1736345502.8847888 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 5.604499999999999
+time=1736345502.8849516 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 7.359499999999999
+time=1736345502.8851168 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 9.114499999999998
+time=1736345502.885282 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 0.2994999999999992
+time=1736345502.8854487 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 2.054499999999999
+time=1736345502.8856142 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 3.809499999999999
+time=1736345502.8857734 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 5.564499999999999
+time=1736345502.8859053 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 7.319499999999999
+time=1736345502.8860393 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 9.074499999999997
+time=1736345502.8861718 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 0.2594999999999992
+time=1736345502.886305 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 2.014499999999999
+time=1736345502.8864353 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 3.769499999999999
+time=1736345502.8865683 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 5.524499999999999
+time=1736345502.8866973 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 7.279499999999999
+time=1736345502.88683 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 9.034499999999998
+time=1736345502.8869617 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 0.21949999999999914
+time=1736345502.8870947 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 1.974499999999999
+time=1736345502.8872244 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 3.729499999999999
+time=1736345502.8873577 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 5.484499999999999
+time=1736345502.8874857 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 7.239499999999999
+time=1736345502.8876185 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 8.994499999999999
+time=1736345502.8877518 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 0.1794999999999991
+time=1736345502.8878882 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 1.934499999999999
+time=1736345502.8880403 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 3.689499999999999
+time=1736345502.8882077 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 5.444499999999999
+time=1736345502.8883708 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 7.199499999999999
+time=1736345502.8885362 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 8.954499999999998
+time=1736345502.8887024 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 0.13949999999999907
+time=1736345502.8888683 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 1.894499999999999
+time=1736345502.889033 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 3.649499999999999
+time=1736345502.889199 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 5.404499999999999
+time=1736345502.8893623 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 7.159499999999999
+time=1736345502.8895288 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 8.914499999999997
+time=1736345502.889694 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 0.09949999999999903
+time=1736345502.8898413 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 1.854499999999999
+time=1736345502.8899739 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 3.609499999999999
+time=1736345502.8901098 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 5.364499999999999
+time=1736345502.8902414 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 7.119499999999999
+time=1736345502.890376 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 8.874499999999998
+time=1736345502.8905077 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 0.059499999999999
+time=1736345502.8906384 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 1.814499999999999
+time=1736345502.8907719 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 3.569499999999999
+time=1736345502.8909001 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 5.324499999999999
+time=1736345502.8910282 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 7.079499999999999
+time=1736345502.8911617 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 8.834499999999998
+time=1736345502.8912933 CHECKER pos [1.8525 0.     0.2925] pattern 0 dist 0.019499999999998963
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+<function TrafficLightObj.is_green at 0x7f285eee63a0>
+dist = 0.019499999999998963 self.safe_distance = 0.04095
+False: CorrectTrafficlightPassingChecker has failed
