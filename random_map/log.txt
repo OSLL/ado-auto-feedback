@@ -1,0 +1,200 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1736338203.538597 gym-duckietown 2019.0.0
+
+time=1736338203.6602666 Registering gym environment id: Duckietown-4way-v0
+time=1736338203.660346 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1736338203.6603801 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1736338203.660408 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1736338203.6604738 Registering gym environment id: Duckietown-loop_empty-v0
+time=1736338203.66056 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1736338203.6605985 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1736338203.6606426 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1736338203.6606865 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1736338203.6607583 Registering gym environment id: Duckietown-small_loop-v0
+time=1736338203.6608038 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1736338203.6608486 Registering gym environment id: Duckietown-straight_road-v0
+time=1736338203.6608977 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1736338203.6609428 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1736338203.6609907 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1736338203.6610372 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1736338203.6610851 Registering gym environment id: Duckietown-udem1-v0
+time=1736338203.661153 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1736338205.3447826 Falling back to non-multisampled frame buffer
+time=1736338205.346674 Falling back to non-multisampled frame buffer
+time=1736338205.3491874 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1736338205.355396 loading mesh "duckiebot.obj"
+time=1736338205.3555334 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1736338205.5875802 loading texture "floor_1.png"
+time=1736338205.671219 loading texture "curve_right_1.png"
+time=1736338205.6772568 loading texture "straight_1.png"
+time=1736338205.6830192 loading texture "curve_left_1.png"
+time=1736338205.6903145 loading texture "4way_1.png"
+time=1736338205.8799303 using user tile start: (2, 4)
+time=1736338205.881186 tile: {'coords': (2, 4), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.6325 ],
+        [1.4625 , 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.48625],
+        [1.3455 , 0.     , 2.77875],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.5155 ],
+        [1.287  , 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.4625 , 0.     , 2.7495 ],
+        [1.5795 , 0.     , 2.6325 ],
+        [1.5795 , 0.     , 2.34   ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.31625, 0.     , 2.7495 ],
+        [1.60875, 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.3455 , 0.     , 2.7495 ],
+        [1.3455 , 0.     , 2.808  ],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.6325 ],
+        [1.4625 , 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.77875],
+        [1.5795 , 0.     , 2.48625],
+        [1.5795 , 0.     , 2.34   ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.7495 ],
+        [1.638  , 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.4625 , 0.     , 2.5155 ],
+        [1.3455 , 0.     , 2.6325 ],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.60875, 0.     , 2.5155 ],
+        [1.31625, 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.5795 , 0.     , 2.5155 ],
+        [1.5795 , 0.     , 2.457  ],
+        [1.5795 , 0.     , 2.34   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fb720f52040>, 'color': array([1, 1, 1])}
+time=1736338205.8820295 road_tile_size=0.585
+time=1736338205.8822474 Starting at [1.46732135 0.         2.61139757] 1.835594427276862
+time=1736338205.8824604 Pos: [1.46732135 0.         2.61139757] angle 1.835594427276862
+time=1736338205.9983065 using DuckietownEnv
+time=1736338205.9990304 Target tile: (3, 6)
+time=1736338206.1346912 Pos: [1.45685278 0.         2.57279175] angle 1.835594427276862
+time=1736338206.3246489 Pos: [1.4463842  0.         2.53418594] angle 1.835594427276862
+time=1736338206.4027083 Pos: [1.43591562 0.         2.49558013] angle 1.835594427276862
+time=1736338206.4519556 Pos: [1.42544705 0.         2.45697431] angle 1.835594427276862
+time=1736338206.499233 Pos: [1.41497847 0.         2.4183685 ] angle 1.835594427276862
+time=1736338206.5464013 Pos: [1.40450989 0.         2.37976268] angle 1.835594427276862
+time=1736338206.594646 Pos: [1.39404132 0.         2.34115687] angle 1.835594427276862
+time=1736338206.642851 Pos: [1.38357274 0.         2.30255105] angle 1.835594427276862
+time=1736338206.6899412 Pos: [1.37310417 0.         2.26394524] angle 1.835594427276862
+time=1736338206.7373626 Pos: [1.36263559 0.         2.22533942] angle 1.835594427276862
+time=1736338206.7843697 Pos: [1.35216701 0.         2.18673361] angle 1.835594427276862
+time=1736338206.8315187 Pos: [1.34169844 0.         2.1481278 ] angle 1.835594427276862
+time=1736338206.8793833 Pos: [1.33122986 0.         2.10952198] angle 1.835594427276862
+time=1736338206.926923 Pos: [1.32076128 0.         2.07091617] angle 1.835594427276862
+time=1736338206.9745677 Pos: [1.31029271 0.         2.03231035] angle 1.835594427276862
+time=1736338207.022785 Pos: [1.29982413 0.         1.99370454] angle 1.835594427276862
+time=1736338207.0701683 Pos: [1.28935555 0.         1.95509872] angle 1.835594427276862
+time=1736338207.1175232 Pos: [1.27888698 0.         1.91649291] angle 1.835594427276862
+time=1736338207.1644382 Pos: [1.2684184  0.         1.87788709] angle 1.835594427276862
+time=1736338207.2111096 Pos: [1.25794982 0.         1.83928128] angle 1.835594427276862
+time=1736338207.2581427 Pos: [1.24748125 0.         1.80067547] angle 1.835594427276862
+time=1736338207.3048134 Pos: [1.23701267 0.         1.76206965] angle 1.835594427276862
+time=1736338207.3511057 [1.16043934 0.         1.76625591] corresponds to tile at (1, 3) which is not drivable: {'coords': (1, 3), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fb7380e0790>, 'color': array([1, 1, 1])}
+time=1736338207.351421 Invalid pose. Collision free: True On drivable area: False
+time=1736338207.3514726 safety_factor: 1.0
+time=1736338207.3516364 pos: [1.23282524 0.         1.74662733]
+time=1736338207.3518174 l_pos: [1.16043934 0.         1.76625591]
+time=1736338207.3519404 r_pos: [1.30521114 0.         1.72699874]
+time=1736338207.3520622 f_pos: [1.20927094 0.         1.65976424]
+time=1736338207.3520963 Stopping the simulator because we are at an invalid pose.
+time=1736338207.3522534 Pos: [1.2265441  0.         1.72346384] angle 1.835594427276862
+0.585
+1.4673213536523146 2.611397568521754
+MEMBERS:
+dict_items([('generated_task', {'run_times': 3, 'target_coordinates': [[2.0475, 0, 3.8024999999999998]], 'env': <gym_duckietown.tasks.tracking_duckietown_env_with_rec.TrackingDuckietownEnvWithRec object at 0x7fb72d003940>})])
+env: {'run_times': 3, 'target_coordinates': [[2.0475, 0, 3.8024999999999998]], 'env': <gym_duckietown.tasks.tracking_duckietown_env_with_rec.TrackingDuckietownEnvWithRec object at 0x7fb72d003940>}
+A: -0.06829779523872048
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.1729835596794822
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.2776693241202439
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.38235508856100564
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.48704085300176736
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.5917266174425291
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.6964123818832908
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.8010981463240525
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -0.905783910764812
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.010469675205576
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.1151554396463377
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.2198412040870994
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.3245269685278633
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.4292127329686228
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.5338984974093846
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.6385842618501463
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.743270026290908
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.8479557907316697
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -1.9526415551724314
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -2.057327319613193
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -2.162013084053955
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+A: -2.2666988484947166
+B: False
+C: {'Simulator': {'action': [1.0, 1.0], 'msg': ''}, 'DuckietownEnv': {'k': 27.0, 'gain': 1.0, 'train': 0.0, 'radius': 0.0318, 'omega_r': 31.446540880503143, 'omega_l': 31.446540880503143}}
+total reward =  -25.684963081067803
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
