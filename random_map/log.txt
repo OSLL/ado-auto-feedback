@@ -1,0 +1,62 @@
+False: Incorrect solution execution: get_grid_coords() missing 1 required positional argument: 'abs_pos'
+time=1736339043.927622 gym-duckietown 2019.0.0
+
+time=1736339044.030334 Registering gym environment id: Duckietown-4way-v0
+time=1736339044.0304112 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1736339044.030446 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1736339044.0304952 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1736339044.0305235 Registering gym environment id: Duckietown-loop_empty-v0
+time=1736339044.03056 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1736339044.0306346 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1736339044.0306814 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1736339044.0307517 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1736339044.030829 Registering gym environment id: Duckietown-small_loop-v0
+time=1736339044.0309007 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1736339044.0309663 Registering gym environment id: Duckietown-straight_road-v0
+time=1736339044.0310276 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1736339044.0310752 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1736339044.0311205 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1736339044.0311747 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1736339044.0312192 Registering gym environment id: Duckietown-udem1-v0
+time=1736339044.031263 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1736339045.9785686 Falling back to non-multisampled frame buffer
+time=1736339045.980394 Falling back to non-multisampled frame buffer
+time=1736339045.9829547 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1736339045.9900577 loading mesh "duckiebot.obj"
+time=1736339045.9902196 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1736339046.2276855 loading texture "floor_1.png"
+time=1736339046.3083394 loading texture "curve_right_1.png"
+time=1736339046.314268 loading texture "straight_1.png"
+time=1736339046.3199046 loading texture "3way_left_1.png"
+time=1736339046.5018008 loading texture "curve_left_1.png"
+time=1736339046.5083425 loading texture "4way_1.png"
+time=1736339046.695496 using user tile start: (6, 0)
+time=1736339046.696117 tile: {'coords': (6, 0), 'kind': 'curve_left', 'angle': 2, 'drivable': True, 'curves': array([[[3.9195, 0.    , 0.585 ],
+        [3.9195, 0.    , 0.2925],
+        [3.8025, 0.    , 0.1755],
+        [3.51  , 0.    , 0.1755]],
+
+       [[3.51  , 0.    , 0.4095],
+        [3.627 , 0.    , 0.4095],
+        [3.6855, 0.    , 0.468 ],
+        [3.6855, 0.    , 0.585 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc61f3b91f0>, 'color': array([1, 1, 1])}
+time=1736339046.6984067 road_tile_size=0.585
+time=1736339046.6985874 Starting at [3.82070588 0.         0.2973704 ] 2.8275693156881987
+time=1736339046.698837 Pos: [3.82070588 0.         0.2973704 ] angle 2.8275693156881987
+time=1736339046.8183503 using DuckietownEnv
+time=1736339046.8190315 Target tile: (0, 8)
+0.585
+3.8207058796216216 0.29737040058137504
+0.585
+3.8207058796216216 0.29737040058137504
+0.585
+3.8207058796216216 0.29737040058137504
+0.585
+3.8207058796216216 0.29737040058137504
+MEMBERS:
+dict_items([('_TrackingDuckietownEnvWithRec__wrapped', <gym_duckietown.envs.duckietown_env.DuckietownEnv object at 0x7fc64f46fa00>), ('trip_statistics', <gym_duckietown.tasks.trip_statistics.TripStatistics object at 0x7fc64f46fc10>), ('overriden_methods', ['step'])])
+METHODS:
+['__enter__', '__exit__', '__init__', '__str__', '_collidable_object', '_collision', '_compute_done_reward', '_drivable_pos', '_get_curve', '_get_tile', '_inconvenient_spawn', '_init_vlists', '_interpret_map', '_load_map', '_load_objects', '_perturb', '_proximity_penalty2', '_render_img', '_set_tile', '_valid_pose', 'add_object', 'cartesian_from_weird', 'close', 'closest_curve_point', 'compute_reward', 'get_agent_info', 'get_closest_visible_object', 'get_dir_vec', 'get_grid_coords', 'get_lane_pos2', 'get_right_vec', 'render', 'render_obs', 'reset', 'seed', 'step', 'update_physics', 'weird_from_cartesian']
+env: {'run_times': 3, 'target_coordinates': [[0.2925, 0, 4.9725]], 'env': <gym_duckietown.tasks.tracking_duckietown_env_with_rec.TrackingDuckietownEnvWithRec object at 0x7fc64f46fa60>}
+total reward =  0
+False: Incorrect solution execution: get_grid_coords() missing 1 required positional argument: 'abs_pos'
