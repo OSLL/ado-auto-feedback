@@ -1,0 +1,56 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1736494284.7708035 gym-duckietown 2019.0.0
+
+time=1736494284.872828 Registering gym environment id: Duckietown-4way-v0
+time=1736494284.8729324 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1736494284.8729653 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1736494284.8729951 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1736494284.8730443 Registering gym environment id: Duckietown-loop_empty-v0
+time=1736494284.8730855 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1736494284.873161 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1736494284.8732123 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1736494284.8732603 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1736494284.8733082 Registering gym environment id: Duckietown-small_loop-v0
+time=1736494284.8733537 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1736494284.8734028 Registering gym environment id: Duckietown-straight_road-v0
+time=1736494284.8734756 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1736494284.8735225 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1736494284.8735774 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1736494284.873638 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1736494284.873697 Registering gym environment id: Duckietown-udem1-v0
+time=1736494284.8737648 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1736494286.1540444 Falling back to non-multisampled frame buffer
+time=1736494286.1558802 Falling back to non-multisampled frame buffer
+time=1736494286.1585019 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_10_tiles_no_start_tile.yaml"
+time=1736494286.160785 loading mesh "duckiebot.obj"
+time=1736494286.1609259 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1736494286.3966446 loading texture "straight_1.png"
+time=1736494286.4096935 using user tile start: [3, 0]
+time=1736494286.4102724 tile: {'coords': (3, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[1.755  , 0.     , 0.4095 ],
+        [1.90125, 0.     , 0.4095 ],
+        [2.19375, 0.     , 0.4095 ],
+        [2.34   , 0.     , 0.4095 ]],
+
+       [[2.34   , 0.     , 0.1755 ],
+        [2.19375, 0.     , 0.1755 ],
+        [1.90125, 0.     , 0.1755 ],
+        [1.755  , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ff0725303d0>, 'color': array([1, 1, 1])}
+time=1736494286.41109 road_tile_size=0.585
+time=1736494286.4112794 Starting at [2.17913187 0.         0.3997325 ] 3.5693764460780835
+time=1736494286.411451 Pos: [2.17913187 0.         0.3997325 ] angle 3.5693764460780835
+time=1736494286.5207708 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 26, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/solutions/solution.py", line 8, in __init__
+    self.target_coordinates = self.generated_task.generate_target_coordinates()
+AttributeError: 'dict' object has no attribute 'generate_target_coordinates'
+0.585
+2.1791318712116325 0.3997325006305442
