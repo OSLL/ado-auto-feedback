@@ -1,0 +1,106 @@
+False: Incorrect solution execution: 'RandomMapTaskSolution' object has no attribute 'execute_move'
+time=1737027711.089966 gym-duckietown 2019.0.0
+
+time=1737027711.191569 Registering gym environment id: Duckietown-4way-v0
+time=1737027711.191647 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737027711.1917267 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737027711.1917655 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737027711.191839 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737027711.1918886 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737027711.1919482 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737027711.191985 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737027711.19206 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737027711.1921136 Registering gym environment id: Duckietown-small_loop-v0
+time=1737027711.1921694 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737027711.1922266 Registering gym environment id: Duckietown-straight_road-v0
+time=1737027711.1922834 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737027711.1923356 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737027711.19238 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737027711.1924355 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737027711.1924841 Registering gym environment id: Duckietown-udem1-v0
+time=1737027711.192529 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737027712.5726297 Falling back to non-multisampled frame buffer
+time=1737027712.574701 Falling back to non-multisampled frame buffer
+time=1737027712.577071 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1737027712.584255 loading mesh "duckiebot.obj"
+time=1737027712.5844045 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737027712.8222754 loading texture "floor_1.png"
+time=1737027712.9037726 loading texture "curve_right_1.png"
+time=1737027712.909642 loading texture "straight_1.png"
+time=1737027712.915318 loading texture "3way_left_1.png"
+time=1737027713.0991788 loading texture "curve_left_1.png"
+time=1737027713.1064954 loading texture "4way_1.png"
+time=1737027713.2944098 using user tile start: (4, 4)
+time=1737027713.295657 tile: {'coords': (4, 4), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.6325 ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.48625],
+        [2.5155 , 0.     , 2.77875],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.5155 ],
+        [2.457  , 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.7495 , 0.     , 2.6325 ],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.48625, 0.     , 2.7495 ],
+        [2.77875, 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.5155 , 0.     , 2.7495 ],
+        [2.5155 , 0.     , 2.808  ],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.6325 ],
+        [2.6325 , 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.77875],
+        [2.7495 , 0.     , 2.48625],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.7495 ],
+        [2.808  , 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.6325 , 0.     , 2.5155 ],
+        [2.5155 , 0.     , 2.6325 ],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.77875, 0.     , 2.5155 ],
+        [2.48625, 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.457  ],
+        [2.7495 , 0.     , 2.34   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f94b6f4a040>, 'color': array([1, 1, 1])}
+time=1737027713.2965035 road_tile_size=0.585
+time=1737027713.2967184 Starting at [2.61739966 0.         2.65843105] 0.16315558832682048
+time=1737027713.2969134 Pos: [2.61739966 0.         2.65843105] angle 0.16315558832682048
+time=1737027713.4150295 using DuckietownEnv
+time=1737027713.4156787 Target tile: (2, 1)
+0.585
+2.617399662164595 2.658431051625832
+Generated task keys: dict_keys(['run_times', 'target_coordinates', 'env'])
+Start position (tile): (4, 4)
+Target position (tile): (1, 2)
+Map size: 11 x 7
+Path found: [(0, -1), (0, -1), (-1, 0), (-1, 0), (-1, 0)]
+total reward =  0
+False: Incorrect solution execution: 'RandomMapTaskSolution' object has no attribute 'execute_move'
