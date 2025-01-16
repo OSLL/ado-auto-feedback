@@ -1,0 +1,1778 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1737053977.202917 gym-duckietown 2019.0.0
+
+time=1737053977.302198 Registering gym environment id: Duckietown-4way-v0
+time=1737053977.3022757 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737053977.3023107 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737053977.3023393 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737053977.3024075 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737053977.302443 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737053977.3025444 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737053977.3026094 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737053977.3026798 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737053977.3027337 Registering gym environment id: Duckietown-small_loop-v0
+time=1737053977.3027737 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737053977.3028142 Registering gym environment id: Duckietown-straight_road-v0
+time=1737053977.302854 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737053977.302895 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737053977.302936 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737053977.3029766 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737053977.303017 Registering gym environment id: Duckietown-udem1-v0
+time=1737053977.303059 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737053978.6154292 Falling back to non-multisampled frame buffer
+time=1737053978.617165 Falling back to non-multisampled frame buffer
+time=1737053978.620093 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1737053978.626975 loading mesh "duckiebot.obj"
+time=1737053978.627121 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737053978.863461 loading mesh "trafficlight.obj"
+time=1737053978.863604 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1737053978.887272 loading texture "trafficlight_card.jpg"
+time=1737053980.2100928 loading texture "trafficlight_cover.jpg"
+time=1737053981.4483793 loading texture "trafficlight_card0.jpg"
+time=1737053982.6664612 loading texture "trafficlight_card1.jpg"
+time=1737053983.9101086 loading texture "trafficlight_card0.jpg"
+time=1737053985.135433 loading texture "trafficlight_card1.jpg"
+time=1737053986.3475204 loading texture "trafficlight_card0.jpg"
+time=1737053987.5752463 loading texture "trafficlight_card1.jpg"
+time=1737053988.790496 loading texture "trafficlight_card0.jpg"
+time=1737053990.0075762 loading texture "trafficlight_card1.jpg"
+time=1737053991.2289586 loading texture "trafficlight_card0.jpg"
+time=1737053992.446486 loading texture "trafficlight_card1.jpg"
+time=1737053994.1208372 loading texture "trafficlight_card0.jpg"
+time=1737053995.339083 loading texture "trafficlight_card1.jpg"
+time=1737053996.584915 loading texture "straight_1.png"
+time=1737053996.5928388 road_tile_size=0.585
+time=1737053996.5931284 Starting at [0.2925 0.     0.2925] 0
+time=1737053996.5933416 Pos: [0.2925 0.     0.2925] angle 0
+time=1737053996.8301005 using DuckietownEnv
+time=1737053997.3203151 Pos: [0.30647624 0.         0.2925    ] angle 0
+time=1737053997.6377325 Pos: [0.32045248 0.         0.2925    ] angle 0
+time=1737053997.717056 Pos: [0.33442872 0.         0.2925    ] angle 0
+time=1737053997.765101 Pos: [0.34840496 0.         0.2925    ] angle 0
+time=1737053997.811333 Pos: [0.3623812 0.        0.2925   ] angle 0
+time=1737053997.8568096 Pos: [0.37635744 0.         0.2925    ] angle 0
+time=1737053997.9026988 Pos: [0.39033368 0.         0.2925    ] angle 0
+time=1737053997.9476154 Pos: [0.40430992 0.         0.2925    ] angle 0
+time=1737053997.9921405 Pos: [0.41828616 0.         0.2925    ] angle 0
+time=1737053998.0402467 Pos: [0.4322624 0.        0.2925   ] angle 0
+time=1737053998.0849445 Pos: [0.44623864 0.         0.2925    ] angle 0
+time=1737053998.1304522 Pos: [0.46021488 0.         0.2925    ] angle 0
+time=1737053998.1757002 Pos: [0.47419113 0.         0.2925    ] angle 0
+time=1737053998.224566 Pos: [0.48816737 0.         0.2925    ] angle 0
+time=1737053998.270269 Pos: [0.50214361 0.         0.2925    ] angle 0
+time=1737053998.3151407 Pos: [0.51611985 0.         0.2925    ] angle 0
+time=1737053998.3622158 Pos: [0.53009609 0.         0.2925    ] angle 0
+time=1737053998.408629 Pos: [0.54407233 0.         0.2925    ] angle 0
+time=1737053998.4531813 Pos: [0.55804857 0.         0.2925    ] angle 0
+time=1737053998.4968035 Pos: [0.57202481 0.         0.2925    ] angle 0
+time=1737053998.5414457 Pos: [0.58600105 0.         0.2925    ] angle 0
+time=1737053998.5862749 Pos: [0.59997729 0.         0.2925    ] angle 0
+time=1737053998.631688 Pos: [0.61395353 0.         0.2925    ] angle 0
+time=1737053998.6766555 Pos: [0.62792977 0.         0.2925    ] angle 0
+time=1737053998.7226799 Pos: [0.64190601 0.         0.2925    ] angle 0
+time=1737053998.7682254 Pos: [0.65588225 0.         0.2925    ] angle 0
+time=1737053998.8136566 Pos: [0.66985849 0.         0.2925    ] angle 0
+time=1737053998.8603182 Pos: [0.68383473 0.         0.2925    ] angle 0
+time=1737053998.9067826 Pos: [0.69781097 0.         0.2925    ] angle 0
+time=1737053998.9535062 Pos: [0.71178721 0.         0.2925    ] angle 0
+time=1737053998.9975631 Pos: [0.72576345 0.         0.2925    ] angle 0
+time=1737053999.0430307 Pos: [0.73973969 0.         0.2925    ] angle 0
+time=1737053999.0875344 Pos: [0.75371593 0.         0.2925    ] angle 0
+time=1737053999.133808 Pos: [0.76769217 0.         0.2925    ] angle 0
+time=1737053999.1790822 Pos: [0.78166841 0.         0.2925    ] angle 0
+time=1737053999.225107 Pos: [0.79564465 0.         0.2925    ] angle 0
+time=1737053999.2714376 Pos: [0.80962089 0.         0.2925    ] angle 0
+time=1737053999.3214533 Pos: [0.82359713 0.         0.2925    ] angle 0
+time=1737053999.367599 Pos: [0.83757338 0.         0.2925    ] angle 0
+time=1737053999.4116821 Pos: [0.85154962 0.         0.2925    ] angle 0
+time=1737053999.455772 Pos: [0.86552586 0.         0.2925    ] angle 0
+time=1737053999.499611 Pos: [0.8795021 0.        0.2925   ] angle 0
+time=1737053999.5442858 Pos: [0.89347834 0.         0.2925    ] angle 0
+time=1737053999.590688 Pos: [0.90745458 0.         0.2925    ] angle 0
+time=1737053999.6362958 Pos: [0.92143082 0.         0.2925    ] angle 0
+time=1737053999.6806202 Pos: [0.93540706 0.         0.2925    ] angle 0
+time=1737053999.7250009 Pos: [0.9493833 0.        0.2925   ] angle 0
+time=1737053999.7734303 Pos: [0.96335954 0.         0.2925    ] angle 0
+time=1737053999.820221 Pos: [0.97733578 0.         0.2925    ] angle 0
+time=1737053999.8654532 Pos: [0.99131202 0.         0.2925    ] angle 0
+time=1737053999.9100435 Pos: [1.00528826 0.         0.2925    ] angle 0
+time=1737053999.9542875 Pos: [1.0192645 0.        0.2925   ] angle 0
+time=1737053999.998441 Pos: [1.03324074 0.         0.2925    ] angle 0
+time=1737054000.0665956 Pos: [1.04721698 0.         0.2925    ] angle 0
+time=1737054000.1148877 Pos: [1.06119322 0.         0.2925    ] angle 0
+time=1737054000.1589565 Pos: [1.07516946 0.         0.2925    ] angle 0
+time=1737054000.202539 Pos: [1.0891457 0.        0.2925   ] angle 0
+time=1737054000.2461772 Pos: [1.10312194 0.         0.2925    ] angle 0
+time=1737054000.290492 Pos: [1.11709818 0.         0.2925    ] angle 0
+time=1737054000.3350968 Pos: [1.13107442 0.         0.2925    ] angle 0
+time=1737054000.3827195 Pos: [1.14505066 0.         0.2925    ] angle 0
+time=1737054000.4275625 Pos: [1.1590269 0.        0.2925   ] angle 0
+time=1737054000.4715965 Pos: [1.17300314 0.         0.2925    ] angle 0
+time=1737054000.515616 Pos: [1.18697939 0.         0.2925    ] angle 0
+time=1737054000.5594807 Pos: [1.20095563 0.         0.2925    ] angle 0
+time=1737054000.603995 Pos: [1.21493187 0.         0.2925    ] angle 0
+time=1737054000.6481304 Pos: [1.22890811 0.         0.2925    ] angle 0
+time=1737054000.6919482 Pos: [1.24288435 0.         0.2925    ] angle 0
+time=1737054000.738139 Pos: [1.25686059 0.         0.2925    ] angle 0
+time=1737054000.782627 Pos: [1.27083683 0.         0.2925    ] angle 0
+time=1737054000.8280368 Pos: [1.28481307 0.         0.2925    ] angle 0
+time=1737054000.8722553 Pos: [1.29878931 0.         0.2925    ] angle 0
+time=1737054000.9162557 Pos: [1.31276555 0.         0.2925    ] angle 0
+time=1737054000.9612458 Pos: [1.32674179 0.         0.2925    ] angle 0
+time=1737054001.006615 Pos: [1.34071803 0.         0.2925    ] angle 0
+time=1737054001.0639594 Pos: [1.35469427 0.         0.2925    ] angle 0
+time=1737054001.1094332 Pos: [1.36867051 0.         0.2925    ] angle 0
+time=1737054001.154228 Pos: [1.38264675 0.         0.2925    ] angle 0
+time=1737054001.1984346 Pos: [1.39662299 0.         0.2925    ] angle 0
+time=1737054001.2419567 Pos: [1.41059923 0.         0.2925    ] angle 0
+time=1737054001.285815 Pos: [1.42457547 0.         0.2925    ] angle 0
+time=1737054001.3302555 Pos: [1.43855171 0.         0.2925    ] angle 0
+time=1737054001.374163 Pos: [1.45252795 0.         0.2925    ] angle 0
+time=1737054001.4180787 Pos: [1.46650419 0.         0.2925    ] angle 0
+time=1737054001.462201 Pos: [1.48048043 0.         0.2925    ] angle 0
+time=1737054001.5068314 Pos: [1.49445667 0.         0.2925    ] angle 0
+time=1737054001.5510826 Pos: [1.50843291 0.         0.2925    ] angle 0
+time=1737054001.5956354 Pos: [1.52240915 0.         0.2925    ] angle 0
+time=1737054001.6406384 Pos: [1.53638539 0.         0.2925    ] angle 0
+time=1737054001.6847105 Pos: [1.55036164 0.         0.2925    ] angle 0
+time=1737054001.7285879 Pos: [1.56433788 0.         0.2925    ] angle 0
+time=1737054001.772949 Pos: [1.57831412 0.         0.2925    ] angle 0
+time=1737054001.8171153 Pos: [1.59229036 0.         0.2925    ] angle 0
+time=1737054001.8606467 Pos: [1.6062666 0.        0.2925   ] angle 0
+time=1737054001.9049017 Pos: [1.62024284 0.         0.2925    ] angle 0
+time=1737054001.9490821 Pos: [1.63421908 0.         0.2925    ] angle 0
+time=1737054001.9928722 Pos: [1.64819532 0.         0.2925    ] angle 0
+time=1737054002.0408523 Pos: [1.66217156 0.         0.2925    ] angle 0
+time=1737054002.1002116 Pos: [1.6761478 0.        0.2925   ] angle 0
+time=1737054002.147294 Pos: [1.69012404 0.         0.2925    ] angle 0
+time=1737054002.1917076 Pos: [1.70410028 0.         0.2925    ] angle 0
+time=1737054002.2362669 Pos: [1.71807652 0.         0.2925    ] angle 0
+time=1737054002.2803476 Pos: [1.73205276 0.         0.2925    ] angle 0
+time=1737054002.3248408 Pos: [1.746029 0.       0.2925  ] angle 0
+time=1737054002.3689682 Pos: [1.76000524 0.         0.2925    ] angle 0
+time=1737054002.4134169 Pos: [1.77398148 0.         0.2925    ] angle 0
+time=1737054002.4582102 Pos: [1.78795772 0.         0.2925    ] angle 0
+time=1737054002.502517 Pos: [1.80193396 0.         0.2925    ] angle 0
+time=1737054002.5482094 Pos: [1.8159102 0.        0.2925   ] angle 0
+time=1737054002.595916 Pos: [1.82988644 0.         0.2925    ] angle 0
+time=1737054002.6435764 Pos: [1.84386268 0.         0.2925    ] angle 0
+time=1737054002.687921 Pos: [1.85783892 0.         0.2925    ] angle 0
+time=1737054002.738284 Pos: [1.87181516 0.         0.2925    ] angle 0
+time=1737054002.7828672 Pos: [1.8857914 0.        0.2925   ] angle 0
+time=1737054002.8279016 Pos: [1.89976765 0.         0.2925    ] angle 0
+time=1737054002.8723478 Pos: [1.91374389 0.         0.2925    ] angle 0
+time=1737054002.9193099 Pos: [1.92772013 0.         0.2925    ] angle 0
+time=1737054002.966207 Pos: [1.94169637 0.         0.2925    ] angle 0
+time=1737054003.0112195 Pos: [1.95567261 0.         0.2925    ] angle 0
+time=1737054003.0556593 Pos: [1.96964885 0.         0.2925    ] angle 0
+time=1737054003.0998008 Pos: [1.98362509 0.         0.2925    ] angle 0
+time=1737054003.1454983 Pos: [1.99760133 0.         0.2925    ] angle 0
+time=1737054003.1899774 Pos: [2.01157757 0.         0.2925    ] angle 0
+time=1737054003.23417 Pos: [2.02555381 0.         0.2925    ] angle 0
+time=1737054003.2785056 Pos: [2.03953005 0.         0.2925    ] angle 0
+time=1737054003.3230605 Pos: [2.05350629 0.         0.2925    ] angle 0
+time=1737054003.369912 Pos: [2.06748253 0.         0.2925    ] angle 0
+time=1737054003.4143891 Pos: [2.08145877 0.         0.2925    ] angle 0
+time=1737054003.458904 Pos: [2.09543501 0.         0.2925    ] angle 0
+time=1737054003.5032856 Pos: [2.10941125 0.         0.2925    ] angle 0
+time=1737054003.5482137 Pos: [2.12338749 0.         0.2925    ] angle 0
+time=1737054003.5927765 Pos: [2.13736373 0.         0.2925    ] angle 0
+time=1737054003.6387267 Pos: [2.15133997 0.         0.2925    ] angle 0
+time=1737054003.6845257 Pos: [2.16531621 0.         0.2925    ] angle 0
+time=1737054003.7292287 Pos: [2.17929245 0.         0.2925    ] angle 0
+time=1737054003.7741888 Pos: [2.19326869 0.         0.2925    ] angle 0
+time=1737054003.8189611 Pos: [2.20724493 0.         0.2925    ] angle 0
+time=1737054003.8635726 Pos: [2.22122117 0.         0.2925    ] angle 0
+time=1737054003.9078388 Pos: [2.23519741 0.         0.2925    ] angle 0
+time=1737054003.9521306 Pos: [2.24917365 0.         0.2925    ] angle 0
+time=1737054003.996732 Pos: [2.2631499 0.        0.2925   ] angle 0
+time=1737054004.0448158 Pos: [2.27712614 0.         0.2925    ] angle 0
+time=1737054004.0899625 Pos: [2.29110238 0.         0.2925    ] angle 0
+time=1737054004.1354337 Pos: [2.30507862 0.         0.2925    ] angle 0
+time=1737054004.180125 Pos: [2.31905486 0.         0.2925    ] angle 0
+time=1737054004.22487 Pos: [2.3330311 0.        0.2925   ] angle 0
+time=1737054004.271245 Pos: [2.34700734 0.         0.2925    ] angle 0
+time=1737054004.3155968 Pos: [2.36098358 0.         0.2925    ] angle 0
+time=1737054004.3620317 Pos: [2.37495982 0.         0.2925    ] angle 0
+time=1737054004.4100735 Pos: [2.38893606 0.         0.2925    ] angle 0
+time=1737054004.4541113 Pos: [2.4029123 0.        0.2925   ] angle 0
+time=1737054004.4980233 Pos: [2.41688854 0.         0.2925    ] angle 0
+time=1737054004.5425487 Pos: [2.43086478 0.         0.2925    ] angle 0
+time=1737054004.586796 Pos: [2.44484102 0.         0.2925    ] angle 0
+time=1737054004.6315694 Pos: [2.45881726 0.         0.2925    ] angle 0
+time=1737054004.6758294 Pos: [2.4727935 0.        0.2925   ] angle 0
+time=1737054004.7204342 Pos: [2.48676974 0.         0.2925    ] angle 0
+time=1737054004.7682307 Pos: [2.50074598 0.         0.2925    ] angle 0
+time=1737054004.8135972 Pos: [2.51472222 0.         0.2925    ] angle 0
+time=1737054004.857536 Pos: [2.52869846 0.         0.2925    ] angle 0
+time=1737054004.901461 Pos: [2.5426747 0.        0.2925   ] angle 0
+time=1737054004.9454727 Pos: [2.55665094 0.         0.2925    ] angle 0
+time=1737054004.9893134 Pos: [2.57062718 0.         0.2925    ] angle 0
+time=1737054005.0346541 Pos: [2.58460342 0.         0.2925    ] angle 0
+time=1737054005.0791204 Pos: [2.59857966 0.         0.2925    ] angle 0
+time=1737054005.1230981 Pos: [2.6125559 0.        0.2925   ] angle 0
+time=1737054005.1678207 Pos: [2.62653215 0.         0.2925    ] angle 0
+time=1737054005.2129357 Pos: [2.64050839 0.         0.2925    ] angle 0
+time=1737054005.257635 Pos: [2.65448463 0.         0.2925    ] angle 0
+time=1737054005.30338 Pos: [2.66846087 0.         0.2925    ] angle 0
+time=1737054005.3489175 Pos: [2.68243711 0.         0.2925    ] angle 0
+time=1737054005.393062 Pos: [2.69641335 0.         0.2925    ] angle 0
+time=1737054005.4373589 Pos: [2.71038959 0.         0.2925    ] angle 0
+time=1737054005.48175 Pos: [2.72436583 0.         0.2925    ] angle 0
+time=1737054005.5260851 Pos: [2.73834207 0.         0.2925    ] angle 0
+time=1737054005.5722644 Pos: [2.75231831 0.         0.2925    ] angle 0
+time=1737054005.6161537 Pos: [2.76629455 0.         0.2925    ] angle 0
+time=1737054005.6632001 Pos: [2.78027079 0.         0.2925    ] angle 0
+time=1737054005.7072814 Pos: [2.79424703 0.         0.2925    ] angle 0
+time=1737054005.7510223 Pos: [2.80822327 0.         0.2925    ] angle 0
+time=1737054005.7948177 Pos: [2.82219951 0.         0.2925    ] angle 0
+time=1737054005.839536 Pos: [2.83617575 0.         0.2925    ] angle 0
+time=1737054005.8832822 Pos: [2.85015199 0.         0.2925    ] angle 0
+time=1737054005.9271202 Pos: [2.86412823 0.         0.2925    ] angle 0
+time=1737054005.9708695 Pos: [2.87810447 0.         0.2925    ] angle 0
+time=1737054006.01826 Pos: [2.89208071 0.         0.2925    ] angle 0
+time=1737054006.0653405 Pos: [2.90605695 0.         0.2925    ] angle 0
+time=1737054006.1094646 Pos: [2.92003319 0.         0.2925    ] angle 0
+time=1737054006.1531632 Pos: [2.93400943 0.         0.2925    ] angle 0
+time=1737054006.1973963 Pos: [2.94798567 0.         0.2925    ] angle 0
+time=1737054006.2411866 Pos: [2.96196191 0.         0.2925    ] angle 0
+time=1737054006.2851493 Pos: [2.97593816 0.         0.2925    ] angle 0
+time=1737054006.3292086 Pos: [2.9899144 0.        0.2925   ] angle 0
+time=1737054006.3745916 Pos: [3.00389064 0.         0.2925    ] angle 0
+time=1737054006.4199123 Pos: [3.01786688 0.         0.2925    ] angle 0
+time=1737054006.463743 Pos: [3.03184312 0.         0.2925    ] angle 0
+time=1737054006.5076547 Pos: [3.04581936 0.         0.2925    ] angle 0
+time=1737054006.5515773 Pos: [3.0597956 0.        0.2925   ] angle 0
+time=1737054006.5950367 Pos: [3.07377184 0.         0.2925    ] angle 0
+time=1737054006.6387281 Pos: [3.08774808 0.         0.2925    ] angle 0
+time=1737054006.6827 Pos: [3.10172432 0.         0.2925    ] angle 0
+time=1737054006.7274492 Pos: [3.11570056 0.         0.2925    ] angle 0
+time=1737054006.7720242 Pos: [3.1296768 0.        0.2925   ] angle 0
+time=1737054006.8186827 Pos: [3.14365304 0.         0.2925    ] angle 0
+time=1737054006.862516 Pos: [3.15762928 0.         0.2925    ] angle 0
+time=1737054006.907075 Pos: [3.17160552 0.         0.2925    ] angle 0
+time=1737054006.9514983 Pos: [3.18558176 0.         0.2925    ] angle 0
+time=1737054006.995346 Pos: [3.199558 0.       0.2925  ] angle 0
+time=1737054007.040217 Pos: [3.21353424 0.         0.2925    ] angle 0
+time=1737054007.0844555 Pos: [3.22751048 0.         0.2925    ] angle 0
+time=1737054007.1284292 Pos: [3.24148672 0.         0.2925    ] angle 0
+time=1737054007.1728702 Pos: [3.25546296 0.         0.2925    ] angle 0
+time=1737054007.2163272 Pos: [3.2694392 0.        0.2925   ] angle 0
+time=1737054007.260389 Pos: [3.28341544 0.         0.2925    ] angle 0
+time=1737054007.30383 Pos: [3.29739168 0.         0.2925    ] angle 0
+time=1737054007.341411 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1737054007.3415935 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1737054007.341792 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1737054007.3419497 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1737054007.3421223 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1737054007.342289 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1737054007.34248 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 1.565523759608665
+time=1737054007.3426433 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 3.320523759608665
+time=1737054007.3428144 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 5.075523759608665
+time=1737054007.3429797 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 6.830523759608665
+time=1737054007.3431375 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 8.585523759608664
+time=1737054007.3433986 CHECKER pos [0.30647624 0.         0.2925    ] pattern 0 dist 10.340523759608663
+time=1737054007.3435922 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 1.5515475192173305
+time=1737054007.3437724 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 3.3065475192173306
+time=1737054007.343934 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 5.0615475192173305
+time=1737054007.3441093 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 6.81654751921733
+time=1737054007.3442888 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 8.57154751921733
+time=1737054007.3444366 CHECKER pos [0.32045248 0.         0.2925    ] pattern 0 dist 10.326547519217328
+time=1737054007.3445742 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 1.5375712788259959
+time=1737054007.3447304 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 3.2925712788259958
+time=1737054007.3449094 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 5.047571278825996
+time=1737054007.3451242 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 6.8025712788259955
+time=1737054007.345322 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 8.557571278825995
+time=1737054007.3454673 CHECKER pos [0.33442872 0.         0.2925    ] pattern 0 dist 10.312571278825994
+time=1737054007.345602 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 1.523595038434661
+time=1737054007.3457534 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 3.278595038434661
+time=1737054007.345888 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 5.033595038434661
+time=1737054007.3460226 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 6.788595038434661
+time=1737054007.34621 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 8.54359503843466
+time=1737054007.3464143 CHECKER pos [0.34840496 0.         0.2925    ] pattern 0 dist 10.298595038434659
+time=1737054007.346612 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 1.5096187980433262
+time=1737054007.3467467 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 3.264618798043326
+time=1737054007.3469152 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 5.019618798043326
+time=1737054007.347077 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 6.774618798043326
+time=1737054007.3472314 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 8.529618798043327
+time=1737054007.3473868 CHECKER pos [0.3623812 0.        0.2925   ] pattern 0 dist 10.284618798043326
+time=1737054007.3475435 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 1.4956425576519916
+time=1737054007.347705 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 3.2506425576519913
+time=1737054007.347872 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 5.005642557651991
+time=1737054007.3480382 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 6.760642557651991
+time=1737054007.348225 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 8.515642557651992
+time=1737054007.3484514 CHECKER pos [0.37635744 0.         0.2925    ] pattern 0 dist 10.27064255765199
+time=1737054007.3486767 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 1.481666317260657
+time=1737054007.3488812 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 3.236666317260657
+time=1737054007.3490825 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 4.991666317260656
+time=1737054007.3492873 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 6.746666317260656
+time=1737054007.349453 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 8.501666317260657
+time=1737054007.3496265 CHECKER pos [0.39033368 0.         0.2925    ] pattern 0 dist 10.256666317260656
+time=1737054007.3498256 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 1.4676900768693222
+time=1737054007.3500493 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 3.222690076869322
+time=1737054007.350271 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 4.977690076869322
+time=1737054007.3504913 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 6.732690076869321
+time=1737054007.3506682 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 8.487690076869322
+time=1737054007.3508565 CHECKER pos [0.40430992 0.         0.2925    ] pattern 0 dist 10.242690076869321
+time=1737054007.3511205 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 1.4537138364779874
+time=1737054007.3513496 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 3.2087138364779872
+time=1737054007.3515875 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 4.963713836477988
+time=1737054007.351819 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 6.7187138364779875
+time=1737054007.3520663 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 8.473713836477987
+time=1737054007.3522906 CHECKER pos [0.41828616 0.         0.2925    ] pattern 0 dist 10.228713836477986
+time=1737054007.3524823 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 1.4397375960866527
+time=1737054007.3526602 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 3.194737596086653
+time=1737054007.3528259 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 4.949737596086653
+time=1737054007.3529975 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 6.704737596086653
+time=1737054007.353169 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 8.459737596086653
+time=1737054007.3533454 CHECKER pos [0.4322624 0.        0.2925   ] pattern 0 dist 10.214737596086652
+time=1737054007.3535392 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 1.4257613556953181
+time=1737054007.3537335 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 3.180761355695318
+time=1737054007.3539507 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 4.935761355695318
+time=1737054007.3541589 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 6.690761355695318
+time=1737054007.354337 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 8.445761355695318
+time=1737054007.3545146 CHECKER pos [0.44623864 0.         0.2925    ] pattern 0 dist 10.200761355695317
+time=1737054007.3547158 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 1.4117851153039833
+time=1737054007.3549547 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 3.166785115303983
+time=1737054007.3551707 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 4.921785115303983
+time=1737054007.3553503 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 6.676785115303983
+time=1737054007.3555284 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 8.431785115303983
+time=1737054007.3557055 CHECKER pos [0.46021488 0.         0.2925    ] pattern 0 dist 10.186785115303982
+time=1737054007.3558848 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 1.3978088749126485
+time=1737054007.3560643 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 3.1528088749126484
+time=1737054007.356243 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 4.907808874912648
+time=1737054007.3564227 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 6.662808874912648
+time=1737054007.3566012 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 8.417808874912648
+time=1737054007.3567793 CHECKER pos [0.47419113 0.         0.2925    ] pattern 0 dist 10.172808874912647
+time=1737054007.3569582 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 1.3838326345213139
+time=1737054007.3571377 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 3.1388326345213136
+time=1737054007.3573165 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 4.8938326345213135
+time=1737054007.3574958 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 6.648832634521313
+time=1737054007.357675 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 8.403832634521313
+time=1737054007.3578598 CHECKER pos [0.48816737 0.         0.2925    ] pattern 0 dist 10.158832634521312
+time=1737054007.3580408 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 1.3698563941299793
+time=1737054007.3582213 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 3.124856394129979
+time=1737054007.3584008 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 4.879856394129979
+time=1737054007.35858 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 6.6348563941299785
+time=1737054007.3587584 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 8.389856394129978
+time=1737054007.3589466 CHECKER pos [0.50214361 0.         0.2925    ] pattern 0 dist 10.144856394129977
+time=1737054007.3591294 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 1.3558801537386445
+time=1737054007.3592882 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 3.1108801537386443
+time=1737054007.359441 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 4.865880153738644
+time=1737054007.359615 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 6.620880153738645
+time=1737054007.3597937 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 8.375880153738644
+time=1737054007.3599703 CHECKER pos [0.51611985 0.         0.2925    ] pattern 0 dist 10.130880153738643
+time=1737054007.3601532 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 1.3419039133473096
+time=1737054007.36034 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 3.0969039133473095
+time=1737054007.3605134 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 4.85190391334731
+time=1737054007.3606927 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 6.60690391334731
+time=1737054007.3608706 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 8.361903913347309
+time=1737054007.361025 CHECKER pos [0.53009609 0.         0.2925    ] pattern 0 dist 10.116903913347308
+time=1737054007.3611765 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 1.327927672955975
+time=1737054007.361328 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 3.082927672955975
+time=1737054007.3614788 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 4.837927672955975
+time=1737054007.3616285 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 6.592927672955975
+time=1737054007.3618186 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 8.347927672955974
+time=1737054007.3620286 CHECKER pos [0.54407233 0.         0.2925    ] pattern 0 dist 10.102927672955973
+time=1737054007.3622334 CHECKER pos [0.55804857 0.         0.2925    ] pattern 0 dist 1.3139514325646404
+time=1737054007.3624272 CHECKER pos [0.55804857 0.         0.2925    ] pattern 0 dist 3.0689514325646403
+time=1737054007.3625977 CHECKER pos [0.55804857 0.         0.2925    ] pattern 0 dist 4.82395143256464
+time=1737054007.3628016 CHECKER pos [0.55804857 0.         0.2925    ] pattern 0 dist 6.57895143256464
+time=1737054007.3630137 CHECKER pos [0.55804857 0.         0.2925    ] pattern 1 dist 8.333951432564639
+time=1737054007.3632264 CHECKER pos [0.55804857 0.         0.2925    ] pattern 0 dist 10.088951432564638
+time=1737054007.363405 CHECKER pos [0.57202481 0.         0.2925    ] pattern 0 dist 1.2999751921733056
+time=1737054007.3635833 CHECKER pos [0.57202481 0.         0.2925    ] pattern 0 dist 3.0549751921733055
+time=1737054007.3637617 CHECKER pos [0.57202481 0.         0.2925    ] pattern 0 dist 4.809975192173305
+time=1737054007.3639376 CHECKER pos [0.57202481 0.         0.2925    ] pattern 0 dist 6.564975192173305
+time=1737054007.364116 CHECKER pos [0.57202481 0.         0.2925    ] pattern 1 dist 8.319975192173306
+time=1737054007.3642929 CHECKER pos [0.57202481 0.         0.2925    ] pattern 0 dist 10.074975192173305
+time=1737054007.3644722 CHECKER pos [0.58600105 0.         0.2925    ] pattern 0 dist 1.2859989517819708
+time=1737054007.3646498 CHECKER pos [0.58600105 0.         0.2925    ] pattern 0 dist 3.0409989517819707
+time=1737054007.3648276 CHECKER pos [0.58600105 0.         0.2925    ] pattern 0 dist 4.7959989517819706
+time=1737054007.3650036 CHECKER pos [0.58600105 0.         0.2925    ] pattern 0 dist 6.5509989517819704
+time=1737054007.3652174 CHECKER pos [0.58600105 0.         0.2925    ] pattern 1 dist 8.305998951781971
+time=1737054007.3654442 CHECKER pos [0.58600105 0.         0.2925    ] pattern 0 dist 10.06099895178197
+time=1737054007.3656363 CHECKER pos [0.59997729 0.         0.2925    ] pattern 0 dist 1.2720227113906362
+time=1737054007.3658223 CHECKER pos [0.59997729 0.         0.2925    ] pattern 0 dist 3.027022711390636
+time=1737054007.3660114 CHECKER pos [0.59997729 0.         0.2925    ] pattern 0 dist 4.782022711390636
+time=1737054007.366193 CHECKER pos [0.59997729 0.         0.2925    ] pattern 0 dist 6.537022711390636
+time=1737054007.3663723 CHECKER pos [0.59997729 0.         0.2925    ] pattern 1 dist 8.292022711390636
+time=1737054007.366549 CHECKER pos [0.59997729 0.         0.2925    ] pattern 0 dist 10.047022711390635
+time=1737054007.3667548 CHECKER pos [0.61395353 0.         0.2925    ] pattern 0 dist 1.2580464709993016
+time=1737054007.3669732 CHECKER pos [0.61395353 0.         0.2925    ] pattern 0 dist 3.0130464709993015
+time=1737054007.367166 CHECKER pos [0.61395353 0.         0.2925    ] pattern 0 dist 4.768046470999301
+time=1737054007.3673444 CHECKER pos [0.61395353 0.         0.2925    ] pattern 0 dist 6.523046470999301
+time=1737054007.367521 CHECKER pos [0.61395353 0.         0.2925    ] pattern 1 dist 8.278046470999302
+time=1737054007.367732 CHECKER pos [0.61395353 0.         0.2925    ] pattern 0 dist 10.0330464709993
+time=1737054007.3679194 CHECKER pos [0.62792977 0.         0.2925    ] pattern 0 dist 1.2440702306079667
+time=1737054007.3680954 CHECKER pos [0.62792977 0.         0.2925    ] pattern 0 dist 2.9990702306079666
+time=1737054007.3682733 CHECKER pos [0.62792977 0.         0.2925    ] pattern 0 dist 4.754070230607967
+time=1737054007.368461 CHECKER pos [0.62792977 0.         0.2925    ] pattern 0 dist 6.509070230607966
+time=1737054007.3686872 CHECKER pos [0.62792977 0.         0.2925    ] pattern 1 dist 8.264070230607967
+time=1737054007.3688552 CHECKER pos [0.62792977 0.         0.2925    ] pattern 0 dist 10.019070230607966
+time=1737054007.369028 CHECKER pos [0.64190601 0.         0.2925    ] pattern 0 dist 1.230093990216632
+time=1737054007.369219 CHECKER pos [0.64190601 0.         0.2925    ] pattern 0 dist 2.985093990216632
+time=1737054007.3694458 CHECKER pos [0.64190601 0.         0.2925    ] pattern 0 dist 4.740093990216632
+time=1737054007.3696356 CHECKER pos [0.64190601 0.         0.2925    ] pattern 0 dist 6.495093990216632
+time=1737054007.369798 CHECKER pos [0.64190601 0.         0.2925    ] pattern 1 dist 8.250093990216632
+time=1737054007.3699493 CHECKER pos [0.64190601 0.         0.2925    ] pattern 0 dist 10.005093990216631
+time=1737054007.370103 CHECKER pos [0.65588225 0.         0.2925    ] pattern 0 dist 1.2161177498252973
+time=1737054007.3702545 CHECKER pos [0.65588225 0.         0.2925    ] pattern 0 dist 2.9711177498252974
+time=1737054007.3704069 CHECKER pos [0.65588225 0.         0.2925    ] pattern 0 dist 4.726117749825297
+time=1737054007.3705783 CHECKER pos [0.65588225 0.         0.2925    ] pattern 0 dist 6.481117749825297
+time=1737054007.3707466 CHECKER pos [0.65588225 0.         0.2925    ] pattern 1 dist 8.236117749825297
+time=1737054007.370903 CHECKER pos [0.65588225 0.         0.2925    ] pattern 0 dist 9.991117749825296
+time=1737054007.3710763 CHECKER pos [0.66985849 0.         0.2925    ] pattern 0 dist 1.2021415094339627
+time=1737054007.3712077 CHECKER pos [0.66985849 0.         0.2925    ] pattern 0 dist 2.9571415094339626
+time=1737054007.3713336 CHECKER pos [0.66985849 0.         0.2925    ] pattern 0 dist 4.7121415094339625
+time=1737054007.3714628 CHECKER pos [0.66985849 0.         0.2925    ] pattern 0 dist 6.467141509433962
+time=1737054007.3715875 CHECKER pos [0.66985849 0.         0.2925    ] pattern 1 dist 8.222141509433962
+time=1737054007.371716 CHECKER pos [0.66985849 0.         0.2925    ] pattern 0 dist 9.977141509433961
+time=1737054007.3718755 CHECKER pos [0.68383473 0.         0.2925    ] pattern 0 dist 1.1881652690426279
+time=1737054007.3720367 CHECKER pos [0.68383473 0.         0.2925    ] pattern 0 dist 2.9431652690426278
+time=1737054007.3721983 CHECKER pos [0.68383473 0.         0.2925    ] pattern 0 dist 4.698165269042628
+time=1737054007.372333 CHECKER pos [0.68383473 0.         0.2925    ] pattern 0 dist 6.4531652690426275
+time=1737054007.372463 CHECKER pos [0.68383473 0.         0.2925    ] pattern 1 dist 8.208165269042627
+time=1737054007.372594 CHECKER pos [0.68383473 0.         0.2925    ] pattern 0 dist 9.963165269042626
+time=1737054007.3727205 CHECKER pos [0.69781097 0.         0.2925    ] pattern 0 dist 1.174189028651293
+time=1737054007.3728523 CHECKER pos [0.69781097 0.         0.2925    ] pattern 0 dist 2.929189028651293
+time=1737054007.3729827 CHECKER pos [0.69781097 0.         0.2925    ] pattern 0 dist 4.684189028651293
+time=1737054007.3731406 CHECKER pos [0.69781097 0.         0.2925    ] pattern 0 dist 6.439189028651293
+time=1737054007.3733044 CHECKER pos [0.69781097 0.         0.2925    ] pattern 1 dist 8.194189028651293
+time=1737054007.3734672 CHECKER pos [0.69781097 0.         0.2925    ] pattern 0 dist 9.949189028651292
+time=1737054007.373603 CHECKER pos [0.71178721 0.         0.2925    ] pattern 0 dist 1.1602127882599584
+time=1737054007.3737698 CHECKER pos [0.71178721 0.         0.2925    ] pattern 0 dist 2.915212788259958
+time=1737054007.373953 CHECKER pos [0.71178721 0.         0.2925    ] pattern 0 dist 4.670212788259958
+time=1737054007.3740895 CHECKER pos [0.71178721 0.         0.2925    ] pattern 0 dist 6.425212788259958
+time=1737054007.374216 CHECKER pos [0.71178721 0.         0.2925    ] pattern 1 dist 8.180212788259958
+time=1737054007.3743489 CHECKER pos [0.71178721 0.         0.2925    ] pattern 0 dist 9.935212788259957
+time=1737054007.3744757 CHECKER pos [0.72576345 0.         0.2925    ] pattern 0 dist 1.1462365478686238
+time=1737054007.3746111 CHECKER pos [0.72576345 0.         0.2925    ] pattern 1 dist 2.9012365478686237
+time=1737054007.3747368 CHECKER pos [0.72576345 0.         0.2925    ] pattern 0 dist 4.656236547868623
+time=1737054007.374867 CHECKER pos [0.72576345 0.         0.2925    ] pattern 0 dist 6.411236547868623
+time=1737054007.374997 CHECKER pos [0.72576345 0.         0.2925    ] pattern 1 dist 8.166236547868623
+time=1737054007.3751254 CHECKER pos [0.72576345 0.         0.2925    ] pattern 0 dist 9.921236547868622
+time=1737054007.3752935 CHECKER pos [0.73973969 0.         0.2925    ] pattern 0 dist 1.132260307477289
+time=1737054007.375508 CHECKER pos [0.73973969 0.         0.2925    ] pattern 1 dist 2.887260307477289
+time=1737054007.3757176 CHECKER pos [0.73973969 0.         0.2925    ] pattern 0 dist 4.642260307477288
+time=1737054007.3759203 CHECKER pos [0.73973969 0.         0.2925    ] pattern 0 dist 6.397260307477289
+time=1737054007.376046 CHECKER pos [0.73973969 0.         0.2925    ] pattern 1 dist 8.152260307477288
+time=1737054007.3761754 CHECKER pos [0.73973969 0.         0.2925    ] pattern 0 dist 9.907260307477287
+time=1737054007.3763075 CHECKER pos [0.75371593 0.         0.2925    ] pattern 0 dist 1.1182840670859542
+time=1737054007.3764403 CHECKER pos [0.75371593 0.         0.2925    ] pattern 1 dist 2.873284067085954
+time=1737054007.3765705 CHECKER pos [0.75371593 0.         0.2925    ] pattern 0 dist 4.628284067085954
+time=1737054007.376727 CHECKER pos [0.75371593 0.         0.2925    ] pattern 0 dist 6.383284067085954
+time=1737054007.37689 CHECKER pos [0.75371593 0.         0.2925    ] pattern 1 dist 8.138284067085953
+time=1737054007.3770506 CHECKER pos [0.75371593 0.         0.2925    ] pattern 0 dist 9.893284067085952
+time=1737054007.3771877 CHECKER pos [0.76769217 0.         0.2925    ] pattern 0 dist 1.1043078266946196
+time=1737054007.3773189 CHECKER pos [0.76769217 0.         0.2925    ] pattern 1 dist 2.8593078266946197
+time=1737054007.3774488 CHECKER pos [0.76769217 0.         0.2925    ] pattern 0 dist 4.61430782669462
+time=1737054007.3775785 CHECKER pos [0.76769217 0.         0.2925    ] pattern 0 dist 6.3693078266946195
+time=1737054007.3777406 CHECKER pos [0.76769217 0.         0.2925    ] pattern 1 dist 8.124307826694618
+time=1737054007.3779404 CHECKER pos [0.76769217 0.         0.2925    ] pattern 0 dist 9.879307826694617
+time=1737054007.3781104 CHECKER pos [0.78166841 0.         0.2925    ] pattern 0 dist 1.090331586303285
+time=1737054007.3782737 CHECKER pos [0.78166841 0.         0.2925    ] pattern 1 dist 2.845331586303285
+time=1737054007.3784113 CHECKER pos [0.78166841 0.         0.2925    ] pattern 0 dist 4.600331586303285
+time=1737054007.3785417 CHECKER pos [0.78166841 0.         0.2925    ] pattern 0 dist 6.355331586303285
+time=1737054007.3786728 CHECKER pos [0.78166841 0.         0.2925    ] pattern 1 dist 8.110331586303284
+time=1737054007.3788028 CHECKER pos [0.78166841 0.         0.2925    ] pattern 0 dist 9.865331586303283
+time=1737054007.3789935 CHECKER pos [0.79564465 0.         0.2925    ] pattern 0 dist 1.0763553459119501
+time=1737054007.3791735 CHECKER pos [0.79564465 0.         0.2925    ] pattern 1 dist 2.83135534591195
+time=1737054007.3793435 CHECKER pos [0.79564465 0.         0.2925    ] pattern 0 dist 4.58635534591195
+time=1737054007.3795185 CHECKER pos [0.79564465 0.         0.2925    ] pattern 0 dist 6.34135534591195
+time=1737054007.3797092 CHECKER pos [0.79564465 0.         0.2925    ] pattern 1 dist 8.096355345911949
+time=1737054007.3798726 CHECKER pos [0.79564465 0.         0.2925    ] pattern 0 dist 9.851355345911948
+time=1737054007.3800573 CHECKER pos [0.80962089 0.         0.2925    ] pattern 0 dist 1.0623791055206153
+time=1737054007.38019 CHECKER pos [0.80962089 0.         0.2925    ] pattern 1 dist 2.817379105520615
+time=1737054007.3803208 CHECKER pos [0.80962089 0.         0.2925    ] pattern 0 dist 4.572379105520615
+time=1737054007.3804777 CHECKER pos [0.80962089 0.         0.2925    ] pattern 0 dist 6.327379105520615
+time=1737054007.3806152 CHECKER pos [0.80962089 0.         0.2925    ] pattern 1 dist 8.082379105520616
+time=1737054007.3807452 CHECKER pos [0.80962089 0.         0.2925    ] pattern 0 dist 9.837379105520615
+time=1737054007.3809037 CHECKER pos [0.82359713 0.         0.2925    ] pattern 0 dist 1.0484028651292807
+time=1737054007.3810678 CHECKER pos [0.82359713 0.         0.2925    ] pattern 1 dist 2.8034028651292804
+time=1737054007.3812034 CHECKER pos [0.82359713 0.         0.2925    ] pattern 1 dist 4.55840286512928
+time=1737054007.3813329 CHECKER pos [0.82359713 0.         0.2925    ] pattern 0 dist 6.31340286512928
+time=1737054007.381464 CHECKER pos [0.82359713 0.         0.2925    ] pattern 1 dist 8.068402865129281
+time=1737054007.3815932 CHECKER pos [0.82359713 0.         0.2925    ] pattern 0 dist 9.82340286512928
+time=1737054007.3817494 CHECKER pos [0.83757338 0.         0.2925    ] pattern 0 dist 1.034426624737946
+time=1737054007.3819504 CHECKER pos [0.83757338 0.         0.2925    ] pattern 1 dist 2.789426624737946
+time=1737054007.3821206 CHECKER pos [0.83757338 0.         0.2925    ] pattern 1 dist 4.5444266247379455
+time=1737054007.3822834 CHECKER pos [0.83757338 0.         0.2925    ] pattern 0 dist 6.299426624737945
+time=1737054007.382421 CHECKER pos [0.83757338 0.         0.2925    ] pattern 1 dist 8.054426624737946
+time=1737054007.38259 CHECKER pos [0.83757338 0.         0.2925    ] pattern 0 dist 9.809426624737945
+time=1737054007.3827615 CHECKER pos [0.85154962 0.         0.2925    ] pattern 0 dist 1.0204503843466113
+time=1737054007.3829203 CHECKER pos [0.85154962 0.         0.2925    ] pattern 1 dist 2.775450384346611
+time=1737054007.3830767 CHECKER pos [0.85154962 0.         0.2925    ] pattern 1 dist 4.5304503843466115
+time=1737054007.3832426 CHECKER pos [0.85154962 0.         0.2925    ] pattern 0 dist 6.2854503843466105
+time=1737054007.3833976 CHECKER pos [0.85154962 0.         0.2925    ] pattern 1 dist 8.040450384346611
+time=1737054007.383589 CHECKER pos [0.85154962 0.         0.2925    ] pattern 0 dist 9.79545038434661
+time=1737054007.3837905 CHECKER pos [0.86552586 0.         0.2925    ] pattern 0 dist 1.0064741439552765
+time=1737054007.3839538 CHECKER pos [0.86552586 0.         0.2925    ] pattern 1 dist 2.7614741439552764
+time=1737054007.3840966 CHECKER pos [0.86552586 0.         0.2925    ] pattern 1 dist 4.516474143955277
+time=1737054007.38424 CHECKER pos [0.86552586 0.         0.2925    ] pattern 0 dist 6.271474143955277
+time=1737054007.3843713 CHECKER pos [0.86552586 0.         0.2925    ] pattern 1 dist 8.026474143955276
+time=1737054007.3845263 CHECKER pos [0.86552586 0.         0.2925    ] pattern 1 dist 9.781474143955275
+time=1737054007.3846653 CHECKER pos [0.8795021 0.        0.2925   ] pattern 0 dist 0.9924979035639419
+time=1737054007.3847966 CHECKER pos [0.8795021 0.        0.2925   ] pattern 1 dist 2.747497903563942
+time=1737054007.3849523 CHECKER pos [0.8795021 0.        0.2925   ] pattern 1 dist 4.502497903563942
+time=1737054007.3851137 CHECKER pos [0.8795021 0.        0.2925   ] pattern 0 dist 6.257497903563942
+time=1737054007.3852508 CHECKER pos [0.8795021 0.        0.2925   ] pattern 1 dist 8.012497903563942
+time=1737054007.3853805 CHECKER pos [0.8795021 0.        0.2925   ] pattern 1 dist 9.76749790356394
+time=1737054007.3855126 CHECKER pos [0.89347834 0.         0.2925    ] pattern 0 dist 0.9785216631726071
+time=1737054007.3856437 CHECKER pos [0.89347834 0.         0.2925    ] pattern 1 dist 2.733521663172607
+time=1737054007.3857863 CHECKER pos [0.89347834 0.         0.2925    ] pattern 1 dist 4.488521663172607
+time=1737054007.3859184 CHECKER pos [0.89347834 0.         0.2925    ] pattern 0 dist 6.243521663172607
+time=1737054007.386075 CHECKER pos [0.89347834 0.         0.2925    ] pattern 1 dist 7.998521663172607
+time=1737054007.3862376 CHECKER pos [0.89347834 0.         0.2925    ] pattern 1 dist 9.753521663172606
+time=1737054007.3863742 CHECKER pos [0.90745458 0.         0.2925    ] pattern 0 dist 0.9645454227812724
+time=1737054007.3865063 CHECKER pos [0.90745458 0.         0.2925    ] pattern 1 dist 2.7195454227812723
+time=1737054007.3866355 CHECKER pos [0.90745458 0.         0.2925    ] pattern 1 dist 4.474545422781272
+time=1737054007.3867655 CHECKER pos [0.90745458 0.         0.2925    ] pattern 0 dist 6.229545422781272
+time=1737054007.386922 CHECKER pos [0.90745458 0.         0.2925    ] pattern 1 dist 7.984545422781272
+time=1737054007.387058 CHECKER pos [0.90745458 0.         0.2925    ] pattern 1 dist 9.739545422781271
+time=1737054007.3871903 CHECKER pos [0.92143082 0.         0.2925    ] pattern 0 dist 0.9505691823899377
+time=1737054007.387349 CHECKER pos [0.92143082 0.         0.2925    ] pattern 1 dist 2.7055691823899375
+time=1737054007.387511 CHECKER pos [0.92143082 0.         0.2925    ] pattern 1 dist 4.460569182389937
+time=1737054007.3876464 CHECKER pos [0.92143082 0.         0.2925    ] pattern 0 dist 6.215569182389937
+time=1737054007.3877778 CHECKER pos [0.92143082 0.         0.2925    ] pattern 1 dist 7.970569182389937
+time=1737054007.3879073 CHECKER pos [0.92143082 0.         0.2925    ] pattern 1 dist 9.725569182389936
+time=1737054007.3880377 CHECKER pos [0.93540706 0.         0.2925    ] pattern 0 dist 0.936592941998603
+time=1737054007.3881955 CHECKER pos [0.93540706 0.         0.2925    ] pattern 1 dist 2.6915929419986027
+time=1737054007.3883579 CHECKER pos [0.93540706 0.         0.2925    ] pattern 1 dist 4.4465929419986026
+time=1737054007.3885193 CHECKER pos [0.93540706 0.         0.2925    ] pattern 0 dist 6.2015929419986024
+time=1737054007.388682 CHECKER pos [0.93540706 0.         0.2925    ] pattern 1 dist 7.956592941998602
+time=1737054007.3888192 CHECKER pos [0.93540706 0.         0.2925    ] pattern 1 dist 9.711592941998601
+time=1737054007.3889546 CHECKER pos [0.9493833 0.        0.2925   ] pattern 0 dist 0.9226167016072683
+time=1737054007.3890908 CHECKER pos [0.9493833 0.        0.2925   ] pattern 1 dist 2.6776167016072683
+time=1737054007.3892233 CHECKER pos [0.9493833 0.        0.2925   ] pattern 1 dist 4.432616701607268
+time=1737054007.389355 CHECKER pos [0.9493833 0.        0.2925   ] pattern 0 dist 6.187616701607268
+time=1737054007.3894885 CHECKER pos [0.9493833 0.        0.2925   ] pattern 1 dist 7.9426167016072675
+time=1737054007.3896449 CHECKER pos [0.9493833 0.        0.2925   ] pattern 1 dist 9.697616701607267
+time=1737054007.3898265 CHECKER pos [0.96335954 0.         0.2925    ] pattern 0 dist 0.9086404612159336
+time=1737054007.3900218 CHECKER pos [0.96335954 0.         0.2925    ] pattern 1 dist 2.6636404612159335
+time=1737054007.390223 CHECKER pos [0.96335954 0.         0.2925    ] pattern 1 dist 4.418640461215933
+time=1737054007.3903818 CHECKER pos [0.96335954 0.         0.2925    ] pattern 1 dist 6.173640461215934
+time=1737054007.3905127 CHECKER pos [0.96335954 0.         0.2925    ] pattern 1 dist 7.928640461215933
+time=1737054007.390642 CHECKER pos [0.96335954 0.         0.2925    ] pattern 1 dist 9.683640461215932
+time=1737054007.3907716 CHECKER pos [0.97733578 0.         0.2925    ] pattern 0 dist 0.8946642208245988
+time=1737054007.3909278 CHECKER pos [0.97733578 0.         0.2925    ] pattern 1 dist 2.6496642208245986
+time=1737054007.3910894 CHECKER pos [0.97733578 0.         0.2925    ] pattern 1 dist 4.404664220824599
+time=1737054007.3912506 CHECKER pos [0.97733578 0.         0.2925    ] pattern 1 dist 6.159664220824599
+time=1737054007.391387 CHECKER pos [0.97733578 0.         0.2925    ] pattern 1 dist 7.914664220824599
+time=1737054007.3915153 CHECKER pos [0.97733578 0.         0.2925    ] pattern 1 dist 9.669664220824597
+time=1737054007.3916445 CHECKER pos [0.99131202 0.         0.2925    ] pattern 0 dist 0.8806879804332641
+time=1737054007.3917742 CHECKER pos [0.99131202 0.         0.2925    ] pattern 1 dist 2.6356879804332642
+time=1737054007.391903 CHECKER pos [0.99131202 0.         0.2925    ] pattern 1 dist 4.390687980433264
+time=1737054007.3920336 CHECKER pos [0.99131202 0.         0.2925    ] pattern 1 dist 6.145687980433264
+time=1737054007.3921883 CHECKER pos [0.99131202 0.         0.2925    ] pattern 1 dist 7.900687980433264
+time=1737054007.3923492 CHECKER pos [0.99131202 0.         0.2925    ] pattern 1 dist 9.655687980433262
+time=1737054007.3925126 CHECKER pos [1.00528826 0.         0.2925    ] pattern 0 dist 0.8667117400419293
+time=1737054007.3926485 CHECKER pos [1.00528826 0.         0.2925    ] pattern 1 dist 2.6217117400419294
+time=1737054007.3927774 CHECKER pos [1.00528826 0.         0.2925    ] pattern 1 dist 4.376711740041929
+time=1737054007.3929067 CHECKER pos [1.00528826 0.         0.2925    ] pattern 1 dist 6.131711740041929
+time=1737054007.3930373 CHECKER pos [1.00528826 0.         0.2925    ] pattern 1 dist 7.886711740041929
+time=1737054007.3931673 CHECKER pos [1.00528826 0.         0.2925    ] pattern 1 dist 9.641711740041927
+time=1737054007.3932972 CHECKER pos [1.0192645 0.        0.2925   ] pattern 0 dist 0.8527354996505945
+time=1737054007.3934546 CHECKER pos [1.0192645 0.        0.2925   ] pattern 1 dist 2.6077354996505946
+time=1737054007.3936162 CHECKER pos [1.0192645 0.        0.2925   ] pattern 1 dist 4.3627354996505945
+time=1737054007.3937707 CHECKER pos [1.0192645 0.        0.2925   ] pattern 1 dist 6.117735499650594
+time=1737054007.3939023 CHECKER pos [1.0192645 0.        0.2925   ] pattern 1 dist 7.872735499650594
+time=1737054007.3940322 CHECKER pos [1.0192645 0.        0.2925   ] pattern 1 dist 9.627735499650592
+time=1737054007.3941634 CHECKER pos [1.03324074 0.         0.2925    ] pattern 0 dist 0.8387592592592596
+time=1737054007.3942943 CHECKER pos [1.03324074 0.         0.2925    ] pattern 1 dist 2.5937592592592598
+time=1737054007.3944232 CHECKER pos [1.03324074 0.         0.2925    ] pattern 1 dist 4.34875925925926
+time=1737054007.3945775 CHECKER pos [1.03324074 0.         0.2925    ] pattern 1 dist 6.1037592592592596
+time=1737054007.3947382 CHECKER pos [1.03324074 0.         0.2925    ] pattern 1 dist 7.8587592592592594
+time=1737054007.3949237 CHECKER pos [1.03324074 0.         0.2925    ] pattern 1 dist 9.613759259259258
+time=1737054007.3950996 CHECKER pos [1.04721698 0.         0.2925    ] pattern 0 dist 0.8247830188679248
+time=1737054007.3952968 CHECKER pos [1.04721698 0.         0.2925    ] pattern 1 dist 2.579783018867925
+time=1737054007.3954515 CHECKER pos [1.04721698 0.         0.2925    ] pattern 1 dist 4.334783018867925
+time=1737054007.3955817 CHECKER pos [1.04721698 0.         0.2925    ] pattern 1 dist 6.089783018867925
+time=1737054007.3957112 CHECKER pos [1.04721698 0.         0.2925    ] pattern 1 dist 7.844783018867925
+time=1737054007.3958638 CHECKER pos [1.04721698 0.         0.2925    ] pattern 1 dist 9.599783018867923
+time=1737054007.3960187 CHECKER pos [1.06119322 0.         0.2925    ] pattern 0 dist 0.81080677847659
+time=1737054007.3961818 CHECKER pos [1.06119322 0.         0.2925    ] pattern 1 dist 2.56580677847659
+time=1737054007.3963428 CHECKER pos [1.06119322 0.         0.2925    ] pattern 1 dist 4.32080677847659
+time=1737054007.396479 CHECKER pos [1.06119322 0.         0.2925    ] pattern 1 dist 6.07580677847659
+time=1737054007.3966076 CHECKER pos [1.06119322 0.         0.2925    ] pattern 1 dist 7.83080677847659
+time=1737054007.3967366 CHECKER pos [1.06119322 0.         0.2925    ] pattern 1 dist 9.585806778476588
+time=1737054007.3968663 CHECKER pos [1.07516946 0.         0.2925    ] pattern 0 dist 0.7968305380852552
+time=1737054007.3969963 CHECKER pos [1.07516946 0.         0.2925    ] pattern 1 dist 2.5518305380852553
+time=1737054007.397125 CHECKER pos [1.07516946 0.         0.2925    ] pattern 1 dist 4.306830538085255
+time=1737054007.3972802 CHECKER pos [1.07516946 0.         0.2925    ] pattern 1 dist 6.061830538085255
+time=1737054007.3974416 CHECKER pos [1.07516946 0.         0.2925    ] pattern 1 dist 7.816830538085255
+time=1737054007.3976018 CHECKER pos [1.07516946 0.         0.2925    ] pattern 1 dist 9.571830538085253
+time=1737054007.3977711 CHECKER pos [1.0891457 0.        0.2925   ] pattern 0 dist 0.7828542976939203
+time=1737054007.3979456 CHECKER pos [1.0891457 0.        0.2925   ] pattern 1 dist 2.5378542976939205
+time=1737054007.398081 CHECKER pos [1.0891457 0.        0.2925   ] pattern 1 dist 4.29285429769392
+time=1737054007.3982131 CHECKER pos [1.0891457 0.        0.2925   ] pattern 1 dist 6.04785429769392
+time=1737054007.398346 CHECKER pos [1.0891457 0.        0.2925   ] pattern 1 dist 7.80285429769392
+time=1737054007.3985658 CHECKER pos [1.0891457 0.        0.2925   ] pattern 1 dist 9.557854297693918
+time=1737054007.398716 CHECKER pos [1.10312194 0.         0.2925    ] pattern 0 dist 0.7688780573025855
+time=1737054007.3988724 CHECKER pos [1.10312194 0.         0.2925    ] pattern 1 dist 2.5238780573025856
+time=1737054007.399034 CHECKER pos [1.10312194 0.         0.2925    ] pattern 1 dist 4.2788780573025855
+time=1737054007.3991945 CHECKER pos [1.10312194 0.         0.2925    ] pattern 1 dist 6.033878057302585
+time=1737054007.399325 CHECKER pos [1.10312194 0.         0.2925    ] pattern 1 dist 7.788878057302585
+time=1737054007.399455 CHECKER pos [1.10312194 0.         0.2925    ] pattern 1 dist 9.543878057302583
+time=1737054007.399585 CHECKER pos [1.11709818 0.         0.2925    ] pattern 0 dist 0.7549018169112507
+time=1737054007.3997662 CHECKER pos [1.11709818 0.         0.2925    ] pattern 1 dist 2.509901816911251
+time=1737054007.399945 CHECKER pos [1.11709818 0.         0.2925    ] pattern 1 dist 4.264901816911251
+time=1737054007.4000812 CHECKER pos [1.11709818 0.         0.2925    ] pattern 1 dist 6.019901816911251
+time=1737054007.4002354 CHECKER pos [1.11709818 0.         0.2925    ] pattern 1 dist 7.7749018169112505
+time=1737054007.4003968 CHECKER pos [1.11709818 0.         0.2925    ] pattern 1 dist 9.529901816911249
+time=1737054007.4005337 CHECKER pos [1.13107442 0.         0.2925    ] pattern 0 dist 0.7409255765199159
+time=1737054007.400665 CHECKER pos [1.13107442 0.         0.2925    ] pattern 1 dist 2.495925576519916
+time=1737054007.400795 CHECKER pos [1.13107442 0.         0.2925    ] pattern 1 dist 4.250925576519916
+time=1737054007.4009235 CHECKER pos [1.13107442 0.         0.2925    ] pattern 1 dist 6.005925576519916
+time=1737054007.4010518 CHECKER pos [1.13107442 0.         0.2925    ] pattern 1 dist 7.760925576519916
+time=1737054007.401206 CHECKER pos [1.13107442 0.         0.2925    ] pattern 1 dist 9.515925576519914
+time=1737054007.401342 CHECKER pos [1.14505066 0.         0.2925    ] pattern 0 dist 0.726949336128581
+time=1737054007.4014988 CHECKER pos [1.14505066 0.         0.2925    ] pattern 1 dist 2.481949336128581
+time=1737054007.40166 CHECKER pos [1.14505066 0.         0.2925    ] pattern 1 dist 4.236949336128581
+time=1737054007.4018028 CHECKER pos [1.14505066 0.         0.2925    ] pattern 1 dist 5.991949336128581
+time=1737054007.4019337 CHECKER pos [1.14505066 0.         0.2925    ] pattern 1 dist 7.746949336128581
+time=1737054007.402063 CHECKER pos [1.14505066 0.         0.2925    ] pattern 1 dist 9.501949336128579
+time=1737054007.4021919 CHECKER pos [1.1590269 0.        0.2925   ] pattern 0 dist 0.7129730957372462
+time=1737054007.402411 CHECKER pos [1.1590269 0.        0.2925   ] pattern 1 dist 2.4679730957372463
+time=1737054007.402562 CHECKER pos [1.1590269 0.        0.2925   ] pattern 1 dist 4.222973095737246
+time=1737054007.402691 CHECKER pos [1.1590269 0.        0.2925   ] pattern 1 dist 5.977973095737246
+time=1737054007.402846 CHECKER pos [1.1590269 0.        0.2925   ] pattern 1 dist 7.732973095737246
+time=1737054007.403007 CHECKER pos [1.1590269 0.        0.2925   ] pattern 1 dist 9.487973095737244
+time=1737054007.4031682 CHECKER pos [1.17300314 0.         0.2925    ] pattern 0 dist 0.6989968553459114
+time=1737054007.4033287 CHECKER pos [1.17300314 0.         0.2925    ] pattern 1 dist 2.4539968553459115
+time=1737054007.4034824 CHECKER pos [1.17300314 0.         0.2925    ] pattern 1 dist 4.208996855345911
+time=1737054007.4036434 CHECKER pos [1.17300314 0.         0.2925    ] pattern 1 dist 5.963996855345911
+time=1737054007.4037795 CHECKER pos [1.17300314 0.         0.2925    ] pattern 1 dist 7.718996855345911
+time=1737054007.4039333 CHECKER pos [1.17300314 0.         0.2925    ] pattern 1 dist 9.47399685534591
+time=1737054007.4040945 CHECKER pos [1.18697939 0.         0.2925    ] pattern 0 dist 0.6850206149545766
+time=1737054007.4042563 CHECKER pos [1.18697939 0.         0.2925    ] pattern 1 dist 2.4400206149545767
+time=1737054007.4043908 CHECKER pos [1.18697939 0.         0.2925    ] pattern 1 dist 4.195020614954577
+time=1737054007.4045455 CHECKER pos [1.18697939 0.         0.2925    ] pattern 1 dist 5.9500206149545765
+time=1737054007.404707 CHECKER pos [1.18697939 0.         0.2925    ] pattern 1 dist 7.705020614954576
+time=1737054007.4048429 CHECKER pos [1.18697939 0.         0.2925    ] pattern 1 dist 9.460020614954574
+time=1737054007.4049985 CHECKER pos [1.20095563 0.         0.2925    ] pattern 0 dist 0.6710443745632417
+time=1737054007.4051602 CHECKER pos [1.20095563 0.         0.2925    ] pattern 1 dist 2.426044374563242
+time=1737054007.4053204 CHECKER pos [1.20095563 0.         0.2925    ] pattern 1 dist 4.181044374563242
+time=1737054007.4054554 CHECKER pos [1.20095563 0.         0.2925    ] pattern 1 dist 5.936044374563242
+time=1737054007.4056106 CHECKER pos [1.20095563 0.         0.2925    ] pattern 1 dist 7.6910443745632415
+time=1737054007.4057794 CHECKER pos [1.20095563 0.         0.2925    ] pattern 1 dist 9.44604437456324
+time=1737054007.4059749 CHECKER pos [1.21493187 0.         0.2925    ] pattern 0 dist 0.6570681341719069
+time=1737054007.4061563 CHECKER pos [1.21493187 0.         0.2925    ] pattern 1 dist 2.412068134171907
+time=1737054007.4062855 CHECKER pos [1.21493187 0.         0.2925    ] pattern 1 dist 4.167068134171907
+time=1737054007.4065545 CHECKER pos [1.21493187 0.         0.2925    ] pattern 1 dist 5.922068134171907
+time=1737054007.4066975 CHECKER pos [1.21493187 0.         0.2925    ] pattern 1 dist 7.677068134171907
+time=1737054007.4068336 CHECKER pos [1.21493187 0.         0.2925    ] pattern 1 dist 9.432068134171905
+time=1737054007.4069946 CHECKER pos [1.22890811 0.         0.2925    ] pattern 0 dist 0.6430918937805721
+time=1737054007.4071617 CHECKER pos [1.22890811 0.         0.2925    ] pattern 1 dist 2.398091893780572
+time=1737054007.4073 CHECKER pos [1.22890811 0.         0.2925    ] pattern 1 dist 4.153091893780572
+time=1737054007.4074817 CHECKER pos [1.22890811 0.         0.2925    ] pattern 1 dist 5.908091893780572
+time=1737054007.4076376 CHECKER pos [1.22890811 0.         0.2925    ] pattern 1 dist 7.663091893780572
+time=1737054007.4077682 CHECKER pos [1.22890811 0.         0.2925    ] pattern 1 dist 9.41809189378057
+time=1737054007.4079258 CHECKER pos [1.24288435 0.         0.2925    ] pattern 0 dist 0.6291156533892373
+time=1737054007.4080648 CHECKER pos [1.24288435 0.         0.2925    ] pattern 1 dist 2.3841156533892374
+time=1737054007.4081964 CHECKER pos [1.24288435 0.         0.2925    ] pattern 1 dist 4.139115653389237
+time=1737054007.408353 CHECKER pos [1.24288435 0.         0.2925    ] pattern 1 dist 5.894115653389237
+time=1737054007.4085178 CHECKER pos [1.24288435 0.         0.2925    ] pattern 1 dist 7.649115653389237
+time=1737054007.4086804 CHECKER pos [1.24288435 0.         0.2925    ] pattern 1 dist 9.404115653389235
+time=1737054007.4088194 CHECKER pos [1.25686059 0.         0.2925    ] pattern 0 dist 0.6151394129979024
+time=1737054007.4089522 CHECKER pos [1.25686059 0.         0.2925    ] pattern 1 dist 2.3701394129979025
+time=1737054007.4090838 CHECKER pos [1.25686059 0.         0.2925    ] pattern 1 dist 4.125139412997902
+time=1737054007.4092343 CHECKER pos [1.25686059 0.         0.2925    ] pattern 1 dist 5.880139412997902
+time=1737054007.409371 CHECKER pos [1.25686059 0.         0.2925    ] pattern 1 dist 7.635139412997902
+time=1737054007.409527 CHECKER pos [1.25686059 0.         0.2925    ] pattern 1 dist 9.3901394129979
+time=1737054007.40969 CHECKER pos [1.27083683 0.         0.2925    ] pattern 0 dist 0.6011631726065676
+time=1737054007.4098876 CHECKER pos [1.27083683 0.         0.2925    ] pattern 1 dist 2.3561631726065677
+time=1737054007.410021 CHECKER pos [1.27083683 0.         0.2925    ] pattern 1 dist 4.111163172606568
+time=1737054007.4101532 CHECKER pos [1.27083683 0.         0.2925    ] pattern 1 dist 5.8661631726065675
+time=1737054007.4102848 CHECKER pos [1.27083683 0.         0.2925    ] pattern 1 dist 7.621163172606567
+time=1737054007.4104533 CHECKER pos [1.27083683 0.         0.2925    ] pattern 1 dist 9.376163172606566
+time=1737054007.4105968 CHECKER pos [1.28481307 0.         0.2925    ] pattern 0 dist 0.5871869322152328
+time=1737054007.4107778 CHECKER pos [1.28481307 0.         0.2925    ] pattern 1 dist 2.342186932215233
+time=1737054007.4109395 CHECKER pos [1.28481307 0.         0.2925    ] pattern 1 dist 4.097186932215233
+time=1737054007.4111605 CHECKER pos [1.28481307 0.         0.2925    ] pattern 1 dist 5.852186932215233
+time=1737054007.4113104 CHECKER pos [1.28481307 0.         0.2925    ] pattern 1 dist 7.607186932215233
+time=1737054007.4114656 CHECKER pos [1.28481307 0.         0.2925    ] pattern 1 dist 9.36218693221523
+time=1737054007.4115968 CHECKER pos [1.29878931 0.         0.2925    ] pattern 0 dist 0.5732106918238979
+time=1737054007.4117262 CHECKER pos [1.29878931 0.         0.2925    ] pattern 1 dist 2.328210691823898
+time=1737054007.4118557 CHECKER pos [1.29878931 0.         0.2925    ] pattern 1 dist 4.083210691823898
+time=1737054007.411985 CHECKER pos [1.29878931 0.         0.2925    ] pattern 1 dist 5.838210691823898
+time=1737054007.41214 CHECKER pos [1.29878931 0.         0.2925    ] pattern 1 dist 7.593210691823898
+time=1737054007.4122975 CHECKER pos [1.29878931 0.         0.2925    ] pattern 1 dist 9.348210691823896
+time=1737054007.4124587 CHECKER pos [1.31276555 0.         0.2925    ] pattern 0 dist 0.5592344514325631
+time=1737054007.412596 CHECKER pos [1.31276555 0.         0.2925    ] pattern 1 dist 2.3142344514325632
+time=1737054007.4127257 CHECKER pos [1.31276555 0.         0.2925    ] pattern 1 dist 4.069234451432563
+time=1737054007.4128766 CHECKER pos [1.31276555 0.         0.2925    ] pattern 1 dist 5.824234451432563
+time=1737054007.4130356 CHECKER pos [1.31276555 0.         0.2925    ] pattern 1 dist 7.579234451432563
+time=1737054007.4131942 CHECKER pos [1.31276555 0.         0.2925    ] pattern 1 dist 9.334234451432561
+time=1737054007.4133546 CHECKER pos [1.32674179 0.         0.2925    ] pattern 0 dist 0.5452582110412283
+time=1737054007.413489 CHECKER pos [1.32674179 0.         0.2925    ] pattern 1 dist 2.3002582110412284
+time=1737054007.413645 CHECKER pos [1.32674179 0.         0.2925    ] pattern 1 dist 4.055258211041228
+time=1737054007.4138157 CHECKER pos [1.32674179 0.         0.2925    ] pattern 1 dist 5.810258211041228
+time=1737054007.4139786 CHECKER pos [1.32674179 0.         0.2925    ] pattern 1 dist 7.565258211041228
+time=1737054007.41414 CHECKER pos [1.32674179 0.         0.2925    ] pattern 1 dist 9.320258211041226
+time=1737054007.4143019 CHECKER pos [1.34071803 0.         0.2925    ] pattern 0 dist 0.5312819706498935
+time=1737054007.4144647 CHECKER pos [1.34071803 0.         0.2925    ] pattern 1 dist 2.2862819706498936
+time=1737054007.4146256 CHECKER pos [1.34071803 0.         0.2925    ] pattern 1 dist 4.0412819706498935
+time=1737054007.4147828 CHECKER pos [1.34071803 0.         0.2925    ] pattern 1 dist 5.796281970649893
+time=1737054007.4149473 CHECKER pos [1.34071803 0.         0.2925    ] pattern 1 dist 7.551281970649893
+time=1737054007.4151096 CHECKER pos [1.34071803 0.         0.2925    ] pattern 1 dist 9.306281970649891
+time=1737054007.4152725 CHECKER pos [1.35469427 0.         0.2925    ] pattern 0 dist 0.5173057302585586
+time=1737054007.415435 CHECKER pos [1.35469427 0.         0.2925    ] pattern 1 dist 2.2723057302585588
+time=1737054007.4155958 CHECKER pos [1.35469427 0.         0.2925    ] pattern 1 dist 4.027305730258559
+time=1737054007.4157562 CHECKER pos [1.35469427 0.         0.2925    ] pattern 1 dist 5.7823057302585585
+time=1737054007.4159167 CHECKER pos [1.35469427 0.         0.2925    ] pattern 1 dist 7.537305730258558
+time=1737054007.4160767 CHECKER pos [1.35469427 0.         0.2925    ] pattern 1 dist 9.292305730258557
+time=1737054007.416238 CHECKER pos [1.36867051 0.         0.2925    ] pattern 0 dist 0.5033294898672238
+time=1737054007.4164007 CHECKER pos [1.36867051 0.         0.2925    ] pattern 1 dist 2.258329489867224
+time=1737054007.4165351 CHECKER pos [1.36867051 0.         0.2925    ] pattern 1 dist 4.013329489867224
+time=1737054007.4166653 CHECKER pos [1.36867051 0.         0.2925    ] pattern 1 dist 5.768329489867224
+time=1737054007.4168205 CHECKER pos [1.36867051 0.         0.2925    ] pattern 1 dist 7.523329489867224
+time=1737054007.4169817 CHECKER pos [1.36867051 0.         0.2925    ] pattern 1 dist 9.278329489867222
+time=1737054007.4171433 CHECKER pos [1.38264675 0.         0.2925    ] pattern 0 dist 0.489353249475889
+time=1737054007.417305 CHECKER pos [1.38264675 0.         0.2925    ] pattern 1 dist 2.244353249475889
+time=1737054007.4174504 CHECKER pos [1.38264675 0.         0.2925    ] pattern 1 dist 3.999353249475889
+time=1737054007.4175813 CHECKER pos [1.38264675 0.         0.2925    ] pattern 1 dist 5.754353249475889
+time=1737054007.4177423 CHECKER pos [1.38264675 0.         0.2925    ] pattern 1 dist 7.509353249475889
+time=1737054007.4178734 CHECKER pos [1.38264675 0.         0.2925    ] pattern 1 dist 9.264353249475887
+time=1737054007.4180028 CHECKER pos [1.39662299 0.         0.2925    ] pattern 0 dist 0.47537700908455416
+time=1737054007.4181592 CHECKER pos [1.39662299 0.         0.2925    ] pattern 1 dist 2.2303770090845543
+time=1737054007.41832 CHECKER pos [1.39662299 0.         0.2925    ] pattern 1 dist 3.985377009084554
+time=1737054007.4184792 CHECKER pos [1.39662299 0.         0.2925    ] pattern 1 dist 5.740377009084554
+time=1737054007.4186075 CHECKER pos [1.39662299 0.         0.2925    ] pattern 0 dist 7.495377009084554
+time=1737054007.4187365 CHECKER pos [1.39662299 0.         0.2925    ] pattern 1 dist 9.250377009084552
+time=1737054007.4188929 CHECKER pos [1.41059923 0.         0.2925    ] pattern 0 dist 0.46140076869321933
+time=1737054007.41903 CHECKER pos [1.41059923 0.         0.2925    ] pattern 1 dist 2.2164007686932194
+time=1737054007.4191608 CHECKER pos [1.41059923 0.         0.2925    ] pattern 1 dist 3.9714007686932193
+time=1737054007.4192898 CHECKER pos [1.41059923 0.         0.2925    ] pattern 1 dist 5.726400768693219
+time=1737054007.4194436 CHECKER pos [1.41059923 0.         0.2925    ] pattern 0 dist 7.481400768693219
+time=1737054007.4196057 CHECKER pos [1.41059923 0.         0.2925    ] pattern 1 dist 9.236400768693217
+time=1737054007.4197433 CHECKER pos [1.42457547 0.         0.2925    ] pattern 0 dist 0.4474245283018845
+time=1737054007.4198725 CHECKER pos [1.42457547 0.         0.2925    ] pattern 1 dist 2.2024245283018846
+time=1737054007.419996 CHECKER pos [1.42457547 0.         0.2925    ] pattern 1 dist 3.9574245283018845
+time=1737054007.4201508 CHECKER pos [1.42457547 0.         0.2925    ] pattern 1 dist 5.712424528301884
+time=1737054007.420287 CHECKER pos [1.42457547 0.         0.2925    ] pattern 0 dist 7.467424528301884
+time=1737054007.420417 CHECKER pos [1.42457547 0.         0.2925    ] pattern 1 dist 9.222424528301882
+time=1737054007.4205468 CHECKER pos [1.43855171 0.         0.2925    ] pattern 0 dist 0.4334482879105497
+time=1737054007.4207046 CHECKER pos [1.43855171 0.         0.2925    ] pattern 1 dist 2.18844828791055
+time=1737054007.4208665 CHECKER pos [1.43855171 0.         0.2925    ] pattern 1 dist 3.9434482879105497
+time=1737054007.4210281 CHECKER pos [1.43855171 0.         0.2925    ] pattern 1 dist 5.69844828791055
+time=1737054007.4211645 CHECKER pos [1.43855171 0.         0.2925    ] pattern 0 dist 7.4534482879105495
+time=1737054007.4213204 CHECKER pos [1.43855171 0.         0.2925    ] pattern 1 dist 9.208448287910548
+time=1737054007.4214828 CHECKER pos [1.45252795 0.         0.2925    ] pattern 0 dist 0.41947204751921485
+time=1737054007.4216454 CHECKER pos [1.45252795 0.         0.2925    ] pattern 1 dist 2.174472047519215
+time=1737054007.4218152 CHECKER pos [1.45252795 0.         0.2925    ] pattern 1 dist 3.929472047519215
+time=1737054007.4219754 CHECKER pos [1.45252795 0.         0.2925    ] pattern 1 dist 5.684472047519215
+time=1737054007.422132 CHECKER pos [1.45252795 0.         0.2925    ] pattern 0 dist 7.439472047519215
+time=1737054007.4222927 CHECKER pos [1.45252795 0.         0.2925    ] pattern 1 dist 9.194472047519213
+time=1737054007.4224546 CHECKER pos [1.46650419 0.         0.2925    ] pattern 0 dist 0.40549580712788
+time=1737054007.4226165 CHECKER pos [1.46650419 0.         0.2925    ] pattern 1 dist 2.16049580712788
+time=1737054007.422776 CHECKER pos [1.46650419 0.         0.2925    ] pattern 1 dist 3.91549580712788
+time=1737054007.422936 CHECKER pos [1.46650419 0.         0.2925    ] pattern 1 dist 5.67049580712788
+time=1737054007.4230955 CHECKER pos [1.46650419 0.         0.2925    ] pattern 0 dist 7.42549580712788
+time=1737054007.4232917 CHECKER pos [1.46650419 0.         0.2925    ] pattern 1 dist 9.180495807127878
+time=1737054007.4234905 CHECKER pos [1.48048043 0.         0.2925    ] pattern 0 dist 0.3915195667365452
+time=1737054007.4236517 CHECKER pos [1.48048043 0.         0.2925    ] pattern 1 dist 2.1465195667365453
+time=1737054007.423811 CHECKER pos [1.48048043 0.         0.2925    ] pattern 1 dist 3.901519566736545
+time=1737054007.4239695 CHECKER pos [1.48048043 0.         0.2925    ] pattern 1 dist 5.656519566736545
+time=1737054007.4241397 CHECKER pos [1.48048043 0.         0.2925    ] pattern 0 dist 7.411519566736545
+time=1737054007.4243486 CHECKER pos [1.48048043 0.         0.2925    ] pattern 1 dist 9.166519566736543
+time=1737054007.4245336 CHECKER pos [1.49445667 0.         0.2925    ] pattern 0 dist 0.3775433263452104
+time=1737054007.4247003 CHECKER pos [1.49445667 0.         0.2925    ] pattern 1 dist 2.1325433263452105
+time=1737054007.4248528 CHECKER pos [1.49445667 0.         0.2925    ] pattern 1 dist 3.8875433263452104
+time=1737054007.42498 CHECKER pos [1.49445667 0.         0.2925    ] pattern 1 dist 5.64254332634521
+time=1737054007.425133 CHECKER pos [1.49445667 0.         0.2925    ] pattern 0 dist 7.39754332634521
+time=1737054007.425294 CHECKER pos [1.49445667 0.         0.2925    ] pattern 1 dist 9.152543326345208
+time=1737054007.4254575 CHECKER pos [1.50843291 0.         0.2925    ] pattern 0 dist 0.36356708595387555
+time=1737054007.4256196 CHECKER pos [1.50843291 0.         0.2925    ] pattern 1 dist 2.1185670859538757
+time=1737054007.4257724 CHECKER pos [1.50843291 0.         0.2925    ] pattern 1 dist 3.8735670859538756
+time=1737054007.4259043 CHECKER pos [1.50843291 0.         0.2925    ] pattern 1 dist 5.6285670859538754
+time=1737054007.4260335 CHECKER pos [1.50843291 0.         0.2925    ] pattern 0 dist 7.383567085953875
+time=1737054007.4261897 CHECKER pos [1.50843291 0.         0.2925    ] pattern 1 dist 9.138567085953873
+time=1737054007.4263256 CHECKER pos [1.52240915 0.         0.2925    ] pattern 1 dist 0.3495908455625407
+time=1737054007.426454 CHECKER pos [1.52240915 0.         0.2925    ] pattern 1 dist 2.104590845562541
+time=1737054007.426583 CHECKER pos [1.52240915 0.         0.2925    ] pattern 1 dist 3.8595908455625407
+time=1737054007.426738 CHECKER pos [1.52240915 0.         0.2925    ] pattern 1 dist 5.614590845562541
+time=1737054007.426898 CHECKER pos [1.52240915 0.         0.2925    ] pattern 0 dist 7.3695908455625405
+time=1737054007.4270334 CHECKER pos [1.52240915 0.         0.2925    ] pattern 1 dist 9.124590845562539
+time=1737054007.427162 CHECKER pos [1.53638539 0.         0.2925    ] pattern 1 dist 0.3356146051712059
+time=1737054007.42729 CHECKER pos [1.53638539 0.         0.2925    ] pattern 1 dist 2.090614605171206
+time=1737054007.4274435 CHECKER pos [1.53638539 0.         0.2925    ] pattern 1 dist 3.845614605171206
+time=1737054007.4276047 CHECKER pos [1.53638539 0.         0.2925    ] pattern 1 dist 5.600614605171206
+time=1737054007.4277425 CHECKER pos [1.53638539 0.         0.2925    ] pattern 0 dist 7.355614605171206
+time=1737054007.4278738 CHECKER pos [1.53638539 0.         0.2925    ] pattern 1 dist 9.110614605171204
+time=1737054007.4280052 CHECKER pos [1.55036164 0.         0.2925    ] pattern 1 dist 0.32163836477987107
+time=1737054007.4281604 CHECKER pos [1.55036164 0.         0.2925    ] pattern 1 dist 2.076638364779871
+time=1737054007.428296 CHECKER pos [1.55036164 0.         0.2925    ] pattern 1 dist 3.831638364779871
+time=1737054007.4284253 CHECKER pos [1.55036164 0.         0.2925    ] pattern 1 dist 5.586638364779871
+time=1737054007.4285538 CHECKER pos [1.55036164 0.         0.2925    ] pattern 0 dist 7.341638364779871
+time=1737054007.42871 CHECKER pos [1.55036164 0.         0.2925    ] pattern 1 dist 9.096638364779869
+time=1737054007.4288719 CHECKER pos [1.56433788 0.         0.2925    ] pattern 1 dist 0.30766212438853624
+time=1737054007.4290068 CHECKER pos [1.56433788 0.         0.2925    ] pattern 1 dist 2.0626621243885364
+time=1737054007.429137 CHECKER pos [1.56433788 0.         0.2925    ] pattern 1 dist 3.8176621243885362
+time=1737054007.4292662 CHECKER pos [1.56433788 0.         0.2925    ] pattern 1 dist 5.572662124388536
+time=1737054007.4294224 CHECKER pos [1.56433788 0.         0.2925    ] pattern 0 dist 7.327662124388536
+time=1737054007.4295595 CHECKER pos [1.56433788 0.         0.2925    ] pattern 1 dist 9.082662124388534
+time=1737054007.4296913 CHECKER pos [1.57831412 0.         0.2925    ] pattern 1 dist 0.2936858839972014
+time=1737054007.4298694 CHECKER pos [1.57831412 0.         0.2925    ] pattern 1 dist 2.0486858839972015
+time=1737054007.4300263 CHECKER pos [1.57831412 0.         0.2925    ] pattern 1 dist 3.8036858839972014
+time=1737054007.4301963 CHECKER pos [1.57831412 0.         0.2925    ] pattern 1 dist 5.558685883997201
+time=1737054007.4303255 CHECKER pos [1.57831412 0.         0.2925    ] pattern 0 dist 7.313685883997201
+time=1737054007.4304552 CHECKER pos [1.57831412 0.         0.2925    ] pattern 1 dist 9.0686858839972
+time=1737054007.4305856 CHECKER pos [1.59229036 0.         0.2925    ] pattern 1 dist 0.2797096436058666
+time=1737054007.4307387 CHECKER pos [1.59229036 0.         0.2925    ] pattern 1 dist 2.0347096436058667
+time=1737054007.4308684 CHECKER pos [1.59229036 0.         0.2925    ] pattern 1 dist 3.7897096436058666
+time=1737054007.4310222 CHECKER pos [1.59229036 0.         0.2925    ] pattern 1 dist 5.5447096436058665
+time=1737054007.4311821 CHECKER pos [1.59229036 0.         0.2925    ] pattern 0 dist 7.299709643605866
+time=1737054007.4313436 CHECKER pos [1.59229036 0.         0.2925    ] pattern 1 dist 9.054709643605864
+time=1737054007.4314785 CHECKER pos [1.6062666 0.        0.2925   ] pattern 1 dist 0.26573340321453176
+time=1737054007.4316075 CHECKER pos [1.6062666 0.        0.2925   ] pattern 1 dist 2.020733403214532
+time=1737054007.4317353 CHECKER pos [1.6062666 0.        0.2925   ] pattern 1 dist 3.7757334032145318
+time=1737054007.4318638 CHECKER pos [1.6062666 0.        0.2925   ] pattern 1 dist 5.530733403214532
+time=1737054007.4319918 CHECKER pos [1.6062666 0.        0.2925   ] pattern 0 dist 7.285733403214532
+time=1737054007.432121 CHECKER pos [1.6062666 0.        0.2925   ] pattern 1 dist 9.04073340321453
+time=1737054007.4322762 CHECKER pos [1.62024284 0.         0.2925    ] pattern 1 dist 0.25175716282319693
+time=1737054007.4324365 CHECKER pos [1.62024284 0.         0.2925    ] pattern 1 dist 2.006757162823197
+time=1737054007.4325962 CHECKER pos [1.62024284 0.         0.2925    ] pattern 1 dist 3.761757162823197
+time=1737054007.4327302 CHECKER pos [1.62024284 0.         0.2925    ] pattern 1 dist 5.516757162823197
+time=1737054007.4328594 CHECKER pos [1.62024284 0.         0.2925    ] pattern 0 dist 7.271757162823197
+time=1737054007.432989 CHECKER pos [1.62024284 0.         0.2925    ] pattern 1 dist 9.026757162823195
+time=1737054007.433118 CHECKER pos [1.63421908 0.         0.2925    ] pattern 1 dist 0.2377809224318621
+time=1737054007.4332452 CHECKER pos [1.63421908 0.         0.2925    ] pattern 1 dist 1.992780922431862
+time=1737054007.4333725 CHECKER pos [1.63421908 0.         0.2925    ] pattern 1 dist 3.747780922431862
+time=1737054007.4335263 CHECKER pos [1.63421908 0.         0.2925    ] pattern 1 dist 5.502780922431862
+time=1737054007.4336863 CHECKER pos [1.63421908 0.         0.2925    ] pattern 0 dist 7.257780922431862
+time=1737054007.433854 CHECKER pos [1.63421908 0.         0.2925    ] pattern 1 dist 9.01278092243186
+time=1737054007.4339905 CHECKER pos [1.64819532 0.         0.2925    ] pattern 1 dist 0.22380468204052728
+time=1737054007.434119 CHECKER pos [1.64819532 0.         0.2925    ] pattern 1 dist 1.9788046820405272
+time=1737054007.4342463 CHECKER pos [1.64819532 0.         0.2925    ] pattern 1 dist 3.7338046820405273
+time=1737054007.4343734 CHECKER pos [1.64819532 0.         0.2925    ] pattern 1 dist 5.488804682040527
+time=1737054007.434501 CHECKER pos [1.64819532 0.         0.2925    ] pattern 0 dist 7.243804682040527
+time=1737054007.4346554 CHECKER pos [1.64819532 0.         0.2925    ] pattern 1 dist 8.998804682040525
+time=1737054007.4348156 CHECKER pos [1.66217156 0.         0.2925    ] pattern 1 dist 0.20982844164919245
+time=1737054007.434951 CHECKER pos [1.66217156 0.         0.2925    ] pattern 1 dist 1.9648284416491923
+time=1737054007.4351058 CHECKER pos [1.66217156 0.         0.2925    ] pattern 1 dist 3.7198284416491925
+time=1737054007.4352653 CHECKER pos [1.66217156 0.         0.2925    ] pattern 1 dist 5.474828441649192
+time=1737054007.4353995 CHECKER pos [1.66217156 0.         0.2925    ] pattern 0 dist 7.229828441649192
+time=1737054007.4355288 CHECKER pos [1.66217156 0.         0.2925    ] pattern 1 dist 8.98482844164919
+time=1737054007.4356575 CHECKER pos [1.6761478 0.        0.2925   ] pattern 1 dist 0.19585220125785763
+time=1737054007.4357843 CHECKER pos [1.6761478 0.        0.2925   ] pattern 1 dist 1.9508522012578575
+time=1737054007.4359124 CHECKER pos [1.6761478 0.        0.2925   ] pattern 1 dist 3.7058522012578576
+time=1737054007.436067 CHECKER pos [1.6761478 0.        0.2925   ] pattern 1 dist 5.4608522012578575
+time=1737054007.4362273 CHECKER pos [1.6761478 0.        0.2925   ] pattern 0 dist 7.215852201257857
+time=1737054007.4363616 CHECKER pos [1.6761478 0.        0.2925   ] pattern 1 dist 8.970852201257856
+time=1737054007.4365168 CHECKER pos [1.69012404 0.         0.2925    ] pattern 1 dist 0.1818759608665228
+time=1737054007.4366515 CHECKER pos [1.69012404 0.         0.2925    ] pattern 1 dist 1.9368759608665227
+time=1737054007.4367797 CHECKER pos [1.69012404 0.         0.2925    ] pattern 1 dist 3.691875960866523
+time=1737054007.4369347 CHECKER pos [1.69012404 0.         0.2925    ] pattern 1 dist 5.446875960866523
+time=1737054007.4370956 CHECKER pos [1.69012404 0.         0.2925    ] pattern 0 dist 7.201875960866523
+time=1737054007.4372575 CHECKER pos [1.69012404 0.         0.2925    ] pattern 1 dist 8.95687596086652
+time=1737054007.437418 CHECKER pos [1.70410028 0.         0.2925    ] pattern 1 dist 0.16789972047518797
+time=1737054007.437578 CHECKER pos [1.70410028 0.         0.2925    ] pattern 1 dist 1.9228997204751879
+time=1737054007.4377408 CHECKER pos [1.70410028 0.         0.2925    ] pattern 1 dist 3.677899720475188
+time=1737054007.4378712 CHECKER pos [1.70410028 0.         0.2925    ] pattern 1 dist 5.432899720475188
+time=1737054007.4380033 CHECKER pos [1.70410028 0.         0.2925    ] pattern 0 dist 7.187899720475188
+time=1737054007.4381337 CHECKER pos [1.70410028 0.         0.2925    ] pattern 1 dist 8.942899720475186
+time=1737054007.4382646 CHECKER pos [1.71807652 0.         0.2925    ] pattern 1 dist 0.15392348008385315
+time=1737054007.438419 CHECKER pos [1.71807652 0.         0.2925    ] pattern 1 dist 1.908923480083853
+time=1737054007.438574 CHECKER pos [1.71807652 0.         0.2925    ] pattern 1 dist 3.663923480083853
+time=1737054007.4387345 CHECKER pos [1.71807652 0.         0.2925    ] pattern 1 dist 5.418923480083853
+time=1737054007.438894 CHECKER pos [1.71807652 0.         0.2925    ] pattern 0 dist 7.173923480083853
+time=1737054007.4390287 CHECKER pos [1.71807652 0.         0.2925    ] pattern 1 dist 8.928923480083851
+time=1737054007.4391575 CHECKER pos [1.73205276 0.         0.2925    ] pattern 1 dist 0.13994723969251832
+time=1737054007.4392862 CHECKER pos [1.73205276 0.         0.2925    ] pattern 1 dist 1.8949472396925182
+time=1737054007.4394138 CHECKER pos [1.73205276 0.         0.2925    ] pattern 1 dist 3.6499472396925183
+time=1737054007.4395416 CHECKER pos [1.73205276 0.         0.2925    ] pattern 1 dist 5.404947239692518
+time=1737054007.4396946 CHECKER pos [1.73205276 0.         0.2925    ] pattern 0 dist 7.159947239692518
+time=1737054007.4398556 CHECKER pos [1.73205276 0.         0.2925    ] pattern 1 dist 8.914947239692516
+time=1737054007.440017 CHECKER pos [1.746029 0.       0.2925  ] pattern 1 dist 0.1259709993011835
+time=1737054007.4401772 CHECKER pos [1.746029 0.       0.2925  ] pattern 1 dist 1.8809709993011834
+time=1737054007.4403372 CHECKER pos [1.746029 0.       0.2925  ] pattern 1 dist 3.6359709993011835
+time=1737054007.4404964 CHECKER pos [1.746029 0.       0.2925  ] pattern 1 dist 5.390970999301183
+time=1737054007.440655 CHECKER pos [1.746029 0.       0.2925  ] pattern 0 dist 7.145970999301183
+time=1737054007.4408154 CHECKER pos [1.746029 0.       0.2925  ] pattern 1 dist 8.900970999301181
+time=1737054007.4409506 CHECKER pos [1.76000524 0.         0.2925    ] pattern 1 dist 0.11199475890984867
+time=1737054007.4410794 CHECKER pos [1.76000524 0.         0.2925    ] pattern 1 dist 1.8669947589098486
+time=1737054007.441207 CHECKER pos [1.76000524 0.         0.2925    ] pattern 1 dist 3.6219947589098487
+time=1737054007.4413605 CHECKER pos [1.76000524 0.         0.2925    ] pattern 1 dist 5.376994758909849
+time=1737054007.44152 CHECKER pos [1.76000524 0.         0.2925    ] pattern 0 dist 7.1319947589098485
+time=1737054007.4416807 CHECKER pos [1.76000524 0.         0.2925    ] pattern 1 dist 8.886994758909847
+time=1737054007.44183 CHECKER pos [1.77398148 0.         0.2925    ] pattern 1 dist 0.09801851851851384
+time=1737054007.441959 CHECKER pos [1.77398148 0.         0.2925    ] pattern 1 dist 1.8530185185185137
+time=1737054007.4420874 CHECKER pos [1.77398148 0.         0.2925    ] pattern 1 dist 3.608018518518514
+time=1737054007.4422145 CHECKER pos [1.77398148 0.         0.2925    ] pattern 1 dist 5.363018518518514
+time=1737054007.442342 CHECKER pos [1.77398148 0.         0.2925    ] pattern 0 dist 7.118018518518514
+time=1737054007.4424698 CHECKER pos [1.77398148 0.         0.2925    ] pattern 1 dist 8.873018518518512
+time=1737054007.442624 CHECKER pos [1.78795772 0.         0.2925    ] pattern 1 dist 0.08404227812717902
+time=1737054007.4427838 CHECKER pos [1.78795772 0.         0.2925    ] pattern 1 dist 1.839042278127179
+time=1737054007.4429429 CHECKER pos [1.78795772 0.         0.2925    ] pattern 1 dist 3.594042278127179
+time=1737054007.4430766 CHECKER pos [1.78795772 0.         0.2925    ] pattern 1 dist 5.349042278127179
+time=1737054007.4432063 CHECKER pos [1.78795772 0.         0.2925    ] pattern 0 dist 7.104042278127179
+time=1737054007.4433358 CHECKER pos [1.78795772 0.         0.2925    ] pattern 1 dist 8.859042278127177
+time=1737054007.4434667 CHECKER pos [1.80193396 0.         0.2925    ] pattern 1 dist 0.07006603773584419
+time=1737054007.4435916 CHECKER pos [1.80193396 0.         0.2925    ] pattern 1 dist 1.825066037735844
+time=1737054007.4437132 CHECKER pos [1.80193396 0.         0.2925    ] pattern 1 dist 3.580066037735844
+time=1737054007.4438663 CHECKER pos [1.80193396 0.         0.2925    ] pattern 1 dist 5.335066037735844
+time=1737054007.4440267 CHECKER pos [1.80193396 0.         0.2925    ] pattern 0 dist 7.090066037735844
+time=1737054007.4442027 CHECKER pos [1.80193396 0.         0.2925    ] pattern 1 dist 8.845066037735842
+time=1737054007.444381 CHECKER pos [1.8159102 0.        0.2925   ] pattern 1 dist 0.05608979734450936
+time=1737054007.444559 CHECKER pos [1.8159102 0.        0.2925   ] pattern 1 dist 1.8110897973445093
+time=1737054007.4447362 CHECKER pos [1.8159102 0.        0.2925   ] pattern 1 dist 3.5660897973445094
+time=1737054007.4449134 CHECKER pos [1.8159102 0.        0.2925   ] pattern 1 dist 5.321089797344509
+time=1737054007.44509 CHECKER pos [1.8159102 0.        0.2925   ] pattern 0 dist 7.076089797344509
+time=1737054007.4452677 CHECKER pos [1.8159102 0.        0.2925   ] pattern 1 dist 8.831089797344507
+time=1737054007.4454458 CHECKER pos [1.82988644 0.         0.2925    ] pattern 1 dist 0.042113556953174536
+time=1737054007.445624 CHECKER pos [1.82988644 0.         0.2925    ] pattern 1 dist 1.7971135569531744
+time=1737054007.4458003 CHECKER pos [1.82988644 0.         0.2925    ] pattern 1 dist 3.5521135569531745
+time=1737054007.4460201 CHECKER pos [1.82988644 0.         0.2925    ] pattern 1 dist 5.307113556953174
+time=1737054007.4462008 CHECKER pos [1.82988644 0.         0.2925    ] pattern 0 dist 7.062113556953174
+time=1737054007.446348 CHECKER pos [1.82988644 0.         0.2925    ] pattern 1 dist 8.817113556953172
+time=1737054007.4465175 CHECKER pos [1.84386268 0.         0.2925    ] pattern 1 dist 0.02813731656183971
+time=1737054007.446699 CHECKER pos [1.84386268 0.         0.2925    ] pattern 1 dist 1.7831373165618396
+time=1737054007.446923 CHECKER pos [1.84386268 0.         0.2925    ] pattern 1 dist 3.5381373165618397
+time=1737054007.4471333 CHECKER pos [1.84386268 0.         0.2925    ] pattern 1 dist 5.29313731656184
+time=1737054007.4473166 CHECKER pos [1.84386268 0.         0.2925    ] pattern 0 dist 7.0481373165618395
+time=1737054007.4474652 CHECKER pos [1.84386268 0.         0.2925    ] pattern 1 dist 8.803137316561838
+time=1737054007.4476345 CHECKER pos [1.85783892 0.         0.2925    ] pattern 1 dist 0.014161076170504883
+time=1737054007.4478092 CHECKER pos [1.85783892 0.         0.2925    ] pattern 1 dist 1.7691610761705048
+time=1737054007.4479845 CHECKER pos [1.85783892 0.         0.2925    ] pattern 1 dist 3.524161076170505
+time=1737054007.4481626 CHECKER pos [1.85783892 0.         0.2925    ] pattern 1 dist 5.279161076170505
+time=1737054007.4483385 CHECKER pos [1.85783892 0.         0.2925    ] pattern 0 dist 7.034161076170505
+time=1737054007.4485164 CHECKER pos [1.85783892 0.         0.2925    ] pattern 1 dist 8.789161076170503
+time=1737054007.448699 CHECKER pos [1.87181516 0.         0.2925    ] pattern 1 dist 0.00018483577917005611
+time=1737054007.4488742 CHECKER pos [1.87181516 0.         0.2925    ] pattern 1 dist 1.75518483577917
+time=1737054007.4490502 CHECKER pos [1.87181516 0.         0.2925    ] pattern 1 dist 3.51018483577917
+time=1737054007.449236 CHECKER pos [1.87181516 0.         0.2925    ] pattern 1 dist 5.26518483577917
+time=1737054007.4494133 CHECKER pos [1.87181516 0.         0.2925    ] pattern 0 dist 7.02018483577917
+time=1737054007.4495907 CHECKER pos [1.87181516 0.         0.2925    ] pattern 1 dist 8.775184835779168
+time=1737054007.449776 CHECKER pos [1.8857914 0.        0.2925   ] pattern 1 dist 0.01379140461216477
+time=1737054007.4499683 CHECKER pos [1.8857914 0.        0.2925   ] pattern 1 dist 1.7412085953878351
+time=1737054007.4501553 CHECKER pos [1.8857914 0.        0.2925   ] pattern 1 dist 3.4962085953878352
+time=1737054007.4503307 CHECKER pos [1.8857914 0.        0.2925   ] pattern 1 dist 5.251208595387835
+time=1737054007.4505057 CHECKER pos [1.8857914 0.        0.2925   ] pattern 0 dist 7.006208595387835
+time=1737054007.4507148 CHECKER pos [1.8857914 0.        0.2925   ] pattern 1 dist 8.761208595387833
+time=1737054007.4508677 CHECKER pos [1.89976765 0.         0.2925    ] pattern 1 dist 0.027767645003499597
+time=1737054007.4510365 CHECKER pos [1.89976765 0.         0.2925    ] pattern 1 dist 1.7272323549965003
+time=1737054007.451211 CHECKER pos [1.89976765 0.         0.2925    ] pattern 1 dist 3.4822323549965004
+time=1737054007.4514093 CHECKER pos [1.89976765 0.         0.2925    ] pattern 1 dist 5.2372323549965
+time=1737054007.4515622 CHECKER pos [1.89976765 0.         0.2925    ] pattern 0 dist 6.9922323549965
+time=1737054007.4517105 CHECKER pos [1.89976765 0.         0.2925    ] pattern 1 dist 8.747232354996498
+time=1737054007.45188 CHECKER pos [1.91374389 0.         0.2925    ] pattern 1 dist 0.041743885394834424
+time=1737054007.4520545 CHECKER pos [1.91374389 0.         0.2925    ] pattern 1 dist 1.7132561146051655
+time=1737054007.4522302 CHECKER pos [1.91374389 0.         0.2925    ] pattern 1 dist 3.4682561146051656
+time=1737054007.4524045 CHECKER pos [1.91374389 0.         0.2925    ] pattern 1 dist 5.2232561146051655
+time=1737054007.4525793 CHECKER pos [1.91374389 0.         0.2925    ] pattern 0 dist 6.978256114605165
+time=1737054007.4527557 CHECKER pos [1.91374389 0.         0.2925    ] pattern 1 dist 8.733256114605163
+time=1737054007.4529326 CHECKER pos [1.92772013 0.         0.2925    ] pattern 1 dist 0.05572012578616925
+time=1737054007.4531083 CHECKER pos [1.92772013 0.         0.2925    ] pattern 1 dist 1.6992798742138306
+time=1737054007.453283 CHECKER pos [1.92772013 0.         0.2925    ] pattern 1 dist 3.4542798742138308
+time=1737054007.4534578 CHECKER pos [1.92772013 0.         0.2925    ] pattern 1 dist 5.209279874213831
+time=1737054007.453633 CHECKER pos [1.92772013 0.         0.2925    ] pattern 0 dist 6.9642798742138305
+time=1737054007.453826 CHECKER pos [1.92772013 0.         0.2925    ] pattern 1 dist 8.719279874213829
+time=1737054007.4540844 CHECKER pos [1.94169637 0.         0.2925    ] pattern 1 dist 0.06969636617750408
+time=1737054007.4543 CHECKER pos [1.94169637 0.         0.2925    ] pattern 1 dist 1.6853036338224958
+time=1737054007.4545012 CHECKER pos [1.94169637 0.         0.2925    ] pattern 1 dist 3.440303633822496
+time=1737054007.4546757 CHECKER pos [1.94169637 0.         0.2925    ] pattern 1 dist 5.195303633822496
+time=1737054007.4549024 CHECKER pos [1.94169637 0.         0.2925    ] pattern 0 dist 6.950303633822496
+time=1737054007.455104 CHECKER pos [1.94169637 0.         0.2925    ] pattern 1 dist 8.705303633822494
+time=1737054007.455279 CHECKER pos [1.95567261 0.         0.2925    ] pattern 1 dist 0.0836726065688389
+time=1737054007.4555004 CHECKER pos [1.95567261 0.         0.2925    ] pattern 1 dist 1.671327393431161
+time=1737054007.4556744 CHECKER pos [1.95567261 0.         0.2925    ] pattern 1 dist 3.426327393431161
+time=1737054007.4558477 CHECKER pos [1.95567261 0.         0.2925    ] pattern 1 dist 5.181327393431161
+time=1737054007.4560223 CHECKER pos [1.95567261 0.         0.2925    ] pattern 0 dist 6.936327393431161
+time=1737054007.456197 CHECKER pos [1.95567261 0.         0.2925    ] pattern 1 dist 8.691327393431159
+time=1737054007.4563813 CHECKER pos [1.96964885 0.         0.2925    ] pattern 1 dist 0.09764884696017373
+time=1737054007.4565578 CHECKER pos [1.96964885 0.         0.2925    ] pattern 1 dist 1.6573511530398262
+time=1737054007.4567595 CHECKER pos [1.96964885 0.         0.2925    ] pattern 1 dist 3.4123511530398263
+time=1737054007.4569876 CHECKER pos [1.96964885 0.         0.2925    ] pattern 1 dist 5.167351153039826
+time=1737054007.457163 CHECKER pos [1.96964885 0.         0.2925    ] pattern 0 dist 6.922351153039826
+time=1737054007.4573643 CHECKER pos [1.96964885 0.         0.2925    ] pattern 1 dist 8.677351153039824
+time=1737054007.4575393 CHECKER pos [1.98362509 0.         0.2925    ] pattern 1 dist 0.11162508735150856
+time=1737054007.4577138 CHECKER pos [1.98362509 0.         0.2925    ] pattern 0 dist 1.6433749126484913
+time=1737054007.457955 CHECKER pos [1.98362509 0.         0.2925    ] pattern 1 dist 3.3983749126484915
+time=1737054007.4581292 CHECKER pos [1.98362509 0.         0.2925    ] pattern 1 dist 5.153374912648491
+time=1737054007.458303 CHECKER pos [1.98362509 0.         0.2925    ] pattern 0 dist 6.908374912648491
+time=1737054007.4584792 CHECKER pos [1.98362509 0.         0.2925    ] pattern 1 dist 8.66337491264849
+time=1737054007.4587176 CHECKER pos [1.99760133 0.         0.2925    ] pattern 1 dist 0.12560132774284338
+time=1737054007.458928 CHECKER pos [1.99760133 0.         0.2925    ] pattern 0 dist 1.6293986722571565
+time=1737054007.4591038 CHECKER pos [1.99760133 0.         0.2925    ] pattern 1 dist 3.3843986722571566
+time=1737054007.4592779 CHECKER pos [1.99760133 0.         0.2925    ] pattern 1 dist 5.1393986722571565
+time=1737054007.4594305 CHECKER pos [1.99760133 0.         0.2925    ] pattern 0 dist 6.894398672257156
+time=1737054007.4595785 CHECKER pos [1.99760133 0.         0.2925    ] pattern 1 dist 8.649398672257155
+time=1737054007.45973 CHECKER pos [2.01157757 0.         0.2925    ] pattern 1 dist 0.139577568134178
+time=1737054007.4598985 CHECKER pos [2.01157757 0.         0.2925    ] pattern 0 dist 1.615422431865822
+time=1737054007.4600759 CHECKER pos [2.01157757 0.         0.2925    ] pattern 1 dist 3.370422431865822
+time=1737054007.4602509 CHECKER pos [2.01157757 0.         0.2925    ] pattern 1 dist 5.125422431865822
+time=1737054007.4604087 CHECKER pos [2.01157757 0.         0.2925    ] pattern 0 dist 6.880422431865822
+time=1737054007.4605775 CHECKER pos [2.01157757 0.         0.2925    ] pattern 1 dist 8.63542243186582
+time=1737054007.4607527 CHECKER pos [2.02555381 0.         0.2925    ] pattern 1 dist 0.1535538085255128
+time=1737054007.4609275 CHECKER pos [2.02555381 0.         0.2925    ] pattern 0 dist 1.601446191474487
+time=1737054007.4610813 CHECKER pos [2.02555381 0.         0.2925    ] pattern 1 dist 3.356446191474487
+time=1737054007.4612288 CHECKER pos [2.02555381 0.         0.2925    ] pattern 1 dist 5.111446191474487
+time=1737054007.4613953 CHECKER pos [2.02555381 0.         0.2925    ] pattern 0 dist 6.866446191474487
+time=1737054007.4615717 CHECKER pos [2.02555381 0.         0.2925    ] pattern 1 dist 8.621446191474487
+time=1737054007.4617598 CHECKER pos [2.03953005 0.         0.2925    ] pattern 1 dist 0.16753004891684764
+time=1737054007.461952 CHECKER pos [2.03953005 0.         0.2925    ] pattern 0 dist 1.5874699510831523
+time=1737054007.462137 CHECKER pos [2.03953005 0.         0.2925    ] pattern 1 dist 3.342469951083152
+time=1737054007.4623392 CHECKER pos [2.03953005 0.         0.2925    ] pattern 1 dist 5.097469951083152
+time=1737054007.4625409 CHECKER pos [2.03953005 0.         0.2925    ] pattern 0 dist 6.852469951083152
+time=1737054007.462746 CHECKER pos [2.03953005 0.         0.2925    ] pattern 1 dist 8.60746995108315
+time=1737054007.462895 CHECKER pos [2.05350629 0.         0.2925    ] pattern 1 dist 0.18150628930818247
+time=1737054007.4630606 CHECKER pos [2.05350629 0.         0.2925    ] pattern 0 dist 1.5734937106918174
+time=1737054007.4632356 CHECKER pos [2.05350629 0.         0.2925    ] pattern 1 dist 3.3284937106918173
+time=1737054007.4634202 CHECKER pos [2.05350629 0.         0.2925    ] pattern 1 dist 5.083493710691817
+time=1737054007.4635744 CHECKER pos [2.05350629 0.         0.2925    ] pattern 0 dist 6.838493710691817
+time=1737054007.4637232 CHECKER pos [2.05350629 0.         0.2925    ] pattern 1 dist 8.593493710691817
+time=1737054007.4638712 CHECKER pos [2.06748253 0.         0.2925    ] pattern 1 dist 0.1954825296995173
+time=1737054007.464022 CHECKER pos [2.06748253 0.         0.2925    ] pattern 0 dist 1.5595174703004826
+time=1737054007.4641736 CHECKER pos [2.06748253 0.         0.2925    ] pattern 1 dist 3.3145174703004825
+time=1737054007.464342 CHECKER pos [2.06748253 0.         0.2925    ] pattern 1 dist 5.069517470300482
+time=1737054007.4644942 CHECKER pos [2.06748253 0.         0.2925    ] pattern 0 dist 6.824517470300482
+time=1737054007.4646423 CHECKER pos [2.06748253 0.         0.2925    ] pattern 1 dist 8.57951747030048
+time=1737054007.4648094 CHECKER pos [2.08145877 0.         0.2925    ] pattern 1 dist 0.20945877009085212
+time=1737054007.464983 CHECKER pos [2.08145877 0.         0.2925    ] pattern 0 dist 1.5455412299091478
+time=1737054007.4651573 CHECKER pos [2.08145877 0.         0.2925    ] pattern 0 dist 3.3005412299091477
+time=1737054007.4653318 CHECKER pos [2.08145877 0.         0.2925    ] pattern 1 dist 5.055541229909148
+time=1737054007.4655056 CHECKER pos [2.08145877 0.         0.2925    ] pattern 0 dist 6.8105412299091475
+time=1737054007.4656806 CHECKER pos [2.08145877 0.         0.2925    ] pattern 1 dist 8.565541229909147
+time=1737054007.46591 CHECKER pos [2.09543501 0.         0.2925    ] pattern 1 dist 0.22343501048218695
+time=1737054007.466083 CHECKER pos [2.09543501 0.         0.2925    ] pattern 0 dist 1.531564989517813
+time=1737054007.4662576 CHECKER pos [2.09543501 0.         0.2925    ] pattern 0 dist 3.286564989517813
+time=1737054007.4664328 CHECKER pos [2.09543501 0.         0.2925    ] pattern 1 dist 5.041564989517813
+time=1737054007.4666057 CHECKER pos [2.09543501 0.         0.2925    ] pattern 0 dist 6.796564989517813
+time=1737054007.4668307 CHECKER pos [2.09543501 0.         0.2925    ] pattern 1 dist 8.55156498951781
+time=1737054007.4670284 CHECKER pos [2.10941125 0.         0.2925    ] pattern 1 dist 0.23741125087352177
+time=1737054007.4672015 CHECKER pos [2.10941125 0.         0.2925    ] pattern 0 dist 1.5175887491264781
+time=1737054007.4673753 CHECKER pos [2.10941125 0.         0.2925    ] pattern 0 dist 3.272588749126478
+time=1737054007.467551 CHECKER pos [2.10941125 0.         0.2925    ] pattern 1 dist 5.027588749126478
+time=1737054007.467721 CHECKER pos [2.10941125 0.         0.2925    ] pattern 0 dist 6.782588749126478
+time=1737054007.4678698 CHECKER pos [2.10941125 0.         0.2925    ] pattern 1 dist 8.537588749126478
+time=1737054007.4680119 CHECKER pos [2.12338749 0.         0.2925    ] pattern 1 dist 0.2513874912648566
+time=1737054007.4681528 CHECKER pos [2.12338749 0.         0.2925    ] pattern 0 dist 1.5036125087351433
+time=1737054007.4682949 CHECKER pos [2.12338749 0.         0.2925    ] pattern 0 dist 3.258612508735143
+time=1737054007.4684582 CHECKER pos [2.12338749 0.         0.2925    ] pattern 1 dist 5.013612508735143
+time=1737054007.4686296 CHECKER pos [2.12338749 0.         0.2925    ] pattern 0 dist 6.768612508735143
+time=1737054007.468802 CHECKER pos [2.12338749 0.         0.2925    ] pattern 0 dist 8.523612508735141
+time=1737054007.4689775 CHECKER pos [2.13736373 0.         0.2925    ] pattern 1 dist 0.2653637316561914
+time=1737054007.4691503 CHECKER pos [2.13736373 0.         0.2925    ] pattern 0 dist 1.4896362683438085
+time=1737054007.4693236 CHECKER pos [2.13736373 0.         0.2925    ] pattern 0 dist 3.2446362683438084
+time=1737054007.4694948 CHECKER pos [2.13736373 0.         0.2925    ] pattern 1 dist 4.999636268343808
+time=1737054007.4696653 CHECKER pos [2.13736373 0.         0.2925    ] pattern 0 dist 6.754636268343808
+time=1737054007.4698417 CHECKER pos [2.13736373 0.         0.2925    ] pattern 0 dist 8.509636268343808
+time=1737054007.4700267 CHECKER pos [2.15133997 0.         0.2925    ] pattern 1 dist 0.27933997204752625
+time=1737054007.4702005 CHECKER pos [2.15133997 0.         0.2925    ] pattern 0 dist 1.4756600279524736
+time=1737054007.4703734 CHECKER pos [2.15133997 0.         0.2925    ] pattern 0 dist 3.2306600279524735
+time=1737054007.470545 CHECKER pos [2.15133997 0.         0.2925    ] pattern 1 dist 4.985660027952473
+time=1737054007.4707165 CHECKER pos [2.15133997 0.         0.2925    ] pattern 0 dist 6.740660027952473
+time=1737054007.4708872 CHECKER pos [2.15133997 0.         0.2925    ] pattern 0 dist 8.495660027952471
+time=1737054007.47106 CHECKER pos [2.16531621 0.         0.2925    ] pattern 1 dist 0.2933162124388611
+time=1737054007.4712303 CHECKER pos [2.16531621 0.         0.2925    ] pattern 0 dist 1.4616837875611388
+time=1737054007.4714081 CHECKER pos [2.16531621 0.         0.2925    ] pattern 0 dist 3.2166837875611387
+time=1737054007.4715803 CHECKER pos [2.16531621 0.         0.2925    ] pattern 1 dist 4.971683787561139
+time=1737054007.4717507 CHECKER pos [2.16531621 0.         0.2925    ] pattern 0 dist 6.7266837875611385
+time=1737054007.4719217 CHECKER pos [2.16531621 0.         0.2925    ] pattern 0 dist 8.481683787561138
+time=1737054007.4720945 CHECKER pos [2.17929245 0.         0.2925    ] pattern 1 dist 0.3072924528301959
+time=1737054007.472266 CHECKER pos [2.17929245 0.         0.2925    ] pattern 0 dist 1.447707547169804
+time=1737054007.4724379 CHECKER pos [2.17929245 0.         0.2925    ] pattern 0 dist 3.202707547169804
+time=1737054007.472609 CHECKER pos [2.17929245 0.         0.2925    ] pattern 1 dist 4.957707547169804
+time=1737054007.472778 CHECKER pos [2.17929245 0.         0.2925    ] pattern 0 dist 6.712707547169804
+time=1737054007.4729476 CHECKER pos [2.17929245 0.         0.2925    ] pattern 0 dist 8.467707547169802
+time=1737054007.4731183 CHECKER pos [2.19326869 0.         0.2925    ] pattern 1 dist 0.32126869322153073
+time=1737054007.4732883 CHECKER pos [2.19326869 0.         0.2925    ] pattern 0 dist 1.4337313067784692
+time=1737054007.473459 CHECKER pos [2.19326869 0.         0.2925    ] pattern 0 dist 3.188731306778469
+time=1737054007.4736276 CHECKER pos [2.19326869 0.         0.2925    ] pattern 1 dist 4.943731306778469
+time=1737054007.4737961 CHECKER pos [2.19326869 0.         0.2925    ] pattern 0 dist 6.698731306778469
+time=1737054007.4739695 CHECKER pos [2.19326869 0.         0.2925    ] pattern 0 dist 8.453731306778469
+time=1737054007.474152 CHECKER pos [2.20724493 0.         0.2925    ] pattern 1 dist 0.33524493361286556
+time=1737054007.474279 CHECKER pos [2.20724493 0.         0.2925    ] pattern 0 dist 1.4197550663871343
+time=1737054007.4744048 CHECKER pos [2.20724493 0.         0.2925    ] pattern 0 dist 3.1747550663871342
+time=1737054007.4745326 CHECKER pos [2.20724493 0.         0.2925    ] pattern 1 dist 4.929755066387134
+time=1737054007.4746823 CHECKER pos [2.20724493 0.         0.2925    ] pattern 0 dist 6.684755066387134
+time=1737054007.4748168 CHECKER pos [2.20724493 0.         0.2925    ] pattern 0 dist 8.439755066387132
+time=1737054007.4749699 CHECKER pos [2.22122117 0.         0.2925    ] pattern 1 dist 0.3492211740042004
+time=1737054007.4751298 CHECKER pos [2.22122117 0.         0.2925    ] pattern 0 dist 1.4057788259957995
+time=1737054007.475286 CHECKER pos [2.22122117 0.         0.2925    ] pattern 0 dist 3.1607788259957994
+time=1737054007.4754412 CHECKER pos [2.22122117 0.         0.2925    ] pattern 0 dist 4.915778825995799
+time=1737054007.4755962 CHECKER pos [2.22122117 0.         0.2925    ] pattern 0 dist 6.670778825995799
+time=1737054007.475751 CHECKER pos [2.22122117 0.         0.2925    ] pattern 0 dist 8.425778825995799
+time=1737054007.475907 CHECKER pos [2.23519741 0.         0.2925    ] pattern 1 dist 0.3631974143955352
+time=1737054007.4760594 CHECKER pos [2.23519741 0.         0.2925    ] pattern 0 dist 1.3918025856044647
+time=1737054007.4762137 CHECKER pos [2.23519741 0.         0.2925    ] pattern 0 dist 3.1468025856044646
+time=1737054007.476368 CHECKER pos [2.23519741 0.         0.2925    ] pattern 0 dist 4.9018025856044645
+time=1737054007.4765227 CHECKER pos [2.23519741 0.         0.2925    ] pattern 1 dist 6.656802585604464
+time=1737054007.4766753 CHECKER pos [2.23519741 0.         0.2925    ] pattern 0 dist 8.411802585604462
+time=1737054007.47683 CHECKER pos [2.24917365 0.         0.2925    ] pattern 1 dist 0.37717365478687004
+time=1737054007.476983 CHECKER pos [2.24917365 0.         0.2925    ] pattern 0 dist 1.3778263452131299
+time=1737054007.4771366 CHECKER pos [2.24917365 0.         0.2925    ] pattern 0 dist 3.1328263452131297
+time=1737054007.4772904 CHECKER pos [2.24917365 0.         0.2925    ] pattern 0 dist 4.88782634521313
+time=1737054007.477444 CHECKER pos [2.24917365 0.         0.2925    ] pattern 1 dist 6.6428263452131295
+time=1737054007.4775689 CHECKER pos [2.24917365 0.         0.2925    ] pattern 0 dist 8.39782634521313
+time=1737054007.4776886 CHECKER pos [2.2631499 0.        0.2925   ] pattern 1 dist 0.39114989517820486
+time=1737054007.4778435 CHECKER pos [2.2631499 0.        0.2925   ] pattern 0 dist 1.363850104821795
+time=1737054007.4779997 CHECKER pos [2.2631499 0.        0.2925   ] pattern 0 dist 3.118850104821795
+time=1737054007.478166 CHECKER pos [2.2631499 0.        0.2925   ] pattern 0 dist 4.873850104821795
+time=1737054007.478359 CHECKER pos [2.2631499 0.        0.2925   ] pattern 1 dist 6.628850104821795
+time=1737054007.4784799 CHECKER pos [2.2631499 0.        0.2925   ] pattern 0 dist 8.383850104821793
+time=1737054007.478602 CHECKER pos [2.27712614 0.         0.2925    ] pattern 1 dist 0.4051261355695397
+time=1737054007.4787242 CHECKER pos [2.27712614 0.         0.2925    ] pattern 0 dist 1.3498738644304602
+time=1737054007.4788463 CHECKER pos [2.27712614 0.         0.2925    ] pattern 0 dist 3.10487386443046
+time=1737054007.4789665 CHECKER pos [2.27712614 0.         0.2925    ] pattern 0 dist 4.85987386443046
+time=1737054007.4791145 CHECKER pos [2.27712614 0.         0.2925    ] pattern 1 dist 6.61487386443046
+time=1737054007.4792683 CHECKER pos [2.27712614 0.         0.2925    ] pattern 0 dist 8.36987386443046
+time=1737054007.4794245 CHECKER pos [2.29110238 0.         0.2925    ] pattern 1 dist 0.4191023759608745
+time=1737054007.4795516 CHECKER pos [2.29110238 0.         0.2925    ] pattern 0 dist 1.3358976240391254
+time=1737054007.4796724 CHECKER pos [2.29110238 0.         0.2925    ] pattern 0 dist 3.0908976240391253
+time=1737054007.4797914 CHECKER pos [2.29110238 0.         0.2925    ] pattern 0 dist 4.845897624039125
+time=1737054007.4799101 CHECKER pos [2.29110238 0.         0.2925    ] pattern 1 dist 6.600897624039125
+time=1737054007.4800286 CHECKER pos [2.29110238 0.         0.2925    ] pattern 0 dist 8.355897624039123
+time=1737054007.4801495 CHECKER pos [2.30507862 0.         0.2925    ] pattern 1 dist 0.43307861635220934
+time=1737054007.4802954 CHECKER pos [2.30507862 0.         0.2925    ] pattern 0 dist 1.3219213836477905
+time=1737054007.480451 CHECKER pos [2.30507862 0.         0.2925    ] pattern 0 dist 3.0769213836477904
+time=1737054007.4806054 CHECKER pos [2.30507862 0.         0.2925    ] pattern 0 dist 4.83192138364779
+time=1737054007.4807599 CHECKER pos [2.30507862 0.         0.2925    ] pattern 1 dist 6.58692138364779
+time=1737054007.4809124 CHECKER pos [2.30507862 0.         0.2925    ] pattern 0 dist 8.34192138364779
+time=1737054007.4810677 CHECKER pos [2.31905486 0.         0.2925    ] pattern 1 dist 0.44705485674354417
+time=1737054007.4812207 CHECKER pos [2.31905486 0.         0.2925    ] pattern 0 dist 1.3079451432564557
+time=1737054007.4813743 CHECKER pos [2.31905486 0.         0.2925    ] pattern 0 dist 3.0629451432564556
+time=1737054007.4815283 CHECKER pos [2.31905486 0.         0.2925    ] pattern 0 dist 4.8179451432564555
+time=1737054007.4816825 CHECKER pos [2.31905486 0.         0.2925    ] pattern 1 dist 6.572945143256455
+time=1737054007.4818416 CHECKER pos [2.31905486 0.         0.2925    ] pattern 0 dist 8.327945143256454
+time=1737054007.4819984 CHECKER pos [2.3330311 0.        0.2925   ] pattern 1 dist 0.461031097134879
+time=1737054007.4821508 CHECKER pos [2.3330311 0.        0.2925   ] pattern 0 dist 1.293968902865121
+time=1737054007.4823048 CHECKER pos [2.3330311 0.        0.2925   ] pattern 0 dist 3.048968902865121
+time=1737054007.4824588 CHECKER pos [2.3330311 0.        0.2925   ] pattern 0 dist 4.803968902865121
+time=1737054007.4826121 CHECKER pos [2.3330311 0.        0.2925   ] pattern 1 dist 6.558968902865121
+time=1737054007.4827638 CHECKER pos [2.3330311 0.        0.2925   ] pattern 0 dist 8.31396890286512
+time=1737054007.4829185 CHECKER pos [2.34700734 0.         0.2925    ] pattern 1 dist 0.4750073375262138
+time=1737054007.4830701 CHECKER pos [2.34700734 0.         0.2925    ] pattern 0 dist 1.279992662473786
+time=1737054007.4832242 CHECKER pos [2.34700734 0.         0.2925    ] pattern 0 dist 3.034992662473786
+time=1737054007.4833503 CHECKER pos [2.34700734 0.         0.2925    ] pattern 0 dist 4.789992662473786
+time=1737054007.4834695 CHECKER pos [2.34700734 0.         0.2925    ] pattern 1 dist 6.544992662473786
+time=1737054007.4835873 CHECKER pos [2.34700734 0.         0.2925    ] pattern 0 dist 8.299992662473784
+time=1737054007.4837072 CHECKER pos [2.36098358 0.         0.2925    ] pattern 1 dist 0.48898357791754865
+time=1737054007.4838521 CHECKER pos [2.36098358 0.         0.2925    ] pattern 0 dist 1.2660164220824512
+time=1737054007.4840062 CHECKER pos [2.36098358 0.         0.2925    ] pattern 0 dist 3.021016422082451
+time=1737054007.4841602 CHECKER pos [2.36098358 0.         0.2925    ] pattern 0 dist 4.776016422082451
+time=1737054007.4843252 CHECKER pos [2.36098358 0.         0.2925    ] pattern 1 dist 6.531016422082451
+time=1737054007.4844518 CHECKER pos [2.36098358 0.         0.2925    ] pattern 0 dist 8.28601642208245
+time=1737054007.4845712 CHECKER pos [2.37495982 0.         0.2925    ] pattern 1 dist 0.5029598183088835
+time=1737054007.4846883 CHECKER pos [2.37495982 0.         0.2925    ] pattern 0 dist 1.2520401816911164
+time=1737054007.484806 CHECKER pos [2.37495982 0.         0.2925    ] pattern 0 dist 3.0070401816911163
+time=1737054007.4849503 CHECKER pos [2.37495982 0.         0.2925    ] pattern 0 dist 4.762040181691116
+time=1737054007.4851038 CHECKER pos [2.37495982 0.         0.2925    ] pattern 1 dist 6.517040181691116
+time=1737054007.4852645 CHECKER pos [2.37495982 0.         0.2925    ] pattern 0 dist 8.272040181691114
+time=1737054007.4854257 CHECKER pos [2.38893606 0.         0.2925    ] pattern 1 dist 0.5169360587002183
+time=1737054007.4855516 CHECKER pos [2.38893606 0.         0.2925    ] pattern 0 dist 1.2380639412997816
+time=1737054007.4856715 CHECKER pos [2.38893606 0.         0.2925    ] pattern 0 dist 2.9930639412997815
+time=1737054007.4857981 CHECKER pos [2.38893606 0.         0.2925    ] pattern 0 dist 4.748063941299781
+time=1737054007.485917 CHECKER pos [2.38893606 0.         0.2925    ] pattern 1 dist 6.503063941299781
+time=1737054007.4860883 CHECKER pos [2.38893606 0.         0.2925    ] pattern 0 dist 8.258063941299781
+time=1737054007.4862432 CHECKER pos [2.4029123 0.        0.2925   ] pattern 1 dist 0.5309122990915531
+time=1737054007.4863982 CHECKER pos [2.4029123 0.        0.2925   ] pattern 0 dist 1.2240877009084468
+time=1737054007.4865186 CHECKER pos [2.4029123 0.        0.2925   ] pattern 0 dist 2.9790877009084467
+time=1737054007.4866643 CHECKER pos [2.4029123 0.        0.2925   ] pattern 0 dist 4.7340877009084465
+time=1737054007.4867826 CHECKER pos [2.4029123 0.        0.2925   ] pattern 1 dist 6.489087700908446
+time=1737054007.4869535 CHECKER pos [2.4029123 0.        0.2925   ] pattern 0 dist 8.244087700908445
+time=1737054007.4871116 CHECKER pos [2.41688854 0.         0.2925    ] pattern 1 dist 0.544888539482888
+time=1737054007.487304 CHECKER pos [2.41688854 0.         0.2925    ] pattern 0 dist 1.210111460517112
+time=1737054007.487473 CHECKER pos [2.41688854 0.         0.2925    ] pattern 0 dist 2.965111460517112
+time=1737054007.4876273 CHECKER pos [2.41688854 0.         0.2925    ] pattern 0 dist 4.720111460517112
+time=1737054007.4877503 CHECKER pos [2.41688854 0.         0.2925    ] pattern 1 dist 6.475111460517112
+time=1737054007.4878712 CHECKER pos [2.41688854 0.         0.2925    ] pattern 0 dist 8.230111460517112
+time=1737054007.4879942 CHECKER pos [2.43086478 0.         0.2925    ] pattern 1 dist 0.5588647798742228
+time=1737054007.48814 CHECKER pos [2.43086478 0.         0.2925    ] pattern 0 dist 1.196135220125777
+time=1737054007.4882958 CHECKER pos [2.43086478 0.         0.2925    ] pattern 0 dist 2.951135220125777
+time=1737054007.4884536 CHECKER pos [2.43086478 0.         0.2925    ] pattern 0 dist 4.706135220125777
+time=1737054007.4886165 CHECKER pos [2.43086478 0.         0.2925    ] pattern 1 dist 6.461135220125777
+time=1737054007.4887753 CHECKER pos [2.43086478 0.         0.2925    ] pattern 0 dist 8.216135220125775
+time=1737054007.4889357 CHECKER pos [2.44484102 0.         0.2925    ] pattern 1 dist 0.5728410202655576
+time=1737054007.4890938 CHECKER pos [2.44484102 0.         0.2925    ] pattern 0 dist 1.1821589797344423
+time=1737054007.489255 CHECKER pos [2.44484102 0.         0.2925    ] pattern 0 dist 2.937158979734442
+time=1737054007.4894154 CHECKER pos [2.44484102 0.         0.2925    ] pattern 0 dist 4.692158979734442
+time=1737054007.489575 CHECKER pos [2.44484102 0.         0.2925    ] pattern 1 dist 6.447158979734442
+time=1737054007.489738 CHECKER pos [2.44484102 0.         0.2925    ] pattern 0 dist 8.202158979734442
+time=1737054007.4899523 CHECKER pos [2.45881726 0.         0.2925    ] pattern 1 dist 0.5868172606568924
+time=1737054007.4901087 CHECKER pos [2.45881726 0.         0.2925    ] pattern 0 dist 1.1681827393431075
+time=1737054007.490268 CHECKER pos [2.45881726 0.         0.2925    ] pattern 0 dist 2.9231827393431074
+time=1737054007.4904263 CHECKER pos [2.45881726 0.         0.2925    ] pattern 0 dist 4.678182739343107
+time=1737054007.4906206 CHECKER pos [2.45881726 0.         0.2925    ] pattern 1 dist 6.433182739343107
+time=1737054007.4908283 CHECKER pos [2.45881726 0.         0.2925    ] pattern 0 dist 8.188182739343105
+time=1737054007.491036 CHECKER pos [2.4727935 0.        0.2925   ] pattern 1 dist 0.6007935010482273
+time=1737054007.4912055 CHECKER pos [2.4727935 0.        0.2925   ] pattern 0 dist 1.1542064989517726
+time=1737054007.4913623 CHECKER pos [2.4727935 0.        0.2925   ] pattern 0 dist 2.9092064989517725
+time=1737054007.4915195 CHECKER pos [2.4727935 0.        0.2925   ] pattern 0 dist 4.664206498951772
+time=1737054007.4916766 CHECKER pos [2.4727935 0.        0.2925   ] pattern 1 dist 6.419206498951772
+time=1737054007.4918318 CHECKER pos [2.4727935 0.        0.2925   ] pattern 0 dist 8.174206498951772
+time=1737054007.4919896 CHECKER pos [2.48676974 0.         0.2925    ] pattern 1 dist 0.6147697414395621
+time=1737054007.4921443 CHECKER pos [2.48676974 0.         0.2925    ] pattern 0 dist 1.1402302585604378
+time=1737054007.4923007 CHECKER pos [2.48676974 0.         0.2925    ] pattern 0 dist 2.8952302585604377
+time=1737054007.4924552 CHECKER pos [2.48676974 0.         0.2925    ] pattern 0 dist 4.650230258560438
+time=1737054007.4926093 CHECKER pos [2.48676974 0.         0.2925    ] pattern 1 dist 6.4052302585604375
+time=1737054007.4927623 CHECKER pos [2.48676974 0.         0.2925    ] pattern 0 dist 8.160230258560436
+time=1737054007.4929147 CHECKER pos [2.50074598 0.         0.2925    ] pattern 1 dist 0.6287459818308969
+time=1737054007.4930646 CHECKER pos [2.50074598 0.         0.2925    ] pattern 0 dist 1.126254018169103
+time=1737054007.493181 CHECKER pos [2.50074598 0.         0.2925    ] pattern 0 dist 2.881254018169103
+time=1737054007.493294 CHECKER pos [2.50074598 0.         0.2925    ] pattern 0 dist 4.636254018169103
+time=1737054007.493407 CHECKER pos [2.50074598 0.         0.2925    ] pattern 1 dist 6.391254018169103
+time=1737054007.4935186 CHECKER pos [2.50074598 0.         0.2925    ] pattern 0 dist 8.146254018169103
+time=1737054007.4936326 CHECKER pos [2.51472222 0.         0.2925    ] pattern 1 dist 0.6427222222222317
+time=1737054007.493767 CHECKER pos [2.51472222 0.         0.2925    ] pattern 0 dist 1.1122777777777682
+time=1737054007.4939318 CHECKER pos [2.51472222 0.         0.2925    ] pattern 0 dist 2.867277777777768
+time=1737054007.494133 CHECKER pos [2.51472222 0.         0.2925    ] pattern 0 dist 4.622277777777768
+time=1737054007.494321 CHECKER pos [2.51472222 0.         0.2925    ] pattern 1 dist 6.377277777777768
+time=1737054007.49447 CHECKER pos [2.51472222 0.         0.2925    ] pattern 0 dist 8.132277777777766
+time=1737054007.4946215 CHECKER pos [2.52869846 0.         0.2925    ] pattern 1 dist 0.6566984626135666
+time=1737054007.4947703 CHECKER pos [2.52869846 0.         0.2925    ] pattern 0 dist 1.0983015373864333
+time=1737054007.4949205 CHECKER pos [2.52869846 0.         0.2925    ] pattern 0 dist 2.853301537386433
+time=1737054007.4950724 CHECKER pos [2.52869846 0.         0.2925    ] pattern 0 dist 4.608301537386433
+time=1737054007.495189 CHECKER pos [2.52869846 0.         0.2925    ] pattern 1 dist 6.363301537386433
+time=1737054007.4953272 CHECKER pos [2.52869846 0.         0.2925    ] pattern 0 dist 8.118301537386433
+time=1737054007.495442 CHECKER pos [2.5426747 0.        0.2925   ] pattern 1 dist 0.6706747030049014
+time=1737054007.4955544 CHECKER pos [2.5426747 0.        0.2925   ] pattern 0 dist 1.0843252969950985
+time=1737054007.4956677 CHECKER pos [2.5426747 0.        0.2925   ] pattern 0 dist 2.8393252969950984
+time=1737054007.4957814 CHECKER pos [2.5426747 0.        0.2925   ] pattern 0 dist 4.594325296995098
+time=1737054007.4958935 CHECKER pos [2.5426747 0.        0.2925   ] pattern 1 dist 6.349325296995098
+time=1737054007.4960046 CHECKER pos [2.5426747 0.        0.2925   ] pattern 0 dist 8.104325296995096
+time=1737054007.4961185 CHECKER pos [2.55665094 0.         0.2925    ] pattern 1 dist 0.6846509433962362
+time=1737054007.49623 CHECKER pos [2.55665094 0.         0.2925    ] pattern 0 dist 1.0703490566037637
+time=1737054007.4963417 CHECKER pos [2.55665094 0.         0.2925    ] pattern 0 dist 2.8253490566037636
+time=1737054007.496454 CHECKER pos [2.55665094 0.         0.2925    ] pattern 0 dist 4.5803490566037635
+time=1737054007.4965675 CHECKER pos [2.55665094 0.         0.2925    ] pattern 1 dist 6.335349056603763
+time=1737054007.4966784 CHECKER pos [2.55665094 0.         0.2925    ] pattern 0 dist 8.090349056603763
+time=1737054007.4967933 CHECKER pos [2.57062718 0.         0.2925    ] pattern 1 dist 0.698627183787571
+time=1737054007.4969082 CHECKER pos [2.57062718 0.         0.2925    ] pattern 0 dist 1.0563728162124288
+time=1737054007.4970238 CHECKER pos [2.57062718 0.         0.2925    ] pattern 0 dist 2.8113728162124287
+time=1737054007.4971492 CHECKER pos [2.57062718 0.         0.2925    ] pattern 0 dist 4.566372816212429
+time=1737054007.4972653 CHECKER pos [2.57062718 0.         0.2925    ] pattern 1 dist 6.3213728162124285
+time=1737054007.4973776 CHECKER pos [2.57062718 0.         0.2925    ] pattern 0 dist 8.076372816212427
+time=1737054007.4974916 CHECKER pos [2.58460342 0.         0.2925    ] pattern 1 dist 0.7126034241789059
+time=1737054007.4976027 CHECKER pos [2.58460342 0.         0.2925    ] pattern 0 dist 1.042396575821094
+time=1737054007.4977407 CHECKER pos [2.58460342 0.         0.2925    ] pattern 0 dist 2.797396575821094
+time=1737054007.49786 CHECKER pos [2.58460342 0.         0.2925    ] pattern 0 dist 4.552396575821094
+time=1737054007.4979727 CHECKER pos [2.58460342 0.         0.2925    ] pattern 1 dist 6.307396575821094
+time=1737054007.4980845 CHECKER pos [2.58460342 0.         0.2925    ] pattern 0 dist 8.062396575821094
+time=1737054007.4982228 CHECKER pos [2.59857966 0.         0.2925    ] pattern 1 dist 0.7265796645702407
+time=1737054007.4983346 CHECKER pos [2.59857966 0.         0.2925    ] pattern 0 dist 1.0284203354297592
+time=1737054007.498447 CHECKER pos [2.59857966 0.         0.2925    ] pattern 0 dist 2.783420335429759
+time=1737054007.4985592 CHECKER pos [2.59857966 0.         0.2925    ] pattern 0 dist 4.538420335429759
+time=1737054007.4986706 CHECKER pos [2.59857966 0.         0.2925    ] pattern 1 dist 6.293420335429759
+time=1737054007.4987814 CHECKER pos [2.59857966 0.         0.2925    ] pattern 0 dist 8.048420335429757
+time=1737054007.4988945 CHECKER pos [2.6125559 0.        0.2925   ] pattern 1 dist 0.7405559049615755
+time=1737054007.499005 CHECKER pos [2.6125559 0.        0.2925   ] pattern 0 dist 1.0144440950384244
+time=1737054007.499117 CHECKER pos [2.6125559 0.        0.2925   ] pattern 0 dist 2.7694440950384243
+time=1737054007.4992292 CHECKER pos [2.6125559 0.        0.2925   ] pattern 0 dist 4.524444095038424
+time=1737054007.4993415 CHECKER pos [2.6125559 0.        0.2925   ] pattern 1 dist 6.279444095038424
+time=1737054007.4994524 CHECKER pos [2.6125559 0.        0.2925   ] pattern 0 dist 8.034444095038424
+time=1737054007.4995663 CHECKER pos [2.62653215 0.         0.2925    ] pattern 1 dist 0.7545321453529104
+time=1737054007.4996774 CHECKER pos [2.62653215 0.         0.2925    ] pattern 0 dist 1.0004678546470895
+time=1737054007.4997904 CHECKER pos [2.62653215 0.         0.2925    ] pattern 0 dist 2.7554678546470894
+time=1737054007.4999022 CHECKER pos [2.62653215 0.         0.2925    ] pattern 0 dist 4.510467854647089
+time=1737054007.5000153 CHECKER pos [2.62653215 0.         0.2925    ] pattern 1 dist 6.265467854647089
+time=1737054007.500126 CHECKER pos [2.62653215 0.         0.2925    ] pattern 0 dist 8.020467854647087
+time=1737054007.5002384 CHECKER pos [2.64050839 0.         0.2925    ] pattern 1 dist 0.7685083857442452
+time=1737054007.5003479 CHECKER pos [2.64050839 0.         0.2925    ] pattern 0 dist 0.9864916142557547
+time=1737054007.5004597 CHECKER pos [2.64050839 0.         0.2925    ] pattern 0 dist 2.7414916142557546
+time=1737054007.5005717 CHECKER pos [2.64050839 0.         0.2925    ] pattern 0 dist 4.4964916142557545
+time=1737054007.5006828 CHECKER pos [2.64050839 0.         0.2925    ] pattern 1 dist 6.251491614255754
+time=1737054007.5007923 CHECKER pos [2.64050839 0.         0.2925    ] pattern 0 dist 8.006491614255754
+time=1737054007.5009305 CHECKER pos [2.65448463 0.         0.2925    ] pattern 1 dist 0.78248462613558
+time=1737054007.501042 CHECKER pos [2.65448463 0.         0.2925    ] pattern 0 dist 0.9725153738644199
+time=1737054007.5011532 CHECKER pos [2.65448463 0.         0.2925    ] pattern 0 dist 2.72751537386442
+time=1737054007.5012655 CHECKER pos [2.65448463 0.         0.2925    ] pattern 0 dist 4.48251537386442
+time=1737054007.5013769 CHECKER pos [2.65448463 0.         0.2925    ] pattern 1 dist 6.23751537386442
+time=1737054007.5014877 CHECKER pos [2.65448463 0.         0.2925    ] pattern 0 dist 7.992515373864419
+time=1737054007.5015998 CHECKER pos [2.66846087 0.         0.2925    ] pattern 1 dist 0.7964608665269148
+time=1737054007.5017107 CHECKER pos [2.66846087 0.         0.2925    ] pattern 0 dist 0.9585391334730851
+time=1737054007.5018327 CHECKER pos [2.66846087 0.         0.2925    ] pattern 0 dist 2.713539133473085
+time=1737054007.5019448 CHECKER pos [2.66846087 0.         0.2925    ] pattern 0 dist 4.468539133473085
+time=1737054007.5020576 CHECKER pos [2.66846087 0.         0.2925    ] pattern 1 dist 6.223539133473085
+time=1737054007.5021677 CHECKER pos [2.66846087 0.         0.2925    ] pattern 0 dist 7.978539133473084
+time=1737054007.5022812 CHECKER pos [2.68243711 0.         0.2925    ] pattern 1 dist 0.8104371069182497
+time=1737054007.5023918 CHECKER pos [2.68243711 0.         0.2925    ] pattern 0 dist 0.9445628930817502
+time=1737054007.5025039 CHECKER pos [2.68243711 0.         0.2925    ] pattern 0 dist 2.69956289308175
+time=1737054007.5026147 CHECKER pos [2.68243711 0.         0.2925    ] pattern 0 dist 4.45456289308175
+time=1737054007.5027263 CHECKER pos [2.68243711 0.         0.2925    ] pattern 1 dist 6.20956289308175
+time=1737054007.5028374 CHECKER pos [2.68243711 0.         0.2925    ] pattern 0 dist 7.964562893081749
+time=1737054007.502957 CHECKER pos [2.69641335 0.         0.2925    ] pattern 1 dist 0.8244133473095845
+time=1737054007.5030682 CHECKER pos [2.69641335 0.         0.2925    ] pattern 0 dist 0.9305866526904154
+time=1737054007.5031796 CHECKER pos [2.69641335 0.         0.2925    ] pattern 0 dist 2.6855866526904153
+time=1737054007.5032911 CHECKER pos [2.69641335 0.         0.2925    ] pattern 0 dist 4.440586652690415
+time=1737054007.5034027 CHECKER pos [2.69641335 0.         0.2925    ] pattern 1 dist 6.195586652690415
+time=1737054007.5035424 CHECKER pos [2.69641335 0.         0.2925    ] pattern 0 dist 7.950586652690414
+time=1737054007.503667 CHECKER pos [2.71038959 0.         0.2925    ] pattern 1 dist 0.8383895877009193
+time=1737054007.5037801 CHECKER pos [2.71038959 0.         0.2925    ] pattern 0 dist 0.9166104122990806
+time=1737054007.5038917 CHECKER pos [2.71038959 0.         0.2925    ] pattern 0 dist 2.6716104122990805
+time=1737054007.504004 CHECKER pos [2.71038959 0.         0.2925    ] pattern 0 dist 4.42661041229908
+time=1737054007.5041199 CHECKER pos [2.71038959 0.         0.2925    ] pattern 1 dist 6.18161041229908
+time=1737054007.5042324 CHECKER pos [2.71038959 0.         0.2925    ] pattern 0 dist 7.936610412299079
+time=1737054007.5043466 CHECKER pos [2.72436583 0.         0.2925    ] pattern 1 dist 0.8523658280922541
+time=1737054007.5044587 CHECKER pos [2.72436583 0.         0.2925    ] pattern 0 dist 0.9026341719077458
+time=1737054007.5045717 CHECKER pos [2.72436583 0.         0.2925    ] pattern 0 dist 2.6576341719077456
+time=1737054007.5046833 CHECKER pos [2.72436583 0.         0.2925    ] pattern 0 dist 4.4126341719077455
+time=1737054007.504795 CHECKER pos [2.72436583 0.         0.2925    ] pattern 1 dist 6.167634171907745
+time=1737054007.504905 CHECKER pos [2.72436583 0.         0.2925    ] pattern 0 dist 7.922634171907744
+time=1737054007.5050175 CHECKER pos [2.73834207 0.         0.2925    ] pattern 1 dist 0.866342068483589
+time=1737054007.5051281 CHECKER pos [2.73834207 0.         0.2925    ] pattern 0 dist 0.8886579315164109
+time=1737054007.5052402 CHECKER pos [2.73834207 0.         0.2925    ] pattern 0 dist 2.643657931516411
+time=1737054007.5053513 CHECKER pos [2.73834207 0.         0.2925    ] pattern 0 dist 4.398657931516411
+time=1737054007.5054626 CHECKER pos [2.73834207 0.         0.2925    ] pattern 1 dist 6.153657931516411
+time=1737054007.505572 CHECKER pos [2.73834207 0.         0.2925    ] pattern 0 dist 7.90865793151641
+time=1737054007.5056841 CHECKER pos [2.75231831 0.         0.2925    ] pattern 1 dist 0.8803183088749238
+time=1737054007.505835 CHECKER pos [2.75231831 0.         0.2925    ] pattern 0 dist 0.8746816911250761
+time=1737054007.505949 CHECKER pos [2.75231831 0.         0.2925    ] pattern 0 dist 2.629681691125076
+time=1737054007.5060878 CHECKER pos [2.75231831 0.         0.2925    ] pattern 0 dist 4.384681691125076
+time=1737054007.5062003 CHECKER pos [2.75231831 0.         0.2925    ] pattern 1 dist 6.139681691125076
+time=1737054007.5063124 CHECKER pos [2.75231831 0.         0.2925    ] pattern 0 dist 7.894681691125075
+time=1737054007.5064254 CHECKER pos [2.76629455 0.         0.2925    ] pattern 1 dist 0.8942945492662586
+time=1737054007.5065365 CHECKER pos [2.76629455 0.         0.2925    ] pattern 0 dist 0.8607054507337413
+time=1737054007.5066483 CHECKER pos [2.76629455 0.         0.2925    ] pattern 0 dist 2.615705450733741
+time=1737054007.50676 CHECKER pos [2.76629455 0.         0.2925    ] pattern 0 dist 4.370705450733741
+time=1737054007.5068853 CHECKER pos [2.76629455 0.         0.2925    ] pattern 1 dist 6.125705450733741
+time=1737054007.5070066 CHECKER pos [2.76629455 0.         0.2925    ] pattern 0 dist 7.88070545073374
+time=1737054007.507168 CHECKER pos [2.78027079 0.         0.2925    ] pattern 1 dist 0.9082707896575934
+time=1737054007.5073054 CHECKER pos [2.78027079 0.         0.2925    ] pattern 0 dist 0.8467292103424064
+time=1737054007.5074372 CHECKER pos [2.78027079 0.         0.2925    ] pattern 0 dist 2.6017292103424063
+time=1737054007.5075636 CHECKER pos [2.78027079 0.         0.2925    ] pattern 0 dist 4.356729210342406
+time=1737054007.5076933 CHECKER pos [2.78027079 0.         0.2925    ] pattern 1 dist 6.111729210342406
+time=1737054007.507824 CHECKER pos [2.78027079 0.         0.2925    ] pattern 0 dist 7.866729210342405
+time=1737054007.507956 CHECKER pos [2.79424703 0.         0.2925    ] pattern 1 dist 0.9222470300489283
+time=1737054007.5080788 CHECKER pos [2.79424703 0.         0.2925    ] pattern 0 dist 0.8327529699510716
+time=1737054007.508205 CHECKER pos [2.79424703 0.         0.2925    ] pattern 0 dist 2.5877529699510715
+time=1737054007.5083354 CHECKER pos [2.79424703 0.         0.2925    ] pattern 0 dist 4.342752969951071
+time=1737054007.5084577 CHECKER pos [2.79424703 0.         0.2925    ] pattern 1 dist 6.097752969951071
+time=1737054007.5086033 CHECKER pos [2.79424703 0.         0.2925    ] pattern 0 dist 7.85275296995107
+time=1737054007.5087636 CHECKER pos [2.80822327 0.         0.2925    ] pattern 1 dist 0.9362232704402631
+time=1737054007.508901 CHECKER pos [2.80822327 0.         0.2925    ] pattern 0 dist 0.8187767295597368
+time=1737054007.5090742 CHECKER pos [2.80822327 0.         0.2925    ] pattern 0 dist 2.5737767295597367
+time=1737054007.5092473 CHECKER pos [2.80822327 0.         0.2925    ] pattern 0 dist 4.328776729559737
+time=1737054007.5093682 CHECKER pos [2.80822327 0.         0.2925    ] pattern 1 dist 6.0837767295597365
+time=1737054007.5094893 CHECKER pos [2.80822327 0.         0.2925    ] pattern 0 dist 7.8387767295597355
+time=1737054007.509636 CHECKER pos [2.82219951 0.         0.2925    ] pattern 1 dist 0.9501995108315979
+time=1737054007.5097828 CHECKER pos [2.82219951 0.         0.2925    ] pattern 0 dist 0.804800489168402
+time=1737054007.5099158 CHECKER pos [2.82219951 0.         0.2925    ] pattern 0 dist 2.559800489168402
+time=1737054007.5100434 CHECKER pos [2.82219951 0.         0.2925    ] pattern 0 dist 4.314800489168402
+time=1737054007.5101738 CHECKER pos [2.82219951 0.         0.2925    ] pattern 1 dist 6.069800489168402
+time=1737054007.5103383 CHECKER pos [2.82219951 0.         0.2925    ] pattern 0 dist 7.824800489168401
+time=1737054007.5104992 CHECKER pos [2.83617575 0.         0.2925    ] pattern 1 dist 0.9641757512229328
+time=1737054007.5106597 CHECKER pos [2.83617575 0.         0.2925    ] pattern 0 dist 0.7908242487770671
+time=1737054007.5108197 CHECKER pos [2.83617575 0.         0.2925    ] pattern 0 dist 2.545824248777067
+time=1737054007.5109804 CHECKER pos [2.83617575 0.         0.2925    ] pattern 0 dist 4.300824248777067
+time=1737054007.5111184 CHECKER pos [2.83617575 0.         0.2925    ] pattern 1 dist 6.055824248777067
+time=1737054007.511248 CHECKER pos [2.83617575 0.         0.2925    ] pattern 0 dist 7.810824248777066
+time=1737054007.5113719 CHECKER pos [2.85015199 0.         0.2925    ] pattern 1 dist 0.9781519916142676
+time=1737054007.5114946 CHECKER pos [2.85015199 0.         0.2925    ] pattern 0 dist 0.7768480083857323
+time=1737054007.5116158 CHECKER pos [2.85015199 0.         0.2925    ] pattern 0 dist 2.531848008385732
+time=1737054007.511762 CHECKER pos [2.85015199 0.         0.2925    ] pattern 0 dist 4.286848008385732
+time=1737054007.5119207 CHECKER pos [2.85015199 0.         0.2925    ] pattern 1 dist 6.041848008385732
+time=1737054007.5120885 CHECKER pos [2.85015199 0.         0.2925    ] pattern 0 dist 7.796848008385731
+time=1737054007.5122342 CHECKER pos [2.86412823 0.         0.2925    ] pattern 1 dist 0.9921282320056024
+time=1737054007.512363 CHECKER pos [2.86412823 0.         0.2925    ] pattern 0 dist 0.7628717679943975
+time=1737054007.5124876 CHECKER pos [2.86412823 0.         0.2925    ] pattern 0 dist 2.5178717679943974
+time=1737054007.5126362 CHECKER pos [2.86412823 0.         0.2925    ] pattern 0 dist 4.272871767994397
+time=1737054007.5127974 CHECKER pos [2.86412823 0.         0.2925    ] pattern 1 dist 6.027871767994397
+time=1737054007.5129979 CHECKER pos [2.86412823 0.         0.2925    ] pattern 0 dist 7.782871767994396
+time=1737054007.5132031 CHECKER pos [2.87810447 0.         0.2925    ] pattern 1 dist 1.0061044723969372
+time=1737054007.5133734 CHECKER pos [2.87810447 0.         0.2925    ] pattern 0 dist 0.7488955276030627
+time=1737054007.5135324 CHECKER pos [2.87810447 0.         0.2925    ] pattern 0 dist 2.5038955276030626
+time=1737054007.5136905 CHECKER pos [2.87810447 0.         0.2925    ] pattern 0 dist 4.2588955276030624
+time=1737054007.5138557 CHECKER pos [2.87810447 0.         0.2925    ] pattern 1 dist 6.013895527603062
+time=1737054007.5140145 CHECKER pos [2.87810447 0.         0.2925    ] pattern 0 dist 7.768895527603061
+time=1737054007.5142107 CHECKER pos [2.89208071 0.         0.2925    ] pattern 1 dist 1.020080712788272
+time=1737054007.514417 CHECKER pos [2.89208071 0.         0.2925    ] pattern 0 dist 0.7349192872117278
+time=1737054007.5146112 CHECKER pos [2.89208071 0.         0.2925    ] pattern 0 dist 2.4899192872117277
+time=1737054007.514832 CHECKER pos [2.89208071 0.         0.2925    ] pattern 0 dist 4.244919287211728
+time=1737054007.5150282 CHECKER pos [2.89208071 0.         0.2925    ] pattern 1 dist 5.9999192872117275
+time=1737054007.5151844 CHECKER pos [2.89208071 0.         0.2925    ] pattern 0 dist 7.7549192872117265
+time=1737054007.515343 CHECKER pos [2.90605695 0.         0.2925    ] pattern 1 dist 1.0340569531796069
+time=1737054007.515498 CHECKER pos [2.90605695 0.         0.2925    ] pattern 0 dist 0.720943046820393
+time=1737054007.5156553 CHECKER pos [2.90605695 0.         0.2925    ] pattern 0 dist 2.475943046820393
+time=1737054007.515812 CHECKER pos [2.90605695 0.         0.2925    ] pattern 0 dist 4.230943046820393
+time=1737054007.515968 CHECKER pos [2.90605695 0.         0.2925    ] pattern 1 dist 5.985943046820393
+time=1737054007.5161226 CHECKER pos [2.90605695 0.         0.2925    ] pattern 0 dist 7.740943046820392
+time=1737054007.5162795 CHECKER pos [2.92003319 0.         0.2925    ] pattern 1 dist 1.0480331935709417
+time=1737054007.5164342 CHECKER pos [2.92003319 0.         0.2925    ] pattern 0 dist 0.7069668064290582
+time=1737054007.5165906 CHECKER pos [2.92003319 0.         0.2925    ] pattern 0 dist 2.461966806429058
+time=1737054007.5167482 CHECKER pos [2.92003319 0.         0.2925    ] pattern 0 dist 4.216966806429058
+time=1737054007.5169055 CHECKER pos [2.92003319 0.         0.2925    ] pattern 1 dist 5.971966806429058
+time=1737054007.5170603 CHECKER pos [2.92003319 0.         0.2925    ] pattern 0 dist 7.726966806429057
+time=1737054007.5172155 CHECKER pos [2.93400943 0.         0.2925    ] pattern 1 dist 1.0620094339622765
+time=1737054007.5173678 CHECKER pos [2.93400943 0.         0.2925    ] pattern 0 dist 0.6929905660377234
+time=1737054007.5175338 CHECKER pos [2.93400943 0.         0.2925    ] pattern 0 dist 2.4479905660377232
+time=1737054007.5176864 CHECKER pos [2.93400943 0.         0.2925    ] pattern 0 dist 4.202990566037723
+time=1737054007.5178454 CHECKER pos [2.93400943 0.         0.2925    ] pattern 1 dist 5.957990566037723
+time=1737054007.517967 CHECKER pos [2.93400943 0.         0.2925    ] pattern 0 dist 7.712990566037722
+time=1737054007.518133 CHECKER pos [2.94798567 0.         0.2925    ] pattern 1 dist 1.0759856743536114
+time=1737054007.5183191 CHECKER pos [2.94798567 0.         0.2925    ] pattern 0 dist 0.6790143256463885
+time=1737054007.5185127 CHECKER pos [2.94798567 0.         0.2925    ] pattern 0 dist 2.4340143256463884
+time=1737054007.5187347 CHECKER pos [2.94798567 0.         0.2925    ] pattern 0 dist 4.189014325646388
+time=1737054007.5189548 CHECKER pos [2.94798567 0.         0.2925    ] pattern 1 dist 5.944014325646388
+time=1737054007.5191693 CHECKER pos [2.94798567 0.         0.2925    ] pattern 0 dist 7.699014325646387
+time=1737054007.5193882 CHECKER pos [2.96196191 0.         0.2925    ] pattern 1 dist 1.0899619147449462
+time=1737054007.5196013 CHECKER pos [2.96196191 0.         0.2925    ] pattern 0 dist 0.6650380852550537
+time=1737054007.5198166 CHECKER pos [2.96196191 0.         0.2925    ] pattern 0 dist 2.4200380852550536
+time=1737054007.5200186 CHECKER pos [2.96196191 0.         0.2925    ] pattern 0 dist 4.1750380852550535
+time=1737054007.5201807 CHECKER pos [2.96196191 0.         0.2925    ] pattern 1 dist 5.930038085255053
+time=1737054007.5203376 CHECKER pos [2.96196191 0.         0.2925    ] pattern 0 dist 7.685038085255052
+time=1737054007.5205002 CHECKER pos [2.97593816 0.         0.2925    ] pattern 1 dist 1.103938155136281
+time=1737054007.520659 CHECKER pos [2.97593816 0.         0.2925    ] pattern 0 dist 0.6510618448637189
+time=1737054007.520796 CHECKER pos [2.97593816 0.         0.2925    ] pattern 0 dist 2.4060618448637188
+time=1737054007.5209217 CHECKER pos [2.97593816 0.         0.2925    ] pattern 0 dist 4.161061844863719
+time=1737054007.5210438 CHECKER pos [2.97593816 0.         0.2925    ] pattern 1 dist 5.9160618448637186
+time=1737054007.5211654 CHECKER pos [2.97593816 0.         0.2925    ] pattern 0 dist 7.671061844863718
+time=1737054007.5212874 CHECKER pos [2.9899144 0.        0.2925   ] pattern 1 dist 1.1179143955276158
+time=1737054007.5214334 CHECKER pos [2.9899144 0.        0.2925   ] pattern 0 dist 0.637085604472384
+time=1737054007.5215926 CHECKER pos [2.9899144 0.        0.2925   ] pattern 0 dist 2.392085604472384
+time=1737054007.5217626 CHECKER pos [2.9899144 0.        0.2925   ] pattern 0 dist 4.147085604472384
+time=1737054007.5219026 CHECKER pos [2.9899144 0.        0.2925   ] pattern 1 dist 5.902085604472384
+time=1737054007.5220337 CHECKER pos [2.9899144 0.        0.2925   ] pattern 0 dist 7.657085604472383
+time=1737054007.5221577 CHECKER pos [3.00389064 0.         0.2925    ] pattern 1 dist 1.1318906359189507
+time=1737054007.5222802 CHECKER pos [3.00389064 0.         0.2925    ] pattern 0 dist 0.6231093640810492
+time=1737054007.5224261 CHECKER pos [3.00389064 0.         0.2925    ] pattern 0 dist 2.378109364081049
+time=1737054007.5225859 CHECKER pos [3.00389064 0.         0.2925    ] pattern 0 dist 4.133109364081049
+time=1737054007.5227516 CHECKER pos [3.00389064 0.         0.2925    ] pattern 1 dist 5.888109364081049
+time=1737054007.5229123 CHECKER pos [3.00389064 0.         0.2925    ] pattern 0 dist 7.643109364081048
+time=1737054007.5230775 CHECKER pos [3.01786688 0.         0.2925    ] pattern 1 dist 1.1458668763102855
+time=1737054007.5232358 CHECKER pos [3.01786688 0.         0.2925    ] pattern 0 dist 0.6091331236897144
+time=1737054007.5233955 CHECKER pos [3.01786688 0.         0.2925    ] pattern 0 dist 2.3641331236897143
+time=1737054007.523556 CHECKER pos [3.01786688 0.         0.2925    ] pattern 0 dist 4.119133123689714
+time=1737054007.5237157 CHECKER pos [3.01786688 0.         0.2925    ] pattern 1 dist 5.874133123689714
+time=1737054007.523875 CHECKER pos [3.01786688 0.         0.2925    ] pattern 0 dist 7.629133123689713
+time=1737054007.5240352 CHECKER pos [3.03184312 0.         0.2925    ] pattern 1 dist 1.1598431167016203
+time=1737054007.524195 CHECKER pos [3.03184312 0.         0.2925    ] pattern 0 dist 0.5951568832983796
+time=1737054007.524354 CHECKER pos [3.03184312 0.         0.2925    ] pattern 0 dist 2.3501568832983795
+time=1737054007.524515 CHECKER pos [3.03184312 0.         0.2925    ] pattern 0 dist 4.105156883298379
+time=1737054007.5246515 CHECKER pos [3.03184312 0.         0.2925    ] pattern 1 dist 5.860156883298379
+time=1737054007.5247805 CHECKER pos [3.03184312 0.         0.2925    ] pattern 0 dist 7.615156883298378
+time=1737054007.5249062 CHECKER pos [3.04581936 0.         0.2925    ] pattern 1 dist 1.1738193570929552
+time=1737054007.5250516 CHECKER pos [3.04581936 0.         0.2925    ] pattern 0 dist 0.5811806429070447
+time=1737054007.5252125 CHECKER pos [3.04581936 0.         0.2925    ] pattern 0 dist 2.3361806429070446
+time=1737054007.5253751 CHECKER pos [3.04581936 0.         0.2925    ] pattern 0 dist 4.0911806429070445
+time=1737054007.525544 CHECKER pos [3.04581936 0.         0.2925    ] pattern 1 dist 5.846180642907044
+time=1737054007.52571 CHECKER pos [3.04581936 0.         0.2925    ] pattern 0 dist 7.601180642907043
+time=1737054007.525852 CHECKER pos [3.0597956 0.        0.2925   ] pattern 1 dist 1.18779559748429
+time=1737054007.5259826 CHECKER pos [3.0597956 0.        0.2925   ] pattern 0 dist 0.5672044025157099
+time=1737054007.526111 CHECKER pos [3.0597956 0.        0.2925   ] pattern 0 dist 2.32220440251571
+time=1737054007.526241 CHECKER pos [3.0597956 0.        0.2925   ] pattern 0 dist 4.07720440251571
+time=1737054007.5263867 CHECKER pos [3.0597956 0.        0.2925   ] pattern 1 dist 5.83220440251571
+time=1737054007.526524 CHECKER pos [3.0597956 0.        0.2925   ] pattern 0 dist 7.587204402515709
+time=1737054007.5266535 CHECKER pos [3.07377184 0.         0.2925    ] pattern 1 dist 1.2017718378756248
+time=1737054007.5267835 CHECKER pos [3.07377184 0.         0.2925    ] pattern 0 dist 0.5532281621243751
+time=1737054007.5269291 CHECKER pos [3.07377184 0.         0.2925    ] pattern 0 dist 2.308228162124375
+time=1737054007.527092 CHECKER pos [3.07377184 0.         0.2925    ] pattern 0 dist 4.063228162124375
+time=1737054007.527251 CHECKER pos [3.07377184 0.         0.2925    ] pattern 0 dist 5.818228162124375
+time=1737054007.5274117 CHECKER pos [3.07377184 0.         0.2925    ] pattern 0 dist 7.573228162124374
+time=1737054007.5275714 CHECKER pos [3.08774808 0.         0.2925    ] pattern 1 dist 1.2157480782669596
+time=1737054007.5277307 CHECKER pos [3.08774808 0.         0.2925    ] pattern 0 dist 0.5392519217330403
+time=1737054007.5278895 CHECKER pos [3.08774808 0.         0.2925    ] pattern 0 dist 2.29425192173304
+time=1737054007.528051 CHECKER pos [3.08774808 0.         0.2925    ] pattern 0 dist 4.04925192173304
+time=1737054007.5282097 CHECKER pos [3.08774808 0.         0.2925    ] pattern 0 dist 5.80425192173304
+time=1737054007.528371 CHECKER pos [3.08774808 0.         0.2925    ] pattern 0 dist 7.559251921733039
+time=1737054007.5285316 CHECKER pos [3.10172432 0.         0.2925    ] pattern 1 dist 1.2297243186582945
+time=1737054007.5286903 CHECKER pos [3.10172432 0.         0.2925    ] pattern 0 dist 0.5252756813417054
+time=1737054007.5288491 CHECKER pos [3.10172432 0.         0.2925    ] pattern 0 dist 2.2802756813417053
+time=1737054007.52901 CHECKER pos [3.10172432 0.         0.2925    ] pattern 0 dist 4.035275681341705
+time=1737054007.5291681 CHECKER pos [3.10172432 0.         0.2925    ] pattern 0 dist 5.790275681341705
+time=1737054007.5293288 CHECKER pos [3.10172432 0.         0.2925    ] pattern 0 dist 7.545275681341704
+time=1737054007.529489 CHECKER pos [3.11570056 0.         0.2925    ] pattern 1 dist 1.2437005590496293
+time=1737054007.5296483 CHECKER pos [3.11570056 0.         0.2925    ] pattern 0 dist 0.5112994409503706
+time=1737054007.5298147 CHECKER pos [3.11570056 0.         0.2925    ] pattern 0 dist 2.2662994409503705
+time=1737054007.5299776 CHECKER pos [3.11570056 0.         0.2925    ] pattern 0 dist 4.02129944095037
+time=1737054007.530136 CHECKER pos [3.11570056 0.         0.2925    ] pattern 0 dist 5.77629944095037
+time=1737054007.53035 CHECKER pos [3.11570056 0.         0.2925    ] pattern 0 dist 7.531299440950369
+time=1737054007.530566 CHECKER pos [3.1296768 0.        0.2925   ] pattern 1 dist 1.257676799440964
+time=1737054007.530727 CHECKER pos [3.1296768 0.        0.2925   ] pattern 0 dist 0.4973232005590358
+time=1737054007.5308855 CHECKER pos [3.1296768 0.        0.2925   ] pattern 0 dist 2.2523232005590357
+time=1737054007.5310466 CHECKER pos [3.1296768 0.        0.2925   ] pattern 0 dist 4.007323200559036
+time=1737054007.5312061 CHECKER pos [3.1296768 0.        0.2925   ] pattern 0 dist 5.7623232005590355
+time=1737054007.5313666 CHECKER pos [3.1296768 0.        0.2925   ] pattern 0 dist 7.5173232005590345
+time=1737054007.5315273 CHECKER pos [3.14365304 0.         0.2925    ] pattern 1 dist 1.271653039832299
+time=1737054007.5316875 CHECKER pos [3.14365304 0.         0.2925    ] pattern 0 dist 0.48334696016770096
+time=1737054007.5318468 CHECKER pos [3.14365304 0.         0.2925    ] pattern 0 dist 2.238346960167701
+time=1737054007.5320072 CHECKER pos [3.14365304 0.         0.2925    ] pattern 0 dist 3.9933469601677007
+time=1737054007.5321455 CHECKER pos [3.14365304 0.         0.2925    ] pattern 0 dist 5.748346960167701
+time=1737054007.532277 CHECKER pos [3.14365304 0.         0.2925    ] pattern 0 dist 7.5033469601677
+time=1737054007.5324073 CHECKER pos [3.15762928 0.         0.2925    ] pattern 1 dist 1.2856292802236338
+time=1737054007.532543 CHECKER pos [3.15762928 0.         0.2925    ] pattern 0 dist 0.46937071977636613
+time=1737054007.5326927 CHECKER pos [3.15762928 0.         0.2925    ] pattern 0 dist 2.224370719776366
+time=1737054007.5328572 CHECKER pos [3.15762928 0.         0.2925    ] pattern 0 dist 3.979370719776366
+time=1737054007.533028 CHECKER pos [3.15762928 0.         0.2925    ] pattern 0 dist 5.734370719776366
+time=1737054007.5331733 CHECKER pos [3.15762928 0.         0.2925    ] pattern 0 dist 7.489370719776365
+time=1737054007.5333214 CHECKER pos [3.17160552 0.         0.2925    ] pattern 1 dist 1.2996055206149686
+time=1737054007.5334833 CHECKER pos [3.17160552 0.         0.2925    ] pattern 0 dist 0.4553944793850313
+time=1737054007.5336437 CHECKER pos [3.17160552 0.         0.2925    ] pattern 0 dist 2.210394479385031
+time=1737054007.533824 CHECKER pos [3.17160552 0.         0.2925    ] pattern 0 dist 3.965394479385031
+time=1737054007.5340323 CHECKER pos [3.17160552 0.         0.2925    ] pattern 0 dist 5.720394479385031
+time=1737054007.5342336 CHECKER pos [3.17160552 0.         0.2925    ] pattern 0 dist 7.47539447938503
+time=1737054007.534397 CHECKER pos [3.18558176 0.         0.2925    ] pattern 1 dist 1.3135817610063034
+time=1737054007.534534 CHECKER pos [3.18558176 0.         0.2925    ] pattern 0 dist 0.4414182389936965
+time=1737054007.5346658 CHECKER pos [3.18558176 0.         0.2925    ] pattern 0 dist 2.1964182389936964
+time=1737054007.534812 CHECKER pos [3.18558176 0.         0.2925    ] pattern 0 dist 3.9514182389936963
+time=1737054007.535003 CHECKER pos [3.18558176 0.         0.2925    ] pattern 0 dist 5.706418238993696
+time=1737054007.5351937 CHECKER pos [3.18558176 0.         0.2925    ] pattern 0 dist 7.461418238993695
+time=1737054007.5353956 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 1.3275580013976382
+time=1737054007.535605 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 0.42744199860236165
+time=1737054007.5357635 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 2.1824419986023615
+time=1737054007.535928 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 3.9374419986023614
+time=1737054007.5361202 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 5.692441998602361
+time=1737054007.5363111 CHECKER pos [3.199558 0.       0.2925  ] pattern 0 dist 7.44744199860236
+time=1737054007.5365026 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 1.341534241788973
+time=1737054007.536704 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 0.4134657582110268
+time=1737054007.5368974 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 2.1684657582110267
+time=1737054007.5370421 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 3.9234657582110266
+time=1737054007.5371897 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 5.6784657582110265
+time=1737054007.5373518 CHECKER pos [3.21353424 0.         0.2925    ] pattern 0 dist 7.4334657582110255
+time=1737054007.5375135 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 1.355510482180308
+time=1737054007.537675 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 0.399489517819692
+time=1737054007.5378613 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 2.154489517819692
+time=1737054007.5380661 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 3.909489517819692
+time=1737054007.5382686 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 5.664489517819692
+time=1737054007.5384438 CHECKER pos [3.22751048 0.         0.2925    ] pattern 0 dist 7.419489517819691
+time=1737054007.5386178 CHECKER pos [3.24148672 0.         0.2925    ] pattern 0 dist 1.3694867225716427
+time=1737054007.538819 CHECKER pos [3.24148672 0.         0.2925    ] pattern 1 dist 0.38551327742835717
+time=1737054007.539028 CHECKER pos [3.24148672 0.         0.2925    ] pattern 0 dist 2.140513277428357
+time=1737054007.5392396 CHECKER pos [3.24148672 0.         0.2925    ] pattern 0 dist 3.895513277428357
+time=1737054007.5393994 CHECKER pos [3.24148672 0.         0.2925    ] pattern 0 dist 5.650513277428357
+time=1737054007.53956 CHECKER pos [3.24148672 0.         0.2925    ] pattern 0 dist 7.405513277428356
+time=1737054007.5397205 CHECKER pos [3.25546296 0.         0.2925    ] pattern 0 dist 1.3834629629629775
+time=1737054007.539883 CHECKER pos [3.25546296 0.         0.2925    ] pattern 1 dist 0.37153703703702234
+time=1737054007.540041 CHECKER pos [3.25546296 0.         0.2925    ] pattern 0 dist 2.1265370370370222
+time=1737054007.5402312 CHECKER pos [3.25546296 0.         0.2925    ] pattern 0 dist 3.881537037037022
+time=1737054007.540393 CHECKER pos [3.25546296 0.         0.2925    ] pattern 0 dist 5.636537037037022
+time=1737054007.5405524 CHECKER pos [3.25546296 0.         0.2925    ] pattern 0 dist 7.391537037037021
+time=1737054007.54074 CHECKER pos [3.2694392 0.        0.2925   ] pattern 0 dist 1.3974392033543124
+time=1737054007.5409312 CHECKER pos [3.2694392 0.        0.2925   ] pattern 1 dist 0.3575607966456875
+time=1737054007.5410984 CHECKER pos [3.2694392 0.        0.2925   ] pattern 0 dist 2.1125607966456874
+time=1737054007.541266 CHECKER pos [3.2694392 0.        0.2925   ] pattern 0 dist 3.8675607966456873
+time=1737054007.5414042 CHECKER pos [3.2694392 0.        0.2925   ] pattern 0 dist 5.622560796645687
+time=1737054007.5415351 CHECKER pos [3.2694392 0.        0.2925   ] pattern 0 dist 7.377560796645686
+time=1737054007.541663 CHECKER pos [3.28341544 0.         0.2925    ] pattern 0 dist 1.4114154437456472
+time=1737054007.5418017 CHECKER pos [3.28341544 0.         0.2925    ] pattern 1 dist 0.3435845562543527
+time=1737054007.5419295 CHECKER pos [3.28341544 0.         0.2925    ] pattern 0 dist 2.0985845562543526
+time=1737054007.542061 CHECKER pos [3.28341544 0.         0.2925    ] pattern 0 dist 3.8535845562543525
+time=1737054007.5421894 CHECKER pos [3.28341544 0.         0.2925    ] pattern 0 dist 5.608584556254352
+time=1737054007.54232 CHECKER pos [3.28341544 0.         0.2925    ] pattern 0 dist 7.363584556254351
+time=1737054007.5424488 CHECKER pos [3.29739168 0.         0.2925    ] pattern 0 dist 1.425391684136982
+time=1737054007.5425792 CHECKER pos [3.29739168 0.         0.2925    ] pattern 1 dist 0.32960831586301786
+time=1737054007.5427039 CHECKER pos [3.29739168 0.         0.2925    ] pattern 0 dist 2.0846083158630178
+time=1737054007.5428348 CHECKER pos [3.29739168 0.         0.2925    ] pattern 0 dist 3.8396083158630177
+time=1737054007.5430012 CHECKER pos [3.29739168 0.         0.2925    ] pattern 0 dist 5.5946083158630175
+time=1737054007.5431468 CHECKER pos [3.29739168 0.         0.2925    ] pattern 0 dist 7.3496083158630165
+time=1737054007.543181 Min distance: 0.36356708595387555
+0.585
+0.2925 0.2925
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueTrueTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseTrueTrueFalseTrue
+TrueFalseFalseTrueFalseTrue
+TrueFalseFalseTrueFalseTrue
+TrueFalseFalseTrueFalseTrue
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseTrueFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseFalseFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+TrueFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseFalseFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueFalseFalseTrueFalse
+FalseTrueTrueFalseTrueFalse
+FalseTrueTrueFalseTrueFalse
+FalseTrueTrueFalseTrueFalse
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueFalseTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueFalseTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+FalseTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueTrueTrueTrueTrueTrue
+TrueFalseTrueTrueTrueTrue
+TrueFalseTrueTrueTrueTrue
+TrueFalseTrueTrueTrueTrue
+TrueFalseTrueTrueTrueTrue
+TrueFalseTrueTrueTrueTrue
+trip_data[-1].position.coordinates[0] = 3.297391684136982
+False: CorrectTrafficlightPassingChecker has failed
