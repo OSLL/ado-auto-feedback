@@ -1,0 +1,2526 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1737199933.758309 gym-duckietown 2019.0.0
+
+time=1737199933.858712 Registering gym environment id: Duckietown-4way-v0
+time=1737199933.8587897 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737199933.8588247 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737199933.8588645 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737199933.8589196 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737199933.859 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737199933.859048 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737199933.8591201 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737199933.8591661 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737199933.8592129 Registering gym environment id: Duckietown-small_loop-v0
+time=1737199933.8592916 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737199933.8593411 Registering gym environment id: Duckietown-straight_road-v0
+time=1737199933.8593981 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737199933.8594549 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737199933.8595116 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737199933.8595638 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737199933.859613 Registering gym environment id: Duckietown-udem1-v0
+time=1737199933.8596656 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737199935.1923022 Falling back to non-multisampled frame buffer
+time=1737199935.1941817 Falling back to non-multisampled frame buffer
+time=1737199935.196699 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1737199935.203367 loading mesh "duckiebot.obj"
+time=1737199935.203514 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737199935.4404962 loading mesh "trafficlight.obj"
+time=1737199935.440644 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1737199935.464763 loading texture "trafficlight_card.jpg"
+time=1737199936.6750352 loading texture "trafficlight_cover.jpg"
+time=1737199937.877376 loading texture "trafficlight_card0.jpg"
+time=1737199939.1037154 loading texture "trafficlight_card1.jpg"
+time=1737199940.3090467 loading texture "trafficlight_card0.jpg"
+time=1737199941.5153444 loading texture "trafficlight_card1.jpg"
+time=1737199942.7134101 loading texture "trafficlight_card0.jpg"
+time=1737199943.9288251 loading texture "trafficlight_card1.jpg"
+time=1737199945.1298416 loading texture "trafficlight_card0.jpg"
+time=1737199946.3379154 loading texture "trafficlight_card1.jpg"
+time=1737199947.5629947 loading texture "trafficlight_card0.jpg"
+time=1737199948.766212 loading texture "trafficlight_card1.jpg"
+time=1737199949.9765 loading texture "trafficlight_card0.jpg"
+time=1737199951.2230396 loading texture "trafficlight_card1.jpg"
+time=1737199952.540928 loading texture "straight_1.png"
+time=1737199952.5490026 road_tile_size=0.585
+time=1737199952.5493772 Starting at [0.2925 0.     0.2925] 0
+time=1737199952.5495389 Pos: [0.2925 0.     0.2925] angle 0
+time=1737199952.703897 using DuckietownEnv
+time=1737199952.840458 Pos: [0.2925 0.     0.2925] angle 0
+time=1737199953.0215542 Pos: [0.3325 0.     0.2925] angle 0
+time=1737199953.0835354 Pos: [0.3725 0.     0.2925] angle 0
+time=1737199953.1334426 Pos: [0.4125 0.     0.2925] angle 0
+time=1737199953.1814046 Pos: [0.4525 0.     0.2925] angle 0
+time=1737199953.2321305 Pos: [0.4925 0.     0.2925] angle 0
+time=1737199953.2789395 Pos: [0.5325 0.     0.2925] angle 0
+time=1737199953.3253233 Pos: [0.5725 0.     0.2925] angle 0
+time=1737199953.372261 Pos: [0.6125 0.     0.2925] angle 0
+time=1737199953.419232 Pos: [0.6525 0.     0.2925] angle 0
+time=1737199953.4657092 Pos: [0.6925 0.     0.2925] angle 0
+time=1737199953.51152 Pos: [0.7325 0.     0.2925] angle 0
+time=1737199953.5596178 Pos: [0.7725 0.     0.2925] angle 0
+time=1737199953.6064699 Pos: [0.8125 0.     0.2925] angle 0
+time=1737199953.6536274 Pos: [0.8525 0.     0.2925] angle 0
+time=1737199953.7002225 Pos: [0.8925 0.     0.2925] angle 0
+time=1737199953.748796 Pos: [0.9325 0.     0.2925] angle 0
+time=1737199953.7952676 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199953.8419836 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199953.8876092 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199953.9325886 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199953.9767406 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.0228202 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.06966 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.114553 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.1632695 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.2081192 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.2535162 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.2974176 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.3418891 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.38613 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.4324734 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.478858 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.5231593 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.567545 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.6120617 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.6565828 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.702325 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.7473528 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.791193 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.8353548 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.8795726 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.923951 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199954.9692326 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.01455 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.0615466 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.105949 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.1502047 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.194284 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.2406757 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.2852268 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.3299437 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.3743827 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.4190178 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.463231 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.5078466 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.554233 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.6008193 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.6453335 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.6893277 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.734235 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.7799513 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.8244727 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.8690772 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.9132428 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199955.9600358 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.006334 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.0511668 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.0953825 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.1394858 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.1836207 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.2283435 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.2752914 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.3214529 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.368638 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.4132142 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.4610107 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.5055687 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.5501592 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.5952556 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.6430626 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.6871147 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.734015 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.7781 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.8226645 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.8691125 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.914091 Pos: [0.9725 0.     0.2925] angle 0
+time=1737199956.9630454 Pos: [1.0125 0.     0.2925] angle 0
+time=1737199957.0106683 Pos: [1.0525 0.     0.2925] angle 0
+time=1737199957.0563278 Pos: [1.0925 0.     0.2925] angle 0
+time=1737199957.102088 Pos: [1.1325 0.     0.2925] angle 0
+time=1737199957.1477084 Pos: [1.1725 0.     0.2925] angle 0
+time=1737199957.1932611 Pos: [1.2125 0.     0.2925] angle 0
+0.585
+0.2925 0.2925
+Irregular line contours [iteration - count]: 0-0 - 24
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-1 - 22
+Different: -6.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-2 - 21
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-3 - 22
+Different: -33.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-4 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-5 - 21
+Different: -25.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-6 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-7 - 19
+Different: -26.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-8 - 22
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-9 - 22
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-10 - 22
+Different: -18.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-11 - 23
+Different: -18.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-12 - 24
+Different: -14.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-13 - 24
+Different: -10.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-14 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-15 - 21
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-16 - 23
+Different: -7.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-17 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-18 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-19 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-20 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-21 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-22 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-23 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-24 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-25 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-26 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-27 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-28 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-29 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-30 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-31 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-32 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-33 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-34 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-35 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-36 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-37 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-38 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-39 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-40 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-41 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-42 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-43 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-44 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-45 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-46 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-47 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-48 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-49 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-50 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-51 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-52 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-53 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-54 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-55 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-56 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-57 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-58 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-59 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-60 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-61 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-62 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-63 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-64 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-65 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-66 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-67 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-68 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-69 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-70 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-71 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-72 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-73 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-74 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-75 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-76 - 21
+Different: -32.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-77 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-78 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-79 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-80 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-81 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-82 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-83 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-84 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-85 - 21
+Different: -32.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-86 - 21
+Different: -32.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-87 - 24
+Different: -33.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-88 - 21
+Different: -31.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-89 - 22
+Different: -28.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-90 - 24
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-91 - 22
+Different: -28.0
+time=1737199957.2395484 Pos: [1.2525 0.     0.2925] angle 0
+time=1737199957.2847905 Pos: [1.2925 0.     0.2925] angle 0
+time=1737199957.330265 Pos: [1.3325 0.     0.2925] angle 0
+time=1737199957.3760827 Pos: [1.3725 0.     0.2925] angle 0
+time=1737199957.4222195 Pos: [1.4125 0.     0.2925] angle 0
+time=1737199957.4680948 Pos: [1.4525 0.     0.2925] angle 0
+time=1737199957.5139503 Pos: [1.4925 0.     0.2925] angle 0
+time=1737199957.562275 Pos: [1.5325 0.     0.2925] angle 0
+time=1737199957.6092308 Pos: [1.5725 0.     0.2925] angle 0
+time=1737199957.655571 Pos: [1.6125 0.     0.2925] angle 0
+time=1737199957.7012563 Pos: [1.6525 0.     0.2925] angle 0
+time=1737199957.747214 Pos: [1.6925 0.     0.2925] angle 0
+time=1737199957.7927887 Pos: [1.7325 0.     0.2925] angle 0
+time=1737199957.8389595 Pos: [1.7725 0.     0.2925] angle 0
+time=1737199957.8845606 Pos: [1.8125 0.     0.2925] angle 0
+time=1737199957.930366 Pos: [1.8525 0.     0.2925] angle 0
+time=1737199957.977709 Pos: [1.8925 0.     0.2925] angle 0
+time=1737199958.0247276 Pos: [1.9325 0.     0.2925] angle 0
+time=1737199958.0709627 Pos: [1.9725 0.     0.2925] angle 0
+time=1737199958.117364 Pos: [2.0125 0.     0.2925] angle 0
+time=1737199958.163729 Pos: [2.0525 0.     0.2925] angle 0
+time=1737199958.2100968 Pos: [2.0925 0.     0.2925] angle 0
+time=1737199958.2570338 Pos: [2.1325 0.     0.2925] angle 0
+time=1737199958.3031795 Pos: [2.1725 0.     0.2925] angle 0
+time=1737199958.349301 Pos: [2.2125 0.     0.2925] angle 0
+time=1737199958.3955424 Pos: [2.2525 0.     0.2925] angle 0
+time=1737199958.441968 Pos: [2.2925 0.     0.2925] angle 0
+time=1737199958.4883084 Pos: [2.3325 0.     0.2925] angle 0
+time=1737199958.5352697 Pos: [2.3725 0.     0.2925] angle 0
+time=1737199958.5809815 Pos: [2.4125 0.     0.2925] angle 0
+time=1737199958.6272092 Pos: [2.4525 0.     0.2925] angle 0
+time=1737199958.6727383 Pos: [2.4925 0.     0.2925] angle 0
+time=1737199958.7184858 Pos: [2.5325 0.     0.2925] angle 0
+time=1737199958.7644691 Pos: [2.5725 0.     0.2925] angle 0
+time=1737199958.8104646 Pos: [2.6125 0.     0.2925] angle 0
+time=1737199958.8566387 Pos: [2.6525 0.     0.2925] angle 0
+time=1737199958.902794 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199958.950954 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199958.9963768 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.0422692 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.088119 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.1327016 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.1767807 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.2215424 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.2660306 Pos: [2.6925 0.     0.2925] angle 0
+time=1737199959.309834 Pos: [2.7325 0.     0.2925] angle 0
+time=1737199959.3569512 Pos: [2.7725 0.     0.2925] angle 0
+time=1737199959.4028938 Pos: [2.8125 0.     0.2925] angle 0
+time=1737199959.448252 Pos: [2.8525 0.     0.2925] angle 0
+time=1737199959.4935935 Pos: [2.8925 0.     0.2925] angle 0
+time=1737199959.538628 Pos: [2.9325 0.     0.2925] angle 0
+time=1737199959.589864 Pos: [2.9725 0.     0.2925] angle 0
+time=1737199959.636182 Pos: [3.0125 0.     0.2925] angle 0
+time=1737199959.681538 Pos: [3.0525 0.     0.2925] angle 0
+time=1737199959.727002 Pos: [3.0925 0.     0.2925] angle 0
+time=1737199959.7724254 Pos: [3.1325 0.     0.2925] angle 0
+time=1737199959.8176491 Pos: [3.1725 0.     0.2925] angle 0
+time=1737199959.8633213 Pos: [3.2125 0.     0.2925] angle 0
+time=1737199959.9084537 Pos: [3.2525 0.     0.2925] angle 0
+time=1737199959.956128 Pos: [3.2925 0.     0.2925] angle 0
+time=1737199960.0022814 Pos: [3.3325 0.     0.2925] angle 0
+time=1737199960.0479524 Pos: [3.3725 0.     0.2925] angle 0
+time=1737199960.0955145 Pos: [3.4125 0.     0.2925] angle 0
+time=1737199960.1406047 Pos: [3.4525 0.     0.2925] angle 0
+time=1737199960.1865008 Pos: [3.4925 0.     0.2925] angle 0
+time=1737199960.233331 Pos: [3.5325 0.     0.2925] angle 0
+time=1737199960.2790878 Pos: [3.5725 0.     0.2925] angle 0
+time=1737199960.3242662 Pos: [3.6125 0.     0.2925] angle 0
+time=1737199960.369889 Pos: [3.6525 0.     0.2925] angle 0
+time=1737199960.4154491 Pos: [3.6925 0.     0.2925] angle 0
+time=1737199960.4658906 Pos: [3.7325 0.     0.2925] angle 0
+time=1737199960.5113933 Pos: [3.7725 0.     0.2925] angle 0
+time=1737199960.557084 Pos: [3.8125 0.     0.2925] angle 0
+time=1737199960.602796 Pos: [3.8525 0.     0.2925] angle 0
+time=1737199960.6480155 Pos: [3.8925 0.     0.2925] angle 0
+time=1737199960.6927288 Pos: [3.9325 0.     0.2925] angle 0
+time=1737199960.7387466 Pos: [3.9725 0.     0.2925] angle 0
+time=1737199960.7840216 Pos: [4.0125 0.     0.2925] angle 0
+time=1737199960.8312368 Pos: [4.0525 0.     0.2925] angle 0
+time=1737199960.8763301 Pos: [4.0925 0.     0.2925] angle 0
+time=1737199960.9210327 Pos: [4.1325 0.     0.2925] angle 0
+time=1737199960.9651444 Pos: [4.1725 0.     0.2925] angle 0
+time=1737199961.0145319 Pos: [4.2125 0.     0.2925] angle 0
+time=1737199961.059285 Pos: [4.2525 0.     0.2925] angle 0
+time=1737199961.104023 Pos: [4.2925 0.     0.2925] angle 0
+time=1737199961.1487195 Pos: [4.3325 0.     0.2925] angle 0
+time=1737199961.1929536 Pos: [4.3725 0.     0.2925] angle 0
+time=1737199961.2374532 Pos: [4.4125 0.     0.2925] angle 0
+time=1737199961.2833972 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.3277693 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.3708527 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.4136724 Pos: [4.4525 0.     0.2925] angle 0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-92 - 22
+Different: -22.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-93 - 24
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-94 - 24
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-95 - 25
+Different: -17.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-96 - 22
+Different: -13.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-97 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-98 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-99 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-100 - 24
+Different: -28.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-101 - 23
+Different: -33.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-102 - 23
+Different: -29.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-103 - 23
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-104 - 21
+Different: -30.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-105 - 21
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-106 - 24
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-107 - 23
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-108 - 24
+Different: -22.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-109 - 21
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-110 - 22
+Different: -14.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-111 - 23
+Different: -11.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-112 - 23
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-113 - 24
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-114 - 22
+Different: -7.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-115 - 22
+Different: -30.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-116 - 24
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-117 - 22
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-118 - 23
+Different: -26.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-119 - 24
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-120 - 21
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-121 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-122 - 21
+Different: -24.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-123 - 22
+Different: -18.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-124 - 24
+Different: -17.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-125 - 23
+Different: -14.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-126 - 24
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-127 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-128 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-129 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-130 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-131 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-132 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-133 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-134 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-135 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-136 - 23
+Different: -26.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-137 - 23
+Different: -26.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-138 - 21
+Different: -33.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-139 - 20
+Different: -27.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-140 - 22
+Different: -31.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-141 - 20
+Different: -28.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-142 - 23
+Different: -29.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-143 - 20
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-144 - 22
+Different: -23.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-145 - 23
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-146 - 23
+Different: -20.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-147 - 22
+Different: -13.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-148 - 23
+Different: -12.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-149 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-150 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-151 - 21
+Different: -5.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-152 - 23
+Different: -28.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-153 - 23
+Different: -33.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-154 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-155 - 23
+Different: -30.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-156 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-157 - 22
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-158 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-159 - 22
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-160 - 24
+Different: -22.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-161 - 23
+Different: -19.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-162 - 23
+Different: -14.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-163 - 24
+Different: -10.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-164 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-165 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-166 - 22
+Different: -7.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-167 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-168 - 23
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-169 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-170 - 23
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-171 - 23
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-172 - 22
+Different: -27.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-173 - 22
+Different: -21.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-174 - 22
+Different: -24.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-175 - 21
+Different: -19.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-176 - 24
+Different: -17.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-177 - 22
+Different: -13.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-178 - 24
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-179 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-180 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-181 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-182 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-183 - 24
+Different: -27.0
+Phase.WAITING_RED
+time=1737199961.4589555 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.5022638 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.5449963 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.5908003 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.6338825 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.676804 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.7195673 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.7627811 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.8073425 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.8507984 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.8939354 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.9363685 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199961.9796355 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.023302 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.0661998 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.1091123 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.1522326 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.1949573 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.2381206 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.2807775 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.3257158 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.368868 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.4118998 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.4556086 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.4984763 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.5415423 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.584464 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.628242 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.6712818 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.7141538 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.7567377 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.799528 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.844761 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.8881638 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.931347 Pos: [4.4525 0.     0.2925] angle 0
+time=1737199962.9748046 Pos: [4.4925 0.     0.2925] angle 0
+time=1737199963.0228796 Pos: [4.5325 0.     0.2925] angle 0
+time=1737199963.067202 Pos: [4.5725 0.     0.2925] angle 0
+time=1737199963.1147356 Pos: [4.6125 0.     0.2925] angle 0
+time=1737199963.160177 Pos: [4.6525 0.     0.2925] angle 0
+time=1737199963.2073543 Pos: [4.6925 0.     0.2925] angle 0
+time=1737199963.252006 Pos: [4.7325 0.     0.2925] angle 0
+time=1737199963.2957702 Pos: [4.7725 0.     0.2925] angle 0
+time=1737199963.339929 Pos: [4.8125 0.     0.2925] angle 0
+time=1737199963.3886013 Pos: [4.8525 0.     0.2925] angle 0
+time=1737199963.4338703 Pos: [4.8925 0.     0.2925] angle 0
+time=1737199963.4782624 Pos: [4.9325 0.     0.2925] angle 0
+time=1737199963.5222318 Pos: [4.9725 0.     0.2925] angle 0
+time=1737199963.5663981 Pos: [5.0125 0.     0.2925] angle 0
+time=1737199963.6129057 Pos: [5.0525 0.     0.2925] angle 0
+time=1737199963.6569943 Pos: [5.0925 0.     0.2925] angle 0
+time=1737199963.7009497 Pos: [5.1325 0.     0.2925] angle 0
+time=1737199963.744584 Pos: [5.1725 0.     0.2925] angle 0
+time=1737199963.7910151 Pos: [5.2125 0.     0.2925] angle 0
+time=1737199963.8355434 Pos: [5.2525 0.     0.2925] angle 0
+time=1737199963.8800046 Pos: [5.2925 0.     0.2925] angle 0
+time=1737199963.9249327 Pos: [5.3325 0.     0.2925] angle 0
+time=1737199963.9689097 Pos: [5.3725 0.     0.2925] angle 0
+time=1737199964.013605 Pos: [5.4125 0.     0.2925] angle 0
+time=1737199964.0576513 Pos: [5.4525 0.     0.2925] angle 0
+time=1737199964.1035671 Pos: [5.4925 0.     0.2925] angle 0
+time=1737199964.148236 Pos: [5.5325 0.     0.2925] angle 0
+time=1737199964.1924565 Pos: [5.5725 0.     0.2925] angle 0
+time=1737199964.2366982 Pos: [5.6125 0.     0.2925] angle 0
+time=1737199964.2810245 Pos: [5.6525 0.     0.2925] angle 0
+time=1737199964.32523 Pos: [5.6925 0.     0.2925] angle 0
+time=1737199964.3701432 Pos: [5.7325 0.     0.2925] angle 0
+time=1737199964.435556 Pos: [5.7725 0.     0.2925] angle 0
+time=1737199964.4813874 Pos: [5.8125 0.     0.2925] angle 0
+time=1737199964.5255423 Pos: [5.8525 0.     0.2925] angle 0
+time=1737199964.5698524 Pos: [5.8925 0.     0.2925] angle 0
+time=1737199964.6158867 Pos: [5.9325 0.     0.2925] angle 0
+time=1737199964.6604898 Pos: [5.9725 0.     0.2925] angle 0
+time=1737199964.7041123 Pos: [6.0125 0.     0.2925] angle 0
+time=1737199964.7501478 Pos: [6.0525 0.     0.2925] angle 0
+time=1737199964.795457 Pos: [6.0925 0.     0.2925] angle 0
+time=1737199964.8388686 Pos: [6.1325 0.     0.2925] angle 0
+time=1737199964.8831038 Pos: [6.1725 0.     0.2925] angle 0
+time=1737199964.9266255 Pos: [6.2125 0.     0.2925] angle 0
+time=1737199964.9705102 Pos: [6.2125 0.     0.2925] angle 0
+time=1737199965.0167055 Pos: [6.2125 0.     0.2925] angle 0
+time=1737199965.0619352 Pos: [6.2125 0.     0.2925] angle 0
+time=1737199965.104289 Pos: [6.2125 0.     0.2925] angle 0
+time=1737199965.1467314 Pos: [6.2525 0.     0.2925] angle 0
+time=1737199965.1928809 Pos: [6.2925 0.     0.2925] angle 0
+time=1737199965.2365248 Pos: [6.3325 0.     0.2925] angle 0
+time=1737199965.280221 Pos: [6.3725 0.     0.2925] angle 0
+time=1737199965.3242526 Pos: [6.4125 0.     0.2925] angle 0
+time=1737199965.3676624 Pos: [6.4525 0.     0.2925] angle 0
+time=1737199965.4139216 Pos: [6.4925 0.     0.2925] angle 0
+time=1737199965.4572053 Pos: [6.5325 0.     0.2925] angle 0
+time=1737199965.5006254 Pos: [6.5725 0.     0.2925] angle 0
+Irregular line contours [iteration - count]: 0-184 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-185 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-186 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-187 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-188 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-189 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-190 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-191 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-192 - 24
+Different: -27.0
+Phase.WAITING_RED
+Irregular line contours [iteration - count]: 0-193 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-194 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-195 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-196 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-197 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-198 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-199 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-200 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-201 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-202 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-203 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-204 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-205 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-206 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-207 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-208 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-209 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-210 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-211 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-212 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-213 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-214 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-215 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-216 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-217 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-218 - 24
+Different: -27.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-219 - 24
+Different: -27.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-220 - 22
+Different: -33.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-221 - 23
+Different: -28.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-222 - 22
+Different: -31.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-223 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-224 - 23
+Different: -29.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-225 - 22
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-226 - 21
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-227 - 26
+Different: -23.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-228 - 24
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-229 - 23
+Different: -13.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-230 - 23
+Different: -11.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-231 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-232 - 24
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-233 - 22
+Different: -6.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-234 - 21
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-235 - 22
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-236 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-237 - 21
+Different: -25.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-238 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-239 - 19
+Different: -26.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-240 - 22
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-241 - 22
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-242 - 22
+Different: -18.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-243 - 23
+Different: -18.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-244 - 24
+Different: -14.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-245 - 24
+Different: -10.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-246 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-247 - 21
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-248 - 23
+Different: -7.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-249 - 21
+Different: -32.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-250 - 24
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-251 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-252 - 22
+Different: -28.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-253 - 24
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-254 - 22
+Different: -28.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-255 - 22
+Different: -22.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-256 - 23
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-257 - 24
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-258 - 25
+Different: -17.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-259 - 22
+Different: -13.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-260 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-261 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-262 - 23
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-263 - 24
+Different: -28.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-264 - 24
+Different: -28.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-265 - 24
+Different: -28.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-266 - 24
+Different: -28.0
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-267 - 24
+Different: -28.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-268 - 23
+Different: -33.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-269 - 23
+Different: -29.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-270 - 23
+Different: -31.0
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-271 - 21
+Different: -30.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-272 - 21
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-273 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-274 - 23
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-275 - 24
+Different: -22.0
+Phase.ALIGNMENT
+time=1737199965.5452304 Pos: [6.6125 0.     0.2925] angle 0
+time=1737199965.5889783 Pos: [6.6525 0.     0.2925] angle 0
+time=1737199965.6335301 Pos: [6.6925 0.     0.2925] angle 0
+time=1737199965.6781664 Pos: [6.7325 0.     0.2925] angle 0
+time=1737199965.7236447 Pos: [6.7725 0.     0.2925] angle 0
+time=1737199965.7700431 Pos: [6.8125 0.     0.2925] angle 0
+time=1737199965.8133261 Pos: [6.8525 0.     0.2925] angle 0
+time=1737199965.858839 Pos: [6.8925 0.     0.2925] angle 0
+time=1737199965.9018135 Pos: [6.9325 0.     0.2925] angle 0
+time=1737199965.9445753 Pos: [6.9725 0.     0.2925] angle 0
+time=1737199965.9884772 Pos: [7.0125 0.     0.2925] angle 0
+time=1737199966.0330389 Pos: [7.0525 0.     0.2925] angle 0
+time=1737199966.0779626 Pos: [7.0925 0.     0.2925] angle 0
+time=1737199966.12473 Pos: [7.1325 0.     0.2925] angle 0
+time=1737199966.1684291 Pos: [7.1725 0.     0.2925] angle 0
+time=1737199966.2116973 Pos: [7.2125 0.     0.2925] angle 0
+time=1737199966.2583 Pos: [7.2525 0.     0.2925] angle 0
+time=1737199966.3018334 Pos: [7.2925 0.     0.2925] angle 0
+time=1737199966.3474855 Pos: [7.3325 0.     0.2925] angle 0
+time=1737199966.3912237 Pos: [7.3725 0.     0.2925] angle 0
+time=1737199966.4352818 Pos: [7.4125 0.     0.2925] angle 0
+time=1737199966.4795873 Pos: [7.4525 0.     0.2925] angle 0
+time=1737199966.5228202 Pos: [7.4925 0.     0.2925] angle 0
+time=1737199966.5658906 Pos: [7.5325 0.     0.2925] angle 0
+time=1737199966.6107173 Pos: [7.5725 0.     0.2925] angle 0
+time=1737199966.6570358 Pos: [7.6125 0.     0.2925] angle 0
+time=1737199966.7023513 Pos: [7.6525 0.     0.2925] angle 0
+time=1737199966.7531786 Pos: [7.6925 0.     0.2925] angle 0
+time=1737199966.7960129 Pos: [7.7325 0.     0.2925] angle 0
+time=1737199966.838702 Pos: [7.7725 0.     0.2925] angle 0
+time=1737199966.881242 Pos: [7.8125 0.     0.2925] angle 0
+time=1737199966.923593 Pos: [7.8525 0.     0.2925] angle 0
+time=1737199966.966261 Pos: [7.8925 0.     0.2925] angle 0
+time=1737199967.0107071 Pos: [7.9325 0.     0.2925] angle 0
+time=1737199967.057177 Pos: [7.9725 0.     0.2925] angle 0
+time=1737199967.1019065 Pos: [7.9725 0.     0.2925] angle 0
+time=1737199967.1488464 Pos: [7.9725 0.     0.2925] angle 0
+time=1737199967.193163 Pos: [8.0125 0.     0.2925] angle 0
+time=1737199967.236294 Pos: [8.0525 0.     0.2925] angle 0
+time=1737199967.2782257 Pos: [8.0925 0.     0.2925] angle 0
+time=1737199967.320606 Pos: [8.1325 0.     0.2925] angle 0
+time=1737199967.3630059 Pos: [8.1725 0.     0.2925] angle 0
+time=1737199967.4054008 Pos: [8.2125 0.     0.2925] angle 0
+time=1737199967.4478877 Pos: [8.2525 0.     0.2925] angle 0
+time=1737199967.4910893 Pos: [8.2925 0.     0.2925] angle 0
+time=1737199967.5331838 Pos: [8.3325 0.     0.2925] angle 0
+time=1737199967.5768478 Pos: [8.3725 0.     0.2925] angle 0
+time=1737199967.6240885 Pos: [8.4125 0.     0.2925] angle 0
+time=1737199967.6675715 Pos: [8.4525 0.     0.2925] angle 0
+time=1737199967.7137952 Pos: [8.4925 0.     0.2925] angle 0
+time=1737199967.7566817 Pos: [8.5325 0.     0.2925] angle 0
+time=1737199967.7995446 Pos: [8.5725 0.     0.2925] angle 0
+time=1737199967.8423288 Pos: [8.6125 0.     0.2925] angle 0
+time=1737199967.884517 Pos: [8.6525 0.     0.2925] angle 0
+time=1737199967.9268944 Pos: [8.6925 0.     0.2925] angle 0
+time=1737199967.969442 Pos: [8.7325 0.     0.2925] angle 0
+time=1737199968.0124772 Pos: [8.7725 0.     0.2925] angle 0
+time=1737199968.0553105 Pos: [8.8125 0.     0.2925] angle 0
+time=1737199968.0979548 Pos: [8.8525 0.     0.2925] angle 0
+time=1737199968.1405504 Pos: [8.8925 0.     0.2925] angle 0
+time=1737199968.184414 Pos: [8.9325 0.     0.2925] angle 0
+time=1737199968.2273972 Pos: [8.9725 0.     0.2925] angle 0
+time=1737199968.270134 Pos: [9.0125 0.     0.2925] angle 0
+time=1737199968.313246 Pos: [9.0525 0.     0.2925] angle 0
+time=1737199968.3564272 Pos: [9.0925 0.     0.2925] angle 0
+time=1737199968.3996625 Pos: [9.1325 0.     0.2925] angle 0
+time=1737199968.4431736 Pos: [9.1725 0.     0.2925] angle 0
+time=1737199968.4868138 Pos: [9.2125 0.     0.2925] angle 0
+time=1737199968.529569 Pos: [9.2525 0.     0.2925] angle 0
+time=1737199968.5720594 Pos: [9.2925 0.     0.2925] angle 0
+time=1737199968.614691 Pos: [9.3325 0.     0.2925] angle 0
+time=1737199968.657622 Pos: [9.3725 0.     0.2925] angle 0
+time=1737199968.700437 Pos: [9.4125 0.     0.2925] angle 0
+time=1737199968.742649 Pos: [9.4525 0.     0.2925] angle 0
+time=1737199968.784158 Pos: [9.4925 0.     0.2925] angle 0
+time=1737199968.8264449 Pos: [9.5325 0.     0.2925] angle 0
+time=1737199968.8720193 Pos: [9.5725 0.     0.2925] angle 0
+time=1737199968.9154706 Pos: [9.6125 0.     0.2925] angle 0
+time=1737199968.958926 Pos: [9.6525 0.     0.2925] angle 0
+time=1737199969.001462 Pos: [9.6925 0.     0.2925] angle 0
+time=1737199969.05007 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.0923254 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.1335256 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.1739194 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.2160158 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.257097 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.2974138 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.3375978 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.378025 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.4203932 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.4605823 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.500785 Pos: [9.7325 0.     0.2925] angle 0
+Irregular line contours [iteration - count]: 0-276 - 21
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-277 - 22
+Different: -14.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-278 - 23
+Different: -11.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-279 - 23
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-280 - 24
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-281 - 22
+Different: -7.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-282 - 22
+Different: -30.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-283 - 24
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-284 - 22
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-285 - 23
+Different: -26.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-286 - 23
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-287 - 21
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-288 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-289 - 21
+Different: -24.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-290 - 21
+Different: -18.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-291 - 23
+Different: -17.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-292 - 23
+Different: -14.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-293 - 24
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-294 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-295 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-296 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-297 - 21
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-298 - 20
+Different: -27.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-299 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-300 - 20
+Different: -28.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-301 - 23
+Different: -29.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-302 - 20
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-303 - 22
+Different: -23.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-304 - 23
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-305 - 23
+Different: -20.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-306 - 22
+Different: -13.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-307 - 23
+Different: -12.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-308 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-309 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-310 - 21
+Different: -5.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-311 - 23
+Different: -28.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-312 - 23
+Different: -28.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-313 - 23
+Different: -28.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-314 - 23
+Different: -33.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-315 - 22
+Different: -29.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-316 - 23
+Different: -30.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-317 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-318 - 21
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-319 - 23
+Different: -26.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-320 - 22
+Different: -25.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-321 - 24
+Different: -22.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-322 - 22
+Different: -19.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-323 - 22
+Different: -14.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-324 - 24
+Different: -10.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-325 - 22
+Different: -4.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-326 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-327 - 22
+Different: -7.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-328 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-329 - 22
+Different: -33.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-330 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-331 - 22
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-332 - 23
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-333 - 22
+Different: -27.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-334 - 22
+Different: -21.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-335 - 22
+Different: -24.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-336 - 21
+Different: -19.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-337 - 23
+Different: -17.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-338 - 22
+Different: -13.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-339 - 23
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-340 - 23
+Different: -3.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-341 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-342 - 23
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-343 - 22
+Different: -33.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-344 - 22
+Different: -28.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-345 - 21
+Different: -31.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-346 - 22
+Different: -29.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-347 - 23
+Different: -29.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-348 - 21
+Different: -27.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-349 - 21
+Different: -24.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-350 - 26
+Different: -23.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-351 - 24
+Different: -19.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-352 - 22
+Different: -13.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-353 - 22
+Different: -11.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-354 - 22
+Different: -5.0
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-355 - 23
+Different: -4.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-356 - 22
+Different: -6.5
+Phase.ALIGNMENT
+Irregular line contours [iteration - count]: 0-357 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-358 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-359 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-360 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-361 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-362 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-363 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-364 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-365 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-366 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-367 - 19
+Different: -29.5
+Phase.STOPPING
+time=1737199969.5440843 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.585049 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.625882 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.6665318 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.7088711 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.7503033 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.7903554 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.8312395 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.871554 Pos: [9.7325 0.     0.2925] angle 0
+time=1737199969.911736 Pos: [9.7725 0.     0.2925] angle 0
+time=1737199969.953204 Pos: [9.8125 0.     0.2925] angle 0
+time=1737199969.994657 Pos: [9.8525 0.     0.2925] angle 0
+time=1737199970.037332 Pos: [9.8925 0.     0.2925] angle 0
+time=1737199970.0781481 Pos: [9.9325 0.     0.2925] angle 0
+time=1737199970.1190653 Pos: [9.9725 0.     0.2925] angle 0
+time=1737199970.160189 Pos: [10.0125  0.      0.2925] angle 0
+time=1737199970.2023058 Pos: [10.0525  0.      0.2925] angle 0
+time=1737199970.2440968 Pos: [10.0925  0.      0.2925] angle 0
+time=1737199970.2850816 Pos: [10.1325  0.      0.2925] angle 0
+time=1737199970.3262105 Pos: [10.1725  0.      0.2925] angle 0
+time=1737199970.3693852 Pos: [10.2125  0.      0.2925] angle 0
+time=1737199970.4111805 Pos: [10.2525  0.      0.2925] angle 0
+time=1737199970.454633 Pos: [10.2925  0.      0.2925] angle 0
+time=1737199970.4981146 Pos: [10.3325  0.      0.2925] angle 0
+time=1737199970.5413835 Pos: [10.3725  0.      0.2925] angle 0
+time=1737199970.5842967 Pos: [10.4125  0.      0.2925] angle 0
+time=1737199970.6254964 Pos: [10.4525  0.      0.2925] angle 0
+time=1737199970.666636 Pos: [10.4925  0.      0.2925] angle 0
+time=1737199970.7087111 Pos: [10.5325  0.      0.2925] angle 0
+time=1737199970.749858 Pos: [10.5725  0.      0.2925] angle 0
+time=1737199970.7910662 Pos: [10.6125  0.      0.2925] angle 0
+time=1737199970.832298 Pos: [10.6525  0.      0.2925] angle 0
+time=1737199970.8775814 Pos: [10.6925  0.      0.2925] angle 0
+time=1737199970.9190216 Pos: [10.7325  0.      0.2925] angle 0
+time=1737199970.9597883 Pos: [10.7725  0.      0.2925] angle 0
+time=1737199971.010262 Pos: [10.8125  0.      0.2925] angle 0
+time=1737199971.0540628 Pos: [10.8525  0.      0.2925] angle 0
+time=1737199971.0951848 Pos: [10.8925  0.      0.2925] angle 0
+time=1737199971.136202 Pos: [10.9325  0.      0.2925] angle 0
+time=1737199971.1773846 Pos: [10.9725  0.      0.2925] angle 0
+time=1737199971.218861 Pos: [11.0125  0.      0.2925] angle 0
+time=1737199971.2599306 Pos: [11.0525  0.      0.2925] angle 0
+time=1737199971.3002923 Pos: [11.0925  0.      0.2925] angle 0
+time=1737199971.341086 Pos: [11.1325  0.      0.2925] angle 0
+time=1737199971.3821485 Pos: [11.1725  0.      0.2925] angle 0
+time=1737199971.4225795 Pos: [11.2125  0.      0.2925] angle 0
+time=1737199971.4631221 Pos: [11.2525  0.      0.2925] angle 0
+time=1737199971.5034308 Pos: [11.2925  0.      0.2925] angle 0
+time=1737199971.5439646 Pos: [11.3325  0.      0.2925] angle 0
+time=1737199971.589744 Pos: [11.3725  0.      0.2925] angle 0
+time=1737199971.6330028 Pos: [11.4125  0.      0.2925] angle 0
+time=1737199971.6743534 Pos: [11.4525  0.      0.2925] angle 0
+time=1737199971.715967 Pos: [11.4925  0.      0.2925] angle 0
+time=1737199971.756643 Pos: [11.5325  0.      0.2925] angle 0
+time=1737199971.7980235 Pos: [11.5725  0.      0.2925] angle 0
+time=1737199971.841571 Pos: [11.6125  0.      0.2925] angle 0
+time=1737199971.8816576 Pos: [11.6525  0.      0.2925] angle 0
+time=1737199971.922002 Pos: [11.6925  0.      0.2925] angle 0
+time=1737199971.9621084 Pos: [11.7325  0.      0.2925] angle 0
+time=1737199972.005193 Pos: [11.7725  0.      0.2925] angle 0
+time=1737199972.045969 Pos: [11.8125  0.      0.2925] angle 0
+time=1737199972.0867376 Pos: [11.8525  0.      0.2925] angle 0
+time=1737199972.1271968 Pos: [11.8925  0.      0.2925] angle 0
+time=1737199972.1673949 Pos: [11.9325  0.      0.2925] angle 0
+time=1737199972.208969 Pos: [11.9725  0.      0.2925] angle 0
+time=1737199972.2505758 Pos: [12.0125  0.      0.2925] angle 0
+time=1737199972.2910814 Pos: [12.0525  0.      0.2925] angle 0
+time=1737199972.3315823 Pos: [12.0925  0.      0.2925] angle 0
+time=1737199972.3716207 Pos: [12.1325  0.      0.2925] angle 0
+time=1737199972.4121583 Pos: [12.1725  0.      0.2925] angle 0
+time=1737199972.4520462 Pos: [12.2125  0.      0.2925] angle 0
+time=1737199972.4918702 Pos: [12.2125  0.      0.2925] angle 0
+time=1737199972.5151622 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1737199972.5153506 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1737199972.5155556 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1737199972.5157375 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1737199972.5159104 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1737199972.5160546 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1737199972.5162141 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1737199972.51637 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1737199972.5165198 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1737199972.5166953 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1737199972.5168765 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1737199972.5170572 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1737199972.517272 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 1.5394999999999999
+time=1737199972.5174642 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 3.2944999999999998
+time=1737199972.5176678 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 5.0495
+time=1737199972.517866 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 6.8045
+time=1737199972.51807 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 8.5595
+time=1737199972.5182612 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 10.314499999999999
+time=1737199972.5184414 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 1.4994999999999998
+time=1737199972.5186388 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 3.2544999999999997
+time=1737199972.5188217 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 5.0095
+time=1737199972.519002 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 6.7645
+time=1737199972.5191824 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 8.519499999999999
+time=1737199972.5193617 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 10.274499999999998
+time=1737199972.519543 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 1.4595
+time=1737199972.5197628 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 3.2144999999999997
+time=1737199972.5199685 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 4.9695
+time=1737199972.5201745 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 6.7245
+time=1737199972.520393 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 8.4795
+time=1737199972.5205963 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 10.234499999999999
+time=1737199972.5207765 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 1.4195
+time=1737199972.5209951 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 3.1745
+time=1737199972.5211942 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 4.9295
+time=1737199972.5214188 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 6.6845
+time=1737199972.521607 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 8.439499999999999
+time=1737199972.5218036 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 10.194499999999998
+time=1737199972.5220084 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 1.3795
+time=1737199972.522234 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 3.1345
+time=1737199972.5224292 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 4.8895
+time=1737199972.522652 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 6.6445
+time=1737199972.5228462 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 8.3995
+time=1737199972.5230346 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 10.154499999999999
+time=1737199972.5232148 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 1.3395000000000001
+time=1737199972.5233977 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 3.0945
+time=1737199972.5235782 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 4.8495
+time=1737199972.5237596 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 6.6045
+time=1737199972.5239232 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 8.359499999999999
+time=1737199972.524101 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 10.114499999999998
+time=1737199972.5242832 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 1.2995
+time=1737199972.5245256 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 3.0545
+time=1737199972.5247538 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 4.8095
+time=1737199972.5249836 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 6.5645
+time=1737199972.525213 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 8.3195
+time=1737199972.5254385 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 10.074499999999999
+time=1737199972.5256577 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 1.2595
+time=1737199972.525857 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 3.0145
+time=1737199972.5260854 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 4.7695
+time=1737199972.5262961 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 6.5245
+time=1737199972.526585 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 8.279499999999999
+time=1737199972.526812 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 10.034499999999998
+time=1737199972.5270422 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 1.2195
+time=1737199972.5272443 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 2.9745
+time=1737199972.5274143 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 4.7295
+time=1737199972.527568 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 6.4845
+time=1737199972.5276852 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 8.2395
+time=1737199972.527801 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 9.994499999999999
+time=1737199972.5279174 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 1.1795
+time=1737199972.5280325 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 2.9345
+time=1737199972.528148 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 4.6895
+time=1737199972.5282617 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 6.4445
+time=1737199972.5283763 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 8.199499999999999
+time=1737199972.5284905 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 9.954499999999998
+time=1737199972.5286052 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 1.1395
+time=1737199972.5287206 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 2.8945
+time=1737199972.528836 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 4.6495
+time=1737199972.528952 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 6.4045
+time=1737199972.529067 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 8.1595
+time=1737199972.5291822 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 9.914499999999999
+time=1737199972.529299 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 1.0995
+time=1737199972.5294147 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 2.8545
+time=1737199972.529529 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 4.6095
+time=1737199972.5296433 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 6.3645
+time=1737199972.5297964 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 8.119499999999999
+time=1737199972.5299203 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 9.874499999999998
+time=1737199972.5300384 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 1.0594999999999999
+time=1737199972.5301814 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 2.8145
+time=1737199972.5303118 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 4.5695
+time=1737199972.5304368 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 6.3245
+time=1737199972.530563 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 8.0795
+time=1737199972.5307183 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 9.834499999999998
+time=1737199972.5308537 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 1.0194999999999999
+time=1737199972.5309904 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1737199972.5311441 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 4.5295
+time=1737199972.5313416 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1737199972.5315337 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1737199972.5316825 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1737199972.5318265 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 0.9794999999999997
+time=1737199972.5319765 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 2.7344999999999997
+time=1737199972.5321085 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 4.4895
+time=1737199972.5322447 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 6.2444999999999995
+time=1737199972.532375 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 7.999499999999999
+time=1737199972.532508 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 9.754499999999998
+time=1737199972.5326393 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 0.9394999999999997
+time=1737199972.5328176 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 2.6944999999999997
+time=1737199972.5330064 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 4.4495
+time=1737199972.5331995 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 6.2044999999999995
+time=1737199972.5333893 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 7.959499999999999
+time=1737199972.5335827 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 9.714499999999997
+time=1737199972.5337632 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5339196 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.534094 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5342276 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5343566 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5344815 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5346096 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5347574 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5348954 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5350513 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5351925 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5353246 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5354574 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.535588 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.535717 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.535872 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.536034 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5361958 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5363333 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5364642 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5365944 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5367231 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5368547 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5369859 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5371447 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.537308 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.537471 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.537608 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5377612 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5378938 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5380251 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5381556 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5382853 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5384398 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5386026 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.538739 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5388954 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5390322 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.539162 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5392902 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5394187 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5395484 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5397067 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5398698 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5400028 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5401566 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5402892 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5404134 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5405395 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.540664 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.540788 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5409403 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5410998 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5412586 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5413888 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737199972.5415413 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5417006 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.541838 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5419633 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5420878 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.542212 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5423627 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.542536 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5426714 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5428336 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.543002 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5431721 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5433369 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.543505 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5436704 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5438402 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5440083 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.544178 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5443804 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.544561 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5447495 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5448866 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5450184 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5451775 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5453408 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5455089 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5456734 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.545815 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5459409 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5460663 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5461884 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5463116 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5464332 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5465848 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5467436 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5469031 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5470319 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5471547 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.547276 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5473974 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.547519 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5476418 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5477927 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5479522 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5481098 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5482414 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5483952 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5485265 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5486789 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.548838 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5489655 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5491178 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.549276 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5494063 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.549557 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5496867 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5498435 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5500023 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.550134 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5502906 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5504208 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5505748 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5507033 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5508564 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.551016 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5511475 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5512993 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5514293 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5515816 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5517123 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5518653 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.5520248 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.552153 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.552306 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5524623 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5525913 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.552743 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737199972.552902 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5530288 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5531805 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5533361 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5534656 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.553618 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.55377 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5538955 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5540185 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5541399 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.554293 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5544517 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5545802 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5547023 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5548546 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.555011 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5551398 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5552614 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5553842 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.555505 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5556562 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5557833 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5559065 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5560594 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5562177 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5563467 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.55647 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5565915 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.556713 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5568643 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.556992 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5571134 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5572643 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5574203 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5575783 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5577407 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5578668 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5579896 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.558112 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5582342 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.558357 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.558509 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.558666 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5588222 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5589516 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5590734 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.559196 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.559318 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5594397 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5595613 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5597124 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5598686 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5600262 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5601552 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.560277 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5603976 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5605197 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5606408 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5607922 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.560951 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5611143 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.561287 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5614605 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5616322 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5618107 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5619833 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5621545 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.562325 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5624974 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.562667 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5628388 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5630116 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.563182 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5633535 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.563527 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5636976 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.56387 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5640426 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5642138 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5643852 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5645437 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5646951 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5648484 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5650005 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5651522 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5653021 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5654447 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.565578 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.565734 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.565901 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5660625 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5662248 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5663865 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5665488 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5667107 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.566876 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5670364 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5671988 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5673597 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5674992 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5676255 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5677543 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5679111 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5680728 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5682373 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.568407 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5685563 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5686884 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5688214 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5689695 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.569135 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.569295 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5694697 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5696077 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.569754 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.569903 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5700655 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5702283 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5703897 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5705528 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5707133 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5708745 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5710366 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5711992 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5713608 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5715244 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5716662 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5717988 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5719478 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.572112 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5722747 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5724392 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.572616 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5727952 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5729403 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5730739 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5732236 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.57339 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5735528 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.573716 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5738957 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.57406 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5742218 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5744126 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5745983 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.574783 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5749419 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.575105 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5752664 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5754297 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5755978 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.575766 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5759275 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5760903 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5762515 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.576415 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5765746 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5767365 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5768774 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.577009 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5771382 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5772939 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5774546 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5776172 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.577782 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.577927 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5780575 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5781896 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5783188 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5784848 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5786679 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.578874 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5791411 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5793645 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5796137 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.579805 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5799947 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.580179 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5803635 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.58055 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5807364 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.580933 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5811882 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5814002 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5815778 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5817475 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5818727 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5819921 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5821104 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5822268 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5823429 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5824597 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5825748 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5826888 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.582804 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5829177 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5830317 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5831447 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.583259 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5833738 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5834901 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5836058 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737199972.5837219 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5838358 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5839508 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.584064 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5841775 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.584289 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.584401 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5845146 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5846286 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.584741 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5848544 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5849671 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5850787 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5851915 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5853045 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5854158 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5855286 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5856404 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5857594 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5858748 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5859885 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.586101 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5862138 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1737199972.5863252 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5864372 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5865495 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.586662 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5867743 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.586887 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5870006 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5871117 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.587224 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5873365 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.587448 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5875597 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5876718 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5877824 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5878935 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5880053 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5881162 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5882277 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5883398 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5884507 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.588563 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5886748 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5887854 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5888968 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.589009 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.589121 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5892332 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5893452 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.589457 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5895689 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5896814 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5898037 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5899184 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5900316 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.590144 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5902562 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5903697 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5904891 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.590605 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5907207 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5908344 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5909493 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5910625 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5911753 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5912888 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5914023 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.591514 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5916276 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5917404 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5918512 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.5919633 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5920777 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.5921912 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.5923045 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5924175 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5925293 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737199972.592642 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5927548 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1737199972.592868 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737199972.592982 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737199972.5930948 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1737199972.5932071 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 7.919499999999999
+time=1737199972.5933194 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 9.674499999999998
+time=1737199972.5934331 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 0.8594999999999997
+time=1737199972.5935462 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 2.6144999999999996
+time=1737199972.59366 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 4.3694999999999995
+time=1737199972.5937812 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 6.124499999999999
+time=1737199972.593895 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 7.879499999999999
+time=1737199972.5940065 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 9.6345
+time=1737199972.59414 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 0.8194999999999997
+time=1737199972.594269 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 2.5744999999999996
+time=1737199972.5943956 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 4.3294999999999995
+time=1737199972.5945263 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 6.084499999999999
+time=1737199972.594657 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 7.839499999999999
+time=1737199972.594784 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 9.594499999999998
+time=1737199972.5949373 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 0.7794999999999996
+time=1737199972.595098 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 2.5344999999999995
+time=1737199972.5952594 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 4.289499999999999
+time=1737199972.5953934 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 6.044499999999999
+time=1737199972.595521 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 7.799499999999999
+time=1737199972.5956473 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 9.554499999999997
+time=1737199972.5957756 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 0.7394999999999996
+time=1737199972.5959027 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 2.4944999999999995
+time=1737199972.5960295 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 4.249499999999999
+time=1737199972.5961814 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 6.004499999999999
+time=1737199972.5963402 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 7.759499999999999
+time=1737199972.5964987 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 9.514499999999998
+time=1737199972.5966575 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 0.6994999999999996
+time=1737199972.5968163 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 2.4544999999999995
+time=1737199972.5969493 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 4.209499999999999
+time=1737199972.5970757 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 5.964499999999999
+time=1737199972.5972004 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 7.719499999999999
+time=1737199972.597327 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 9.474499999999999
+time=1737199972.597484 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 0.6594999999999995
+time=1737199972.597646 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 2.4144999999999994
+time=1737199972.5977936 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 4.169499999999999
+time=1737199972.597999 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 5.924499999999999
+time=1737199972.5981846 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 7.679499999999999
+time=1737199972.598312 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 9.434499999999998
+time=1737199972.5984395 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 0.6194999999999995
+time=1737199972.598567 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 2.3744999999999994
+time=1737199972.598721 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 4.129499999999999
+time=1737199972.5988827 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 5.884499999999999
+time=1737199972.5990167 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 7.639499999999999
+time=1737199972.5991442 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 9.394499999999997
+time=1737199972.5992975 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 0.5794999999999995
+time=1737199972.5994577 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 2.3344999999999994
+time=1737199972.5996177 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 4.089499999999999
+time=1737199972.5997777 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 5.844499999999999
+time=1737199972.599937 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 7.599499999999999
+time=1737199972.6000936 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 9.354499999999998
+time=1737199972.6002522 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1737199972.6004114 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1737199972.60057 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1737199972.6007288 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1737199972.6008668 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1737199972.6009943 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 9.314499999999999
+time=1737199972.6011212 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 0.4994999999999994
+time=1737199972.6012485 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 2.2544999999999993
+time=1737199972.6014013 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 4.009499999999999
+time=1737199972.601561 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 5.764499999999999
+time=1737199972.6017323 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 7.519499999999999
+time=1737199972.601898 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 9.274499999999998
+time=1737199972.6020327 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 0.45949999999999935
+time=1737199972.60216 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 2.2144999999999992
+time=1737199972.6022863 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 3.969499999999999
+time=1737199972.6024382 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 5.724499999999999
+time=1737199972.6025953 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 7.479499999999999
+time=1737199972.6027265 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 9.234499999999997
+time=1737199972.6028779 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 0.4194999999999993
+time=1737199972.603036 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 2.174499999999999
+time=1737199972.603194 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 3.929499999999999
+time=1737199972.6033518 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 5.684499999999999
+time=1737199972.6035087 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 7.439499999999999
+time=1737199972.603666 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 9.194499999999998
+time=1737199972.603823 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 0.3794999999999993
+time=1737199972.6039548 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 2.134499999999999
+time=1737199972.6040819 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 3.889499999999999
+time=1737199972.6042085 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 5.644499999999999
+time=1737199972.6043344 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 7.399499999999999
+time=1737199972.6044862 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 9.154499999999999
+time=1737199972.6046448 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 0.33949999999999925
+time=1737199972.6047952 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 2.094499999999999
+time=1737199972.6049552 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 3.849499999999999
+time=1737199972.6050901 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 5.604499999999999
+time=1737199972.6052253 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 7.359499999999999
+time=1737199972.6053839 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 9.114499999999998
+time=1737199972.6055512 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 0.2994999999999992
+time=1737199972.6057343 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 2.054499999999999
+time=1737199972.6059628 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 3.809499999999999
+time=1737199972.606164 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 5.564499999999999
+time=1737199972.6063128 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 7.319499999999999
+time=1737199972.6064754 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 9.074499999999997
+time=1737199972.6066725 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 0.2594999999999992
+time=1737199972.6068573 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 2.014499999999999
+time=1737199972.6070397 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 3.769499999999999
+time=1737199972.6072216 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 5.524499999999999
+time=1737199972.6073892 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 7.279499999999999
+time=1737199972.607571 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 9.034499999999998
+time=1737199972.6077533 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 0.21949999999999914
+time=1737199972.6079237 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 1.974499999999999
+time=1737199972.6080933 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 3.729499999999999
+time=1737199972.6082504 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 5.484499999999999
+time=1737199972.6084056 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 7.239499999999999
+time=1737199972.6085606 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 8.994499999999999
+time=1737199972.6087544 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 0.1794999999999991
+time=1737199972.6089246 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 1.934499999999999
+time=1737199972.6090937 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 3.689499999999999
+time=1737199972.609263 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 5.444499999999999
+time=1737199972.6094172 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 7.199499999999999
+time=1737199972.6095731 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 8.954499999999998
+time=1737199972.6099088 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 0.13949999999999907
+time=1737199972.6100807 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 1.894499999999999
+time=1737199972.610247 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 3.649499999999999
+time=1737199972.6104107 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 5.404499999999999
+time=1737199972.6105711 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 7.159499999999999
+time=1737199972.6107304 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 8.914499999999997
+time=1737199972.6108913 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 0.09949999999999903
+time=1737199972.6110535 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 1.854499999999999
+time=1737199972.6112146 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 3.609499999999999
+time=1737199972.6113756 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 5.364499999999999
+time=1737199972.611534 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 7.119499999999999
+time=1737199972.6116924 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 8.874499999999998
+time=1737199972.611852 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 0.059499999999999
+time=1737199972.6120126 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 1.814499999999999
+time=1737199972.6121724 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 3.569499999999999
+time=1737199972.6123323 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 5.324499999999999
+time=1737199972.6124902 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 7.079499999999999
+time=1737199972.6126466 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 8.834499999999998
+time=1737199972.6128051 CHECKER pos [1.8525 0.     0.2925] pattern 0 dist 0.019499999999998963
+Irregular line contours [iteration - count]: 0-368 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-369 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-370 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-371 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-372 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-373 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-374 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-375 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-376 - 19
+Different: -29.5
+Phase.STOPPING
+Irregular line contours [iteration - count]: 0-377 - 19
+Different: -29.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-378 - 22
+Different: -33.5
+Phase.RUNNING
+Irregular line contours [iteration - count]: 0-379 - 21
+Different: -31.0
+Last iteration: 1
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-380 - 20
+Different: -25.5
+Last iteration: 2
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-381 - 21
+Different: -29.5
+Last iteration: 3
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-382 - 19
+Different: -26.0
+Last iteration: 4
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-383 - 22
+Different: -26.5
+Last iteration: 5
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-384 - 22
+Different: -25.0
+Last iteration: 6
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-385 - 20
+Different: -18.0
+Last iteration: 7
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-386 - 22
+Different: -18.0
+Last iteration: 8
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-387 - 23
+Different: -14.5
+Last iteration: 9
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-388 - 22
+Different: -10.0
+Last iteration: 10
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-389 - 21
+Different: -4.0
+Last iteration: 11
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-390 - 19
+Different: -5.0
+Last iteration: 12
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-391 - 21
+Different: -7.5
+Last iteration: 13
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-392 - 21
+Different: -32.0
+Last iteration: 14
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-393 - 22
+Different: -33.0
+Last iteration: 15
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-394 - 20
+Different: -31.0
+Last iteration: 16
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-395 - 20
+Different: -28.0
+Last iteration: 17
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-396 - 22
+Different: -29.5
+Last iteration: 18
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-397 - 21
+Different: -28.0
+Last iteration: 19
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-398 - 20
+Different: -22.5
+Last iteration: 20
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-399 - 22
+Different: -24.0
+Last iteration: 21
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-400 - 23
+Different: -19.5
+Last iteration: 22
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-401 - 22
+Different: -17.0
+Last iteration: 23
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-402 - 21
+Different: -13.0
+Last iteration: 24
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-403 - 20
+Different: -5.0
+Last iteration: 25
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-404 - 20
+Different: -4.0
+Last iteration: 26
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-405 - 22
+Different: -5.0
+Last iteration: 27
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-406 - 20
+Different: -28.0
+Last iteration: 28
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-407 - 21
+Different: -33.5
+Last iteration: 29
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-408 - 20
+Different: -29.0
+Last iteration: 30
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-409 - 21
+Different: -31.0
+Last iteration: 31
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-410 - 19
+Different: -30.0
+Last iteration: 32
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-411 - 18
+Different: -24.0
+Last iteration: 33
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-412 - 20
+Different: -26.5
+Last iteration: 34
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-413 - 20
+Different: -25.0
+Last iteration: 35
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-414 - 19
+Different: -22.0
+Last iteration: 36
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-415 - 18
+Different: -19.5
+Last iteration: 37
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-416 - 18
+Different: -14.0
+Last iteration: 38
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-417 - 19
+Different: -11.0
+Last iteration: 39
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-418 - 18
+Different: -4.5
+Last iteration: 40
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-419 - 18
+Different: -5.0
+Last iteration: 41
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-420 - 18
+Different: -7.0
+Last iteration: 42
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-421 - 18
+Different: -30.5
+Last iteration: 43
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-422 - 18
+Different: -33.0
+Last iteration: 44
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-423 - 17
+Different: -31.0
+Last iteration: 45
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-424 - 16
+Different: -26.0
+Last iteration: 46
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-425 - 16
+Different: -29.5
+Last iteration: 47
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-426 - 15
+Different: -26.5
+Last iteration: 48
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-427 - 15
+Different: -26.5
+Last iteration: 49
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-428 - 14
+Different: -24.5
+Last iteration: 50
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-429 - 13
+Different: -18.5
+Last iteration: 51
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-430 - 13
+Different: -17.5
+Last iteration: 52
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-431 - 12
+Different: -14.5
+Last iteration: 53
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-432 - 11
+Different: -4.5
+Last iteration: 54
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-433 - 11
+Different: -3.5
+Last iteration: 55
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-434 - 10
+Different: -5.0
+Last iteration: 56
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-435 - 9
+Different: -26.5
+Last iteration: 57
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-436 - 9
+Different: -33.0
+Last iteration: 58
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-437 - 8
+Different: -27.5
+Last iteration: 59
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-438 - 8
+Different: -31.0
+Last iteration: 60
+Phase.NO_TRAFFICLIGHT
+Irregular line contours [iteration - count]: 0-439 - 7
+Different: -28.5
+dist = 0.019499999999998963 self.safe_distance = 0.04095
+False: CorrectTrafficlightPassingChecker has failed
