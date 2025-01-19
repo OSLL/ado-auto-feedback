@@ -1,0 +1,79 @@
+False: Incorrect solution execution: cur_angle modification is not allowed
+time=1737264546.6797264 gym-duckietown 2019.0.0
+
+time=1737264546.7829258 Registering gym environment id: Duckietown-4way-v0
+time=1737264546.7830017 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737264546.7830362 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737264546.7830663 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737264546.7830927 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737264546.7831416 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737264546.7831948 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737264546.7832458 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737264546.7833169 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737264546.783363 Registering gym environment id: Duckietown-small_loop-v0
+time=1737264546.7834044 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737264546.7834468 Registering gym environment id: Duckietown-straight_road-v0
+time=1737264546.783488 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737264546.7835329 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737264546.7835743 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737264546.7836146 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737264546.783656 Registering gym environment id: Duckietown-udem1-v0
+time=1737264546.7836962 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737264548.100416 Falling back to non-multisampled frame buffer
+time=1737264548.1025217 Falling back to non-multisampled frame buffer
+time=1737264548.104969 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1737264548.111567 loading mesh "duckiebot.obj"
+time=1737264548.1117432 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737264548.3486004 loading texture "floor_1.png"
+time=1737264548.4293776 loading texture "curve_right_1.png"
+time=1737264548.4353309 loading texture "straight_1.png"
+time=1737264548.4411645 loading texture "curve_left_1.png"
+time=1737264548.4480064 loading texture "4way_1.png"
+time=1737264548.6357405 using user tile start: (6, 2)
+time=1737264548.6363273 tile: {'coords': (6, 2), 'kind': 'curve_left', 'angle': 2, 'drivable': True, 'curves': array([[[3.9195, 0.    , 1.755 ],
+        [3.9195, 0.    , 1.4625],
+        [3.8025, 0.    , 1.3455],
+        [3.51  , 0.    , 1.3455]],
+
+       [[3.51  , 0.    , 1.5795],
+        [3.627 , 0.    , 1.5795],
+        [3.6855, 0.    , 1.638 ],
+        [3.6855, 0.    , 1.755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fadda7c8640>, 'color': array([1, 1, 1])}
+time=1737264548.6386626 road_tile_size=0.585
+time=1737264548.6388981 Starting at [3.77591734 0.         1.43991069] 3.096837097878173
+time=1737264548.6391413 Pos: [3.77591734 0.         1.43991069] angle 3.096837097878173
+time=1737264548.7558517 using DuckietownEnv
+time=1737264548.756493 Target tile: (1, 1)
+0.585
+3.7759173412215423 1.439910691091506
+0.585
+3.7759173412215423 1.439910691091506
+0.585
+3.7759173412215423 1.439910691091506
+0.585
+3.7759173412215423 1.439910691091506
+Карта (tiles):
+row 0: ['floor', 'curve_right/N', 'straight/E', 'straight/E', 'curve_left/N', 'floor', 'floor']
+row 1: ['floor', 'straight/N', 'floor', 'floor', 'straight/N', 'floor', 'floor']
+row 2: ['floor', 'curve_right/W', 'straight/E', 'straight/E', '4way', 'straight/E', 'curve_left/N']
+row 3: ['floor', 'floor', 'floor', 'floor', 'straight/N', 'floor', 'straight/N']
+row 4: ['floor', 'floor', 'curve_right/N', 'straight/E', '4way', 'straight/E', 'curve_left/E']
+row 5: ['floor', 'floor', 'straight/N', 'floor', 'straight/N', 'floor', 'floor']
+row 6: ['floor', 'floor', 'curve_right/W', 'straight/E', 'curve_left/E', 'floor', 'floor']
+row 7: ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor']
+row 8: ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor']
+row 9: ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor']
+row 10: ['floor', 'floor', 'floor', 'floor', 'floor', 'floor', 'floor']
+Стартовый тайл: (row=2, col=6)
+Целевые метры: (x=0.8775, y=0), переводим в тайл: (row=0, col=1)
+Найденный путь по тайлам:
+(2, 6)
+(2, 5)
+(2, 4)
+(1, 4)
+(0, 4)
+(0, 3)
+(0, 2)
+(0, 1)
+total reward =  0
+False: Incorrect solution execution: cur_angle modification is not allowed
