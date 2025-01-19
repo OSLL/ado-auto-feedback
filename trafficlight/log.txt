@@ -1,0 +1,881 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1737276489.3318079 gym-duckietown 2019.0.0
+
+time=1737276489.444602 Registering gym environment id: Duckietown-4way-v0
+time=1737276489.444672 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737276489.444709 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737276489.4447985 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737276489.4448426 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737276489.444892 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737276489.4449468 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737276489.444997 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737276489.445051 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737276489.4451091 Registering gym environment id: Duckietown-small_loop-v0
+time=1737276489.4451969 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737276489.445249 Registering gym environment id: Duckietown-straight_road-v0
+time=1737276489.4453068 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737276489.4453619 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737276489.4454136 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737276489.4454656 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737276489.4455178 Registering gym environment id: Duckietown-udem1-v0
+time=1737276489.445567 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737276490.8752964 Falling back to non-multisampled frame buffer
+time=1737276490.8776364 Falling back to non-multisampled frame buffer
+time=1737276490.8809257 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1737276490.8880246 loading mesh "duckiebot.obj"
+time=1737276490.888154 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737276491.1629856 loading mesh "trafficlight.obj"
+time=1737276491.1631584 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1737276491.1912246 loading texture "trafficlight_card.jpg"
+time=1737276492.597587 loading texture "trafficlight_cover.jpg"
+time=1737276493.981648 loading texture "trafficlight_card0.jpg"
+time=1737276495.2918897 loading texture "trafficlight_card1.jpg"
+time=1737276496.6081853 loading texture "trafficlight_card0.jpg"
+time=1737276497.9162302 loading texture "trafficlight_card1.jpg"
+time=1737276499.2346547 loading texture "trafficlight_card0.jpg"
+time=1737276500.6383119 loading texture "trafficlight_card1.jpg"
+time=1737276501.967958 loading texture "trafficlight_card0.jpg"
+time=1737276503.2873802 loading texture "trafficlight_card1.jpg"
+time=1737276504.5888484 loading texture "trafficlight_card0.jpg"
+time=1737276505.879938 loading texture "trafficlight_card1.jpg"
+time=1737276507.180517 loading texture "trafficlight_card0.jpg"
+time=1737276508.4871323 loading texture "trafficlight_card1.jpg"
+time=1737276509.7990503 loading texture "straight_1.png"
+time=1737276509.8078415 road_tile_size=0.585
+time=1737276509.8081262 Starting at [0.2925 0.     0.2925] 0
+time=1737276509.8083417 Pos: [0.2925 0.     0.2925] angle 0
+time=1737276509.9754581 using DuckietownEnv
+time=1737276510.134003 Pos: [0.2925 0.     0.2925] angle 0
+time=1737276510.3532505 Pos: [0.3325 0.     0.2925] angle 0
+time=1737276510.4167755 Pos: [0.3725 0.     0.2925] angle 0
+time=1737276510.47078 Pos: [0.4125 0.     0.2925] angle 0
+time=1737276510.5205688 Pos: [0.4525 0.     0.2925] angle 0
+time=1737276510.5687401 Pos: [0.4925 0.     0.2925] angle 0
+time=1737276510.6172051 Pos: [0.5325 0.     0.2925] angle 0
+time=1737276510.6647062 Pos: [0.5725 0.     0.2925] angle 0
+time=1737276510.7127051 Pos: [0.6125 0.     0.2925] angle 0
+time=1737276510.7613213 Pos: [0.6525 0.     0.2925] angle 0
+time=1737276510.8105447 Pos: [0.6925 0.     0.2925] angle 0
+time=1737276510.856578 Pos: [0.7325 0.     0.2925] angle 0
+time=1737276510.9034686 Pos: [0.7725 0.     0.2925] angle 0
+time=1737276510.9511604 Pos: [0.8125 0.     0.2925] angle 0
+time=1737276511.000138 Pos: [0.8525 0.     0.2925] angle 0
+time=1737276511.0602212 Pos: [0.8925 0.     0.2925] angle 0
+time=1737276511.1089065 Pos: [0.9325 0.     0.2925] angle 0
+time=1737276511.1554158 Pos: [0.9725 0.     0.2925] angle 0
+time=1737276511.2031941 Pos: [1.0125 0.     0.2925] angle 0
+time=1737276511.2514577 Pos: [1.0525 0.     0.2925] angle 0
+time=1737276511.297495 Pos: [1.0925 0.     0.2925] angle 0
+0.585
+0.2925 0.2925
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276511.3565571 Pos: [1.1325 0.     0.2925] angle 0
+time=1737276511.4051118 Pos: [1.1725 0.     0.2925] angle 0
+time=1737276511.4520981 Pos: [1.2125 0.     0.2925] angle 0
+time=1737276511.499254 Pos: [1.2525 0.     0.2925] angle 0
+time=1737276511.5477598 Pos: [1.2925 0.     0.2925] angle 0
+time=1737276511.59754 Pos: [1.3325 0.     0.2925] angle 0
+time=1737276511.6433408 Pos: [1.3725 0.     0.2925] angle 0
+time=1737276511.6887608 Pos: [1.4125 0.     0.2925] angle 0
+time=1737276511.736154 Pos: [1.4525 0.     0.2925] angle 0
+time=1737276511.7845833 Pos: [1.4925 0.     0.2925] angle 0
+time=1737276511.8326828 Pos: [1.5325 0.     0.2925] angle 0
+time=1737276511.8822415 Pos: [1.5725 0.     0.2925] angle 0
+time=1737276511.9310338 Pos: [1.6125 0.     0.2925] angle 0
+time=1737276511.9770856 Pos: [1.6525 0.     0.2925] angle 0
+time=1737276512.0258229 Pos: [1.6925 0.     0.2925] angle 0
+time=1737276512.0871146 Pos: [1.7325 0.     0.2925] angle 0
+time=1737276512.1449754 Pos: [1.7725 0.     0.2925] angle 0
+time=1737276512.1921525 Pos: [1.8125 0.     0.2925] angle 0
+time=1737276512.23935 Pos: [1.8525 0.     0.2925] angle 0
+time=1737276512.2878468 Pos: [1.8925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276512.3357463 Pos: [1.9325 0.     0.2925] angle 0
+time=1737276512.3833764 Pos: [1.9725 0.     0.2925] angle 0
+time=1737276512.430135 Pos: [2.0125 0.     0.2925] angle 0
+time=1737276512.4795508 Pos: [2.0525 0.     0.2925] angle 0
+time=1737276512.5281117 Pos: [2.0925 0.     0.2925] angle 0
+time=1737276512.5767128 Pos: [2.1325 0.     0.2925] angle 0
+time=1737276512.6236613 Pos: [2.1725 0.     0.2925] angle 0
+time=1737276512.670651 Pos: [2.2125 0.     0.2925] angle 0
+time=1737276512.719355 Pos: [2.2525 0.     0.2925] angle 0
+time=1737276512.7671456 Pos: [2.2925 0.     0.2925] angle 0
+time=1737276512.8135266 Pos: [2.3325 0.     0.2925] angle 0
+time=1737276512.8628685 Pos: [2.3725 0.     0.2925] angle 0
+time=1737276512.9102068 Pos: [2.4125 0.     0.2925] angle 0
+time=1737276512.9567108 Pos: [2.4525 0.     0.2925] angle 0
+time=1737276513.0059159 Pos: [2.4925 0.     0.2925] angle 0
+time=1737276513.052737 Pos: [2.5325 0.     0.2925] angle 0
+time=1737276513.1004295 Pos: [2.5725 0.     0.2925] angle 0
+time=1737276513.148697 Pos: [2.6125 0.     0.2925] angle 0
+time=1737276513.195884 Pos: [2.6525 0.     0.2925] angle 0
+time=1737276513.2439578 Pos: [2.6925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276513.2926679 Pos: [2.7325 0.     0.2925] angle 0
+time=1737276513.339301 Pos: [2.7725 0.     0.2925] angle 0
+time=1737276513.3854063 Pos: [2.8125 0.     0.2925] angle 0
+time=1737276513.4320667 Pos: [2.8525 0.     0.2925] angle 0
+time=1737276513.4805238 Pos: [2.8925 0.     0.2925] angle 0
+time=1737276513.5278776 Pos: [2.9325 0.     0.2925] angle 0
+time=1737276513.5737443 Pos: [2.9725 0.     0.2925] angle 0
+time=1737276513.6214128 Pos: [3.0125 0.     0.2925] angle 0
+time=1737276513.6683395 Pos: [3.0525 0.     0.2925] angle 0
+time=1737276513.7170634 Pos: [3.0925 0.     0.2925] angle 0
+time=1737276513.766113 Pos: [3.1325 0.     0.2925] angle 0
+time=1737276513.812743 Pos: [3.1725 0.     0.2925] angle 0
+time=1737276513.8632886 Pos: [3.2125 0.     0.2925] angle 0
+time=1737276513.9129076 Pos: [3.2525 0.     0.2925] angle 0
+time=1737276513.9588118 Pos: [3.2925 0.     0.2925] angle 0
+time=1737276514.0073688 Pos: [3.3325 0.     0.2925] angle 0
+time=1737276514.0548644 Pos: [3.3725 0.     0.2925] angle 0
+time=1737276514.1012635 Pos: [3.4125 0.     0.2925] angle 0
+time=1737276514.1486783 Pos: [3.4525 0.     0.2925] angle 0
+time=1737276514.1959374 Pos: [3.4925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276514.2442088 Pos: [3.5325 0.     0.2925] angle 0
+time=1737276514.292178 Pos: [3.5725 0.     0.2925] angle 0
+time=1737276514.3403811 Pos: [3.6125 0.     0.2925] angle 0
+time=1737276514.3877473 Pos: [3.6525 0.     0.2925] angle 0
+time=1737276514.4355123 Pos: [3.6925 0.     0.2925] angle 0
+time=1737276514.4841993 Pos: [3.7325 0.     0.2925] angle 0
+time=1737276514.5311284 Pos: [3.7725 0.     0.2925] angle 0
+time=1737276514.578799 Pos: [3.8125 0.     0.2925] angle 0
+time=1737276514.6253347 Pos: [3.8525 0.     0.2925] angle 0
+time=1737276514.6723871 Pos: [3.8925 0.     0.2925] angle 0
+time=1737276514.7208378 Pos: [3.9325 0.     0.2925] angle 0
+time=1737276514.766954 Pos: [3.9725 0.     0.2925] angle 0
+time=1737276514.8135293 Pos: [4.0125 0.     0.2925] angle 0
+time=1737276514.8600295 Pos: [4.0525 0.     0.2925] angle 0
+time=1737276514.9090078 Pos: [4.0925 0.     0.2925] angle 0
+time=1737276514.9548125 Pos: [4.1325 0.     0.2925] angle 0
+time=1737276515.0010839 Pos: [4.1725 0.     0.2925] angle 0
+time=1737276515.0499995 Pos: [4.2125 0.     0.2925] angle 0
+time=1737276515.0961428 Pos: [4.2525 0.     0.2925] angle 0
+time=1737276515.1441586 Pos: [4.2925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276515.1905613 Pos: [4.3325 0.     0.2925] angle 0
+time=1737276515.236493 Pos: [4.3725 0.     0.2925] angle 0
+time=1737276515.2848845 Pos: [4.4125 0.     0.2925] angle 0
+time=1737276515.331802 Pos: [4.4525 0.     0.2925] angle 0
+time=1737276515.3785167 Pos: [4.4925 0.     0.2925] angle 0
+time=1737276515.4248645 Pos: [4.5325 0.     0.2925] angle 0
+time=1737276515.47025 Pos: [4.5725 0.     0.2925] angle 0
+time=1737276515.5173612 Pos: [4.6125 0.     0.2925] angle 0
+time=1737276515.565382 Pos: [4.6525 0.     0.2925] angle 0
+time=1737276515.611991 Pos: [4.6925 0.     0.2925] angle 0
+time=1737276515.658455 Pos: [4.7325 0.     0.2925] angle 0
+time=1737276515.7048955 Pos: [4.7725 0.     0.2925] angle 0
+time=1737276515.752325 Pos: [4.8125 0.     0.2925] angle 0
+time=1737276515.7985392 Pos: [4.8525 0.     0.2925] angle 0
+time=1737276515.8474026 Pos: [4.8925 0.     0.2925] angle 0
+time=1737276515.892716 Pos: [4.9325 0.     0.2925] angle 0
+time=1737276515.9382207 Pos: [4.9725 0.     0.2925] angle 0
+time=1737276515.9872205 Pos: [5.0125 0.     0.2925] angle 0
+time=1737276516.0374026 Pos: [5.0525 0.     0.2925] angle 0
+time=1737276516.0845435 Pos: [5.0925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276516.1323469 Pos: [5.1325 0.     0.2925] angle 0
+time=1737276516.180723 Pos: [5.1725 0.     0.2925] angle 0
+time=1737276516.2279148 Pos: [5.2125 0.     0.2925] angle 0
+time=1737276516.274636 Pos: [5.2525 0.     0.2925] angle 0
+time=1737276516.3223941 Pos: [5.2925 0.     0.2925] angle 0
+time=1737276516.3700285 Pos: [5.3325 0.     0.2925] angle 0
+time=1737276516.4169798 Pos: [5.3725 0.     0.2925] angle 0
+time=1737276516.463739 Pos: [5.4125 0.     0.2925] angle 0
+time=1737276516.5117402 Pos: [5.4525 0.     0.2925] angle 0
+time=1737276516.558991 Pos: [5.4925 0.     0.2925] angle 0
+time=1737276516.6061568 Pos: [5.5325 0.     0.2925] angle 0
+time=1737276516.6513855 Pos: [5.5725 0.     0.2925] angle 0
+time=1737276516.69792 Pos: [5.6125 0.     0.2925] angle 0
+time=1737276516.7461696 Pos: [5.6525 0.     0.2925] angle 0
+time=1737276516.7955787 Pos: [5.6925 0.     0.2925] angle 0
+time=1737276516.8425992 Pos: [5.7325 0.     0.2925] angle 0
+time=1737276516.8896534 Pos: [5.7725 0.     0.2925] angle 0
+time=1737276516.9361603 Pos: [5.8125 0.     0.2925] angle 0
+time=1737276516.9818468 Pos: [5.8525 0.     0.2925] angle 0
+time=1737276517.032044 Pos: [5.8925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276517.0808089 Pos: [5.9325 0.     0.2925] angle 0
+time=1737276517.1274316 Pos: [5.9725 0.     0.2925] angle 0
+time=1737276517.1722775 Pos: [6.0125 0.     0.2925] angle 0
+time=1737276517.2188406 Pos: [6.0525 0.     0.2925] angle 0
+time=1737276517.2651594 Pos: [6.0925 0.     0.2925] angle 0
+time=1737276517.3123212 Pos: [6.1325 0.     0.2925] angle 0
+time=1737276517.3585377 Pos: [6.1725 0.     0.2925] angle 0
+time=1737276517.4050095 Pos: [6.2125 0.     0.2925] angle 0
+time=1737276517.4523828 Pos: [6.2525 0.     0.2925] angle 0
+time=1737276517.4973857 Pos: [6.2925 0.     0.2925] angle 0
+time=1737276517.5428767 Pos: [6.3325 0.     0.2925] angle 0
+time=1737276517.5915394 Pos: [6.3725 0.     0.2925] angle 0
+time=1737276517.6383986 Pos: [6.4125 0.     0.2925] angle 0
+time=1737276517.6836085 Pos: [6.4525 0.     0.2925] angle 0
+time=1737276517.7313614 Pos: [6.4925 0.     0.2925] angle 0
+time=1737276517.776973 Pos: [6.5325 0.     0.2925] angle 0
+time=1737276517.8242004 Pos: [6.5725 0.     0.2925] angle 0
+time=1737276517.8718946 Pos: [6.6125 0.     0.2925] angle 0
+time=1737276517.919107 Pos: [6.6525 0.     0.2925] angle 0
+time=1737276517.9642062 Pos: [6.6925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276518.011045 Pos: [6.7325 0.     0.2925] angle 0
+time=1737276518.0572355 Pos: [6.7725 0.     0.2925] angle 0
+time=1737276518.1058726 Pos: [6.8125 0.     0.2925] angle 0
+time=1737276518.152858 Pos: [6.8525 0.     0.2925] angle 0
+time=1737276518.1986008 Pos: [6.8925 0.     0.2925] angle 0
+time=1737276518.2462196 Pos: [6.9325 0.     0.2925] angle 0
+time=1737276518.291129 Pos: [6.9725 0.     0.2925] angle 0
+time=1737276518.3372037 Pos: [7.0125 0.     0.2925] angle 0
+time=1737276518.3852255 Pos: [7.0525 0.     0.2925] angle 0
+time=1737276518.4317586 Pos: [7.0925 0.     0.2925] angle 0
+time=1737276518.4778159 Pos: [7.1325 0.     0.2925] angle 0
+time=1737276518.5258884 Pos: [7.1725 0.     0.2925] angle 0
+time=1737276518.5717812 Pos: [7.2125 0.     0.2925] angle 0
+time=1737276518.6188402 Pos: [7.2525 0.     0.2925] angle 0
+time=1737276518.664843 Pos: [7.2925 0.     0.2925] angle 0
+time=1737276518.7106168 Pos: [7.3325 0.     0.2925] angle 0
+time=1737276518.7591505 Pos: [7.3725 0.     0.2925] angle 0
+time=1737276518.8046374 Pos: [7.4125 0.     0.2925] angle 0
+time=1737276518.85031 Pos: [7.4525 0.     0.2925] angle 0
+time=1737276518.8959768 Pos: [7.4925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276518.9466128 Pos: [7.5325 0.     0.2925] angle 0
+time=1737276518.9936972 Pos: [7.5725 0.     0.2925] angle 0
+time=1737276519.0399506 Pos: [7.6125 0.     0.2925] angle 0
+time=1737276519.0856879 Pos: [7.6525 0.     0.2925] angle 0
+time=1737276519.1332486 Pos: [7.6925 0.     0.2925] angle 0
+time=1737276519.182762 Pos: [7.7325 0.     0.2925] angle 0
+time=1737276519.2284558 Pos: [7.7725 0.     0.2925] angle 0
+time=1737276519.2736135 Pos: [7.8125 0.     0.2925] angle 0
+time=1737276519.3206062 Pos: [7.8525 0.     0.2925] angle 0
+time=1737276519.3671198 Pos: [7.8925 0.     0.2925] angle 0
+time=1737276519.4167318 Pos: [7.9325 0.     0.2925] angle 0
+time=1737276519.462918 Pos: [7.9725 0.     0.2925] angle 0
+time=1737276519.5086782 Pos: [8.0125 0.     0.2925] angle 0
+time=1737276519.556341 Pos: [8.0525 0.     0.2925] angle 0
+time=1737276519.60231 Pos: [8.0925 0.     0.2925] angle 0
+time=1737276519.6477222 Pos: [8.1325 0.     0.2925] angle 0
+time=1737276519.6928205 Pos: [8.1725 0.     0.2925] angle 0
+time=1737276519.736957 Pos: [8.2125 0.     0.2925] angle 0
+time=1737276519.7838614 Pos: [8.2525 0.     0.2925] angle 0
+time=1737276519.8347116 Pos: [8.2925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276519.8861613 Pos: [8.3325 0.     0.2925] angle 0
+time=1737276519.9351842 Pos: [8.3725 0.     0.2925] angle 0
+time=1737276519.9809937 Pos: [8.4125 0.     0.2925] angle 0
+time=1737276520.0278254 Pos: [8.4525 0.     0.2925] angle 0
+time=1737276520.0733624 Pos: [8.4925 0.     0.2925] angle 0
+time=1737276520.1218212 Pos: [8.5325 0.     0.2925] angle 0
+time=1737276520.1720362 Pos: [8.5725 0.     0.2925] angle 0
+time=1737276520.2171745 Pos: [8.6125 0.     0.2925] angle 0
+time=1737276520.2617009 Pos: [8.6525 0.     0.2925] angle 0
+time=1737276520.3064728 Pos: [8.6925 0.     0.2925] angle 0
+time=1737276520.3566039 Pos: [8.7325 0.     0.2925] angle 0
+time=1737276520.4045792 Pos: [8.7725 0.     0.2925] angle 0
+time=1737276520.45219 Pos: [8.8125 0.     0.2925] angle 0
+time=1737276520.5021174 Pos: [8.8525 0.     0.2925] angle 0
+time=1737276520.5472894 Pos: [8.8925 0.     0.2925] angle 0
+time=1737276520.5937753 Pos: [8.9325 0.     0.2925] angle 0
+time=1737276520.64374 Pos: [8.9725 0.     0.2925] angle 0
+time=1737276520.6909847 Pos: [9.0125 0.     0.2925] angle 0
+time=1737276520.7393162 Pos: [9.0525 0.     0.2925] angle 0
+time=1737276520.7862747 Pos: [9.0925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276520.8383646 Pos: [9.1325 0.     0.2925] angle 0
+time=1737276520.8900373 Pos: [9.1725 0.     0.2925] angle 0
+time=1737276520.9377604 Pos: [9.2125 0.     0.2925] angle 0
+time=1737276520.9836514 Pos: [9.2525 0.     0.2925] angle 0
+time=1737276521.03016 Pos: [9.2925 0.     0.2925] angle 0
+time=1737276521.075694 Pos: [9.3325 0.     0.2925] angle 0
+time=1737276521.121578 Pos: [9.3725 0.     0.2925] angle 0
+time=1737276521.166275 Pos: [9.4125 0.     0.2925] angle 0
+time=1737276521.2128077 Pos: [9.4525 0.     0.2925] angle 0
+time=1737276521.2593472 Pos: [9.4925 0.     0.2925] angle 0
+time=1737276521.3041525 Pos: [9.5325 0.     0.2925] angle 0
+time=1737276521.348411 Pos: [9.5725 0.     0.2925] angle 0
+time=1737276521.3931322 Pos: [9.6125 0.     0.2925] angle 0
+time=1737276521.4442723 Pos: [9.6525 0.     0.2925] angle 0
+time=1737276521.4967077 Pos: [9.6925 0.     0.2925] angle 0
+time=1737276521.5464692 Pos: [9.7325 0.     0.2925] angle 0
+time=1737276521.5910742 Pos: [9.7725 0.     0.2925] angle 0
+time=1737276521.6383214 Pos: [9.8125 0.     0.2925] angle 0
+time=1737276521.6883767 Pos: [9.8525 0.     0.2925] angle 0
+time=1737276521.7352188 Pos: [9.8925 0.     0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276521.7820535 Pos: [9.9325 0.     0.2925] angle 0
+time=1737276521.8266442 Pos: [9.9725 0.     0.2925] angle 0
+time=1737276521.8746521 Pos: [10.0125  0.      0.2925] angle 0
+time=1737276521.9195657 Pos: [10.0525  0.      0.2925] angle 0
+time=1737276521.9662464 Pos: [10.0925  0.      0.2925] angle 0
+time=1737276522.0118318 Pos: [10.1325  0.      0.2925] angle 0
+time=1737276522.055603 Pos: [10.1725  0.      0.2925] angle 0
+time=1737276522.0989673 Pos: [10.2125  0.      0.2925] angle 0
+time=1737276522.1493409 Pos: [10.2525  0.      0.2925] angle 0
+time=1737276522.194294 Pos: [10.2925  0.      0.2925] angle 0
+time=1737276522.26203 Pos: [10.3325  0.      0.2925] angle 0
+time=1737276522.305856 Pos: [10.3725  0.      0.2925] angle 0
+time=1737276522.3525913 Pos: [10.4125  0.      0.2925] angle 0
+time=1737276522.3967068 Pos: [10.4525  0.      0.2925] angle 0
+time=1737276522.4417434 Pos: [10.4925  0.      0.2925] angle 0
+time=1737276522.4891486 Pos: [10.5325  0.      0.2925] angle 0
+time=1737276522.5345397 Pos: [10.5725  0.      0.2925] angle 0
+time=1737276522.5795496 Pos: [10.6125  0.      0.2925] angle 0
+time=1737276522.6292922 Pos: [10.6525  0.      0.2925] angle 0
+time=1737276522.6713448 Pos: [10.6925  0.      0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276522.7158475 Pos: [10.7325  0.      0.2925] angle 0
+time=1737276522.7623715 Pos: [10.7725  0.      0.2925] angle 0
+time=1737276522.806146 Pos: [10.8125  0.      0.2925] angle 0
+time=1737276522.8486936 Pos: [10.8525  0.      0.2925] angle 0
+time=1737276522.8938951 Pos: [10.8925  0.      0.2925] angle 0
+time=1737276522.9420078 Pos: [10.9325  0.      0.2925] angle 0
+time=1737276522.9869251 Pos: [10.9725  0.      0.2925] angle 0
+time=1737276523.0395746 Pos: [11.0125  0.      0.2925] angle 0
+time=1737276523.0879326 Pos: [11.0525  0.      0.2925] angle 0
+time=1737276523.1316009 Pos: [11.0925  0.      0.2925] angle 0
+time=1737276523.1744647 Pos: [11.1325  0.      0.2925] angle 0
+time=1737276523.216954 Pos: [11.1725  0.      0.2925] angle 0
+time=1737276523.2591019 Pos: [11.2125  0.      0.2925] angle 0
+time=1737276523.3028479 Pos: [11.2525  0.      0.2925] angle 0
+time=1737276523.3479025 Pos: [11.2925  0.      0.2925] angle 0
+time=1737276523.3896906 Pos: [11.3325  0.      0.2925] angle 0
+time=1737276523.4347372 Pos: [11.3725  0.      0.2925] angle 0
+time=1737276523.4785798 Pos: [11.4125  0.      0.2925] angle 0
+time=1737276523.526923 Pos: [11.4525  0.      0.2925] angle 0
+time=1737276523.5694618 Pos: [11.4925  0.      0.2925] angle 0
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+time=1737276523.61509 Pos: [11.5325  0.      0.2925] angle 0
+time=1737276523.6575582 Pos: [11.5725  0.      0.2925] angle 0
+time=1737276523.7010486 Pos: [11.6125  0.      0.2925] angle 0
+time=1737276523.7444704 Pos: [11.6525  0.      0.2925] angle 0
+time=1737276523.7872632 Pos: [11.6925  0.      0.2925] angle 0
+time=1737276523.8336236 Pos: [11.7325  0.      0.2925] angle 0
+time=1737276523.879417 Pos: [11.7725  0.      0.2925] angle 0
+time=1737276523.9237697 Pos: [11.8125  0.      0.2925] angle 0
+time=1737276523.9674032 Pos: [11.8525  0.      0.2925] angle 0
+time=1737276524.011075 Pos: [11.8925  0.      0.2925] angle 0
+time=1737276524.0531847 Pos: [11.9325  0.      0.2925] angle 0
+time=1737276524.0990498 Pos: [11.9725  0.      0.2925] angle 0
+time=1737276524.1420846 Pos: [12.0125  0.      0.2925] angle 0
+time=1737276524.1833043 Pos: [12.0525  0.      0.2925] angle 0
+time=1737276524.2197638 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1737276524.2199745 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1737276524.2202322 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1737276524.2204242 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1737276524.2205927 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1737276524.2207778 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1737276524.2209578 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1737276524.2211142 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1737276524.2212384 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1737276524.221394 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1737276524.2215495 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1737276524.2217093 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1737276524.221885 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 1.5394999999999999
+time=1737276524.2220783 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 3.2944999999999998
+time=1737276524.2222564 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 5.0495
+time=1737276524.222441 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 6.8045
+time=1737276524.222636 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 8.5595
+time=1737276524.2228112 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 10.314499999999999
+time=1737276524.222983 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 1.4994999999999998
+time=1737276524.2231512 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 3.2544999999999997
+time=1737276524.2233083 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 5.0095
+time=1737276524.2234683 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 6.7645
+time=1737276524.223635 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 8.519499999999999
+time=1737276524.2237914 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 10.274499999999998
+time=1737276524.2239513 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 1.4595
+time=1737276524.224156 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 3.2144999999999997
+time=1737276524.224371 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 4.9695
+time=1737276524.2245739 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 6.7245
+time=1737276524.2247393 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 8.4795
+time=1737276524.2249053 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 10.234499999999999
+time=1737276524.225072 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 1.4195
+time=1737276524.225239 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 3.1745
+time=1737276524.225405 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 4.9295
+time=1737276524.225606 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 6.6845
+time=1737276524.2258022 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 8.439499999999999
+time=1737276524.2260215 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 10.194499999999998
+time=1737276524.2262325 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 1.3795
+time=1737276524.2264285 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 3.1345
+time=1737276524.2265968 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 4.8895
+time=1737276524.2267652 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 6.6445
+time=1737276524.2269688 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 8.3995
+time=1737276524.227146 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 10.154499999999999
+time=1737276524.2273157 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 1.3395000000000001
+time=1737276524.2274823 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 3.0945
+time=1737276524.2276492 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 4.8495
+time=1737276524.2278156 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 6.6045
+time=1737276524.227982 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 8.359499999999999
+time=1737276524.228148 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 10.114499999999998
+time=1737276524.2283144 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 1.2995
+time=1737276524.22848 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 3.0545
+time=1737276524.2286484 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 4.8095
+time=1737276524.2288208 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 6.5645
+time=1737276524.228991 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 8.3195
+time=1737276524.2291453 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 10.074499999999999
+time=1737276524.2293065 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 1.2595
+time=1737276524.2294736 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 3.0145
+time=1737276524.2296302 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 4.7695
+time=1737276524.2297778 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 6.5245
+time=1737276524.2299006 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 8.279499999999999
+time=1737276524.2300642 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 10.034499999999998
+time=1737276524.2302325 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 1.2195
+time=1737276524.230402 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 2.9745
+time=1737276524.2305694 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 4.7295
+time=1737276524.230735 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 6.4845
+time=1737276524.2308998 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 8.2395
+time=1737276524.2310643 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 9.994499999999999
+time=1737276524.231228 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 1.1795
+time=1737276524.2313948 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 2.9345
+time=1737276524.231561 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 4.6895
+time=1737276524.2317255 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 6.4445
+time=1737276524.2318897 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 8.199499999999999
+time=1737276524.232054 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 9.954499999999998
+time=1737276524.232219 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 1.1395
+time=1737276524.2323878 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 2.8945
+time=1737276524.2325544 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 4.6495
+time=1737276524.2327201 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 6.4045
+time=1737276524.232885 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 8.1595
+time=1737276524.23305 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 9.914499999999999
+time=1737276524.2332222 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 1.0995
+time=1737276524.2333899 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 2.8545
+time=1737276524.2335565 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 4.6095
+time=1737276524.2337272 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 6.3645
+time=1737276524.2338736 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 8.119499999999999
+time=1737276524.2340252 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 9.874499999999998
+time=1737276524.2341821 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 1.0594999999999999
+time=1737276524.234341 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 2.8145
+time=1737276524.2345068 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 4.5695
+time=1737276524.2346587 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 6.3245
+time=1737276524.2348092 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 8.0795
+time=1737276524.2349937 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 9.834499999999998
+time=1737276524.2351646 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 1.0194999999999999
+time=1737276524.2353303 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1737276524.2354953 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 4.5295
+time=1737276524.235669 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1737276524.2358482 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1737276524.2360094 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1737276524.2361681 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 0.9794999999999997
+time=1737276524.2363253 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 2.7344999999999997
+time=1737276524.2364802 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 4.4895
+time=1737276524.2366354 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 6.2444999999999995
+time=1737276524.2368023 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 7.999499999999999
+time=1737276524.2369618 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 9.754499999999998
+time=1737276524.2371268 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 0.9394999999999997
+time=1737276524.2372897 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 2.6944999999999997
+time=1737276524.2374742 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 4.4495
+time=1737276524.237637 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 6.2044999999999995
+time=1737276524.2378016 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 7.959499999999999
+time=1737276524.2379582 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 9.714499999999997
+time=1737276524.238115 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 0.8994999999999996
+time=1737276524.2382712 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1737276524.238434 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 4.4094999999999995
+time=1737276524.2386253 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 6.164499999999999
+time=1737276524.2388232 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1737276524.2389898 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1737276524.2391188 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 0.8594999999999997
+time=1737276524.2392423 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 2.6144999999999996
+time=1737276524.2393763 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 4.3694999999999995
+time=1737276524.2395186 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 6.124499999999999
+time=1737276524.23968 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 7.879499999999999
+time=1737276524.2398262 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 9.6345
+time=1737276524.2399647 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 0.8194999999999997
+time=1737276524.240099 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 2.5744999999999996
+time=1737276524.2402802 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 4.3294999999999995
+time=1737276524.2404418 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 6.084499999999999
+time=1737276524.2405996 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 7.839499999999999
+time=1737276524.2407558 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 9.594499999999998
+time=1737276524.2409005 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 0.7794999999999996
+time=1737276524.2410452 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 2.5344999999999995
+time=1737276524.2411976 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 4.289499999999999
+time=1737276524.2413657 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 6.044499999999999
+time=1737276524.241529 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 7.799499999999999
+time=1737276524.2416894 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 9.554499999999997
+time=1737276524.241862 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 0.7394999999999996
+time=1737276524.2420192 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 2.4944999999999995
+time=1737276524.2421596 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 4.249499999999999
+time=1737276524.2423232 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 6.004499999999999
+time=1737276524.2424889 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 7.759499999999999
+time=1737276524.2426548 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 9.514499999999998
+time=1737276524.2428203 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 0.6994999999999996
+time=1737276524.2429938 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 2.4544999999999995
+time=1737276524.243164 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 4.209499999999999
+time=1737276524.2433496 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 5.964499999999999
+time=1737276524.2435384 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 7.719499999999999
+time=1737276524.2437134 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 9.474499999999999
+time=1737276524.2439153 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 0.6594999999999995
+time=1737276524.2440858 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 2.4144999999999994
+time=1737276524.244248 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 4.169499999999999
+time=1737276524.2444062 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 5.924499999999999
+time=1737276524.2445483 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 7.679499999999999
+time=1737276524.2446694 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 9.434499999999998
+time=1737276524.244789 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 0.6194999999999995
+time=1737276524.2449086 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 2.3744999999999994
+time=1737276524.245026 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 4.129499999999999
+time=1737276524.2451441 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 5.884499999999999
+time=1737276524.245262 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 7.639499999999999
+time=1737276524.2453783 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 9.394499999999997
+time=1737276524.2455206 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 0.5794999999999995
+time=1737276524.245644 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 2.3344999999999994
+time=1737276524.2458017 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 4.089499999999999
+time=1737276524.2459352 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 5.844499999999999
+time=1737276524.2460606 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 7.599499999999999
+time=1737276524.2461846 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 9.354499999999998
+time=1737276524.246311 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1737276524.246472 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1737276524.2466686 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1737276524.246849 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 5.804499999999999
+time=1737276524.2470193 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 7.559499999999999
+time=1737276524.2471871 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1737276524.2473278 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 0.4994999999999994
+time=1737276524.247461 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 2.2544999999999993
+time=1737276524.24762 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 4.009499999999999
+time=1737276524.2477837 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 5.764499999999999
+time=1737276524.247922 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 7.519499999999999
+time=1737276524.2480795 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 9.274499999999998
+time=1737276524.2482448 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 0.45949999999999935
+time=1737276524.2483833 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 2.2144999999999992
+time=1737276524.2485414 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 3.969499999999999
+time=1737276524.2487025 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 5.724499999999999
+time=1737276524.248839 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 7.479499999999999
+time=1737276524.2489955 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 9.234499999999997
+time=1737276524.2491596 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 0.4194999999999993
+time=1737276524.2492979 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 2.174499999999999
+time=1737276524.249454 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 3.929499999999999
+time=1737276524.2496164 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 5.684499999999999
+time=1737276524.2497718 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 7.439499999999999
+time=1737276524.2499022 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 9.194499999999998
+time=1737276524.250033 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 0.3794999999999993
+time=1737276524.2501628 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 2.134499999999999
+time=1737276524.2503014 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 3.889499999999999
+time=1737276524.2504551 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 5.644499999999999
+time=1737276524.250614 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 7.399499999999999
+time=1737276524.250776 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 9.154499999999999
+time=1737276524.2509432 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 0.33949999999999925
+time=1737276524.2511096 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 2.094499999999999
+time=1737276524.2512493 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 3.849499999999999
+time=1737276524.2513826 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 5.604499999999999
+time=1737276524.2515154 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 7.359499999999999
+time=1737276524.251674 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 9.114499999999998
+time=1737276524.25184 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 0.2994999999999992
+time=1737276524.2520053 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 2.054499999999999
+time=1737276524.2521439 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 3.809499999999999
+time=1737276524.2522757 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 5.564499999999999
+time=1737276524.252409 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 7.319499999999999
+time=1737276524.2525408 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 9.074499999999997
+time=1737276524.252682 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 0.2594999999999992
+time=1737276524.2528152 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 2.014499999999999
+time=1737276524.2529514 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 3.769499999999999
+time=1737276524.2530842 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 5.524499999999999
+time=1737276524.253279 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 7.279499999999999
+time=1737276524.253452 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 9.034499999999998
+time=1737276524.2536123 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 0.21949999999999914
+time=1737276524.2537897 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 1.974499999999999
+time=1737276524.2539783 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 3.729499999999999
+time=1737276524.254163 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 5.484499999999999
+time=1737276524.2543385 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 7.239499999999999
+time=1737276524.254505 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 8.994499999999999
+time=1737276524.2546687 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 0.1794999999999991
+time=1737276524.2548058 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 1.934499999999999
+time=1737276524.2549613 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 3.689499999999999
+time=1737276524.2551243 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 5.444499999999999
+time=1737276524.2552867 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 7.199499999999999
+time=1737276524.255449 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 8.954499999999998
+time=1737276524.255613 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 0.13949999999999907
+time=1737276524.2557771 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 1.894499999999999
+time=1737276524.2559402 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 3.649499999999999
+time=1737276524.2561078 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 5.404499999999999
+time=1737276524.2562706 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 7.159499999999999
+time=1737276524.2564368 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 8.914499999999997
+time=1737276524.2566047 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 0.09949999999999903
+time=1737276524.2567892 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 1.854499999999999
+time=1737276524.2569752 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 3.609499999999999
+time=1737276524.2571414 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 5.364499999999999
+time=1737276524.2573059 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 7.119499999999999
+time=1737276524.2574694 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 8.874499999999998
+time=1737276524.2576363 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 0.059499999999999
+time=1737276524.2578192 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 1.814499999999999
+time=1737276524.2580414 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 3.569499999999999
+time=1737276524.258263 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 5.324499999999999
+time=1737276524.258462 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 7.079499999999999
+time=1737276524.25866 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 8.834499999999998
+time=1737276524.2588422 CHECKER pos [1.8525 0.     0.2925] pattern 0 dist 0.019499999999998963
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+[<gym_duckietown.objects.TrafficLightObj object at 0x7fa1491bfb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149231dc0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492ceb50>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa149240d90>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa14926fdf0>, <gym_duckietown.objects.TrafficLightObj object at 0x7fa1492cbc70>]
+dist = 0.019499999999998963 self.safe_distance = 0.04095
+False: CorrectTrafficlightPassingChecker has failed
