@@ -1,0 +1,64 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1737297143.1338449 gym-duckietown 2019.0.0
+
+time=1737297143.3914967 Registering gym environment id: Duckietown-4way-v0
+time=1737297143.391572 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1737297143.3916066 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1737297143.3916466 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1737297143.3917146 Registering gym environment id: Duckietown-loop_empty-v0
+time=1737297143.3917892 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1737297143.3918266 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1737297143.3918638 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1737297143.3919065 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1737297143.3919797 Registering gym environment id: Duckietown-small_loop-v0
+time=1737297143.3920383 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1737297143.3920999 Registering gym environment id: Duckietown-straight_road-v0
+time=1737297143.3921542 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1737297143.3922155 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1737297143.3922708 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1737297143.3923228 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1737297143.392374 Registering gym environment id: Duckietown-udem1-v0
+time=1737297143.3924232 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1737297147.1801133 Falling back to non-multisampled frame buffer
+time=1737297147.1882293 Falling back to non-multisampled frame buffer
+time=1737297147.2019646 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1737297147.2177017 loading mesh "duckiebot.obj"
+time=1737297147.2179358 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1737297147.4561481 loading texture "floor_1.png"
+time=1737297147.5441074 loading texture "curve_right_1.png"
+time=1737297147.5501413 loading texture "straight_1.png"
+time=1737297147.5558383 loading texture "curve_left_1.png"
+time=1737297147.562398 loading texture "4way_1.png"
+time=1737297147.7540343 using user tile start: (4, 2)
+time=1737297147.7546537 tile: {'coords': (4, 2), 'kind': 'curve_right', 'angle': 2, 'drivable': True, 'curves': array([[[2.7495, 0.    , 1.755 ],
+        [2.7495, 0.    , 1.5795],
+        [2.808 , 0.    , 1.5795],
+        [2.925 , 0.    , 1.5795]],
+
+       [[2.925 , 0.    , 1.3455],
+        [2.808 , 0.    , 1.3455],
+        [2.457 , 0.    , 1.4625],
+        [2.5155, 0.    , 1.755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f40e5c59fa0>, 'color': array([1, 1, 1])}
+time=1737297147.7724004 road_tile_size=0.585
+time=1737297147.772685 Starting at [2.65027392 0.         1.44821419] 0.6331459557276415
+time=1737297147.7729924 Pos: [2.65027392 0.         1.44821419] angle 0.6331459557276415
+time=1737297148.4603212 using DuckietownEnv
+time=1737297148.460999 Target tile: (6, 9)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 55, in __init__
+    print(self.target_coords)
+AttributeError: 'RandomMapTaskSolution' object has no attribute 'target_coords'
+0.585
+2.6502739151771926 1.4482141887661715
+Старт
+(2, 4)
+Таргет коорд
