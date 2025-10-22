@@ -1,0 +1,63 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1761153056.580436 gym-duckietown 2019.0.0
+
+time=1761153061.991074 Registering gym environment id: Duckietown-4way-v0
+time=1761153061.991176 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761153061.991237 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761153061.991289 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761153061.991358 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761153061.991422 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761153061.9914703 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761153061.9915605 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761153061.9916482 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761153061.9917364 Registering gym environment id: Duckietown-small_loop-v0
+time=1761153061.9918182 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761153061.9918945 Registering gym environment id: Duckietown-straight_road-v0
+time=1761153061.9919868 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761153061.9920816 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761153061.9921713 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761153061.9922626 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761153061.9923563 Registering gym environment id: Duckietown-udem1-v0
+time=1761153061.992446 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761153070.0255644 Falling back to non-multisampled frame buffer
+time=1761153070.027378 Falling back to non-multisampled frame buffer
+time=1761153070.0299811 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761153070.0361059 loading mesh "duckiebot.obj"
+time=1761153070.036245 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761153070.2874067 loading mesh "duckie.obj"
+time=1761153070.3154385 loading texture "duckie.png"
+time=1761153071.0177765 loading texture "floor_1.png"
+time=1761153071.0944748 loading texture "curve_left_1.png"
+time=1761153071.1004682 loading texture "straight_1.png"
+time=1761153071.1082518 loading texture "curve_right_1.png"
+time=1761153071.115786 using user tile start: (1, 1)
+time=1761153071.1163883 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f0796ddebb0>, 'color': array([1, 1, 1])}
+time=1761153071.1178067 road_tile_size=0.585
+time=1761153071.1180372 Starting at [0.75042706 0.         0.75598379] 3.112029693639061
+time=1761153071.118274 Pos: [0.75042706 0.         0.75598379] angle 3.112029693639061
+time=1761153071.6760957 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/solutions/solution.py", line 9, in __init__
+    super().__init__(genered_task)
+NameError: name 'genered_task' is not defined
+0.585
+0.9771798220069801 0.7123439772751925
+0.585
+0.7504270640669906 0.7559837866145223
