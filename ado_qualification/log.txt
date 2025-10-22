@@ -1,0 +1,71 @@
+False: Incorrect solution execution: operands could not be broadcast together with shapes (2,) (3,)
+time=1761145864.6184056 gym-duckietown 2019.0.0
+
+time=1761145864.76157 Registering gym environment id: Duckietown-4way-v0
+time=1761145864.7616584 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761145864.7617111 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761145864.7617683 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761145864.7618206 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761145864.7618713 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761145864.761922 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761145864.761972 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761145864.7620275 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761145864.762083 Registering gym environment id: Duckietown-small_loop-v0
+time=1761145864.7621417 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761145864.762199 Registering gym environment id: Duckietown-straight_road-v0
+time=1761145864.7622564 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761145864.7623198 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761145864.762379 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761145864.762438 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761145864.7624965 Registering gym environment id: Duckietown-udem1-v0
+time=1761145864.7625542 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761145866.4438972 Falling back to non-multisampled frame buffer
+time=1761145866.4459002 Falling back to non-multisampled frame buffer
+time=1761145866.448927 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761145866.4583418 loading mesh "duckiebot.obj"
+time=1761145866.4585416 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761145866.7872162 loading mesh "duckie.obj"
+time=1761145866.8196452 loading texture "duckie.png"
+time=1761145867.2260866 loading texture "floor_1.png"
+time=1761145867.3312132 loading texture "curve_left_1.png"
+time=1761145867.3383048 loading texture "straight_1.png"
+time=1761145867.3479865 loading texture "curve_right_1.png"
+time=1761145867.359636 using user tile start: (1, 1)
+time=1761145867.3604665 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f0402837970>, 'color': array([1, 1, 1])}
+time=1761145867.3609188 [0.91844335 0.         0.51966586] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f040287c3d0>, 'color': array([1, 1, 1])}
+time=1761145867.3612845 Invalid pose. Collision free: True On drivable area: False
+time=1761145867.361327 safety_factor: 1.3
+time=1761145867.361494 pos: [0.85650479 0.         0.59496436]
+time=1761145867.3616517 l_pos: [0.91844335 0.         0.51966586]
+time=1761145867.361805 r_pos: [0.79456623 0.         0.67026286]
+time=1761145867.3619564 f_pos: [0.94686299 0.         0.66929063]
+time=1761145867.363244 [0.58065918 0.         0.7616157 ] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f040287c3d0>, 'color': array([1, 1, 1])}
+time=1761145867.363558 Invalid pose. Collision free: True On drivable area: False
+time=1761145867.3635938 safety_factor: 1.3
+time=1761145867.3637948 pos: [0.6761905  0.         0.74212169]
+time=1761145867.3639877 l_pos: [0.58065918 0.         0.7616157 ]
+time=1761145867.3641572 r_pos: [0.77172182 0.         0.72262768]
+time=1761145867.3643181 f_pos: [0.65279769 0.         0.6274841 ]
+time=1761145867.3656213 road_tile_size=0.585
+time=1761145867.3659244 Starting at [0.70694257 0.         0.90460884] 0.5019547752230301
+time=1761145867.3661182 Pos: [0.70694257 0.         0.90460884] angle 0.5019547752230301
+time=1761145867.5378065 using DuckietownEnv
+time=1761145867.7057855 Pos: [0.70694257 0.         0.90460884] angle 0.5019547752230301
+0.585
+0.8750398068165703 0.6102107732258004
+0.585
+1.148617732065779 0.8942160876817928
+0.585
+0.6713919739052988 0.7186062876565324
+0.585
+0.7069425691340779 0.9046088404583288
+total reward =  -3.498876999347989
+False: Incorrect solution execution: operands could not be broadcast together with shapes (2,) (3,) 
