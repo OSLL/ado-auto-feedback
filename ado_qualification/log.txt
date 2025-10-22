@@ -1,0 +1,70 @@
+False: Incorrect solution execution: 'AdoQualificationTaskSolution' object has no attribute 'STOP_DISTANCE'
+time=1761155477.3158824 gym-duckietown 2019.0.0
+
+time=1761155477.418418 Registering gym environment id: Duckietown-4way-v0
+time=1761155477.4184854 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761155477.4185193 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761155477.418597 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761155477.418647 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761155477.4187267 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761155477.418818 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761155477.418866 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761155477.418922 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761155477.418978 Registering gym environment id: Duckietown-small_loop-v0
+time=1761155477.419029 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761155477.4190915 Registering gym environment id: Duckietown-straight_road-v0
+time=1761155477.419138 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761155477.4191847 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761155477.4192307 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761155477.419276 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761155477.4193406 Registering gym environment id: Duckietown-udem1-v0
+time=1761155477.4193864 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761155479.4124787 Falling back to non-multisampled frame buffer
+time=1761155479.4143686 Falling back to non-multisampled frame buffer
+time=1761155479.4169414 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761155479.422726 loading mesh "duckiebot.obj"
+time=1761155479.4228578 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761155479.676187 loading mesh "duckie.obj"
+time=1761155479.705233 loading texture "duckie.png"
+time=1761155480.0392685 loading texture "floor_1.png"
+time=1761155480.1215906 loading texture "curve_left_1.png"
+time=1761155480.1277096 loading texture "straight_1.png"
+time=1761155480.135593 loading texture "curve_right_1.png"
+time=1761155480.1431057 using user tile start: (1, 1)
+time=1761155480.1436808 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f750b9c0970>, 'color': array([1, 1, 1])}
+time=1761155480.144081 [1.10006289 0.         0.52891038] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f750ba053d0>, 'color': array([1, 1, 1])}
+time=1761155480.144503 Invalid pose. Collision free: True On drivable area: False
+time=1761155480.144559 safety_factor: 1.3
+time=1761155480.144785 pos: [1.11060156 0.         0.64543478]
+time=1761155480.1449852 l_pos: [1.01349789 0.         0.65421701]
+time=1761155480.1451976 r_pos: [1.20770523 0.         0.63665256]
+time=1761155480.1453588 f_pos: [1.10006289 0.         0.52891038]
+time=1761155480.1457732 [0.57855013 0.         0.78478802] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f750ba053d0>, 'color': array([1, 1, 1])}
+time=1761155480.1461134 Invalid pose. Collision free: True On drivable area: False
+time=1761155480.1461582 safety_factor: 1.3
+time=1761155480.146447 pos: [0.63620185 0.         0.86341709]
+time=1761155480.1466148 l_pos: [0.69385356 0.         0.94204615]
+time=1761155480.146789 r_pos: [0.57855013 0.         0.78478802]
+time=1761155480.1469548 f_pos: [0.54184697 0.         0.93259914]
+time=1761155480.1480286 road_tile_size=0.585
+time=1761155480.1482172 Starting at [0.69924175 0.         0.9447135 ] 1.6723961809546808
+time=1761155480.148363 Pos: [0.69924175 0.         0.9447135 ] angle 1.6723961809546808
+time=1761155480.2869492 using DuckietownEnv
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/task_generator.py:19: RuntimeWarning: invalid value encountered in true_divide
+  cur_vector / norm(cur_vector),
+0.585
+1.1084397790067917 0.6215323430662941
+0.585
+0.616847000492054 0.8776082771297666
+0.585
+0.6992417491010382 0.9447135031618016
+total reward =  0
+False: Incorrect solution execution: 'AdoQualificationTaskSolution' object has no attribute 'STOP_DISTANCE'
