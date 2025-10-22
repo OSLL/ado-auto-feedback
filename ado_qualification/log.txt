@@ -1,0 +1,73 @@
+False: Incorrect solution execution: cannot convert float NaN to integer
+time=1761159692.006551 gym-duckietown 2019.0.0
+
+time=1761159692.1300848 Registering gym environment id: Duckietown-4way-v0
+time=1761159692.130154 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761159692.1301916 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761159692.1302228 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761159692.1302872 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761159692.1303391 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761159692.130389 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761159692.1304379 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761159692.1304855 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761159692.130533 Registering gym environment id: Duckietown-small_loop-v0
+time=1761159692.1305819 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761159692.1306295 Registering gym environment id: Duckietown-straight_road-v0
+time=1761159692.1306777 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761159692.1307268 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761159692.1307752 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761159692.1308236 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761159692.1308763 Registering gym environment id: Duckietown-udem1-v0
+time=1761159692.1309245 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761159693.5410678 Falling back to non-multisampled frame buffer
+time=1761159693.5428529 Falling back to non-multisampled frame buffer
+time=1761159693.5454202 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761159693.5510342 loading mesh "duckiebot.obj"
+time=1761159693.5512547 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761159693.7971005 loading mesh "duckie.obj"
+time=1761159693.8245962 loading texture "duckie.png"
+time=1761159694.1672485 loading texture "floor_1.png"
+time=1761159694.2432992 loading texture "curve_left_1.png"
+time=1761159694.2493005 loading texture "straight_1.png"
+time=1761159694.2571256 loading texture "curve_right_1.png"
+time=1761159694.264847 using user tile start: (1, 1)
+time=1761159694.2654111 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f27ba285970>, 'color': array([1, 1, 1])}
+time=1761159694.2662578 road_tile_size=0.585
+time=1761159694.2664201 Starting at [0.70211343 0.         0.71416487] 2.942063506985781
+time=1761159694.2666075 Pos: [0.70211343 0.         0.71416487] angle 2.942063506985781
+time=1761159694.42411 using DuckietownEnv
+time=1761159694.579961 Pos: [0.70211343 0.         0.71416487] angle 2.942063506985781
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/task_generator.py:19: RuntimeWarning: invalid value encountered in true_divide
+  cur_vector / norm(cur_vector),
+0.585
+0.7021134285799576 0.7141648696420944
+DEBUG action [0.8163, nan]
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/solutions/solution.py", line 51, in solve
+    obs, reward, done, info = env.step(action)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 47, in step
+    obs, reward, done, misc = self.__wrapped.step(action)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/envs/duckietown_env.py", line 77, in step
+    obs, reward, done, info = Simulator.step(self, vels)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 1498, in step
+    d = self._compute_done_reward()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 1505, in _compute_done_reward
+    if not self._valid_pose(self._cur_pos, self.cur_angle):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 1338, in _valid_pose
+    all_drivable = (self._drivable_pos(pos) and
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 1236, in _drivable_pos
+    coords = self.get_grid_coords(pos)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 970, in get_grid_coords
+    i = math.floor(x / self._road_tile_size)
+ValueError: cannot convert float NaN to integer
+
+total reward =  -2.0856475346104935
+False: Incorrect solution execution: cannot convert float NaN to integer
