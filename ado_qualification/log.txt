@@ -1,0 +1,59 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1761162530.48136 gym-duckietown 2019.0.0
+
+time=1761162530.6094446 Registering gym environment id: Duckietown-4way-v0
+time=1761162530.6095219 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761162530.6095564 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761162530.6096323 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761162530.6096866 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761162530.6097758 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761162530.6098325 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761162530.6099172 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761162530.6099727 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761162530.6100307 Registering gym environment id: Duckietown-small_loop-v0
+time=1761162530.6100833 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761162530.6101356 Registering gym environment id: Duckietown-straight_road-v0
+time=1761162530.6101832 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761162530.6102562 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761162530.6103115 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761162530.6103783 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761162530.6104562 Registering gym environment id: Duckietown-udem1-v0
+time=1761162530.6105301 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761162532.2984638 Falling back to non-multisampled frame buffer
+time=1761162532.3003306 Falling back to non-multisampled frame buffer
+time=1761162532.3030303 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761162532.3086905 loading mesh "duckiebot.obj"
+time=1761162532.3088176 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761162532.6471524 loading mesh "duckie.obj"
+time=1761162532.6974282 loading texture "duckie.png"
+time=1761162533.1346228 loading texture "floor_1.png"
+time=1761162533.228265 loading texture "curve_left_1.png"
+time=1761162533.2376096 loading texture "straight_1.png"
+time=1761162533.2474062 loading texture "curve_right_1.png"
+time=1761162533.259039 using user tile start: (1, 1)
+time=1761162533.2597198 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ff8bd655970>, 'color': array([1, 1, 1])}
+time=1761162533.2605472 road_tile_size=0.585
+time=1761162533.2607145 Starting at [0.79927546 0.         0.94545931] 3.3333142382982075
+time=1761162533.2608573 Pos: [0.79927546 0.         0.94545931] angle 3.3333142382982075
+time=1761162533.4478593 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+TypeError: __init__() missing 1 required positional argument: 'domain'
+0.585
+0.7992754591017275 0.9454593055097206
