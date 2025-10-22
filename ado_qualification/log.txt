@@ -1,0 +1,709 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1761148792.1948016 gym-duckietown 2019.0.0
+
+time=1761148792.3263428 Registering gym environment id: Duckietown-4way-v0
+time=1761148792.3264542 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761148792.3265483 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761148792.3266153 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761148792.326681 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761148792.326747 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761148792.3268309 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761148792.3268967 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761148792.3269467 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761148792.3269932 Registering gym environment id: Duckietown-small_loop-v0
+time=1761148792.3270366 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761148792.327095 Registering gym environment id: Duckietown-straight_road-v0
+time=1761148792.3271358 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761148792.3272033 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761148792.3272517 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761148792.3272932 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761148792.3273318 Registering gym environment id: Duckietown-udem1-v0
+time=1761148792.3273697 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761148795.5540886 Falling back to non-multisampled frame buffer
+time=1761148795.556286 Falling back to non-multisampled frame buffer
+time=1761148795.5594444 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_one_duckie.yaml"
+time=1761148795.5685542 loading mesh "duckiebot.obj"
+time=1761148795.5689244 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761148795.902911 loading mesh "duckie.obj"
+time=1761148795.9398293 loading texture "duckie.png"
+time=1761148796.8741684 loading texture "floor_1.png"
+time=1761148797.0461438 loading texture "curve_left_1.png"
+time=1761148797.0536387 loading texture "straight_1.png"
+time=1761148797.0632083 loading texture "curve_right_1.png"
+time=1761148797.0747275 using user tile start: (1, 1)
+time=1761148797.075462 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fa826d64970>, 'color': array([1, 1, 1])}
+time=1761148797.0759475 [0.53421086 0.         1.09509064] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fa826dca3d0>, 'color': array([1, 1, 1])}
+time=1761148797.076332 Invalid pose. Collision free: True On drivable area: False
+time=1761148797.0763664 safety_factor: 1.3
+time=1761148797.0765634 pos: [0.59951718 0.         1.02269357]
+time=1761148797.0767167 l_pos: [0.66482349 0.         0.9502965 ]
+time=1761148797.0768404 r_pos: [0.53421086 0.         1.09509064]
+time=1761148797.0769618 f_pos: [0.68639366 0.         1.10106115]
+time=1761148797.0776389 road_tile_size=0.585
+time=1761148797.0777905 Starting at [1.06856872 0.         1.01467526] 0.11540123978803116
+time=1761148797.07793 Pos: [1.06856872 0.         1.01467526] angle 0.11540123978803116
+time=1761148797.266639 using DuckietownEnv
+time=1761148797.4492185 Pos: [1.06856872 0.         1.01467526] angle 0.11540123978803116
+time=1761148797.698303 Pos: [1.07782424 0.         1.0136024 ] angle 0.11540123978803116
+time=1761148797.77045 Pos: [1.08707976 0.         1.01252953] angle 0.11540123978803116
+time=1761148797.8467062 Pos: [1.09633528 0.         1.01145667] angle 0.11540123978803116
+time=1761148797.905178 Pos: [1.1055908 0.        1.0103838] angle 0.11540123978803116
+time=1761148797.986849 Pos: [1.11484632 0.         1.00931093] angle 0.11540123978803116
+time=1761148798.048671 Pos: [1.12410184 0.         1.00823807] angle 0.11540123978803116
+time=1761148798.1056738 Pos: [1.13335736 0.         1.0071652 ] angle 0.11540123978803116
+time=1761148798.1770992 Pos: [1.14261288 0.         1.00609234] angle 0.11540123978803116
+time=1761148798.2366533 Pos: [1.1518684  0.         1.00501947] angle 0.11540123978803116
+time=1761148798.2989717 Pos: [1.16112392 0.         1.00394661] angle 0.11540123978803116
+time=1761148798.3676944 Pos: [1.17037944 0.         1.00287374] angle 0.11540123978803116
+time=1761148798.428507 Pos: [1.17963496 0.         1.00180088] angle 0.11540123978803116
+time=1761148798.4938307 Pos: [1.18889048 0.         1.00072801] angle 0.11540123978803116
+time=1761148798.5561407 Pos: [1.198146   0.         0.99965515] angle 0.11540123978803116
+time=1761148798.6115806 Pos: [1.20740152 0.         0.99858228] angle 0.11540123978803116
+time=1761148798.6858714 Pos: [1.21665704 0.         0.99750942] angle 0.11540123978803116
+time=1761148798.7532241 Pos: [1.22591256 0.         0.99643655] angle 0.11540123978803116
+time=1761148798.8088992 Pos: [1.23516808 0.         0.99536369] angle 0.11540123978803116
+time=1761148798.8826754 Pos: [1.2444236  0.         0.99429082] angle 0.11540123978803116
+time=1761148798.942921 Pos: [1.25367912 0.         0.99321796] angle 0.11540123978803116
+time=1761148799.0027122 Pos: [1.26293464 0.         0.99214509] angle 0.11540123978803116
+time=1761148799.0767405 Pos: [1.27219016 0.         0.99107222] angle 0.11540123978803116
+time=1761148799.1349387 Pos: [1.28144568 0.         0.98999936] angle 0.11540123978803116
+time=1761148799.198092 Pos: [1.2907012  0.         0.98892649] angle 0.11540123978803116
+time=1761148799.264281 Pos: [1.29995672 0.         0.98785363] angle 0.11540123978803116
+time=1761148799.3219693 Pos: [1.30921224 0.         0.98678076] angle 0.11540123978803116
+time=1761148799.390014 Pos: [1.31846776 0.         0.9857079 ] angle 0.11540123978803116
+time=1761148799.4509704 Pos: [1.32772328 0.         0.98463503] angle 0.11540123978803116
+time=1761148799.5079165 Pos: [1.3369788  0.         0.98356217] angle 0.11540123978803116
+time=1761148799.5793495 Pos: [1.34623432 0.         0.9824893 ] angle 0.11540123978803116
+time=1761148799.6499119 Pos: [1.35548984 0.         0.98141644] angle 0.11540123978803116
+time=1761148799.7054336 Pos: [1.36474536 0.         0.98034357] angle 0.11540123978803116
+time=1761148799.7793725 Pos: [1.37400088 0.         0.97927071] angle 0.11540123978803116
+time=1761148799.8470414 Pos: [1.3832564  0.         0.97819784] angle 0.11540123978803116
+time=1761148799.90507 Pos: [1.39251192 0.         0.97712498] angle 0.11540123978803116
+time=1761148799.9717462 Pos: [1.40176744 0.         0.97605211] angle 0.11540123978803116
+time=1761148800.0487068 Pos: [1.41102296 0.         0.97497925] angle 0.11540123978803116
+time=1761148800.119024 Pos: [1.42027848 0.         0.97390638] angle 0.11540123978803116
+time=1761148800.1916645 Pos: [1.42953399 0.         0.97283351] angle 0.11540123978803116
+time=1761148800.2651308 Pos: [1.43878951 0.         0.97176065] angle 0.11540123978803116
+time=1761148800.3262463 Pos: [1.44804503 0.         0.97068778] angle 0.11540123978803116
+time=1761148800.3942482 Pos: [1.45730055 0.         0.96961492] angle 0.11540123978803116
+time=1761148800.4550147 Pos: [1.46655607 0.         0.96854205] angle 0.11540123978803116
+time=1761148800.5245225 Pos: [1.47581159 0.         0.96746919] angle 0.11540123978803116
+time=1761148800.595554 Pos: [1.48506711 0.         0.96639632] angle 0.11540123978803116
+time=1761148800.653763 Pos: [1.49432263 0.         0.96532346] angle 0.11540123978803116
+time=1761148800.7092493 Pos: [1.50357815 0.         0.96425059] angle 0.11540123978803116
+time=1761148800.775645 Pos: [1.51283367 0.         0.96317773] angle 0.11540123978803116
+time=1761148800.831794 Pos: [1.52208919 0.         0.96210486] angle 0.11540123978803116
+time=1761148800.89658 Pos: [1.53134471 0.         0.961032  ] angle 0.11540123978803116
+time=1761148800.9598584 Pos: [1.54060023 0.         0.95995913] angle 0.11540123978803116
+time=1761148801.0268662 Pos: [1.54985575 0.         0.95888627] angle 0.11540123978803116
+time=1761148801.1093516 Pos: [1.55911127 0.         0.9578134 ] angle 0.11540123978803116
+time=1761148801.1776717 Pos: [1.56836679 0.         0.95674054] angle 0.11540123978803116
+time=1761148801.2323022 Pos: [1.57762231 0.         0.95566767] angle 0.11540123978803116
+time=1761148801.2952938 Pos: [1.58687783 0.         0.9545948 ] angle 0.11540123978803116
+time=1761148801.361111 Pos: [1.59613335 0.         0.95352194] angle 0.11540123978803116
+time=1761148801.4190617 Pos: [1.60538887 0.         0.95244907] angle 0.11540123978803116
+time=1761148801.4896915 Pos: [1.61464439 0.         0.95137621] angle 0.11540123978803116
+time=1761148801.5519452 Pos: [1.62389991 0.         0.95030334] angle 0.11540123978803116
+time=1761148801.6160803 Pos: [1.63315543 0.         0.94923048] angle 0.11540123978803116
+time=1761148801.684534 Pos: [1.64241095 0.         0.94815761] angle 0.11540123978803116
+time=1761148801.7492332 Pos: [1.65166647 0.         0.94708475] angle 0.11540123978803116
+time=1761148801.8051133 Pos: [1.66092199 0.         0.94601188] angle 0.11540123978803116
+time=1761148801.877328 Pos: [1.67017751 0.         0.94493902] angle 0.11540123978803116
+time=1761148801.9316726 Pos: [1.67943303 0.         0.94386615] angle 0.11540123978803116
+time=1761148801.9910467 Pos: [1.68868855 0.         0.94279329] angle 0.11540123978803116
+time=1761148802.0584185 Pos: [1.69794407 0.         0.94172042] angle 0.11540123978803116
+time=1761148802.1045263 Pos: [1.70719959 0.         0.94064756] angle 0.11540123978803116
+time=1761148802.2172618 Pos: [1.71645511 0.         0.93957469] angle 0.11540123978803116
+time=1761148802.3002145 Pos: [1.72571063 0.         0.93850182] angle 0.11540123978803116
+time=1761148802.3617787 Pos: [1.73496615 0.         0.93742896] angle 0.11540123978803116
+time=1761148802.4151437 Pos: [1.74422167 0.         0.93635609] angle 0.11540123978803116
+time=1761148802.4699972 Pos: [1.75347719 0.         0.93528323] angle 0.11540123978803116
+time=1761148802.5140147 Pos: [1.76273271 0.         0.93421036] angle 0.11540123978803116
+time=1761148802.5587416 Pos: [1.77198823 0.         0.9331375 ] angle 0.11540123978803116
+time=1761148802.6030493 Pos: [1.78124375 0.         0.93206463] angle 0.11540123978803116
+time=1761148802.6560152 Pos: [1.79049927 0.         0.93099177] angle 0.11540123978803116
+time=1761148802.704669 Pos: [1.79975479 0.         0.9299189 ] angle 0.11540123978803116
+time=1761148802.765645 Pos: [1.80901031 0.         0.92884604] angle 0.11540123978803116
+time=1761148802.8147714 Pos: [1.81826583 0.         0.92777317] angle 0.11540123978803116
+time=1761148802.8592868 Pos: [1.82752135 0.         0.92670031] angle 0.11540123978803116
+time=1761148802.904193 Pos: [1.83677687 0.         0.92562744] angle 0.11540123978803116
+time=1761148802.9507377 Pos: [1.84603239 0.         0.92455458] angle 0.11540123978803116
+time=1761148803.000757 Pos: [1.85528791 0.         0.92348171] angle 0.11540123978803116
+time=1761148803.055826 Pos: [1.86454343 0.         0.92240885] angle 0.11540123978803116
+time=1761148803.1084886 Pos: [1.87379895 0.         0.92133598] angle 0.11540123978803116
+time=1761148803.1644354 Pos: [1.88305447 0.         0.92026311] angle 0.11540123978803116
+time=1761148803.216596 Pos: [1.89230999 0.         0.91919025] angle 0.11540123978803116
+time=1761148803.2696295 Pos: [1.90156551 0.         0.91811738] angle 0.11540123978803116
+time=1761148803.3146212 Pos: [1.91082102 0.         0.91704452] angle 0.11540123978803116
+time=1761148803.3588939 Pos: [1.92007654 0.         0.91597165] angle 0.11540123978803116
+time=1761148803.4136019 Pos: [1.92933206 0.         0.91489879] angle 0.11540123978803116
+time=1761148803.463497 Pos: [1.93858758 0.         0.91382592] angle 0.11540123978803116
+time=1761148803.5097332 Pos: [1.9478431  0.         0.91275306] angle 0.11540123978803116
+time=1761148803.555636 Pos: [1.95709862 0.         0.91168019] angle 0.11540123978803116
+time=1761148803.6022658 Pos: [1.96635414 0.         0.91060733] angle 0.11540123978803116
+time=1761148803.654509 Pos: [1.97560966 0.         0.90953446] angle 0.11540123978803116
+time=1761148803.7035956 Pos: [1.98486518 0.         0.9084616 ] angle 0.11540123978803116
+time=1761148803.756026 Pos: [1.9941207  0.         0.90738873] angle 0.11540123978803116
+time=1761148803.8091457 Pos: [2.00337622 0.         0.90631587] angle 0.11540123978803116
+time=1761148803.855247 Pos: [2.01263174 0.         0.905243  ] angle 0.11540123978803116
+time=1761148803.9031954 Pos: [2.02188726 0.         0.90417014] angle 0.11540123978803116
+0.585
+0.6173379923847994 1.0387689700039031
+0.585
+1.0685687223058393 1.0146752613734233
+Цель: [2.6325 0.     2.6325]
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+time=1761148803.9494023 Pos: [2.03114278 0.         0.90309727] angle 0.11540123978803116
+time=1761148804.0070298 Pos: [2.0403983 0.        0.9020244] angle 0.11540123978803116
+time=1761148804.055867 Pos: [2.04965382 0.         0.90095154] angle 0.11540123978803116
+time=1761148804.1116407 Pos: [2.05890934 0.         0.89987867] angle 0.11540123978803116
+time=1761148804.1585417 Pos: [2.06816486 0.         0.89880581] angle 0.11540123978803116
+time=1761148804.2117426 Pos: [2.07742038 0.         0.89773294] angle 0.11540123978803116
+time=1761148804.2615201 Pos: [2.0866759  0.         0.89666008] angle 0.11540123978803116
+time=1761148804.3140485 Pos: [2.09593142 0.         0.89558721] angle 0.11540123978803116
+time=1761148804.3641403 Pos: [2.10518694 0.         0.89451435] angle 0.11540123978803116
+time=1761148804.4159732 Pos: [2.11444246 0.         0.89344148] angle 0.11540123978803116
+time=1761148804.4617524 Pos: [2.12369798 0.         0.89236862] angle 0.11540123978803116
+time=1761148804.50819 Pos: [2.1329535  0.         0.89129575] angle 0.11540123978803116
+time=1761148804.5526354 Pos: [2.14220902 0.         0.89022289] angle 0.11540123978803116
+time=1761148804.5967999 Pos: [2.15146454 0.         0.88915002] angle 0.11540123978803116
+time=1761148804.650269 Pos: [2.16072006 0.         0.88807716] angle 0.11540123978803116
+time=1761148804.6999776 Pos: [2.16997558 0.         0.88700429] angle 0.11540123978803116
+time=1761148804.753785 Pos: [2.1792311  0.         0.88593142] angle 0.11540123978803116
+time=1761148804.8084323 Pos: [2.18848662 0.         0.88485856] angle 0.11540123978803116
+time=1761148804.8559895 Pos: [2.19774214 0.         0.88378569] angle 0.11540123978803116
+time=1761148804.9067218 Pos: [2.20699766 0.         0.88271283] angle 0.11540123978803116
+time=1761148804.9618816 Pos: [2.21625318 0.         0.88163996] angle 0.11540123978803116
+time=1761148805.010672 Pos: [2.2255087 0.        0.8805671] angle 0.11540123978803116
+time=1761148805.0561137 Pos: [2.23476422 0.         0.87949423] angle 0.11540123978803116
+time=1761148805.101372 Pos: [2.24401974 0.         0.87842137] angle 0.11540123978803116
+time=1761148805.1466758 Pos: [2.25327526 0.         0.8773485 ] angle 0.11540123978803116
+time=1761148805.1920917 Pos: [2.26253078 0.         0.87627564] angle 0.11540123978803116
+time=1761148805.2376978 Pos: [2.2717863  0.         0.87520277] angle 0.11540123978803116
+time=1761148805.2841597 Pos: [2.28104182 0.         0.87412991] angle 0.11540123978803116
+time=1761148805.329254 Pos: [2.29029734 0.         0.87305704] angle 0.11540123978803116
+time=1761148805.3771148 Pos: [2.29955286 0.         0.87198418] angle 0.11540123978803116
+time=1761148805.4218037 Pos: [2.30880838 0.         0.87091131] angle 0.11540123978803116
+time=1761148805.4668105 Pos: [2.3180639  0.         0.86983845] angle 0.11540123978803116
+time=1761148805.5111103 Pos: [2.32731942 0.         0.86876558] angle 0.11540123978803116
+time=1761148805.5543518 Pos: [2.33657494 0.         0.86769271] angle 0.11540123978803116
+time=1761148805.5985436 Pos: [2.34583046 0.         0.86661985] angle 0.11540123978803116
+time=1761148805.6419115 Pos: [2.35508598 0.         0.86554698] angle 0.11540123978803116
+time=1761148805.685567 Pos: [2.3643415  0.         0.86447412] angle 0.11540123978803116
+time=1761148805.7295809 Pos: [2.37359702 0.         0.86340125] angle 0.11540123978803116
+time=1761148805.7765892 Pos: [2.38285254 0.         0.86232839] angle 0.11540123978803116
+time=1761148805.820731 Pos: [2.39210805 0.         0.86125552] angle 0.11540123978803116
+time=1761148805.871025 Pos: [2.40136357 0.         0.86018266] angle 0.11540123978803116
+time=1761148805.922057 Pos: [2.41061909 0.         0.85910979] angle 0.11540123978803116
+time=1761148805.967269 Pos: [2.41987461 0.         0.85803693] angle 0.11540123978803116
+time=1761148806.0168378 Pos: [2.42913013 0.         0.85696406] angle 0.11540123978803116
+time=1761148806.0639367 Pos: [2.43838565 0.         0.8558912 ] angle 0.11540123978803116
+time=1761148806.1081877 Pos: [2.44764117 0.         0.85481833] angle 0.11540123978803116
+time=1761148806.1530614 Pos: [2.45689669 0.         0.85374547] angle 0.11540123978803116
+time=1761148806.2025774 Pos: [2.46615221 0.         0.8526726 ] angle 0.11540123978803116
+time=1761148806.2490156 Pos: [2.47540773 0.         0.85159974] angle 0.11540123978803116
+time=1761148806.2960923 Pos: [2.48466325 0.         0.85052687] angle 0.11540123978803116
+time=1761148806.3403184 Pos: [2.49391877 0.         0.849454  ] angle 0.11540123978803116
+time=1761148806.396888 Pos: [2.50317429 0.         0.84838114] angle 0.11540123978803116
+time=1761148806.4543977 Pos: [2.51242981 0.         0.84730827] angle 0.11540123978803116
+time=1761148806.5076375 Pos: [2.52168533 0.         0.84623541] angle 0.11540123978803116
+time=1761148806.5620325 Pos: [2.53094085 0.         0.84516254] angle 0.11540123978803116
+time=1761148806.6201692 Pos: [2.54019637 0.         0.84408968] angle 0.11540123978803116
+time=1761148806.6673617 Pos: [2.54945189 0.         0.84301681] angle 0.11540123978803116
+time=1761148806.7351058 Pos: [2.55870741 0.         0.84194395] angle 0.11540123978803116
+time=1761148806.789761 Pos: [2.56796293 0.         0.84087108] angle 0.11540123978803116
+time=1761148806.8506732 Pos: [2.57721845 0.         0.83979822] angle 0.11540123978803116
+time=1761148806.9067883 Pos: [2.58647397 0.         0.83872535] angle 0.11540123978803116
+time=1761148806.9699173 Pos: [2.59572949 0.         0.83765249] angle 0.11540123978803116
+time=1761148807.018029 Pos: [2.60498501 0.         0.83657962] angle 0.11540123978803116
+time=1761148807.0691988 Pos: [2.61424053 0.         0.83550676] angle 0.11540123978803116
+time=1761148807.1214638 Pos: [2.62349605 0.         0.83443389] angle 0.11540123978803116
+time=1761148807.1731327 Pos: [2.63275157 0.         0.83336103] angle 0.11540123978803116
+time=1761148807.2209215 Pos: [2.64200709 0.         0.83228816] angle 0.11540123978803116
+time=1761148807.2704902 Pos: [2.65126261 0.         0.83121529] angle 0.11540123978803116
+time=1761148807.322866 Pos: [2.66051813 0.         0.83014243] angle 0.11540123978803116
+time=1761148807.380964 Pos: [2.66977365 0.         0.82906956] angle 0.11540123978803116
+time=1761148807.4435198 Pos: [2.67902917 0.         0.8279967 ] angle 0.11540123978803116
+time=1761148807.5088477 Pos: [2.68828469 0.         0.82692383] angle 0.11540123978803116
+time=1761148807.5756118 Pos: [2.69754021 0.         0.82585097] angle 0.11540123978803116
+time=1761148807.6289985 Pos: [2.70679573 0.         0.8247781 ] angle 0.11540123978803116
+time=1761148807.6889248 Pos: [2.71605125 0.         0.82370524] angle 0.11540123978803116
+time=1761148807.7537546 Pos: [2.72530677 0.         0.82263237] angle 0.11540123978803116
+time=1761148807.8194463 Pos: [2.73456229 0.         0.82155951] angle 0.11540123978803116
+time=1761148807.875023 Pos: [2.74381781 0.         0.82048664] angle 0.11540123978803116
+time=1761148807.9302025 Pos: [2.75307333 0.         0.81941378] angle 0.11540123978803116
+time=1761148807.9933813 Pos: [2.76232885 0.         0.81834091] angle 0.11540123978803116
+time=1761148808.0640898 Pos: [2.77158437 0.         0.81726805] angle 0.11540123978803116
+time=1761148808.1174421 Pos: [2.78083989 0.         0.81619518] angle 0.11540123978803116
+time=1761148808.1824698 Pos: [2.79009541 0.         0.81512231] angle 0.11540123978803116
+time=1761148808.2486615 Pos: [2.79935093 0.         0.81404945] angle 0.11540123978803116
+time=1761148808.3020396 Pos: [2.80860645 0.         0.81297658] angle 0.11540123978803116
+time=1761148808.359098 Pos: [2.81786197 0.         0.81190372] angle 0.11540123978803116
+time=1761148808.4217796 Pos: [2.82711749 0.         0.81083085] angle 0.11540123978803116
+time=1761148808.4841638 Pos: [2.83637301 0.         0.80975799] angle 0.11540123978803116
+time=1761148808.5505717 Pos: [2.84562853 0.         0.80868512] angle 0.11540123978803116
+time=1761148808.6170645 Pos: [2.85488405 0.         0.80761226] angle 0.11540123978803116
+time=1761148808.669229 Pos: [2.86413957 0.         0.80653939] angle 0.11540123978803116
+time=1761148808.7221744 Pos: [2.87339508 0.         0.80546653] angle 0.11540123978803116
+time=1761148808.7781274 Pos: [2.8826506  0.         0.80439366] angle 0.11540123978803116
+time=1761148808.8263009 Pos: [2.89190612 0.         0.8033208 ] angle 0.11540123978803116
+time=1761148808.8776093 Pos: [2.90116164 0.         0.80224793] angle 0.11540123978803116
+time=1761148808.9243577 Pos: [2.91041716 0.         0.80117507] angle 0.11540123978803116
+time=1761148808.9889872 Pos: [2.91967268 0.         0.8001022 ] angle 0.11540123978803116
+time=1761148809.0551074 Pos: [2.9289282  0.         0.79902934] angle 0.11540123978803116
+time=1761148809.101995 Pos: [2.93818372 0.         0.79795647] angle 0.11540123978803116
+time=1761148809.1564302 Pos: [2.94743924 0.         0.7968836 ] angle 0.11540123978803116
+time=1761148809.2094111 Pos: [2.95669476 0.         0.79581074] angle 0.11540123978803116
+time=1761148809.2624276 Pos: [2.96595028 0.         0.79473787] angle 0.11540123978803116
+time=1761148809.3129852 Pos: [2.9752058  0.         0.79366501] angle 0.11540123978803116
+time=1761148809.3598397 Pos: [2.98446132 0.         0.79259214] angle 0.11540123978803116
+time=1761148809.4057457 Pos: [2.99371684 0.         0.79151928] angle 0.11540123978803116
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+time=1761148809.4499543 Pos: [3.00297236 0.         0.79044641] angle 0.11540123978803116
+time=1761148809.4988933 Pos: [3.01222788 0.         0.78937355] angle 0.11540123978803116
+time=1761148809.5437348 Pos: [3.0214834  0.         0.78830068] angle 0.11540123978803116
+time=1761148809.5880554 Pos: [3.03073892 0.         0.78722782] angle 0.11540123978803116
+time=1761148809.6388555 Pos: [3.03999444 0.         0.78615495] angle 0.11540123978803116
+time=1761148809.6845028 Pos: [3.04924996 0.         0.78508209] angle 0.11540123978803116
+time=1761148809.7319958 Pos: [3.05850548 0.         0.78400922] angle 0.11540123978803116
+time=1761148809.7796328 Pos: [3.067761   0.         0.78293636] angle 0.11540123978803116
+time=1761148809.8300915 Pos: [3.07701652 0.         0.78186349] angle 0.11540123978803116
+time=1761148809.8736982 Pos: [3.08627204 0.         0.78079063] angle 0.11540123978803116
+time=1761148809.91673 Pos: [3.09552756 0.         0.77971776] angle 0.11540123978803116
+time=1761148809.9658592 Pos: [3.10478308 0.         0.77864489] angle 0.11540123978803116
+time=1761148810.0189915 Pos: [3.1140386  0.         0.77757203] angle 0.11540123978803116
+time=1761148810.0627363 Pos: [3.12329412 0.         0.77649916] angle 0.11540123978803116
+time=1761148810.1085603 Pos: [3.13254964 0.         0.7754263 ] angle 0.11540123978803116
+time=1761148810.1596406 Pos: [3.14180516 0.         0.77435343] angle 0.11540123978803116
+time=1761148810.2180283 Pos: [3.15106068 0.         0.77328057] angle 0.11540123978803116
+time=1761148810.2688181 Pos: [3.1603162 0.        0.7722077] angle 0.11540123978803116
+time=1761148810.315664 Pos: [3.16957172 0.         0.77113484] angle 0.11540123978803116
+time=1761148810.3760462 Pos: [3.17882724 0.         0.77006197] angle 0.11540123978803116
+time=1761148810.420972 Pos: [3.18808276 0.         0.76898911] angle 0.11540123978803116
+time=1761148810.4656208 Pos: [3.19733828 0.         0.76791624] angle 0.11540123978803116
+time=1761148810.517303 Pos: [3.2065938  0.         0.76684338] angle 0.11540123978803116
+time=1761148810.5716558 Pos: [3.21584932 0.         0.76577051] angle 0.11540123978803116
+time=1761148810.6248565 Pos: [3.22510484 0.         0.76469765] angle 0.11540123978803116
+time=1761148810.6836874 Pos: [3.23436036 0.         0.76362478] angle 0.11540123978803116
+time=1761148810.7561827 Pos: [3.24361588 0.         0.76255192] angle 0.11540123978803116
+time=1761148810.8093536 Pos: [3.2528714  0.         0.76147905] angle 0.11540123978803116
+time=1761148810.8582823 Pos: [3.26212692 0.         0.76040618] angle 0.11540123978803116
+time=1761148810.9110537 Pos: [3.27138244 0.         0.75933332] angle 0.11540123978803116
+time=1761148810.9625058 Pos: [3.28063796 0.         0.75826045] angle 0.11540123978803116
+time=1761148811.0165155 Pos: [3.28989348 0.         0.75718759] angle 0.11540123978803116
+time=1761148811.0830026 Pos: [3.299149   0.         0.75611472] angle 0.11540123978803116
+time=1761148811.1407309 Pos: [3.30840452 0.         0.75504186] angle 0.11540123978803116
+time=1761148811.1935654 Pos: [3.31766004 0.         0.75396899] angle 0.11540123978803116
+time=1761148811.250681 Pos: [3.32691556 0.         0.75289613] angle 0.11540123978803116
+time=1761148811.3171237 Pos: [3.33617108 0.         0.75182326] angle 0.11540123978803116
+time=1761148811.3693151 Pos: [3.3454266 0.        0.7507504] angle 0.11540123978803116
+time=1761148811.4383705 Pos: [3.35468211 0.         0.74967753] angle 0.11540123978803116
+time=1761148811.5041373 Pos: [3.36393763 0.         0.74860467] angle 0.11540123978803116
+time=1761148811.5627406 Pos: [3.37319315 0.         0.7475318 ] angle 0.11540123978803116
+time=1761148811.6403818 Pos: [3.38244867 0.         0.74645894] angle 0.11540123978803116
+time=1761148811.6974244 Pos: [3.39170419 0.         0.74538607] angle 0.11540123978803116
+time=1761148811.7535121 Pos: [3.40095971 0.         0.7443132 ] angle 0.11540123978803116
+time=1761148811.8001866 Pos: [3.41021523 0.         0.74324034] angle 0.11540123978803116
+time=1761148811.8546498 Pos: [3.41947075 0.         0.74216747] angle 0.11540123978803116
+time=1761148811.9035141 Pos: [3.42872627 0.         0.74109461] angle 0.11540123978803116
+time=1761148811.9481592 Pos: [3.43798179 0.         0.74002174] angle 0.11540123978803116
+time=1761148811.9966981 Pos: [3.44723731 0.         0.73894888] angle 0.11540123978803116
+time=1761148812.044394 Pos: [3.45649283 0.         0.73787601] angle 0.11540123978803116
+time=1761148812.088796 Pos: [3.46574835 0.         0.73680315] angle 0.11540123978803116
+time=1761148812.132774 Pos: [3.47500387 0.         0.73573028] angle 0.11540123978803116
+time=1761148812.1773076 Pos: [3.48425939 0.         0.73465742] angle 0.11540123978803116
+time=1761148812.2241201 Pos: [3.49351491 0.         0.73358455] angle 0.11540123978803116
+time=1761148812.2705617 Pos: [3.50277043 0.         0.73251169] angle 0.11540123978803116
+time=1761148812.3157904 Pos: [3.51202595 0.         0.73143882] angle 0.11540123978803116
+time=1761148812.3604696 Pos: [3.52128147 0.         0.73036596] angle 0.11540123978803116
+time=1761148812.4044862 Pos: [3.53053699 0.         0.72929309] angle 0.11540123978803116
+time=1761148812.4494715 Pos: [3.53979251 0.         0.72822023] angle 0.11540123978803116
+time=1761148812.4929054 Pos: [3.54904803 0.         0.72714736] angle 0.11540123978803116
+time=1761148812.5361814 Pos: [3.55830355 0.         0.72607449] angle 0.11540123978803116
+time=1761148812.5806398 Pos: [3.56755907 0.         0.72500163] angle 0.11540123978803116
+time=1761148812.628536 Pos: [3.57681459 0.         0.72392876] angle 0.11540123978803116
+time=1761148812.6759424 Pos: [3.58607011 0.         0.7228559 ] angle 0.11540123978803116
+time=1761148812.7191744 Pos: [3.59532563 0.         0.72178303] angle 0.11540123978803116
+time=1761148812.7652493 Pos: [3.60458115 0.         0.72071017] angle 0.11540123978803116
+time=1761148812.811221 Pos: [3.61383667 0.         0.7196373 ] angle 0.11540123978803116
+time=1761148812.862638 Pos: [3.62309219 0.         0.71856444] angle 0.11540123978803116
+time=1761148812.9217148 Pos: [3.63234771 0.         0.71749157] angle 0.11540123978803116
+time=1761148812.96754 Pos: [3.64160323 0.         0.71641871] angle 0.11540123978803116
+time=1761148813.022873 Pos: [3.65085875 0.         0.71534584] angle 0.11540123978803116
+time=1761148813.0734448 Pos: [3.66011427 0.         0.71427298] angle 0.11540123978803116
+time=1761148813.127653 Pos: [3.66936979 0.         0.71320011] angle 0.11540123978803116
+time=1761148813.1826224 Pos: [3.67862531 0.         0.71212725] angle 0.11540123978803116
+time=1761148813.2418048 Pos: [3.68788083 0.         0.71105438] angle 0.11540123978803116
+time=1761148813.2915728 Pos: [3.69713635 0.         0.70998152] angle 0.11540123978803116
+time=1761148813.3449094 Pos: [3.70639187 0.         0.70890865] angle 0.11540123978803116
+time=1761148813.4014747 Pos: [3.71564739 0.         0.70783578] angle 0.11540123978803116
+time=1761148813.4526904 Pos: [3.72490291 0.         0.70676292] angle 0.11540123978803116
+time=1761148813.5047367 Pos: [3.73415843 0.         0.70569005] angle 0.11540123978803116
+time=1761148813.584548 Pos: [3.74341395 0.         0.70461719] angle 0.11540123978803116
+time=1761148813.6465337 Pos: [3.75266947 0.         0.70354432] angle 0.11540123978803116
+time=1761148813.7052293 Pos: [3.76192499 0.         0.70247146] angle 0.11540123978803116
+time=1761148813.772583 Pos: [3.77118051 0.         0.70139859] angle 0.11540123978803116
+time=1761148813.8300831 Pos: [3.78043603 0.         0.70032573] angle 0.11540123978803116
+time=1761148813.8884342 Pos: [3.78969155 0.         0.69925286] angle 0.11540123978803116
+time=1761148813.9682198 Pos: [3.79894707 0.         0.69818   ] angle 0.11540123978803116
+time=1761148814.022774 Pos: [3.80820259 0.         0.69710713] angle 0.11540123978803116
+time=1761148814.073597 Pos: [3.81745811 0.         0.69603427] angle 0.11540123978803116
+time=1761148814.136258 Pos: [3.82671363 0.         0.6949614 ] angle 0.11540123978803116
+time=1761148814.1905468 Pos: [3.83596914 0.         0.69388854] angle 0.11540123978803116
+time=1761148814.2568533 Pos: [3.84522466 0.         0.69281567] angle 0.11540123978803116
+time=1761148814.3184626 Pos: [3.85448018 0.         0.69174281] angle 0.11540123978803116
+time=1761148814.3648698 Pos: [3.8637357  0.         0.69066994] angle 0.11540123978803116
+time=1761148814.4181688 Pos: [3.87299122 0.         0.68959707] angle 0.11540123978803116
+time=1761148814.468786 Pos: [3.88224674 0.         0.68852421] angle 0.11540123978803116
+time=1761148814.5246642 Pos: [3.89150226 0.         0.68745134] angle 0.11540123978803116
+time=1761148814.57752 Pos: [3.90075778 0.         0.68637848] angle 0.11540123978803116
+time=1761148814.6436234 Pos: [3.9100133  0.         0.68530561] angle 0.11540123978803116
+time=1761148814.691534 Pos: [3.91926882 0.         0.68423275] angle 0.11540123978803116
+time=1761148814.7515023 Pos: [3.92852434 0.         0.68315988] angle 0.11540123978803116
+time=1761148814.8198483 Pos: [3.93777986 0.         0.68208702] angle 0.11540123978803116
+time=1761148814.8871248 Pos: [3.94703538 0.         0.68101415] angle 0.11540123978803116
+time=1761148814.9528887 Pos: [3.9562909  0.         0.67994129] angle 0.11540123978803116
+time=1761148815.011786 Pos: [3.96554642 0.         0.67886842] angle 0.11540123978803116
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+time=1761148815.06141 Pos: [3.97480194 0.         0.67779556] angle 0.11540123978803116
+time=1761148815.1126971 Pos: [3.98405746 0.         0.67672269] angle 0.11540123978803116
+time=1761148815.1652224 Pos: [3.99331298 0.         0.67564983] angle 0.11540123978803116
+time=1761148815.2191374 Pos: [4.0025685  0.         0.67457696] angle 0.11540123978803116
+time=1761148815.2719948 Pos: [4.01182402 0.         0.67350409] angle 0.11540123978803116
+time=1761148815.3355837 Pos: [4.02107954 0.         0.67243123] angle 0.11540123978803116
+time=1761148815.3881183 [4.09589607 0.         0.66375878] corresponds to tile at (7, 1) which is not drivable: {'coords': (7, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fa826dca3d0>, 'color': array([1, 1, 1])}
+time=1761148815.388675 Invalid pose. Collision free: True On drivable area: False
+time=1761148815.3887446 safety_factor: 1.0
+time=1761148815.388923 pos: [4.00649469 0.         0.67412185]
+time=1761148815.3890653 l_pos: [3.9978588 0.        0.5996207]
+time=1761148815.3892052 r_pos: [4.01513059 0.         0.748623  ]
+time=1761148815.3893387 f_pos: [4.09589607 0.         0.66375878]
+time=1761148815.3893723 Stopping the simulator because we are at an invalid pose.
+time=1761148815.389543 Pos: [4.03033506 0.         0.67135836] angle 0.11540123978803116
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+Ошибка: operands could not be broadcast together with shapes (2,) (3,) 
+total reward =  -441.41489444333695
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
