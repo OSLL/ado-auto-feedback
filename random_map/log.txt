@@ -1,0 +1,188 @@
+False: Incorrect solution execution: name 'current' is not defined
+time=1761754610.3073363 gym-duckietown 2019.0.0
+
+time=1761754610.4085662 Registering gym environment id: Duckietown-4way-v0
+time=1761754610.4086444 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761754610.408691 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761754610.4087434 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761754610.408793 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761754610.4088442 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761754610.4088879 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761754610.408924 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761754610.408959 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761754610.4090087 Registering gym environment id: Duckietown-small_loop-v0
+time=1761754610.4090512 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761754610.4090946 Registering gym environment id: Duckietown-straight_road-v0
+time=1761754610.409135 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761754610.409181 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761754610.4092224 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761754610.409267 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761754610.4093094 Registering gym environment id: Duckietown-udem1-v0
+time=1761754610.409353 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761754611.6669269 Falling back to non-multisampled frame buffer
+time=1761754611.6687138 Falling back to non-multisampled frame buffer
+time=1761754611.6717494 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1761754611.6788437 loading mesh "duckiebot.obj"
+time=1761754611.6790116 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761754611.9160302 loading texture "floor_1.png"
+time=1761754611.9987674 loading texture "curve_right_1.png"
+time=1761754612.005597 loading texture "straight_1.png"
+time=1761754612.011466 loading texture "curve_left_1.png"
+time=1761754612.0185778 loading texture "4way_1.png"
+time=1761754612.2103853 loading texture "3way_left_1.png"
+time=1761754612.3965771 using user tile start: (4, 4)
+time=1761754612.3978183 tile: {'coords': (4, 4), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.6325 ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.48625],
+        [2.5155 , 0.     , 2.77875],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.5155 ],
+        [2.457  , 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.7495 , 0.     , 2.6325 ],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.48625, 0.     , 2.7495 ],
+        [2.77875, 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.5155 , 0.     , 2.7495 ],
+        [2.5155 , 0.     , 2.808  ],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.6325 ],
+        [2.6325 , 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.77875],
+        [2.7495 , 0.     , 2.48625],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.7495 , 0.     , 2.925  ],
+        [2.7495 , 0.     , 2.7495 ],
+        [2.808  , 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.6325 , 0.     , 2.5155 ],
+        [2.5155 , 0.     , 2.6325 ],
+        [2.5155 , 0.     , 2.925  ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.77875, 0.     , 2.5155 ],
+        [2.48625, 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.457  ],
+        [2.7495 , 0.     , 2.34   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f929e00c0a0>, 'color': array([1, 1, 1])}
+time=1761754612.3986359 road_tile_size=0.585
+time=1761754612.3988361 Starting at [2.6313399  0.         2.63831324] 1.3994877665051393
+time=1761754612.3990064 Pos: [2.6313399  0.         2.63831324] angle 1.3994877665051393
+time=1761754612.5162082 using DuckietownEnv
+time=1761754612.5169368 Target tile: (6, 8)
+0.585
+2.631339904468713 2.6383132407819936
+(4, 1)
+(5, 1)
+(6, 1)
+(4, 2)
+(6, 2)
+(4, 3)
+(6, 3)
+(2, 4)
+(3, 4)
+(4, 4)
+(5, 4)
+(6, 4)
+(2, 5)
+(4, 5)
+(2, 6)
+(3, 6)
+(4, 6)
+(5, 6)
+(6, 6)
+(4, 7)
+(6, 7)
+(2, 8)
+(3, 8)
+(4, 8)
+(5, 8)
+(6, 8)
+(2, 9)
+(4, 9)
+(6, 9)
+(2, 10)
+(3, 10)
+(4, 10)
+(5, 10)
+(6, 10)
+START (4, 4) GOAL (6, 8)
+OPEN SET {(4, 4)} BEST_SCORE_MAP {(4, 4): 0} EST_SCORE_MAP {(4, 4): 6}
+CUR (4, 4)
+neighbour (3, 4) score 1 True
+replacing best score for (3, 4) from None to 1
+neighbour (5, 4) score 1 True
+replacing best score for (5, 4) from None to 1
+neighbour (4, 3) score 1 True
+replacing best score for (4, 3) from None to 1
+neighbour (4, 5) score 1 True
+replacing best score for (4, 5) from None to 1
+OPEN SET {(4, 5), (5, 4), (3, 4), (4, 3)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6}
+CUR (4, 5)
+neighbour (4, 4) score 2 False
+neighbour (4, 6) score 2 True
+replacing best score for (4, 6) from None to 2
+OPEN SET {(3, 4), (4, 3), (5, 4), (4, 6)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6}
+CUR (5, 4)
+neighbour (4, 4) score 2 False
+neighbour (6, 4) score 2 True
+replacing best score for (6, 4) from None to 2
+OPEN SET {(3, 4), (4, 3), (4, 6), (6, 4)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6}
+CUR (4, 6)
+neighbour (3, 6) score 3 True
+replacing best score for (3, 6) from None to 3
+neighbour (5, 6) score 3 True
+replacing best score for (5, 6) from None to 3
+neighbour (4, 5) score 3 False
+neighbour (4, 7) score 3 True
+replacing best score for (4, 7) from None to 3
+OPEN SET {(3, 4), (4, 3), (6, 4), (5, 6), (3, 6), (4, 7)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2, (3, 6): 3, (5, 6): 3, (4, 7): 3} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6, (3, 6): 8, (5, 6): 6, (4, 7): 6}
+CUR (6, 4)
+neighbour (5, 4) score 3 False
+neighbour (6, 3) score 3 True
+replacing best score for (6, 3) from None to 3
+OPEN SET {(3, 4), (4, 3), (5, 6), (3, 6), (6, 3), (4, 7)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2, (3, 6): 3, (5, 6): 3, (4, 7): 3, (6, 3): 3} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6, (3, 6): 8, (5, 6): 6, (4, 7): 6, (6, 3): 8}
+CUR (5, 6)
+neighbour (4, 6) score 4 False
+neighbour (6, 6) score 4 True
+replacing best score for (6, 6) from None to 4
+OPEN SET {(3, 4), (4, 3), (3, 6), (6, 6), (6, 3), (4, 7)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2, (3, 6): 3, (5, 6): 3, (4, 7): 3, (6, 3): 3, (6, 6): 4} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6, (3, 6): 8, (5, 6): 6, (4, 7): 6, (6, 3): 8, (6, 6): 6}
+CUR (6, 6)
+neighbour (5, 6) score 5 False
+neighbour (6, 7) score 5 True
+replacing best score for (6, 7) from None to 5
+OPEN SET {(3, 4), (4, 3), (6, 7), (3, 6), (6, 3), (4, 7)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2, (3, 6): 3, (5, 6): 3, (4, 7): 3, (6, 3): 3, (6, 6): 4, (6, 7): 5} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6, (3, 6): 8, (5, 6): 6, (4, 7): 6, (6, 3): 8, (6, 6): 6, (6, 7): 6}
+CUR (6, 7)
+neighbour (6, 6) score 6 False
+neighbour (6, 8) score 6 True
+replacing best score for (6, 8) from None to 6
+OPEN SET {(3, 4), (4, 3), (6, 8), (3, 6), (6, 3), (4, 7)} BEST_SCORE_MAP {(4, 4): 0, (3, 4): 1, (5, 4): 1, (4, 3): 1, (4, 5): 1, (4, 6): 2, (6, 4): 2, (3, 6): 3, (5, 6): 3, (4, 7): 3, (6, 3): 3, (6, 6): 4, (6, 7): 5, (6, 8): 6} EST_SCORE_MAP {(4, 4): 6, (3, 4): 8, (5, 4): 6, (4, 3): 8, (4, 5): 6, (4, 6): 6, (6, 4): 6, (3, 6): 8, (5, 6): 6, (4, 7): 6, (6, 3): 8, (6, 6): 6, (6, 7): 6, (6, 8): 6}
+CUR (6, 8)
+END
+total reward =  0
+False: Incorrect solution execution: name 'current' is not defined
