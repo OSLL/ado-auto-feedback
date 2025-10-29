@@ -1,0 +1,218 @@
+False: Accepted
+time=1761754653.3598094 gym-duckietown 2019.0.0
+
+time=1761754653.4614134 Registering gym environment id: Duckietown-4way-v0
+time=1761754653.46149 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761754653.461531 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761754653.4615602 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761754653.4616735 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761754653.461767 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761754653.4618528 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761754653.4619038 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761754653.4619513 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761754653.4619977 Registering gym environment id: Duckietown-small_loop-v0
+time=1761754653.4620433 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761754653.4620907 Registering gym environment id: Duckietown-straight_road-v0
+time=1761754653.4621353 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761754653.4621794 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761754653.4622297 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761754653.4622781 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761754653.4623287 Registering gym environment id: Duckietown-udem1-v0
+time=1761754653.4623766 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1761754654.8495235 Falling back to non-multisampled frame buffer
+time=1761754654.8516133 Falling back to non-multisampled frame buffer
+time=1761754654.8541195 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1761754654.8618057 loading mesh "duckiebot.obj"
+time=1761754654.8620672 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1761754655.1069424 loading texture "floor_1.png"
+time=1761754655.1899183 loading texture "curve_right_1.png"
+time=1761754655.195924 loading texture "straight_1.png"
+time=1761754655.201607 loading texture "curve_left_1.png"
+time=1761754655.208922 loading texture "4way_1.png"
+time=1761754655.3956733 loading texture "3way_left_1.png"
+time=1761754655.584424 using user tile start: (1, 10)
+time=1761754655.5850182 tile: {'coords': (1, 10), 'kind': 'curve_right', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 6.0255],
+        [0.9945, 0.    , 6.0255],
+        [0.9945, 0.    , 5.967 ],
+        [0.9945, 0.    , 5.85  ]],
+
+       [[0.7605, 0.    , 5.85  ],
+        [0.7605, 0.    , 5.967 ],
+        [0.8775, 0.    , 6.318 ],
+        [1.17  , 0.    , 6.2595]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f49b869ec40>, 'color': array([1, 1, 1])}
+time=1761754655.5858233 road_tile_size=0.585
+time=1761754655.5860362 Starting at [0.89940185 0.         6.13234536] 5.2363377303666985
+time=1761754655.5862582 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754655.702984 using DuckietownEnv
+time=1761754655.703626 Target tile: (6, 4)
+0.585
+0.8994018480238447 6.132345355089285
+(0, 1)
+(1, 1)
+(2, 1)
+(0, 2)
+(2, 2)
+(4, 2)
+(5, 2)
+(6, 2)
+(0, 3)
+(2, 3)
+(4, 3)
+(6, 3)
+(0, 4)
+(1, 4)
+(2, 4)
+(3, 4)
+(4, 4)
+(5, 4)
+(6, 4)
+(2, 5)
+(4, 5)
+(2, 6)
+(3, 6)
+(4, 6)
+(5, 6)
+(6, 6)
+(2, 7)
+(4, 7)
+(6, 7)
+(1, 8)
+(2, 8)
+(4, 8)
+(5, 8)
+(6, 8)
+(1, 9)
+(5, 9)
+(1, 10)
+(2, 10)
+(3, 10)
+(4, 10)
+(5, 10)
+START (1, 10) GOAL (6, 4)
+OPEN SET {(1, 10)} BEST_SCORE_MAP {(1, 10): 0} EST_SCORE_MAP {(1, 10): 11}
+CUR (1, 10)
+neighbour (2, 10) score 1 True
+replacing best score for (2, 10) from None to 1
+neighbour (1, 9) score 1 True
+replacing best score for (1, 9) from None to 1
+OPEN SET {(2, 10), (1, 9)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11}
+CUR (2, 10)
+neighbour (1, 10) score 2 False
+neighbour (3, 10) score 2 True
+replacing best score for (3, 10) from None to 2
+OPEN SET {(1, 9), (3, 10)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11}
+CUR (1, 9)
+neighbour (1, 8) score 2 True
+replacing best score for (1, 8) from None to 2
+neighbour (1, 10) score 2 False
+OPEN SET {(1, 8), (3, 10)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11}
+CUR (1, 8)
+neighbour (2, 8) score 3 True
+replacing best score for (2, 8) from None to 3
+neighbour (1, 9) score 3 False
+OPEN SET {(3, 10), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11}
+CUR (3, 10)
+neighbour (2, 10) score 3 False
+neighbour (4, 10) score 3 True
+replacing best score for (4, 10) from None to 3
+OPEN SET {(4, 10), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11}
+CUR (4, 10)
+neighbour (3, 10) score 4 False
+neighbour (5, 10) score 4 True
+replacing best score for (5, 10) from None to 4
+OPEN SET {(5, 10), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11}
+CUR (5, 10)
+neighbour (4, 10) score 5 False
+neighbour (5, 9) score 5 True
+replacing best score for (5, 9) from None to 5
+OPEN SET {(5, 9), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11}
+CUR (5, 9)
+neighbour (5, 8) score 6 True
+replacing best score for (5, 8) from None to 6
+neighbour (5, 10) score 6 False
+OPEN SET {(5, 8), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11}
+CUR (5, 8)
+neighbour (4, 8) score 7 True
+replacing best score for (4, 8) from None to 7
+neighbour (6, 8) score 7 True
+replacing best score for (6, 8) from None to 7
+neighbour (5, 9) score 7 False
+OPEN SET {(4, 8), (6, 8), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11}
+CUR (6, 8)
+neighbour (5, 8) score 8 False
+neighbour (6, 7) score 8 True
+replacing best score for (6, 7) from None to 8
+OPEN SET {(6, 7), (4, 8), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11}
+CUR (6, 7)
+neighbour (6, 6) score 9 True
+replacing best score for (6, 6) from None to 9
+neighbour (6, 8) score 9 False
+OPEN SET {(4, 8), (6, 6), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11}
+CUR (6, 6)
+neighbour (5, 6) score 10 True
+replacing best score for (5, 6) from None to 10
+neighbour (6, 7) score 10 False
+OPEN SET {(5, 6), (4, 8), (2, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 10} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 13}
+CUR (2, 8)
+neighbour (1, 8) score 4 False
+neighbour (2, 7) score 4 True
+replacing best score for (2, 7) from None to 4
+OPEN SET {(5, 6), (4, 8), (2, 7)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 10, (2, 7): 4} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 13, (2, 7): 11}
+CUR (2, 7)
+neighbour (2, 6) score 5 True
+replacing best score for (2, 6) from None to 5
+neighbour (2, 8) score 5 False
+OPEN SET {(2, 6), (5, 6), (4, 8)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 10, (2, 7): 4, (2, 6): 5} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 13, (2, 7): 11, (2, 6): 11}
+CUR (2, 6)
+neighbour (3, 6) score 6 True
+replacing best score for (3, 6) from None to 6
+neighbour (2, 5) score 6 True
+replacing best score for (2, 5) from None to 6
+neighbour (2, 7) score 6 False
+OPEN SET {(5, 6), (4, 8), (3, 6), (2, 5)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 10, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 13, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11}
+CUR (3, 6)
+neighbour (2, 6) score 7 False
+neighbour (4, 6) score 7 True
+replacing best score for (4, 6) from None to 7
+OPEN SET {(4, 6), (5, 6), (4, 8), (2, 5)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 10, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6, (4, 6): 7} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 13, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11, (4, 6): 11}
+CUR (4, 6)
+neighbour (3, 6) score 8 False
+neighbour (5, 6) score 8 False
+replacing best score for (5, 6) from 10 to 8
+neighbour (4, 5) score 8 True
+replacing best score for (4, 5) from None to 8
+neighbour (4, 7) score 8 True
+replacing best score for (4, 7) from None to 8
+OPEN SET {(4, 5), (5, 6), (4, 8), (2, 5), (4, 7)} BEST_SCORE_MAP time=1761754655.8344378 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.0211914 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.0809624 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.125644 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.170492 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.2142134 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.2572494 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.3006353 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+time=1761754656.343658 Pos: [0.89940185 0.         6.13234536] angle 5.2363377303666985
+{(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 8, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6, (4, 6): 7, (4, 5): 8, (4, 7): 8} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 11, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11, (4, 6): 11, (4, 5): 11, (4, 7): 13}
+CUR (4, 5)
+neighbour (4, 4) score 9 True
+replacing best score for (4, 4) from None to 9
+neighbour (4, 6) score 9 False
+OPEN SET {(4, 4), (5, 6), (4, 8), (2, 5), (4, 7)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 8, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6, (4, 6): 7, (4, 5): 8, (4, 7): 8, (4, 4): 9} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 11, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11, (4, 6): 11, (4, 5): 11, (4, 7): 13, (4, 4): 11}
+CUR (4, 4)
+neighbour (3, 4) score 10 True
+replacing best score for (3, 4) from None to 10
+neighbour (5, 4) score 10 True
+replacing best score for (5, 4) from None to 10
+neighbour (4, 3) score 10 True
+replacing best score for (4, 3) from None to 10
+neighbour (4, 5) score 10 False
+OPEN SET {(3, 4), (4, 3), (5, 4), (5, 6), (4, 8), (2, 5), (4, 7)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 8, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6, (4, 6): 7, (4, 5): 8, (4, 7): 8, (4, 4): 9, (3, 4): 10, (5, 4): 10, (4, 3): 10} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 11, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11, (4, 6): 11, (4, 5): 11, (4, 7): 13, (4, 4): 11, (3, 4): 13, (5, 4): 11, (4, 3): 13}
+CUR (5, 4)
+neighbour (4, 4) score 11 False
+neighbour (6, 4) score 11 True
+replacing best score for (6, 4) from None to 11
+OPEN SET {(3, 4), (4, 3), (6, 4), (5, 6), (4, 8), (2, 5), (4, 7)} BEST_SCORE_MAP {(1, 10): 0, (2, 10): 1, (1, 9): 1, (3, 10): 2, (1, 8): 2, (2, 8): 3, (4, 10): 3, (5, 10): 4, (5, 9): 5, (5, 8): 6, (4, 8): 7, (6, 8): 7, (6, 7): 8, (6, 6): 9, (5, 6): 8, (2, 7): 4, (2, 6): 5, (3, 6): 6, (2, 5): 6, (4, 6): 7, (4, 5): 8, (4, 7): 8, (4, 4): 9, (3, 4): 10, (5, 4): 10, (4, 3): 10, (6, 4): 11} EST_SCORE_MAP {(1, 10): 11, (2, 10): 11, (1, 9): 11, (3, 10): 11, (1, 8): 11, (2, 8): 11, (4, 10): 11, (5, 10): 11, (5, 9): 11, (5, 8): 11, (4, 8): 13, (6, 8): 11, (6, 7): 11, (6, 6): 11, (5, 6): 11, (2, 7): 11, (2, 6): 11, (3, 6): 11, (2, 5): 11, (4, 6): 11, (4, 5): 11, (4, 7): 13, (4, 4): 11, (3, 4): 13, (5, 4): 11, (4, 3): 13, (6, 4): 11}
+CUR (6, 4)
+END
+PATH None
+False: Accepted
