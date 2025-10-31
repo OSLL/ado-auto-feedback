@@ -1,0 +1,30 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1761889587.190672 gym-duckietown 2019.0.0
+
+time=1761889588.4884233 Registering gym environment id: Duckietown-4way-v0
+time=1761889588.4887028 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1761889588.488878 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1761889588.489097 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1761889588.4893935 Registering gym environment id: Duckietown-loop_empty-v0
+time=1761889588.4896257 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1761889588.489907 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1761889588.4901965 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1761889588.4904583 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1761889588.4906907 Registering gym environment id: Duckietown-small_loop-v0
+time=1761889588.4909623 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1761889588.49123 Registering gym environment id: Duckietown-straight_road-v0
+time=1761889588.491488 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1761889588.4917297 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1761889588.491967 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1761889588.492221 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1761889588.4925165 Registering gym environment id: Duckietown-udem1-v0
+time=1761889588.4927702 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/no_move/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.no_move.solutions.solution' has no attribute 'NoMoveTaskSolution'
