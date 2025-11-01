@@ -1,0 +1,984 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1762012475.9861357 gym-duckietown 2019.0.0
+
+time=1762012476.094964 Registering gym environment id: Duckietown-4way-v0
+time=1762012476.095044 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1762012476.0951095 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1762012476.0951934 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1762012476.095241 Registering gym environment id: Duckietown-loop_empty-v0
+time=1762012476.0952854 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1762012476.0953565 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1762012476.0954092 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1762012476.09546 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1762012476.0955014 Registering gym environment id: Duckietown-small_loop-v0
+time=1762012476.0955503 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1762012476.0955963 Registering gym environment id: Duckietown-straight_road-v0
+time=1762012476.095645 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1762012476.095694 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1762012476.0957403 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1762012476.0957875 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1762012476.095833 Registering gym environment id: Duckietown-udem1-v0
+time=1762012476.095879 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1762012479.7996356 Falling back to non-multisampled frame buffer
+time=1762012479.8016832 Falling back to non-multisampled frame buffer
+time=1762012479.804359 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_only_duckies.yaml"
+time=1762012479.8132129 loading mesh "duckiebot.obj"
+time=1762012479.8134036 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1762012480.0559783 loading mesh "duckie.obj"
+time=1762012480.0849638 loading texture "duckie.png"
+time=1762012480.401313 loading mesh "cone.obj"
+time=1762012480.4090962 loading texture "cone.png"
+time=1762012480.4372823 loading mesh "barrier.obj"
+time=1762012480.4469929 loading texture "barrier.png"
+time=1762012480.5234377 loading texture "floor_1.png"
+time=1762012480.598769 loading texture "curve_left_1.png"
+time=1762012480.6047406 loading texture "straight_1.png"
+time=1762012480.6127415 loading texture "curve_right_1.png"
+time=1762012480.6205988 using user tile start: (1, 1)
+time=1762012480.6212513 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fd20bf061c0>, 'color': array([1, 1, 1])}
+time=1762012480.6229062 road_tile_size=0.585
+time=1762012480.6231117 Starting at [0.78619401 0.         1.08720496] 1.0819372952157047
+time=1762012480.6233125 Pos: [0.78619401 0.         1.08720496] angle 1.0819372952157047
+time=1762012480.7625003 using DuckietownEnv
+time=1762012480.910809 Pos: [0.78619401 0.         1.08720496] angle 1.0819372952157047
+time=1762012481.1048167 Pos: [0.79304251 0.         1.07502309] angle 1.035349827244589
+time=1762012481.1649375 Pos: [0.80045091 0.         1.06317338] angle 0.9887623592734731
+time=1762012481.2395084 Pos: [0.80840311 0.         1.05168154] angle 0.9421748913023573
+time=1762012481.2921693 Pos: [0.81688187 0.         1.0405725 ] angle 0.8955874233312415
+time=1762012481.3439956 Pos: [0.82586878 0.         1.02987038] angle 0.8489999553601257
+time=1762012481.3966734 Pos: [0.83534434 0.         1.0195984 ] angle 0.8024124873890099
+time=1762012481.449665 Pos: [0.845288   0.         1.00977885] angle 0.7558250194178942
+time=1762012481.5003915 Pos: [0.85567817 0.         1.00043303] angle 0.7092375514467784
+time=1762012481.5541017 Pos: [0.86649231 0.         0.99158123] angle 0.6626500834756626
+time=1762012481.6055102 Pos: [0.87770695 0.         0.98324265] angle 0.6160626155045468
+time=1762012481.6614404 Pos: [0.88929775 0.         0.9754354 ] angle 0.569475147533431
+time=1762012481.7131207 Pos: [0.90123957 0.         0.9681764 ] angle 0.5228876795623152
+time=1762012481.7690856 Pos: [0.91350648 0.         0.96148142] angle 0.47630021159119945
+time=1762012481.8219097 Pos: [0.92607188 0.         0.95536499] angle 0.4297127436200837
+time=1762012481.8742287 Pos: [0.93890849 0.         0.94984036] angle 0.383125275648968
+time=1762012481.9312415 Pos: [0.95198845 0.         0.94491954] angle 0.33653780767785224
+time=1762012481.9889224 Pos: [0.96528339 0.         0.9406132 ] angle 0.2899503397067365
+time=1762012482.0435643 Pos: [0.97876445 0.         0.93693069] angle 0.24336287173562077
+time=1762012482.0972333 Pos: [0.99240239 0.         0.93387999] angle 0.19677540376450503
+time=1762012482.1490235 Pos: [1.00612418 0.         0.93122564] angle 0.18538536358048743
+time=1762012482.2026973 Pos: [1.01988731 0.         0.92879577] angle 0.16411166079444756
+time=1762012482.255196 Pos: [1.03369219 0.         0.92661471] angle 0.14928221423384397
+time=1762012482.3070452 Pos: [1.04749403 0.         0.92441481] angle 0.16684143739741125
+time=1762012482.3589153 Pos: [1.06130442 0.         0.9222706 ] angle 0.14122104843728667
+time=1762012482.413 Pos: [1.07514521 0.         0.9203296 ] angle 0.1374363924181787
+time=1762012482.466241 Pos: [1.08901309 0.         0.91859577] angle 0.11132292652697724
+time=1762012482.5243952 Pos: [1.10288842 0.         0.91692079] angle 0.12894748118616212
+time=1762012482.5902262 Pos: [1.11675981 0.         0.91521284] angle 0.11607390451799075
+time=1762012482.6443896 Pos: [1.13064713 0.         0.91363902] angle 0.10961871779525321
+time=1762012482.6975143 Pos: [1.14454891 0.         0.91219915] angle 0.09679475065762651
+time=1762012482.750315 Pos: [1.15846532 0.         0.9109078 ] angle 0.08826098252267166
+time=1762012482.8059552 Pos: [1.1723803 0.        0.9096014] angle 0.0989594137286629
+time=1762012482.8582468 Pos: [1.18629998 0.         0.90834741] angle 0.08073055477170638
+time=1762012482.913753 Pos: [1.20023065 0.         0.90721978] angle 0.08080881934747018
+time=1762012482.9650033 Pos: [1.21417019 0.         0.90620988] angle 0.06383682930835637
+time=1762012483.0187073 Pos: [1.22811177 0.         0.90522753] angle 0.07685318021941111
+time=1762012483.071593 Pos: [1.24205183 0.         0.90422337] angle 0.066966856673631
+time=1762012483.1238403 Pos: [1.25599748 0.         0.90329925] angle 0.06537177612161299
+time=1762012483.1780553 Pos: [1.26994796 0.         0.90245189] angle 0.05596002437356994
+time=1762012483.230939 Pos: [1.28390285 0.         0.90167956] angle 0.05461724667765436
+time=1762012483.281827 Pos: [1.29785757 0.         0.90090436] angle 0.05637052607305224
+time=1762012483.3332055 Pos: [1.31181463 0.         0.90017309] angle 0.04832221518766962
+time=1762012483.3845282 Pos: [1.32577506 0.         0.89950852] angle 0.046813362256013624
+time=1762012483.43544 Pos: [1.33973756 0.         0.89888924] angle 0.04183571299838751
+time=1762012483.4923103 Pos: [1.35370095 0.         0.89829022] angle 0.04390971033350197
+time=1762012483.5485208 Pos: [1.36766367 0.         0.89767556] angle 0.04407588113853406
+time=1762012483.599143 Pos: [1.3816278 0.        0.8970942] angle 0.039141303899849815
+time=1762012483.6498117 Pos: [1.39559445 0.         0.89657688] angle 0.03490460254118515
+time=1762012483.7054543 Pos: [1.40956329 0.         0.8961223 ] angle 0.030157071086398646
+time=1762012483.7572682 Pos: [1.42353203 0.         0.89566505] angle 0.03528774067511231
+time=1762012483.8090923 Pos: [1.43749974 0.         0.89517692] angle 0.034576693605454095
+time=1762012483.8609447 Pos: [1.45146786 0.         0.89470063] angle 0.03359414628665613
+time=1762012483.9122307 Pos: [1.46543646 0.         0.89423835] angle 0.03256961687318648
+time=1762012483.963576 Pos: [1.47940648 0.         0.8938222 ] angle 0.026991420773449373
+time=1762012484.0163577 Pos: [1.49337683 0.         0.89341686] angle 0.03101988432200418
+time=1762012484.0680385 Pos: [1.50734573 0.         0.89296402] angle 0.033793740855971095
+time=1762012484.1187298 Pos: [1.52131297 0.         0.89246279] angle 0.037947901085262206
+time=1762012484.1699095 Pos: [1.53527827 0.         0.89191014] angle 0.04115612757667948
+time=1762012484.2216537 Pos: [1.54924409 0.         0.89137073] angle 0.036053672319834515
+time=1762012484.2723706 Pos: [1.5632091  0.         0.89081164] angle 0.043973107031726785
+time=1762012484.324281 Pos: [1.57717224 0.         0.89020657] angle 0.04263965521627238
+time=1762012484.3760588 Pos: [1.5911374  0.         0.88965073] angle 0.0369223965757032
+time=1762012484.4274478 Pos: [1.60510588 0.         0.88918601] angle 0.029591165443127263
+time=1762012484.4823256 Pos: [1.61907637 0.         0.88878498] angle 0.027803819528936173
+time=1762012484.53624 Pos: [1.6330467  0.         0.88837894] angle 0.030309468104164534
+time=1762012484.589201 Pos: [1.64701751 0.         0.88798965] angle 0.025404180971862193
+time=1762012484.6418371 Pos: [1.66098973 0.         0.88765456] angle 0.022552005414928033
+time=1762012484.6931653 Pos: [1.67496344 0.         0.88739022] angle 0.015276842042568968
+time=1762012484.7442675 Pos: [1.68893775 0.         0.88715812] angle 0.01793894469688166
+time=1762012484.7953465 Pos: [1.70291215 0.         0.88693219] angle 0.014392922311051607
+time=1762012484.8464835 Pos: [1.71688674 0.         0.88671751] angle 0.016329696172411933
+time=1762012484.89756 Pos: [1.73086172 0.         0.88653148] angle 0.010291727583252778
+time=1762012484.9500587 Pos: [1.74483731 0.         0.8863966 ] angle 0.009009116004731983
+time=1762012485.0018733 Pos: [1.75881307 0.         0.88628053] angle 0.007600516439062212
+time=1762012485.0537293 Pos: [1.77278886 0.         0.88616868] angle 0.008406431911793476
+time=1762012485.1057432 Pos: [1.78676467 0.         0.88605841] angle 0.0073725905856864265
+time=1762012485.157136 Pos: [1.80074075 0.         0.88599616] angle 0.0015355192475403744
+time=1762012485.2096858 Pos: [1.81471695 0.         0.88596456] angle 0.002987123405555592
+time=1762012485.2618606 Pos: [1.8286931  0.         0.88591529] angle 0.004062406899474165
+time=1762012485.3121436 Pos: [1.84266923 0.         0.88585796] angle 0.004142077662236924
+time=1762012485.3633265 Pos: [1.85664544 0.         0.88584191] angle -0.0018457344999157832
+time=1762012485.4143069 Pos: [1.87062166 0.         0.88586477] angle -0.0014247870948731712
+time=1762012485.465826 Pos: [1.88459788 0.         0.88585055] angle 0.003459471528640073
+time=1762012485.5196538 Pos: [1.89857408 0.         0.88581906] angle 0.0010468741306961758
+time=1762012485.5711744 Pos: [1.9125503  0.         0.88583421] angle -0.003215039343591042
+time=1762012485.6242018 Pos: [1.92652648 0.         0.88587586] angle -0.0027445329130681433
+time=1762012485.6772926 Pos: [1.94050269 0.         0.88586583] angle 0.004178989962792694
+time=1762012485.7306635 Pos: [1.95447887 0.         0.88587724] angle -0.005811563868281815
+time=1762012485.7836835 Pos: [1.96845503 0.         0.88591741] angle 6.389286158851523e-05
+time=1762012485.8340044 Pos: [1.98243126 0.         0.88590285] angle 0.0020190923610491833
+time=1762012485.8845851 Pos: [1.99640749 0.         0.88590519] angle -0.0023541580229137983
+time=1762012485.9362724 Pos: [2.0103837  0.         0.88593184] angle -0.0014596471670331667
+time=1762012485.9863436 Pos: [2.02435992 0.         0.8859189 ] angle 0.0033120326439548377
+time=1762012486.0372777 Pos: [2.03833614 0.         0.88590714] angle -0.001628837167054629
+time=1762012486.0907183 Pos: [2.05231238 0.         0.88590464] angle 0.001986650517014593
+time=1762012486.141861 Pos: [2.06628847 0.         0.88584313] angle 0.006815033807100251
+time=1762012486.1936002 Pos: [2.08026461 0.         0.88579976] angle -0.0006086579649518383
+time=1762012486.2455344 Pos: [2.09424068 0.         0.88574248] angle 0.00880460120155744
+time=1762012486.2965465 Pos: [2.10821562 0.         0.88555556] angle 0.017944935476209338
+time=1762012486.3478494 Pos: [2.1221901  0.         0.88533442] angle 0.013701818969903466
+time=1762012486.399106 Pos: [2.13616365 0.         0.88506409] angle 0.024984223284664372
+time=1762012486.4506454 Pos: [2.150137   0.         0.88478207] angle 0.015376950869160579
+time=1762012486.501428 Pos: [2.16411055 0.         0.88451019] angle 0.023531367062135284
+time=1762012486.5524142 Pos: [2.1780844  0.         0.88425499] angle 0.012989490279553212
+time=1762012486.6030161 Pos: [2.19205959 0.         0.88408362] angle 0.011533713072798097
+time=1762012486.653198 Pos: [2.2060347 0.        0.8839067] angle 0.013784718180911548
+time=1762012486.7064245 Pos: [2.22000988 0.         0.88373476] angle 0.010819938443686979
+0.585
+0.9553130914838385 0.9562224560172954
+0.585
+0.786194007066376 1.0872049628771012
+yellow_stripe area 1892865.0
+yellow_stripe area 1892865.0
+yellow_stripe area 2123640.0
+yellow_stripe area 2123640.0
+yellow_stripe area 2112930.0
+cone area 510.0
+yellow_stripe area 2112930.0
+yellow_stripe area 2028780.0
+yellow_stripe area 2028780.0
+yellow_stripe area 1924485.0
+cone area 510.0
+yellow_stripe area 1924485.0
+yellow_stripe area 2019855.0
+cone area 510.0
+yellow_stripe area 2019855.0
+yellow_stripe area 2419950.0
+cone area 510.0
+yellow_stripe area 2419950.0
+yellow_stripe area 2784600.0
+cone area 765.0
+yellow_stripe area 2784600.0
+yellow_stripe area 2772870.0
+cone area 765.0
+yellow_stripe area 2772870.0
+yellow_stripe area 2692290.0
+cone area 7140.0
+yellow_stripe area 2692290.0
+yellow_stripe area 2570910.0
+cone area 7140.0
+yellow_stripe area 2570910.0
+yellow_stripe area 2779245.0
+cone area 7905.0
+yellow_stripe area 2779245.0
+yellow_stripe area 3311685.0
+cone area 6375.0
+yellow_stripe area 3311685.0
+yellow_stripe area 3209940.0
+cone area 7140.0
+yellow_stripe area 3209940.0
+yellow_stripe area 2882520.0
+cone area 5865.0
+yellow_stripe area 2882520.0
+yellow_stripe area 2506905.0
+cone area 7905.0
+yellow_stripe area 2506905.0
+yellow_stripe area 2661435.0
+cone area 7905.0
+yellow_stripe area 2661435.0
+yellow_stripe area 2814435.0
+cone area 18105.0
+yellow_stripe area 2814435.0
+yellow_stripe area 3186480.0
+cone area 29325.0
+yellow_stripe area 3186480.0
+yellow_stripe area 3228810.0
+cone area 28305.0
+yellow_stripe area 3228810.0
+yellow_stripe area 2990895.0
+cone area 28560.0
+yellow_stripe area 2990895.0
+yellow_stripe area 2751195.0
+cone area 28050.0
+yellow_stripe area 2751195.0
+yellow_stripe area 3226260.0
+cone area 29070.0
+yellow_stripe area 3226260.0
+yellow_stripe area 3185460.0
+cone area 31875.0
+yellow_stripe area 3185460.0
+yellow_stripe area 2922810.0
+cone area 29835.0
+yellow_stripe area 2922810.0
+yellow_stripe area 2624970.0
+cone area 30090.0
+yellow_stripe area 2624970.0
+yellow_stripe area 2928675.0
+cone area 31365.0
+yellow_stripe area 2928675.0
+yellow_stripe area 3274455.0
+cone area 29070.0
+yellow_stripe area 3274455.0
+yellow_stripe area 3079890.0
+cone area 28560.0
+yellow_stripe area 3079890.0
+yellow_stripe area 2809845.0
+cone area 29325.0
+yellow_stripe area 2809845.0
+yellow_stripe area 2670615.0
+cone area 27540.0
+yellow_stripe area 2670615.0
+yellow_stripe area 3113805.0
+cone area 28815.0
+yellow_stripe area 3113805.0
+yellow_stripe area 3087285.0
+cone area 33660.0
+yellow_stripe area 3087285.0
+yellow_stripe area 2836365.0
+cone area 31110.0
+yellow_stripe area 2836365.0
+yellow_stripe area 2531385.0
+cone area 32640.0
+yellow_stripe area 2531385.0
+yellow_stripe area 2912865.0
+cone area 34680.0
+yellow_stripe area 2912865.0
+yellow_stripe area 3168375.0
+cone area 35190.0
+yellow_stripe area 3168375.0
+yellow_stripe area 2939895.0
+cone area 34935.0
+yellow_stripe area 2939895.0
+yellow_stripe area 2675205.0
+cone area 35190.0
+yellow_stripe area 2675205.0
+yellow_stripe area 2530620.0
+cone area 40035.0
+yellow_stripe area 2530620.0
+yellow_stripe area 2969220.0
+cone area 37740.0
+yellow_stripe area 2969220.0
+yellow_stripe area 3017415.0
+cone area 35955.0
+yellow_stripe area 3017415.0
+yellow_stripe area 2796075.0
+cone area 37485.0
+yellow_stripe area 2796075.0
+yellow_stripe area 2486505.0
+cone area 37230.0
+yellow_stripe area 2486505.0
+yellow_stripe area 2686170.0
+cone area 41820.0
+yellow_stripe area 2686170.0
+yellow_stripe area 3047505.0
+cone area 41055.0
+yellow_stripe area 3047505.0
+yellow_stripe area 2828460.0
+cone area 42075.0
+yellow_stripe area 2828460.0
+yellow_stripe area 2563770.0
+cone area 42840.0
+yellow_stripe area 2563770.0
+yellow_stripe area 2398530.0
+cone area 46410.0
+yellow_stripe area 2398530.0
+yellow_stripe area 2773890.0
+cone area 45645.0
+yellow_stripe area 2773890.0
+yellow_stripe area 2960040.0
+cone area 49980.0
+yellow_stripe area 2960040.0
+yellow_stripe area 2750940.0
+cone area 48705.0
+yellow_stripe area 2750940.0
+yellow_stripe area 2439585.0
+cone area 49725.0
+yellow_stripe area 2439585.0
+yellow_stripe area 2542605.0
+cone area 54825.0
+yellow_stripe area 2542605.0
+yellow_stripe area 2920515.0
+cone area 59670.0
+yellow_stripe area 2920515.0
+yellow_stripe area 2669340.0
+cone area 58905.0
+yellow_stripe area 2669340.0
+yellow_stripe area 2353395.0
+cone area 59415.0
+yellow_stripe area 2353395.0
+yellow_stripe area 2128230.0
+cone area 63240.0
+yellow_stripe area 2128230.0
+yellow_stripe area 2448765.0
+cone area 65790.0
+yellow_stripe area 2448765.0
+yellow_stripe area 2847330.0
+cone area 67065.0
+yellow_stripe area 2847330.0
+yellow_stripe area 3237480.0
+cone area 72420.0
+yellow_stripe area 3237480.0
+yellow_stripe area 3022515.0
+cone area 75480.0
+yellow_stripe area 3022515.0
+yellow_stripe area 2766240.0
+cone area 78540.0
+yellow_stripe area 2766240.0
+yellow_stripe area 2869515.0
+cone area 84660.0
+yellow_stripe area 2869515.0
+yellow_stripe area 3272160.0
+cone area 90270.0
+yellow_stripe area 3272160.0
+yellow_stripe area 3043425.0
+cone area 86190.0
+yellow_stripe area 3043425.0
+yellow_stripe area 2766495.0
+cone area 71655.0
+yellow_stripe area 2766495.0
+yellow_stripe area 2566065.0
+cone area 65790.0
+yellow_stripe area 2566065.0
+yellow_stripe area 3034500.0
+cone area 71910.0
+yellow_stripe area 3034500.0
+yellow_stripe area 3194895.0
+cone area 32895.0
+yellow_stripe area 3194895.0
+yellow_stripe area 2957490.0
+cone area 33150.0
+yellow_stripe area 2957490.0
+yellow_stripe area 2710395.0
+cone area 33150.0
+yellow_stripe area 2710395.0
+yellow_stripe area 2725695.0
+cone area 32895.0
+yellow_stripe area 2725695.0
+yellow_stripe area 3215295.0
+cone area 34425.0
+yellow_stripe area 3215295.0
+yellow_stripe area 3009255.0
+cone area 36210.0
+yellow_stripe area 3009255.0
+yellow_stripe area 2735130.0
+cone area 34935.0
+yellow_stripe area 2735130.0
+yellow_stripe area 2544645.0
+cone area 35190.0
+yellow_stripe area 2544645.0
+yellow_stripe area 3005940.0
+cone area 33915.0
+yellow_stripe area 3005940.0
+yellow_stripe area 3107175.0
+cone area 35955.0
+yellow_stripe area 3107175.0
+yellow_stripe area 2853705.0
+cone area 37740.0
+yellow_stripe area 2853705.0
+yellow_stripe area 2604315.0
+cone area 36975.0
+yellow_stripe area 2604315.0
+yellow_stripe area 2626500.0
+cone area 36975.0
+yellow_stripe area 2626500.0
+yellow_stripe area 3036540.0
+cone area 38505.0
+yellow_stripe area 3036540.0
+yellow_stripe area 2937855.0
+cone area 39525.0
+yellow_stripe area 2937855.0
+yellow_stripe area 2730030.0
+cone area 37995.0
+yellow_stripe area 2730030.0
+yellow_stripe area 2446980.0
+cone area 38505.0
+yellow_stripe area 2446980.0
+yellow_stripe area 2713710.0
+cone area 39015.0
+yellow_stripe area 2713710.0
+yellow_stripe area 3001860.0
+cone area 42585.0
+yellow_stripe area 3001860.0
+yellow_stripe area 2804490.0
+cone area 43095.0
+yellow_stripe area 2804490.0
+yellow_stripe area 2513280.0
+cone area 39780.0
+yellow_stripe area 2513280.0
+yellow_stripe area 2422245.0
+cone area 41310.0
+yellow_stripe area 2422245.0
+yellow_stripe area 2849625.0
+cone area 44115.0
+yellow_stripe area 2849625.0
+yellow_stripe area 2913120.0
+cone area 44115.0
+yellow_stripe area 2913120.0
+yellow_stripe area 2685405.0
+cone area 42075.0
+yellow_stripe area 2685405.0
+yellow_stripe area 2420205.0
+cone area 43095.0
+yellow_stripe area 2420205.0
+yellow_stripe area 2544135.0
+cone area 46920.0
+yellow_stripe area 2544135.0
+yellow_stripe area 2875890.0
+cone area 47175.0
+yellow_stripe area 2875890.0
+yellow_stripe area 2644860.0
+cone area 46410.0
+yellow_stripe area 2644860.0
+yellow_stripe area 2271285.0
+cone area 50235.0
+yellow_stripe area 2271285.0
+yellow_stripe area 2188155.0
+cone area 52020.0
+yellow_stripe area 2188155.0
+yellow_stripe area 2470950.0
+cone area 49980.0
+yellow_stripe area 2470950.0
+yellow_stripe area 2906490.0
+cone area 50490.0
+yellow_stripe area 2906490.0
+yellow_stripe area 3206115.0
+cone area 51510.0
+yellow_stripe area 3206115.0
+yellow_stripe area 2993190.0
+cone area 48960.0
+yellow_stripe area 2993190.0
+yellow_stripe area 2726205.0
+cone area 50490.0
+yellow_stripe area 2726205.0
+yellow_stripe area 2917200.0
+cone area 52275.0
+yellow_stripe area 2917200.0
+yellow_stripe area 3208665.0
+cone area 51765.0
+yellow_stripe area 3208665.0
+yellow_stripe area 3017160.0
+cone area 53040.0
+time=1762012486.7566485 Pos: [2.23398558 0.         0.88361221] angle 0.006717675042890888
+time=1762012486.807955 Pos: [2.24796146 0.         0.88351277] angle 0.007512905076557516
+time=1762012486.858676 Pos: [2.2619376  0.         0.88347665] angle -0.0023446138345653324
+time=1762012486.9126577 Pos: [2.27591374 0.         0.88344202] angle 0.007300291583888598
+time=1762012486.964263 Pos: [2.28988988 0.         0.88340347] angle -0.0017834731902732475
+time=1762012487.0182729 Pos: [2.30386612 0.         0.88340607] angle 0.0014104731525463746
+time=1762012487.0709927 Pos: [2.31784233 0.         0.88342022] angle -0.003434796459825541
+time=1762012487.1218705 Pos: [2.3318185  0.         0.88346522] angle -0.003004009478240402
+time=1762012487.1728144 Pos: [2.34579472 0.         0.88348563] angle 8.248326662049082e-05
+time=1762012487.2267609 Pos: [2.35977086 0.         0.88353096] angle -0.006569195061450077
+time=1762012487.2782974 Pos: [2.37374696 0.         0.88359154] angle -0.0021002695081291716
+time=1762012487.3295586 Pos: [2.38772292 0.         0.88367431] angle -0.009743703504360088
+time=1762012487.382608 Pos: [2.40169893 0.         0.88374576] angle -0.0004804970016387515
+time=1762012487.4342983 Pos: [2.41567489 0.         0.88382398] angle -0.010713109223811905
+time=1762012487.4859705 Pos: [2.42965075 0.         0.88392312] angle -0.0034740708997638235
+time=1762012487.5518694 Pos: [2.44362657 0.         0.88402686] angle -0.0113714069375425
+time=1762012487.6025712 Pos: [2.4576023  0.         0.88414323] angle -0.005280454516092235
+time=1762012487.6529787 Pos: [2.47157824 0.         0.88423485] angle -0.007831086392371733
+time=1762012487.7037802 Pos: [2.48555408 0.         0.88434071] angle -0.007318313810928317
+time=1762012487.7548566 Pos: [2.4995299  0.         0.88444927] angle -0.008215650572409357
+time=1762012487.8051746 Pos: [2.51350567 0.         0.88456318] angle -0.008085641501376814
+time=1762012487.8556054 Pos: [2.52748152 0.         0.88466799] angle -0.006913268060937774
+time=1762012487.9057987 Pos: [2.54145732 0.         0.88477872] angle -0.008932048364349764
+time=1762012487.9566355 Pos: [2.55543321 0.         0.88487574] angle -0.004950857132202021
+time=1762012488.0083635 Pos: [2.56940916 0.         0.88496534] angle -0.007870924298630207
+time=1762012488.0626273 Pos: [2.58338497 0.         0.88507527] angle -0.007861165755197477
+time=1762012488.1131058 Pos: [2.59736097 0.         0.88515549] angle -0.0036174637799549656
+time=1762012488.165128 Pos: [2.61133706 0.         0.88522027] angle -0.005653529608820214
+time=1762012488.2159562 Pos: [2.62531311 0.         0.88529196] angle -0.004605173271530284
+time=1762012488.2664528 Pos: [2.6392892  0.         0.88535686] angle -0.004682571438392961
+time=1762012488.3165615 Pos: [2.65326538 0.         0.88539519] angle -0.0008022401303825716
+time=1762012488.367263 Pos: [2.66724162 0.         0.88540281] angle -0.0002875047141509857
+time=1762012488.4171393 Pos: [2.68121777 0.         0.88536156] angle 0.006190786898443139
+time=1762012488.4673693 Pos: [2.69519357 0.         0.88525033] angle 0.009725778835011398
+time=1762012488.5177786 Pos: [2.70916867 0.         0.88507341] angle 0.01559236155795114
+time=1762012488.5706396 Pos: [2.72314333 0.         0.88486343] angle 0.014457434617802915
+time=1762012488.6235032 Pos: [2.73711762 0.         0.88463059] angle 0.01886245322346886
+time=1762012488.6745987 Pos: [2.75109186 0.         0.8843948 ] angle 0.014880710214146258
+time=1762012488.72511 Pos: [2.7650669  0.         0.88421239] angle 0.011223106376398414
+time=1762012488.7741237 Pos: [2.77904264 0.         0.88409688] angle 0.005307184113778182
+time=1762012488.8234375 Pos: [2.79301853 0.         0.88399808] angle 0.008830277428523069
+time=1762012488.8729217 Pos: [2.80699429 0.         0.8838829 ] angle 0.007652546562363074
+time=1762012488.9226143 Pos: [2.82097032 0.         0.8838071 ] angle 0.003194805622068176
+time=1762012488.9731746 Pos: [2.83494654 0.         0.88379411] angle -0.0013361352030666464
+time=1762012489.0247643 Pos: [2.84892276 0.         0.88381759] angle -0.0020231840149337542
+time=1762012489.076541 Pos: [2.86289899 0.         0.88382002] angle 0.001674357292134805
+time=1762012489.1261594 Pos: [2.87687521 0.         0.88383174] angle -0.0033509609219602708
+time=1762012489.1762855 Pos: [2.89085136 0.         0.88388189] angle -0.00382505055397127
+time=1762012489.2272234 Pos: [2.90482731 0.         0.88397077] angle -0.008893666461199315
+time=1762012489.2778163 Pos: [2.91880319 0.         0.8840692 ] angle -0.005193010225256477
+time=1762012489.3278034 Pos: [2.93277923 0.         0.88414502] angle -0.0056563180101020195
+time=1762012489.3813846 Pos: [2.94675505 0.         0.88425221] angle -0.009682391327084391
+time=1762012489.4309888 Pos: [2.96073019 0.         0.88442611] angle -0.015203159435368773
+time=1762012489.4816008 Pos: [2.97470533 0.         0.88460003] angle -0.009685393430216183
+time=1762012489.531964 Pos: [2.98868065 0.         0.8847598 ] angle -0.013178963670741463
+time=1762012489.5849364 Pos: [3.0026559  0.         0.88492597] angle -0.010600285758320317
+time=1762012489.6345775 Pos: [3.01663096 0.         0.88510665] angle -0.015255593139798518
+time=1762012489.6847804 Pos: [3.03060533 0.         0.88533476] angle -0.017389318837494158
+time=1762012489.7354307 Pos: [3.04457991 0.         0.88554987] angle -0.013393390516613722
+time=1762012489.7856243 Pos: [3.05855504 0.         0.885726  ] angle -0.01181130308431513
+time=1762012489.8354852 Pos: [3.07252999 0.         0.88591519] angle -0.01526251030558869
+time=1762012489.8860743 Pos: [3.08650411 0.         0.88615772] angle -0.019445706239708177
+time=1762012489.9365478 Pos: [3.1004775 0.        0.8864402] angle -0.020979608038443974
+time=1762012489.9858525 Pos: [3.11445153 0.         0.8866873 ] angle -0.014383204061548777
+time=1762012490.0369592 Pos: [3.12842587 0.         0.88691706] angle -0.018496681541657675
+time=1762012490.0878725 Pos: [3.14239956 0.         0.88718393] angle -0.019694535355893494
+time=1762012490.13755 Pos: [3.1563721  0.         0.88750442] angle -0.02617227958197204
+time=1762012490.1880522 Pos: [3.17034445 0.         0.88783346] angle -0.020917022783611235
+time=1762012490.2379103 Pos: [3.18431834 0.         0.88808913] angle -0.01567138370785425
+time=1762012490.2875426 Pos: [3.19829218 0.         0.88834689] angle -0.021216972518494994
+time=1762012490.3372018 Pos: [3.21226474 0.         0.8886677 ] angle -0.024694810471137276
+time=1762012490.3897467 Pos: [3.22623493 0.         0.88907722] angle -0.033915700335377996
+time=1762012490.4404821 Pos: [3.24020577 0.         0.88946223] angle -0.021186436413548948
+time=1762012490.4907532 Pos: [3.25417704 0.         0.88983246] angle -0.03180063550335792
+time=1762012490.540742 Pos: [3.26814559 0.         0.89029582] angle -0.03451738108791399
+time=1762012490.5896657 Pos: [3.28210892 0.         0.89089279] angle -0.05093577441312978
+time=1762012490.6397593 Pos: [3.29606967 0.         0.89154981] angle -0.04311863319004563
+time=1762012490.6894853 Pos: [3.31003314 0.         0.8921473 ] angle -0.042408337064985764
+time=1762012490.7395737 Pos: [3.32399812 0.         0.89270768] angle -0.03780343872178654
+time=1762012490.787968 Pos: [3.33796197 0.         0.89329523] angle -0.04630136400226181
+time=1762012490.837518 Pos: [3.35192231 0.         0.89396159] angle -0.04909001568748384
+time=1762012490.8864863 Pos: [3.36587984 0.         0.89468417] angle -0.05435785905104632
+time=1762012490.9358933 Pos: [3.3798379  0.         0.89539622] angle -0.04758110348914696
+time=1762012490.9858885 Pos: [3.3937974  0.         0.89608013] angle -0.0503245810143801
+time=1762012491.03912 Pos: [3.40774953 0.         0.89689802] angle -0.06678419231657413
+time=1762012491.0896835 Pos: [3.42169239 0.         0.89786314] angle -0.07143469056643448
+time=1762012491.141933 Pos: [3.43563767 0.         0.89879209] angle -0.061596660143020204
+time=1762012491.1932125 Pos: [3.44956452 0.         0.89995311] angle -0.10475029112162454
+time=1762012491.2438047 Pos: [3.46344388 0.         0.90159257] angle -0.13040434934992948
+time=1762012491.2972233 Pos: [3.47725411 0.         0.90373205] angle -0.17699181732104524
+time=1762012491.3485382 Pos: [3.49099661 0.         0.906277  ] angle -0.18923499258331478
+time=1762012491.3987913 Pos: [3.50466224 0.         0.90920197] angle -0.2324791290428274
+time=1762012491.4495234 Pos: [3.51818258 0.         0.91273754] angle -0.27906659701394315
+time=1762012491.5022578 Pos: [3.5315236  0.         0.91689893] angle -0.3256540649850589
+time=1762012491.5523095 Pos: [3.54465635 0.         0.9216771 ] angle -0.3722415329561746
+time=1762012491.602008 Pos: [3.55755232 0.         0.92706169] angle -0.41882900092729036
+time=1762012491.652142 Pos: [3.57018354 0.         0.93304101] angle -0.4654164688984061
+time=1762012491.7071683 Pos: [3.58252259 0.         0.93960209] angle -0.5120039368695218
+time=1762012491.7582972 Pos: [3.59454271 0.         0.94673069] angle -0.5585914048406376
+time=1762012491.8087559 Pos: [3.60621779 0.         0.95441133] angle -0.6051788728117534
+time=1762012491.8593082 Pos: [3.61752252 0.         0.96262736] angle -0.6517663407828692
+time=1762012491.9105134 Pos: [3.62843236 0.         0.97136094] angle -0.698353808753985
+time=1762012491.9609795 Pos: [3.63892363 0.         0.98059312] angle -0.7449412767251008
+time=1762012492.0127068 Pos: [3.64897357 0.         0.99030387] angle -0.7915287446962166
+time=1762012492.0635695 Pos: [3.65856037 0.         1.00047212] angle -0.8381162126673324
+time=1762012492.115705 Pos: [3.66766323 0.         1.01107579] angle -0.8847036806384482
+time=1762012492.166982 Pos: [3.67626239 0.         1.02209189] angle -0.931291148609564
+time=1762012492.2204754 Pos: [3.68433919 0.         1.03349651] angle -0.9778786165806798
+time=1762012492.2720108 Pos: [3.69187611 0.         1.04526489] angle -1.0244660845517954
+time=1762012492.323509 Pos: [3.69885679 0.         1.0573715 ] angle -1.0710535525229112
+time=1762012492.3750026 Pos: [3.70526609 0.         1.06979007] angle -1.117641020494027
+time=1762012492.426297 Pos: [3.71109009 0.         1.08249365] angle -1.1642284884651428
+time=1762012492.4774127 Pos: [3.71631616 0.         1.09545468] angle -1.2108159564362586
+time=1762012492.529155 Pos: [3.72093295 0.         1.10864502] angle -1.2574034244073744
+time=1762012492.5801334 Pos: [3.72493046 0.         1.12203606] angle -1.3039908923784902
+time=1762012492.6315467 Pos: [3.7285419  0.         1.13553757] angle -1.3148700764961678
+yellow_stripe area 3017160.0
+yellow_stripe area 2731050.0
+cone area 54060.0
+yellow_stripe area 2731050.0
+yellow_stripe area 2651745.0
+cone area 53040.0
+yellow_stripe area 2651745.0
+yellow_stripe area 3085500.0
+cone area 52785.0
+yellow_stripe area 3085500.0
+yellow_stripe area 3158430.0
+cone area 56100.0
+yellow_stripe area 3158430.0
+yellow_stripe area 2930460.0
+cone area 54060.0
+yellow_stripe area 2930460.0
+yellow_stripe area 2657865.0
+cone area 56100.0
+yellow_stripe area 2657865.0
+yellow_stripe area 2766750.0
+cone area 57120.0
+yellow_stripe area 2766750.0
+yellow_stripe area 3173730.0
+cone area 60180.0
+yellow_stripe area 3173730.0
+yellow_stripe area 2968710.0
+cone area 58395.0
+yellow_stripe area 2968710.0
+yellow_stripe area 2721360.0
+cone area 59670.0
+yellow_stripe area 2721360.0
+yellow_stripe area 2607630.0
+cone area 60180.0
+yellow_stripe area 2607630.0
+yellow_stripe area 3029400.0
+cone area 59160.0
+yellow_stripe area 3029400.0
+yellow_stripe area 3072240.0
+cone area 63240.0
+yellow_stripe area 3072240.0
+yellow_stripe area 2831010.0
+cone area 62730.0
+yellow_stripe area 2831010.0
+yellow_stripe area 2562495.0
+cone area 64260.0
+yellow_stripe area 2562495.0
+yellow_stripe area 2645880.0
+cone area 63495.0
+yellow_stripe area 2645880.0
+yellow_stripe area 3108960.0
+cone area 66555.0
+yellow_stripe area 3108960.0
+yellow_stripe area 2939385.0
+cone area 68085.0
+yellow_stripe area 2939385.0
+yellow_stripe area 2699940.0
+cone area 66810.0
+yellow_stripe area 2699940.0
+yellow_stripe area 2407200.0
+cone area 68085.0
+yellow_stripe area 2407200.0
+yellow_stripe area 2798115.0
+cone area 69615.0
+yellow_stripe area 2798115.0
+yellow_stripe area 2981205.0
+cone area 71910.0
+yellow_stripe area 2981205.0
+yellow_stripe area 2745075.0
+cone area 70380.0
+yellow_stripe area 2745075.0
+yellow_stripe area 2447490.0
+cone area 72930.0
+yellow_stripe area 2447490.0
+yellow_stripe area 2487780.0
+cone area 73950.0
+yellow_stripe area 2487780.0
+yellow_stripe area 2878440.0
+cone area 75990.0
+yellow_stripe area 2878440.0
+yellow_stripe area 2888130.0
+cone area 76245.0
+yellow_stripe area 2888130.0
+yellow_stripe area 2662710.0
+cone area 77010.0
+yellow_stripe area 2662710.0
+yellow_stripe area 2366655.0
+cone area 75735.0
+yellow_stripe area 2366655.0
+yellow_stripe area 2615025.0
+cone area 78540.0
+yellow_stripe area 2615025.0
+yellow_stripe area 2817750.0
+cone area 78540.0
+yellow_stripe area 2817750.0
+yellow_stripe area 2568105.0
+cone area 78795.0
+yellow_stripe area 2568105.0
+yellow_stripe area 2247315.0
+cone area 78795.0
+yellow_stripe area 2247315.0
+yellow_stripe area 2205750.0
+cone area 81090.0
+yellow_stripe area 2205750.0
+yellow_stripe area 2533935.0
+cone area 54570.0
+yellow_stripe area 2533935.0
+yellow_stripe area 2947545.0
+cone area 34170.0
+yellow_stripe area 2947545.0
+yellow_stripe area 3166845.0
+cone area 9435.0
+yellow_stripe area 3166845.0
+yellow_stripe area 2950860.0
+cone area 7395.0
+yellow_stripe area 2950860.0
+yellow_stripe area 2661690.0
+cone area 4590.0
+yellow_stripe area 2661690.0
+yellow_stripe area 2986050.0
+cone area 7395.0
+yellow_stripe area 2986050.0
+yellow_stripe area 3163530.0
+yellow_stripe area 3163530.0
+yellow_stripe area 2950095.0
+cone area 510.0
+yellow_stripe area 2950095.0
+yellow_stripe area 2684385.0
+yellow_stripe area 2684385.0
+yellow_stripe area 2696370.0
+yellow_stripe area 2696370.0
+yellow_stripe area 3154860.0
+cone area 510.0
+yellow_stripe area 3154860.0
+yellow_stripe area 3115590.0
+yellow_stripe area 3115590.0
+yellow_stripe area 2878185.0
+yellow_stripe area 2878185.0
+yellow_stripe area 2613495.0
+cone area 255.0
+yellow_stripe area 2613495.0
+yellow_stripe area 2831775.0
+cone area 255.0
+yellow_stripe area 2831775.0
+yellow_stripe area 3127575.0
+cone area 255.0
+yellow_stripe area 3127575.0
+yellow_stripe area 2942445.0
+cone area 255.0
+yellow_stripe area 2942445.0
+yellow_stripe area 2689485.0
+yellow_stripe area 2689485.0
+yellow_stripe area 2665770.0
+yellow_stripe area 2665770.0
+yellow_stripe area 3128340.0
+yellow_stripe area 3128340.0
+yellow_stripe area 3041895.0
+yellow_stripe area 3041895.0
+yellow_stripe area 2807040.0
+cone area 255.0
+yellow_stripe area 2807040.0
+yellow_stripe area 2534190.0
+yellow_stripe area 2534190.0
+yellow_stripe area 2717535.0
+yellow_stripe area 2717535.0
+yellow_stripe area 3103095.0
+cone area 510.0
+yellow_stripe area 3103095.0
+yellow_stripe area 2901390.0
+yellow_stripe area 2901390.0
+yellow_stripe area 2657865.0
+cone area 255.0
+yellow_stripe area 2657865.0
+yellow_stripe area 2480895.0
+cone area 255.0
+yellow_stripe area 2480895.0
+yellow_stripe area 2895525.0
+cone area 255.0
+yellow_stripe area 2895525.0
+yellow_stripe area 2971005.0
+cone area 255.0
+yellow_stripe area 2971005.0
+yellow_stripe area 2747625.0
+yellow_stripe area 2747625.0
+yellow_stripe area 2465085.0
+yellow_stripe area 2465085.0
+yellow_stripe area 2583660.0
+cone area 255.0
+yellow_stripe area 2583660.0
+yellow_stripe area 3001605.0
+cone area 510.0
+yellow_stripe area 3001605.0
+yellow_stripe area 2927400.0
+cone area 1020.0
+yellow_stripe area 2927400.0
+yellow_stripe area 2692800.0
+yellow_stripe area 2692800.0
+yellow_stripe area 2401335.0
+cone area 1275.0
+yellow_stripe area 2401335.0
+yellow_stripe area 2796840.0
+cone area 765.0
+yellow_stripe area 2796840.0
+yellow_stripe area 2951625.0
+yellow_stripe area 2951625.0
+yellow_stripe area 2710650.0
+cone area 510.0
+yellow_stripe area 2710650.0
+yellow_stripe area 2419185.0
+cone area 255.0
+yellow_stripe area 2419185.0
+yellow_stripe area 2546430.0
+yellow_stripe area 2546430.0
+yellow_stripe area 2970495.0
+yellow_stripe area 2970495.0
+yellow_stripe area 3392265.0
+yellow_stripe area 3392265.0
+yellow_stripe area 3258135.0
+yellow_stripe area 3258135.0
+yellow_stripe area 3081165.0
+cone area 255.0
+yellow_stripe area 3081165.0
+yellow_stripe area 2884560.0
+yellow_stripe area 2884560.0
+yellow_stripe area 3051840.0
+yellow_stripe area 3051840.0
+yellow_stripe area 3109725.0
+yellow_stripe area 3109725.0
+yellow_stripe area 2908530.0
+yellow_stripe area 2908530.0
+yellow_stripe area 2959530.0
+cone area 255.0
+yellow_stripe area 2959530.0
+yellow_stripe area 3287460.0
+yellow_stripe area 3287460.0
+yellow_stripe area 3163020.0
+yellow_stripe area 3163020.0
+yellow_stripe area 3019965.0
+yellow_stripe area 3019965.0
+yellow_stripe area 2846565.0
+yellow_stripe area 2846565.0
+yellow_stripe area 3326220.0
+yellow_stripe area 3326220.0
+yellow_stripe area 3307605.0
+yellow_stripe area 3307605.0
+yellow_stripe area 3122730.0
+yellow_stripe area 3122730.0
+yellow_stripe area 2846820.0
+yellow_stripe area 2846820.0
+yellow_stripe area 3211470.0
+cone area 255.0
+yellow_stripe area 3211470.0
+yellow_stripe area 3202800.0
+cone area 1275.0
+yellow_stripe area 3202800.0
+yellow_stripe area 2827185.0
+cone area 765.0
+yellow_stripe area 2827185.0
+yellow_stripe area 2628540.0
+cone area 18360.0
+yellow_stripe area 2628540.0
+yellow_stripe area 3135225.0
+cone area 276675.0
+yellow_stripe area 3135225.0
+yellow_stripe area 3187500.0
+cone area 274125.0
+yellow_stripe area 3187500.0
+yellow_stripe area 2889915.0
+cone area 285345.0
+yellow_stripe area 2889915.0
+yellow_stripe area 2707845.0
+cone area 544680.0
+yellow_stripe area 2707845.0
+yellow_stripe area 3055665.0
+cone area 782085.0
+yellow_stripe area 3055665.0
+yellow_stripe area 2878440.0
+cone area 791010.0
+yellow_stripe area 2878440.0
+yellow_stripe area 2546940.0
+cone area 812430.0
+yellow_stripe area 2546940.0
+yellow_stripe area 2779500.0
+cone area 832575.0
+yellow_stripe area 2779500.0
+yellow_stripe area 3141345.0
+cone area 862410.0
+yellow_stripe area 3141345.0
+yellow_stripe area 3533280.0
+cone area 903210.0
+yellow_stripe area 3533280.0
+yellow_stripe area 3354270.0
+cone area 947580.0
+yellow_stripe area 3354270.0
+yellow_stripe area 3261450.0
+cone area 1012350.0
+yellow_stripe area 3261450.0
+yellow_stripe area 3663585.0
+cone area 1087320.0
+yellow_stripe area 3663585.0
+yellow_stripe area 3456270.0
+cone area 1177335.0
+yellow_stripe area 3456270.0
+yellow_stripe area 3113295.0
+cone area 1296675.0
+yellow_stripe area 3113295.0
+yellow_stripe area 2962335.0
+cone area 1441005.0
+yellow_stripe area 2962335.0
+yellow_stripe area 3431280.0
+cone area 1632000.0
+yellow_stripe area 3431280.0
+yellow_stripe area 3312960.0
+cone area 1871700.0
+yellow_stripe area 3312960.0
+yellow_stripe area time=1762012492.6870005 Pos: [3.7319178  0.         1.14909962] angle -1.3387944816434139
+time=1762012492.739979 Pos: [3.73497635 0.         1.16273678] angle -1.361539013808219
+time=1762012492.7908657 Pos: [3.7379485  0.         1.17639328] angle -1.3514640969942702
+time=1762012492.8425488 Pos: [3.74087731 0.         1.19005904] angle -1.3678817141768305
+time=1762012492.8940792 Pos: [3.74363429 0.         1.20376062] angle -1.3765814511335892
+time=1762012492.9456477 Pos: [3.74622058 0.         1.21749532] angle -1.3927635353921355
+time=1762012492.997085 Pos: [3.74872456 0.         1.23124542] angle -1.3885636469002953
+time=1762012493.0485578 Pos: [3.75109101 0.         1.24501951] angle -1.4127425203986324
+time=1762012493.0995512 Pos: [3.75318876 0.         1.2588373 ] angle -1.427520428516328
+time=1762012493.1507244 Pos: [3.75509513 0.         1.27268281] angle -1.4404163837549269
+time=1762012493.202302 Pos: [3.75683456 0.         1.28655032] angle -1.4516153762033859
+time=1762012493.2551618 Pos: [3.75858878 0.         1.30041593] angle -1.4382822352229192
+time=1762012493.305532 Pos: [3.76030438 0.         1.31428626] angle -1.4571835037756828
+time=1762012493.3588727 Pos: [3.76188416 0.         1.32817293] angle -1.457858328980823
+time=1762012493.408729 Pos: [3.76331518 0.         1.34207547] angle -1.478592306519948
+time=1762012493.483275 Invalid pose. Collision free: False On drivable area: True
+time=1762012493.4833593 safety_factor: 1.0
+time=1762012493.4836721 pos: [3.76218866 0.         1.33211451]
+time=1762012493.4838915 l_pos: [3.83678163 0.         1.32431134]
+time=1762012493.484048 r_pos: [3.6875957  0.         1.33991769]
+time=1762012493.4842 f_pos: [3.77155247 0.         1.42162607]
+time=1762012493.484233 Stopping the simulator because we are at an invalid pose.
+time=1762012493.4843888 Pos: [3.76468568 0.         1.35598426] angle -1.4665654123900607
+3075555.0
+cone area 1929330.0
+yellow_stripe area 3075555.0
+yellow_stripe area 2806275.0
+cone area 1676370.0
+yellow_stripe area 2806275.0
+yellow_stripe area 3164550.0
+cone area 1802850.0
+yellow_stripe area 3164550.0
+yellow_stripe area 3269355.0
+cone area 2061420.0
+yellow_stripe area 3269355.0
+yellow_stripe area 3048780.0
+cone area 2454885.0
+yellow_stripe area 3048780.0
+yellow_stripe area 2790720.0
+cone area 2480640.0
+yellow_stripe area 2790720.0
+yellow_stripe area 3069180.0
+cone area 676770.0
+yellow_stripe area 3069180.0
+yellow_stripe area 3269100.0
+cone area 113730.0
+yellow_stripe area 3269100.0
+yellow_stripe area 2984775.0
+cone area 510.0
+yellow_stripe area 2984775.0
+yellow_stripe area 2705550.0
+cone area 1020.0
+yellow_stripe area 2705550.0
+yellow_stripe area 2572440.0
+cone area 255.0
+yellow_stripe area 2572440.0
+yellow_stripe area 3007980.0
+yellow_stripe area 3007980.0
+yellow_stripe area 3038070.0
+cone area 765.0
+yellow_stripe area 3038070.0
+yellow_stripe area 2778225.0
+cone area 510.0
+yellow_stripe area 2778225.0
+yellow_stripe area 2489310.0
+cone area 255.0
+yellow_stripe area 2489310.0
+yellow_stripe area 2712435.0
+cone area 765.0
+yellow_stripe area 2712435.0
+total reward =  -188.63499689429915
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
