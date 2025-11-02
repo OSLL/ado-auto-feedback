@@ -1,0 +1,67 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1762094365.1673346 gym-duckietown 2019.0.0
+
+time=1762094365.2685475 Registering gym environment id: Duckietown-4way-v0
+time=1762094365.2686226 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1762094365.2686582 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1762094365.2687104 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1762094365.2687593 Registering gym environment id: Duckietown-loop_empty-v0
+time=1762094365.2688117 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1762094365.2688522 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1762094365.2688947 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1762094365.2689402 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1762094365.2689893 Registering gym environment id: Duckietown-small_loop-v0
+time=1762094365.2690356 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1762094365.2690823 Registering gym environment id: Duckietown-straight_road-v0
+time=1762094365.2691271 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1762094365.2691767 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1762094365.269223 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1762094365.2692695 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1762094365.2693155 Registering gym environment id: Duckietown-udem1-v0
+time=1762094365.2693605 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1762094366.8892617 Falling back to non-multisampled frame buffer
+time=1762094366.8911827 Falling back to non-multisampled frame buffer
+time=1762094366.8937516 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_only_duckies.yaml"
+time=1762094366.9024425 loading mesh "duckiebot.obj"
+time=1762094366.902584 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1762094367.1388555 loading mesh "duckie.obj"
+time=1762094367.1661494 loading texture "duckie.png"
+time=1762094367.4788542 loading mesh "cone.obj"
+time=1762094367.4857063 loading texture "cone.png"
+time=1762094367.5133848 loading mesh "barrier.obj"
+time=1762094367.5230417 loading texture "barrier.png"
+time=1762094367.599012 loading texture "floor_1.png"
+time=1762094367.6729221 loading texture "curve_left_1.png"
+time=1762094367.6787367 loading texture "straight_1.png"
+time=1762094367.6862934 loading texture "curve_right_1.png"
+time=1762094367.6937735 using user tile start: (1, 1)
+time=1762094367.694277 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f89715c4160>, 'color': array([1, 1, 1])}
+time=1762094367.6953523 road_tile_size=0.585
+time=1762094367.6955864 Starting at [0.92240318 0.         1.01360502] 1.2788928235957409
+time=1762094367.6957648 Pos: [0.92240318 0.         1.01360502] angle 1.2788928235957409
+time=1762094367.8331296 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 31, in __init__
+    self.angle_to_target = self.calculate_angle_to_target(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 148, in calculate_angle_to_target
+    dx = self.target_coordinates[0] - robot_x
+AttributeError: 'AdoMainTaskSolution' object has no attribute 'target_coordinates'
+0.585
+0.9224031813769575 1.013605015251376
