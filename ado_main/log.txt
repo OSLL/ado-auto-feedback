@@ -1,0 +1,103 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1762361390.8277872 gym-duckietown 2019.0.0
+
+time=1762361391.1912732 Registering gym environment id: Duckietown-4way-v0
+time=1762361391.191363 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1762361391.1914132 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1762361391.1914468 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1762361391.191483 Registering gym environment id: Duckietown-loop_empty-v0
+time=1762361391.1915374 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1762361391.1915922 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1762361391.1916435 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1762361391.191701 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1762361391.1917567 Registering gym environment id: Duckietown-small_loop-v0
+time=1762361391.1918132 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1762361391.1918693 Registering gym environment id: Duckietown-straight_road-v0
+time=1762361391.191919 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1762361391.1919775 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1762361391.1920328 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1762361391.1920886 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1762361391.1921442 Registering gym environment id: Duckietown-udem1-v0
+time=1762361391.1922002 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1762361393.6122916 Falling back to non-multisampled frame buffer
+time=1762361393.6142073 Falling back to non-multisampled frame buffer
+time=1762361393.6174402 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/loop_only_duckies.yaml"
+time=1762361393.6268444 loading mesh "duckiebot.obj"
+time=1762361393.6270125 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1762361393.8478017 loading mesh "duckie.obj"
+time=1762361393.8735867 loading texture "duckie.png"
+time=1762361394.2300444 loading mesh "cone.obj"
+time=1762361394.2366073 loading texture "cone.png"
+time=1762361394.2647727 loading mesh "barrier.obj"
+time=1762361394.2735627 loading texture "barrier.png"
+time=1762361394.3520403 loading texture "floor_1.png"
+time=1762361394.4327185 loading texture "curve_left_1.png"
+time=1762361394.4386384 loading texture "straight_1.png"
+time=1762361394.4467647 loading texture "curve_right_1.png"
+time=1762361394.4552217 using user tile start: (1, 1)
+time=1762361394.455946 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f6a5bd5b370>, 'color': array([1, 1, 1])}
+time=1762361394.4564939 [0.66579036 0.         0.53437567] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f6a5bd5b160>, 'color': array([1, 1, 1])}
+time=1762361394.4569397 Invalid pose. Collision free: True On drivable area: False
+time=1762361394.456976 safety_factor: 1.3
+time=1762361394.4571524 pos: [0.58573888 0.         0.59003545]
+time=1762361394.4573045 l_pos: [0.66579036 0.         0.53437567]
+time=1762361394.457444 r_pos: [0.5056874  0.         0.64569522]
+time=1762361394.4575875 f_pos: [0.65253061 0.         0.68609723]
+time=1762361394.4580543 [0.55065729 0.         0.95978035] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f6a5bd5b160>, 'color': array([1, 1, 1])}
+time=1762361394.4584744 Invalid pose. Collision free: True On drivable area: False
+time=1762361394.4585185 safety_factor: 1.3
+time=1762361394.4586964 pos: [0.62901437 0.         1.01780118]
+time=1762361394.4588544 l_pos: [0.55065729 0.         0.95978035]
+time=1762361394.4590142 r_pos: [0.70737146 0.         1.07582202]
+time=1762361394.459179 f_pos: [0.69863937 0.         0.92377268]
+time=1762361394.4596262 [0.85780082 0.         0.57048338] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f6a5bd5b160>, 'color': array([1, 1, 1])}
+time=1762361394.4600184 Invalid pose. Collision free: True On drivable area: False
+time=1762361394.4600604 safety_factor: 1.3
+time=1762361394.4602325 pos: [0.85780082 0.         0.57048338]
+time=1762361394.4603956 l_pos: [0.94762471 0.         0.60840327]
+time=1762361394.4605548 r_pos: [0.76797693 0.         0.53256348]
+time=1762361394.4607124 f_pos: [0.81229695 0.         0.67827205]
+time=1762361394.4618921 road_tile_size=0.585
+time=1762361394.462075 Starting at [1.00291366 0.         0.73126881] 0.8427985612487698
+time=1762361394.4623036 Pos: [1.00291366 0.         0.73126881] angle 0.8427985612487698
+time=1762361395.300225 using DuckietownEnv
+time=1762361395.462456 Pos: [1.00291366 0.         0.73126881] angle 0.8427985612487698
+time=1762361395.6566255 Pos: [1.00904252 0.         0.72425099] angle 0.8630294711113203
+time=1762361395.7256732 Pos: [1.01503539 0.         0.71711665] angle 0.8812388087519417
+time=1762361395.7805908 Pos: [1.02090386 0.         0.70987961] angle 0.8976593512466936
+time=1762361395.8322105 Pos: [1.02665851 0.         0.70255171] angle 0.912496814456323
+time=1762361395.8823974 Pos: [1.03230901 0.         0.69514319] angle 0.9259330193490487
+time=1762361395.932017 Pos: [1.03786411 0.         0.68766285] angle 0.9381286835736711
+time=1762361395.981934 Pos: [1.04333172 0.         0.68011831] angle 0.9492258835362362
+time=1762361396.0328205 Pos: [1.04871898 0.         0.67251618] angle 0.959350226580472
+time=1762361396.0827165 Pos: [1.0540323  0.         0.66486218] angle 0.9686127679638264
+time=1762361396.1481032 Pos: [1.05927744 0.         0.65716129] angle 0.977111703051753
+time=1762361396.197046 Pos: [1.06445956 0.         0.64941785] angle 0.9849338614336065
+time=1762361396.2451463 Pos: [1.06958329 0.         0.64163565] angle 0.9921560264183791
+time=1762361396.2924385 [1.11037678 0.         0.57832209] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f6a5bd5b160>, 'color': array([1, 1, 1])}
+time=1762361396.29288 Invalid pose. Collision free: True On drivable area: False
+time=1762361396.2929196 safety_factor: 1.0
+time=1762361396.293165 pos: [1.06166222 0.         0.65399832]
+time=1762361396.2933607 l_pos: [0.9985987  0.         0.61340285]
+time=1762361396.2935283 r_pos: [1.12472574 0.         0.69459379]
+time=1762361396.2936957 f_pos: [1.11037678 0.         0.57832209]
+time=1762361396.2937353 Stopping the simulator because we are at an invalid pose.
+time=1762361396.2939167 Pos: [1.07465277 0.         0.63381799] angle 0.9988461005330957
+0.585
+0.5994397510663518 0.60974042879467
+0.585
+0.6432964227629058 0.9985132843055085
+0.585
+0.8484666935427616 0.5925938725834903
+0.585
+1.0029136588333927 0.7312688120201293
+total reward =  -39.40610796434706
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
