@@ -1,0 +1,967 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1762596792.7583232 gym-duckietown 2019.0.0
+
+time=1762596792.8436024 Registering gym environment id: Duckietown-4way-v0
+time=1762596792.8436916 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1762596792.8437407 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1762596792.8437881 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1762596792.8438623 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1762596792.8439035 Registering gym environment id: Duckietown-loop_empty-v0
+time=1762596792.843963 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1762596792.8440154 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1762596792.8440664 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1762596792.8441224 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1762596792.8441737 Registering gym environment id: Duckietown-small_loop-v0
+time=1762596792.844229 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1762596792.844278 Registering gym environment id: Duckietown-straight_road-v0
+time=1762596792.8443239 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1762596792.844376 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1762596792.844429 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1762596792.844471 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1762596792.844522 Registering gym environment id: Duckietown-udem1-v0
+time=1762596792.8445683 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1762596794.2700665 Falling back to non-multisampled frame buffer
+time=1762596794.2720382 Falling back to non-multisampled frame buffer
+time=1762596794.2752976 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1762596794.279648 loading mesh "duckiebot.obj"
+time=1762596794.279799 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1762596794.5039651 loading texture "straight_1.png"
+time=1762596794.518134 using user tile start: [6, 0]
+time=1762596794.5187192 tile: {'coords': (6, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[3.51   , 0.     , 0.4095 ],
+        [3.65625, 0.     , 0.4095 ],
+        [3.94875, 0.     , 0.4095 ],
+        [4.095  , 0.     , 0.4095 ]],
+
+       [[4.095  , 0.     , 0.1755 ],
+        [3.94875, 0.     , 0.1755 ],
+        [3.65625, 0.     , 0.1755 ],
+        [3.51   , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f450ab68dc0>, 'color': array([1, 1, 1])}
+time=1762596794.519518 road_tile_size=0.585
+time=1762596794.5197034 Starting at [3.54234807 0.         0.25684825] 5.289033740664909
+time=1762596794.51986 Pos: [3.54234807 0.         0.25684825] angle 5.289033740664909
+time=1762596794.626729 using DuckietownEnv
+time=1762596794.7620094 Pos: [3.54234807 0.         0.25684825] angle 5.289033740664909
+time=1762596794.9509873 Pos: [3.54394857 0.         0.25852212] angle 5.661733484433835
+time=1762596795.0085542 Pos: [3.5460487  0.         0.25949829] angle 6.0344332282027615
+time=1762596795.0520833 Pos: [3.54814884 0.         0.26047445] angle 5.661733484433835
+time=1762596795.097058 Pos: [3.55024897 0.         0.26145062] angle 6.0344332282027615
+time=1762596795.139521 Pos: [3.55256038 0.         0.26159504] angle 6.407132971971688
+time=1762596795.1820967 Pos: [3.55256038 0.         0.26159504] angle 6.430426705957245
+time=1762596795.2232072 Pos: [3.55256038 0.         0.26159504] angle 6.453720439942803
+time=1762596795.2652216 Pos: [3.55256038 0.         0.26159504] angle 6.47701417392836
+time=1762596795.3060768 Pos: [3.55487623 0.         0.26157772] angle 6.104314430159434
+time=1762596795.3503652 Pos: [3.55487623 0.         0.26157772] angle 6.127608164144991
+time=1762596795.3924966 Pos: [3.55487623 0.         0.26157772] angle 6.150901898130549
+time=1762596795.4468696 Pos: [3.55487623 0.         0.26157772] angle 6.174195632116106
+time=1762596795.488341 Pos: [3.55487623 0.         0.26157772] angle 6.197489366101664
+time=1762596795.5295827 Pos: [3.55487623 0.         0.26157772] angle 6.220783100087221
+time=1762596795.5729184 Pos: [3.55487623 0.         0.26157772] angle 6.244076834072779
+time=1762596795.613511 Pos: [3.55487623 0.         0.26157772] angle 6.267370568058336
+time=1762596795.6548955 Pos: [3.55714498 0.         0.26204273] angle 5.89467082428941
+time=1762596795.6974077 Pos: [3.55714498 0.         0.26204273] angle 5.917964558274967
+time=1762596795.7383928 Pos: [3.55714498 0.         0.26204273] angle 5.941258292260525
+time=1762596795.7786043 Pos: [3.55714498 0.         0.26204273] angle 5.964552026246082
+time=1762596795.8223872 Pos: [3.55714498 0.         0.26204273] angle 5.9878457602316395
+time=1762596795.8634176 Pos: [3.55714498 0.         0.26204273] angle 6.011139494217197
+time=1762596795.904171 Pos: [3.5594524  0.         0.26224096] angle 6.383839237986123
+time=1762596795.945617 Pos: [3.5594524  0.         0.26224096] angle 6.407132971971681
+time=1762596795.989084 Pos: [3.5594524  0.         0.26224096] angle 6.430426705957238
+time=1762596796.0322297 Pos: [3.5594524  0.         0.26224096] angle 6.453720439942796
+time=1762596796.0751228 Pos: [3.5594524  0.         0.26224096] angle 6.477014173928353
+time=1762596796.1278207 Pos: [3.56160295 0.         0.26138155] angle 6.849713917697279
+time=1762596796.1736164 Pos: [3.56375351 0.         0.26052215] angle 6.477014173928353
+time=1762596796.2295704 Pos: [3.56590406 0.         0.25966274] angle 6.849713917697279
+time=1762596796.2723784 Pos: [3.56805462 0.         0.25880334] angle 6.477014173928353
+time=1762596796.3148913 Pos: [3.57020517 0.         0.25794393] angle 6.849713917697279
+time=1762596796.3564014 Pos: [3.57235573 0.         0.25708453] angle 6.477014173928353
+time=1762596796.3982701 Pos: [3.57450628 0.         0.25622512] angle 6.849713917697279
+time=1762596796.4404542 Pos: [3.57665684 0.         0.25536572] angle 6.477014173928353
+time=1762596796.483472 Pos: [3.57880739 0.         0.25450631] angle 6.849713917697279
+time=1762596796.5286036 Pos: [3.58095795 0.         0.25364691] angle 6.477014173928353
+time=1762596796.5727558 Pos: [3.5831085 0.        0.2527875] angle 6.849713917697279
+time=1762596796.6168284 Pos: [3.58525906 0.         0.2519281 ] angle 6.477014173928353
+time=1762596796.659673 Pos: [3.58740961 0.         0.2510687 ] angle 6.849713917697279
+time=1762596796.7058911 Pos: [3.58956017 0.         0.25020929] angle 6.477014173928353
+time=1762596796.7603538 Pos: [3.59171072 0.         0.24934989] angle 6.849713917697279
+time=1762596796.8013494 Pos: [3.59386127 0.         0.24849048] angle 6.477014173928353
+time=1762596796.8429122 Pos: [3.59601183 0.         0.24763108] angle 6.849713917697279
+time=1762596796.8849638 Pos: [3.59816238 0.         0.24677167] angle 6.477014173928353
+time=1762596796.9259439 Pos: [3.60031294 0.         0.24591227] angle 6.849713917697279
+time=1762596796.9699728 Pos: [3.60246349 0.         0.24505286] angle 6.477014173928353
+time=1762596797.0119803 Pos: [3.60461405 0.         0.24419346] angle 6.849713917697279
+time=1762596797.0567536 Pos: [3.6067646  0.         0.24333405] angle 6.477014173928353
+time=1762596797.102011 Pos: [3.60891516 0.         0.24247465] angle 6.849713917697279
+time=1762596797.1437578 Pos: [3.61106571 0.         0.24161524] angle 6.477014173928353
+time=1762596797.1882057 Pos: [3.61321627 0.         0.24075584] angle 6.849713917697279
+time=1762596797.2314143 Pos: [3.61536682 0.         0.23989643] angle 6.477014173928353
+time=1762596797.2735257 Pos: [3.61751738 0.         0.23903703] angle 6.849713917697279
+time=1762596797.315028 Pos: [3.61966793 0.         0.23817763] angle 6.477014173928353
+time=1762596797.3569703 Pos: [3.62198378 0.         0.2381603 ] angle 6.104314430159427
+time=1762596797.4012 Pos: [3.62429963 0.         0.23814298] angle 6.477014173928353
+time=1762596797.4561276 Pos: [3.62661548 0.         0.23812566] angle 6.104314430159427
+time=1762596797.5006218 Pos: [3.62893133 0.         0.23810834] angle 6.477014173928353
+time=1762596797.5424762 Pos: [3.63108189 0.         0.23724894] angle 6.849713917697279
+time=1762596797.587695 Pos: [3.63323244 0.         0.23638953] angle 6.477014173928353
+time=1762596797.6355364 Pos: [3.635383   0.         0.23553013] angle 6.849713917697279
+time=1762596797.6937785 Pos: [3.63753355 0.         0.23467072] angle 6.477014173928353
+time=1762596797.7367527 Pos: [3.6398494 0.        0.2346534] angle 6.104314430159427
+time=1762596797.7816992 Pos: [3.64216525 0.         0.23463608] angle 6.477014173928353
+time=1762596797.824065 Pos: [3.64431581 0.         0.23377668] angle 6.849713917697279
+time=1762596797.8652983 Pos: [3.64646636 0.         0.23291727] angle 6.477014173928353
+time=1762596797.9081311 Pos: [3.64861692 0.         0.23205787] angle 6.849713917697279
+time=1762596797.9500191 Pos: [3.65076747 0.         0.23119846] angle 6.477014173928353
+time=1762596797.9935958 Pos: [3.65291803 0.         0.23033906] angle 6.849713917697279
+time=1762596798.0373967 Pos: [3.65506858 0.         0.22947965] angle 6.477014173928353
+time=1762596798.0799859 Pos: [3.65506858 0.         0.22947965] angle 6.5003079079139106
+time=1762596798.1243486 Pos: [3.6573834 0.        0.2294084] angle 6.127608164144984
+time=1762596798.1695023 Pos: [3.6573834 0.        0.2294084] angle 6.150901898130542
+time=1762596798.2157547 Pos: [3.6573834 0.        0.2294084] angle 6.174195632116099
+time=1762596798.256217 Pos: [3.6573834 0.        0.2294084] angle 6.197489366101657
+time=1762596798.2975214 Pos: [3.6573834 0.        0.2294084] angle 6.220783100087214
+time=1762596798.338159 Pos: [3.6573834 0.        0.2294084] angle 6.2440768340727715
+time=1762596798.3816428 Pos: [3.6573834 0.        0.2294084] angle 6.267370568058329
+time=1762596798.4224463 Pos: [3.65966572 0.         0.22901537] angle 6.640070311827255
+time=1762596798.4644022 Pos: [3.66164824 0.         0.22781825] angle 7.012770055596182
+time=1762596798.5059109 Pos: [3.66305875 0.         0.22598142] angle 7.385469799365108
+0.585
+3.542348067011726 0.25684824998100264
+Detected lines: 8
+Valid lines after filtering: 1
+d_error: 46.662, theta_error: 1.544, lost: False
+Detected lines: 7
+Valid lines after filtering: 3
+d_error: 92.302, theta_error: 1.557, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -66.250, theta_error: -1.552, lost: False
+Detected lines: 6
+Valid lines after filtering: 2
+d_error: 110.482, theta_error: 1.560, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 116.444, theta_error: 1.560, lost: False
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 52.769, theta_error: 1.548, lost: False
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 1
+d_error: -51.916, theta_error: -1.547, lost: False
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 6
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: 67.933, theta_error: 1.552, lost: False
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 54.003, theta_error: 1.548, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: -589.039, theta_error: -1.569, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 54.003, theta_error: 1.548, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: -399.723, theta_error: -1.568, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 54.003, theta_error: 1.548, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: -399.723, theta_error: -1.568, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 56.469, theta_error: 1.549, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -96.891, theta_error: -1.558, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 56.469, theta_error: 1.549, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -96.891, theta_error: -1.558, lost: False
+Detected lines: 7
+Valid lines after filtering: 3
+d_error: -33.863, theta_error: -1.534, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 3
+d_error: -33.863, theta_error: -1.534, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -30.010, theta_error: -1.529, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -43.829, theta_error: -1.542, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -43.829, theta_error: -1.542, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -43.829, theta_error: -1.542, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 1
+d_error: -4.632, theta_error: -1.279, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 7
+Valid lines after filtering: 1
+d_error: -4.632, theta_error: -1.279, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: -37.841, theta_error: -1.537, lost: False
+Detected lines: 6
+Valid lines after filtering: 3
+d_error: -88.976, theta_error: -1.557, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -98.019, theta_error: -1.558, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: -41.716, theta_error: -1.541, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -98.019, theta_error: -1.558, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: -41.716, theta_error: -1.541, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 63.869, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -128.613, theta_error: -1.561, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 63.869, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -128.613, theta_error: -1.561, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -98.019, theta_error: -1.558, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: -42.953, theta_error: -1.542, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 65.103, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -128.613, theta_error: -1.561, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 65.103, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -128.613, theta_error: -1.561, lost: False
+Detected lines: 4
+Valid lines after filtering: 1
+d_error: 65.103, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -128.613, theta_error: -1.561, lost: False
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 2
+d_error: -79.304, theta_error: -1.555, lost: False
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -33.941, theta_error: -1.534, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -6.332, theta_error: -1.347, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2386.874, theta_error: 1.570, lost: False
+Detected lines: 9
+Valid lines after filtering: 1
+time=1762596798.5512507 Pos: [3.66446925 0.         0.2241446 ] angle 7.012770055596182
+time=1762596798.6066074 Pos: [3.66587976 0.         0.22230777] angle 7.385469799365108
+time=1762596798.6480358 Pos: [3.66729027 0.         0.22047094] angle 7.012770055596182
+time=1762596798.6927285 Pos: [3.66870078 0.         0.21863412] angle 7.385469799365108
+time=1762596798.7518659 Pos: [3.67011128 0.         0.21679729] angle 7.012770055596182
+time=1762596798.8097022 Pos: [3.67152179 0.         0.21496046] angle 7.385469799365108
+time=1762596798.8684375 Pos: [3.6729323  0.         0.21312364] angle 7.012770055596182
+time=1762596798.909867 Pos: [3.6743428  0.         0.21128681] angle 7.385469799365108
+time=1762596798.9516633 Pos: [3.67575331 0.         0.20944998] angle 7.012770055596182
+time=1762596798.995432 Pos: [3.67716382 0.         0.20761316] angle 7.385469799365108
+time=1762596799.038224 Pos: [3.67857432 0.         0.20577633] angle 7.012770055596182
+time=1762596799.080512 Pos: [3.67998483 0.         0.2039395 ] angle 7.385469799365108
+time=1762596799.1217403 Pos: [3.67998483 0.         0.2039395 ] angle 7.408763533350665
+time=1762596799.1614027 Pos: [3.67998483 0.         0.2039395 ] angle 7.432057267336223
+time=1762596799.2039206 Pos: [3.68130827 0.         0.20203898] angle 7.0593575235672965
+time=1762596799.245924 Pos: [3.68323288 0.         0.20075084] angle 6.68665777979837
+time=1762596799.290915 Pos: [3.6851575 0.        0.1994627] angle 7.0593575235672965
+time=1762596799.332953 Pos: [3.68708212 0.         0.19817455] angle 6.68665777979837
+time=1762596799.3777952 Pos: [3.68900673 0.         0.19688641] angle 7.0593575235672965
+time=1762596799.4198422 Pos: [3.69093135 0.         0.19559827] angle 6.68665777979837
+time=1762596799.4700487 Pos: [3.69093135 0.         0.19559827] angle 6.709951513783928
+time=1762596799.5146387 Pos: [3.69282544 0.         0.19426565] angle 7.082651257552854
+time=1762596799.5591204 Pos: [3.69471953 0.         0.19293302] angle 6.709951513783928
+time=1762596799.6027474 Pos: [3.69661363 0.         0.1916004 ] angle 7.082651257552854
+time=1762596799.6479077 Pos: [3.69789244 0.         0.18966957] angle 7.45535100132178
+time=1762596799.688639 Pos: [3.69838038 0.         0.18740564] angle 7.828050745090707
+time=1762596799.7305665 Pos: [3.69838038 0.         0.18740564] angle 7.851344479076264
+time=1762596799.7701855 Pos: [3.69838038 0.         0.18740564] angle 7.8746382130618215
+time=1762596799.8095992 Pos: [3.69838038 0.         0.18740564] angle 7.897931947047379
+time=1762596799.8493538 Pos: [3.69838038 0.         0.18740564] angle 7.9212256810329364
+time=1762596799.8910403 Pos: [3.69838038 0.         0.18740564] angle 7.944519415018494
+time=1762596799.9327996 Pos: [3.69838038 0.         0.18740564] angle 7.967813149004051
+time=1762596799.972535 Pos: [3.69838038 0.         0.18740564] angle 7.991106882989609
+time=1762596800.0233965 Pos: [3.69838038 0.         0.18740564] angle 8.014400616975166
+time=1762596800.0626717 Pos: [3.69838038 0.         0.18740564] angle 8.037694350960724
+time=1762596800.103395 Pos: [3.69838038 0.         0.18740564] angle 8.060988084946281
+time=1762596800.142769 Pos: [3.69838038 0.         0.18740564] angle 8.084281818931839
+time=1762596800.1837194 Pos: [3.69838038 0.         0.18740564] angle 8.107575552917396
+time=1762596800.226167 Pos: [3.69838038 0.         0.18740564] angle 8.130869286902954
+time=1762596800.268058 Pos: [3.69838038 0.         0.18740564] angle 8.154163020888511
+time=1762596800.3080437 Pos: [3.69838038 0.         0.18740564] angle 8.177456754874068
+time=1762596800.3479352 Pos: [3.69838038 0.         0.18740564] angle 8.200750488859626
+time=1762596800.3880525 Pos: [3.69838038 0.         0.18740564] angle 8.224044222845183
+time=1762596800.4276564 Pos: [3.69838038 0.         0.18740564] angle 8.24733795683074
+time=1762596800.4674208 Pos: [3.69838038 0.         0.18740564] angle 8.270631690816298
+time=1762596800.50731 Pos: [3.69838038 0.         0.18740564] angle 8.293925424801856
+time=1762596800.5473008 Pos: [3.69779935 0.         0.1851638 ] angle 7.921225681032929
+time=1762596800.590139 Pos: [3.69779935 0.         0.1851638 ] angle 7.944519415018487
+time=1762596800.629048 Pos: [3.69779935 0.         0.1851638 ] angle 7.967813149004044
+time=1762596800.6680381 Pos: [3.69779935 0.         0.1851638 ] angle 7.991106882989602
+time=1762596800.7099316 Pos: [3.69779935 0.         0.1851638 ] angle 8.01440061697516
+time=1762596800.751464 Pos: [3.69779935 0.         0.1851638 ] angle 8.037694350960717
+time=1762596800.7936778 Pos: [3.69779935 0.         0.1851638 ] angle 8.060988084946274
+time=1762596800.8357887 Pos: [3.69779935 0.         0.1851638 ] angle 8.084281818931832
+time=1762596800.8757827 Pos: [3.69779935 0.         0.1851638 ] angle 8.107575552917389
+time=1762596800.915253 Pos: [3.69779935 0.         0.1851638 ] angle 8.130869286902946
+time=1762596800.9583771 Pos: [3.69779935 0.         0.1851638 ] angle 8.154163020888504
+time=1762596800.997538 Pos: [3.69779935 0.         0.1851638 ] angle 8.177456754874061
+time=1762596801.040532 Pos: [3.69779935 0.         0.1851638 ] angle 8.200750488859619
+time=1762596801.085317 Pos: [3.69779935 0.         0.1851638 ] angle 8.224044222845176
+time=1762596801.1247153 Pos: [3.69779935 0.         0.1851638 ] angle 8.247337956830734
+time=1762596801.164437 Pos: [3.69779935 0.         0.1851638 ] angle 8.270631690816291
+time=1762596801.2060406 Pos: [3.69779935 0.         0.1851638 ] angle 8.293925424801849
+time=1762596801.245386 Pos: [3.69644188 0.         0.18328743] angle 8.666625168570775
+time=1762596801.2889395 Pos: [3.69508442 0.         0.18141106] angle 8.293925424801849
+time=1762596801.3294532 Pos: [3.69372696 0.         0.1795347 ] angle 8.666625168570775
+time=1762596801.3711858 Pos: [3.69236949 0.         0.17765833] angle 8.293925424801849
+time=1762596801.417578 Pos: [3.69101203 0.         0.17578196] angle 8.666625168570775
+time=1762596801.4642088 Pos: [3.68965456 0.         0.1739056 ] angle 8.293925424801849
+time=1762596801.5082984 Pos: [3.6882971  0.         0.17202923] angle 8.666625168570775
+time=1762596801.548679 Pos: [3.68693964 0.         0.17015286] angle 8.293925424801849
+time=1762596801.58891 Pos: [3.68558217 0.         0.16827649] angle 8.666625168570775
+time=1762596801.6335163 Pos: [3.68422471 0.         0.16640013] angle 8.293925424801849
+time=1762596801.675104 Pos: [3.68286724 0.         0.16452376] angle 8.666625168570775
+time=1762596801.716967 Pos: [3.68150978 0.         0.16264739] angle 8.293925424801849
+time=1762596801.7573571 Pos: [3.68015231 0.         0.16077102] angle 8.666625168570775
+time=1762596801.798346 Pos: [3.67879485 0.         0.15889466] angle 8.293925424801849
+time=1762596801.840939 Pos: [3.67743739 0.         0.15701829] angle 8.666625168570775
+time=1762596801.8817487 Pos: [3.67607992 0.         0.15514192] angle 8.293925424801849
+time=1762596801.9223557 Pos: [3.67472246 0.         0.15326556] angle 8.666625168570775
+time=1762596801.9636827 Pos: [3.67336499 0.         0.15138919] angle 8.293925424801849
+time=1762596802.0050902 Pos: [3.67200753 0.         0.14951282] angle 8.666625168570775
+time=1762596802.0454054 Pos: [3.67065007 0.         0.14763645] angle 8.293925424801849
+d_error: -46.712, theta_error: -1.544, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2586.807, theta_error: 1.570, lost: False
+Detected lines: 9
+Valid lines after filtering: 1
+d_error: -46.712, theta_error: -1.544, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2586.807, theta_error: 1.570, lost: False
+Detected lines: 9
+Valid lines after filtering: 1
+d_error: -46.712, theta_error: -1.544, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2586.807, theta_error: 1.570, lost: False
+Detected lines: 9
+Valid lines after filtering: 1
+d_error: -46.712, theta_error: -1.544, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2586.807, theta_error: 1.570, lost: False
+Detected lines: 8
+Valid lines after filtering: 1
+d_error: -66.556, theta_error: -1.552, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: 2586.807, theta_error: 1.570, lost: False
+Detected lines: 8
+Valid lines after filtering: 1
+d_error: -66.556, theta_error: -1.552, lost: False
+Detected lines: 5
+Valid lines after filtering: 2
+d_error: 36169.562, theta_error: 1.571, lost: False
+Detected lines: 7
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 7
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: -66.584, theta_error: -1.552, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: -668.037, theta_error: -1.569, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: -38.619, theta_error: -1.537, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: -668.037, theta_error: -1.569, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: -38.619, theta_error: -1.537, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: -668.037, theta_error: -1.569, lost: False
+Detected lines: 7
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: 84.122, theta_error: 1.556, lost: False
+Detected lines: 7
+Valid lines after filtering: 3
+d_error: -117.837, theta_error: -1.560, lost: False
+Detected lines: 7
+Valid lines after filtering: 4
+d_error: 220.628, theta_error: 1.565, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 222.652, theta_error: 1.565, lost: False
+Detected lines: 7
+Valid lines after filtering: 1
+d_error: 139.894, theta_error: 1.562, lost: False
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 1
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 2
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 3
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 4
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11940.984, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11940.984, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 70.597, theta_error: 1.553, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 7
+Valid lines after filtering: 2
+d_error: -11941.159, theta_error: -1.571, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+time=1762596802.0901177 Pos: [3.6692926  0.         0.14576009] angle 8.666625168570775
+time=1762596802.1323667 Pos: [3.66793514 0.         0.14388372] angle 8.293925424801849
+time=1762596802.1732943 Pos: [3.66657767 0.         0.14200735] angle 8.666625168570775
+time=1762596802.2155216 Pos: [3.66522021 0.         0.14013099] angle 8.293925424801849
+time=1762596802.256177 Pos: [3.66386275 0.         0.13825462] angle 8.666625168570775
+time=1762596802.297863 Pos: [3.66250528 0.         0.13637825] angle 8.293925424801849
+time=1762596802.3381338 Pos: [3.66114782 0.         0.13450188] angle 8.666625168570775
+time=1762596802.379036 Pos: [3.65979035 0.         0.13262552] angle 8.293925424801849
+time=1762596802.4199557 Pos: [3.65843289 0.         0.13074915] angle 8.666625168570775
+time=1762596802.4612944 Pos: [3.65707543 0.         0.12887278] angle 8.293925424801849
+time=1762596802.501246 Pos: [3.65571796 0.         0.12699642] angle 8.666625168570775
+time=1762596802.5421844 Pos: [3.6543605  0.         0.12512005] angle 8.293925424801849
+time=1762596802.5828722 Pos: [3.65300303 0.         0.12324368] angle 8.666625168570775
+time=1762596802.6247108 Pos: [3.65164557 0.         0.12136731] angle 8.293925424801849
+time=1762596802.665849 Pos: [3.6502881  0.         0.11949095] angle 8.666625168570775
+time=1762596802.7096143 Pos: [3.64834059 0.         0.11823769] angle 9.039324912339701
+time=1762596802.7506444 Pos: [3.64639308 0.         0.11698444] angle 8.666625168570775
+time=1762596802.7915099 Pos: [3.64444556 0.         0.11573118] angle 9.039324912339701
+time=1762596802.8333364 Pos: [3.64249805 0.         0.11447793] angle 8.666625168570775
+time=1762596802.874004 Pos: [3.64055053 0.         0.11322467] angle 9.039324912339701
+time=1762596802.917022 Pos: [3.63860302 0.         0.11197142] angle 8.666625168570775
+time=1762596802.958759 Pos: [3.6366555  0.         0.11071816] angle 9.039324912339701
+time=1762596803.004693 Pos: [3.63470799 0.         0.10946491] angle 8.666625168570775
+time=1762596803.0517013 Pos: [3.63276047 0.         0.10821165] angle 9.039324912339701
+time=1762596803.0934205 Pos: [3.63081296 0.         0.1069584 ] angle 8.666625168570775
+time=1762596803.1338644 Pos: [3.62886544 0.         0.10570514] angle 9.039324912339701
+time=1762596803.1776006 Pos: [3.62691793 0.         0.10445188] angle 8.666625168570775
+time=1762596803.2201946 Pos: [3.62497041 0.         0.10319863] angle 9.039324912339701
+time=1762596803.261291 Pos: [3.6230229  0.         0.10194537] angle 8.666625168570775
+time=1762596803.3044581 Pos: [3.62107538 0.         0.10069212] angle 9.039324912339701
+time=1762596803.3478875 Pos: [3.61912787 0.         0.09943886] angle 8.666625168570775
+time=1762596803.388388 Pos: [3.61718035 0.         0.09818561] angle 9.039324912339701
+time=1762596803.4312239 Pos: [3.61523284 0.         0.09693235] angle 8.666625168570775
+time=1762596803.4724643 Pos: [3.61328532 0.         0.0956791 ] angle 9.039324912339701
+time=1762596803.5136828 Pos: [3.61133781 0.         0.09442584] angle 8.666625168570775
+time=1762596803.5559156 Pos: [3.60939029 0.         0.09317259] angle 9.039324912339701
+time=1762596803.5976615 Pos: [3.60744278 0.         0.09191933] angle 8.666625168570775
+time=1762596803.6376774 Pos: [3.60549526 0.         0.09066608] angle 9.039324912339701
+time=1762596803.678416 Pos: [3.60354775 0.         0.08941282] angle 8.666625168570775
+time=1762596803.7210128 Pos: [3.60160024 0.         0.08815957] angle 9.039324912339701
+time=1762596803.7617817 Pos: [3.59965272 0.         0.08690631] angle 8.666625168570775
+time=1762596803.802339 Pos: [3.59770521 0.         0.08565306] angle 9.039324912339701
+time=1762596803.845709 Pos: [3.59575769 0.         0.0843998 ] angle 8.666625168570775
+time=1762596803.8865168 Pos: [3.59381018 0.         0.08314655] angle 9.039324912339701
+time=1762596803.9284332 Pos: [3.59186266 0.         0.08189329] angle 8.666625168570775
+time=1762596803.9698443 Pos: [3.58991515 0.         0.08064004] angle 9.039324912339701
+time=1762596804.0117872 Pos: [3.58796763 0.         0.07938678] angle 8.666625168570775
+time=1762596804.0559847 Pos: [3.58602012 0.         0.07813352] angle 9.039324912339701
+time=1762596804.098947 Pos: [3.5840726  0.         0.07688027] angle 8.666625168570775
+time=1762596804.1399405 Pos: [3.58212509 0.         0.07562701] angle 9.039324912339701
+time=1762596804.1839015 Pos: [3.58017757 0.         0.07437376] angle 8.666625168570775
+time=1762596804.2260733 Pos: [3.57823006 0.         0.0731205 ] angle 9.039324912339701
+time=1762596804.2666662 Pos: [3.57628254 0.         0.07186725] angle 8.666625168570775
+time=1762596804.3082428 Pos: [3.57433503 0.         0.07061399] angle 9.039324912339701
+time=1762596804.3536456 Pos: [3.57238751 0.         0.06936074] angle 8.666625168570775
+time=1762596804.394631 Pos: [3.57044    0.         0.06810748] angle 9.039324912339701
+time=1762596804.4369855 Pos: [3.56849248 0.         0.06685423] angle 8.666625168570775
+time=1762596804.4792817 Pos: [3.56654497 0.         0.06560097] angle 9.039324912339701
+time=1762596804.520154 Pos: [3.56459745 0.         0.06434772] angle 8.666625168570775
+time=1762596804.560545 Pos: [3.56323999 0.         0.06247135] angle 8.293925424801849
+time=1762596804.6020985 Pos: [3.56323999 0.         0.06247135] angle 8.317219158787406
+time=1762596804.641213 Pos: [3.56183919 0.         0.06062711] angle 8.689918902556332
+time=1762596804.6819637 No tile found at [ 3.53094650e+00  0.00000000e+00 -2.61424671e-04] (6, -1)
+time=1762596804.6823733 Invalid pose. Collision free: True On drivable area: False
+time=1762596804.6824114 safety_factor: 1.0
+time=1762596804.6826096 pos: [3.57116271 0.         0.08025352]
+time=1762596804.6828306 l_pos: [3.50406693 0.         0.11376703]
+time=1762596804.6829946 r_pos: [3.6382585  0.         0.04674001]
+time=1762596804.6831763 f_pos: [ 3.53094650e+00  0.00000000e+00 -2.61424671e-04]
+time=1762596804.6832235 Stopping the simulator because we are at an invalid pose.
+time=1762596804.683394 Pos: [3.56043839 0.         0.05878287] angle 8.317219158787406
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 8
+Valid lines after filtering: 2
+d_error: -405.594, theta_error: -1.568, lost: False
+Detected lines: 6
+Valid lines after filtering: 1
+d_error: 66.844, theta_error: 1.552, lost: False
+Detected lines: 6
+Valid lines after filtering: 2
+d_error: 531.477, theta_error: 1.568, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 184.421, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 184.421, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 184.421, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 184.396, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 184.396, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 185.495, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 185.495, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 185.495, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -114.159, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -112.916, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -111.672, theta_error: -1.560, lost: False
+Detected lines: 5
+Valid lines after filtering: 3
+d_error: 187.694, theta_error: 1.564, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -111.672, theta_error: -1.560, lost: False
+Detected lines: 8
+Valid lines after filtering: 4
+d_error: 4768.875, theta_error: 1.571, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -111.672, theta_error: -1.560, lost: False
+Detected lines: 8
+Valid lines after filtering: 4
+d_error: 4768.875, theta_error: 1.571, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -111.672, theta_error: -1.560, lost: False
+Detected lines: 8
+Valid lines after filtering: 4
+d_error: 4768.875, theta_error: 1.571, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -111.672, theta_error: -1.560, lost: False
+Detected lines: 8
+Valid lines after filtering: 4
+d_error: 4768.875, theta_error: 1.571, lost: False
+Detected lines: 5
+Valid lines after filtering: 1
+d_error: -110.425, theta_error: -1.559, lost: False
+Detected lines: 4
+Valid lines after filtering: 2
+d_error: -1706.400, theta_error: -1.570, lost: False
+Detected lines: 5
+Valid lines after filtering: 0
+d_error: 0.000, theta_error: 0.000, lost: True
+Detected lines: 8
+Valid lines after filtering: 3
+d_error: -74.052, theta_error: -1.554, lost: False
+Detected lines: 8
+Valid lines after filtering: 3
+d_error: -96.017, theta_error: -1.558, lost: False
+total reward =  -234.10367788794144
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
