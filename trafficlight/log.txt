@@ -1,0 +1,2488 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1763199591.3578982 gym-duckietown 2019.0.0
+
+time=1763199591.442128 Registering gym environment id: Duckietown-4way-v0
+time=1763199591.4422143 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763199591.442263 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763199591.442349 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763199591.4423873 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763199591.4424999 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763199591.4425614 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763199591.4426749 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763199591.4427283 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763199591.4427788 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763199591.4428291 Registering gym environment id: Duckietown-small_loop-v0
+time=1763199591.4428766 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763199591.4429238 Registering gym environment id: Duckietown-straight_road-v0
+time=1763199591.4429722 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763199591.4430192 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763199591.443074 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763199591.4431214 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763199591.44317 Registering gym environment id: Duckietown-udem1-v0
+time=1763199591.4432144 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763199592.8505101 Falling back to non-multisampled frame buffer
+time=1763199592.8523302 Falling back to non-multisampled frame buffer
+time=1763199592.8549535 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1763199592.8614845 loading mesh "duckiebot.obj"
+time=1763199592.8616374 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763199593.0957174 loading mesh "trafficlight.obj"
+time=1763199593.09591 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1763199593.1225677 loading texture "trafficlight_card.jpg"
+time=1763199594.4114091 loading texture "trafficlight_cover.jpg"
+time=1763199595.6947572 loading texture "trafficlight_card0.jpg"
+time=1763199596.9779027 loading texture "trafficlight_card1.jpg"
+time=1763199598.2776773 loading texture "trafficlight_card0.jpg"
+time=1763199599.5636468 loading texture "trafficlight_card1.jpg"
+time=1763199600.9019568 loading texture "trafficlight_card0.jpg"
+time=1763199602.2326627 loading texture "trafficlight_card1.jpg"
+time=1763199603.587644 loading texture "trafficlight_card0.jpg"
+time=1763199604.873725 loading texture "trafficlight_card1.jpg"
+time=1763199606.154723 loading texture "trafficlight_card0.jpg"
+time=1763199607.462093 loading texture "trafficlight_card1.jpg"
+time=1763199608.7355802 loading texture "trafficlight_card0.jpg"
+time=1763199610.0088656 loading texture "trafficlight_card1.jpg"
+time=1763199611.2901618 loading texture "straight_1.png"
+time=1763199611.2984118 road_tile_size=0.585
+time=1763199611.2987242 Starting at [0.2925 0.     0.2925] 0
+time=1763199611.2989323 Pos: [0.2925 0.     0.2925] angle 0
+time=1763199611.462004 using DuckietownEnv
+time=1763199611.7844458 road_tile_size=0.585
+time=1763199611.7848363 Starting at [0.2925 0.     0.2925] 0
+time=1763199611.7850547 Pos: [0.2925 0.     0.2925] angle 0
+time=1763199611.940319 Pos: [0.2925 0.     0.2925] angle 0
+time=1763199612.173602 Pos: [0.3325 0.     0.2925] angle 0
+time=1763199612.2408226 Pos: [0.3725 0.     0.2925] angle 0
+time=1763199612.2995822 Pos: [0.4125 0.     0.2925] angle 0
+time=1763199612.3480985 Pos: [0.4525 0.     0.2925] angle 0
+time=1763199612.4049478 Pos: [0.4925 0.     0.2925] angle 0
+time=1763199612.4566052 Pos: [0.5325 0.     0.2925] angle 0
+time=1763199612.5191946 Pos: [0.5725 0.     0.2925] angle 0
+time=1763199612.5669599 Pos: [0.6125 0.     0.2925] angle 0
+time=1763199612.6140614 Pos: [0.6525 0.     0.2925] angle 0
+time=1763199612.6606946 Pos: [0.6925 0.     0.2925] angle 0
+time=1763199612.7080095 Pos: [0.7325 0.     0.2925] angle 0
+time=1763199612.758248 Pos: [0.7725 0.     0.2925] angle 0
+time=1763199612.8060896 Pos: [0.8125 0.     0.2925] angle 0
+time=1763199612.8545022 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199612.9013836 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199612.9506345 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.0157058 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.0804417 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.145248 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.2085733 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.2534518 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.2985857 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.345814 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.392413 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.43945 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.4846213 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.531287 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.5763497 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.6216228 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.6699848 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.714939 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.7601187 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.8054562 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.8499143 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.8946936 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199613.9447649 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.0095687 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.0750134 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.1335573 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.179367 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.2242448 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.2690532 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.3175476 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.382532 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.4483788 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.5123158 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.5585058 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.6044612 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.6564507 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.7031653 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.7493734 Pos: [0.8525 0.     0.2925] angle 0
+time=1763199614.7959645 Pos: [0.8925 0.     0.2925] angle 0
+time=1763199614.843876 Pos: [0.9325 0.     0.2925] angle 0
+time=1763199614.891438 Pos: [0.9725 0.     0.2925] angle 0
+time=1763199614.9397767 Pos: [1.0125 0.     0.2925] angle 0
+time=1763199614.9876401 Pos: [1.0525 0.     0.2925] angle 0
+time=1763199615.0362303 Pos: [1.0925 0.     0.2925] angle 0
+time=1763199615.083867 Pos: [1.1325 0.     0.2925] angle 0
+time=1763199615.1311517 Pos: [1.1725 0.     0.2925] angle 0
+time=1763199615.1788857 Pos: [1.2125 0.     0.2925] angle 0
+time=1763199615.2268233 Pos: [1.2525 0.     0.2925] angle 0
+time=1763199615.2746062 Pos: [1.2925 0.     0.2925] angle 0
+time=1763199615.3225284 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.370069 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.416634 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.4627328 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.5090492 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.5548759 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.6010509 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.6467528 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.693676 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.744541 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.7928839 Pos: [1.3325 0.     0.2925] angle 0
+time=1763199615.8390036 Pos: [1.3725 0.     0.2925] angle 0
+time=1763199615.8892822 Pos: [1.4125 0.     0.2925] angle 0
+time=1763199615.9363642 Pos: [1.4525 0.     0.2925] angle 0
+time=1763199615.9864757 Pos: [1.4925 0.     0.2925] angle 0
+time=1763199616.037896 Pos: [1.5325 0.     0.2925] angle 0
+time=1763199616.0856965 Pos: [1.5725 0.     0.2925] angle 0
+time=1763199616.132958 Pos: [1.6125 0.     0.2925] angle 0
+time=1763199616.1804643 Pos: [1.6525 0.     0.2925] angle 0
+time=1763199616.2282596 Pos: [1.6925 0.     0.2925] angle 0
+time=1763199616.2789454 Pos: [1.7325 0.     0.2925] angle 0
+time=1763199616.3269215 Pos: [1.7725 0.     0.2925] angle 0
+time=1763199616.375459 Pos: [1.8125 0.     0.2925] angle 0
+time=1763199616.423941 Pos: [1.8525 0.     0.2925] angle 0
+time=1763199616.475267 Pos: [1.8925 0.     0.2925] angle 0
+time=1763199616.5300908 Pos: [1.9325 0.     0.2925] angle 0
+time=1763199616.5797894 Pos: [1.9725 0.     0.2925] angle 0
+time=1763199616.6321244 Pos: [2.0125 0.     0.2925] angle 0
+time=1763199616.682354 Pos: [2.0525 0.     0.2925] angle 0
+time=1763199616.733662 Pos: [2.0925 0.     0.2925] angle 0
+time=1763199616.7863865 Pos: [2.1325 0.     0.2925] angle 0
+time=1763199616.8343914 Pos: [2.1725 0.     0.2925] angle 0
+time=1763199616.8821213 Pos: [2.2125 0.     0.2925] angle 0
+time=1763199616.931513 Pos: [2.2525 0.     0.2925] angle 0
+time=1763199616.9798393 Pos: [2.2925 0.     0.2925] angle 0
+time=1763199617.0289783 Pos: [2.3325 0.     0.2925] angle 0
+time=1763199617.079118 Pos: [2.3725 0.     0.2925] angle 0
+time=1763199617.1290092 Pos: [2.4125 0.     0.2925] angle 0
+time=1763199617.179539 Pos: [2.4525 0.     0.2925] angle 0
+time=1763199617.2287953 Pos: [2.4925 0.     0.2925] angle 0
+time=1763199617.2763224 Pos: [2.5325 0.     0.2925] angle 0
+time=1763199617.3248916 Pos: [2.5725 0.     0.2925] angle 0
+time=1763199617.372703 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.4204707 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.4664183 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.5121171 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.5596118 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.6100686 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.6553483 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.7014477 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.7469718 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.793971 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.840024 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.888262 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.936597 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199617.982345 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.0297434 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.0755792 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.1226356 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.169374 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.2135165 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.2591295 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.3166265 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.36247 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.4084926 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.4528217 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.497064 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.5425565 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.587444 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.6324673 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.6794946 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.7249851 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.7740002 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.8318195 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.875718 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.9208136 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199618.9649603 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.0149207 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.073546 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.1190026 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.1796055 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.2265017 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.2739956 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.336636 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.3947225 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.4583757 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.5214634 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.5840373 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.62831 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.6743312 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.7376451 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.8008623 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.8609204 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.905375 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.9510343 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199619.9958098 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.0425935 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.1060314 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.1511512 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.195463 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.240012 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.2847276 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.332009 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.384082 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.4283314 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.478897 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.5335712 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.5859725 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.6304414 Pos: [2.6125 0.     0.2925] angle 0
+time=1763199620.6764336 Pos: [2.6525 0.     0.2925] angle 0
+time=1763199620.7384648 Pos: [2.6925 0.     0.2925] angle 0
+time=1763199620.7936797 Pos: [2.7325 0.     0.2925] angle 0
+time=1763199620.8594437 Pos: [2.7725 0.     0.2925] angle 0
+time=1763199620.9244452 Pos: [2.8125 0.     0.2925] angle 0
+time=1763199620.9864178 Pos: [2.8525 0.     0.2925] angle 0
+time=1763199621.052264 Pos: [2.8925 0.     0.2925] angle 0
+time=1763199621.1124966 Pos: [2.9325 0.     0.2925] angle 0
+time=1763199621.1628432 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.2296197 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.2931995 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.355555 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.400265 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.4444695 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.4917073 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.5545554 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.6115773 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.6563292 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.701519 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.7601502 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.8056252 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.8517153 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.90791 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199621.9665408 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.023856 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.0910304 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.1347423 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.1789918 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.2255342 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.2695882 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.3182588 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.36246 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.4063132 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.453178 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.4998538 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.5453098 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.5898244 Pos: [2.9725 0.     0.2925] angle 0
+time=1763199622.6355956 Pos: [3.0125 0.     0.2925] angle 0
+time=1763199622.701645 Pos: [3.0525 0.     0.2925] angle 0
+time=1763199622.7658029 Pos: [3.0925 0.     0.2925] angle 0
+time=1763199622.8183897 Pos: [3.1325 0.     0.2925] angle 0
+time=1763199622.8639765 Pos: [3.1725 0.     0.2925] angle 0
+time=1763199622.9093387 Pos: [3.2125 0.     0.2925] angle 0
+time=1763199622.955398 Pos: [3.2525 0.     0.2925] angle 0
+time=1763199623.0036006 Pos: [3.2925 0.     0.2925] angle 0
+time=1763199623.0629716 Pos: [3.3325 0.     0.2925] angle 0
+time=1763199623.1291819 Pos: [3.3725 0.     0.2925] angle 0
+time=1763199623.1901152 Pos: [3.4125 0.     0.2925] angle 0
+time=1763199623.236785 Pos: [3.4525 0.     0.2925] angle 0
+time=1763199623.2825692 Pos: [3.4925 0.     0.2925] angle 0
+time=1763199623.3313055 Pos: [3.5325 0.     0.2925] angle 0
+time=1763199623.3781042 Pos: [3.5725 0.     0.2925] angle 0
+time=1763199623.427436 Pos: [3.6125 0.     0.2925] angle 0
+time=1763199623.4931827 Pos: [3.6525 0.     0.2925] angle 0
+time=1763199623.5563962 Pos: [3.6925 0.     0.2925] angle 0
+time=1763199623.6069744 Pos: [3.7325 0.     0.2925] angle 0
+time=1763199623.653773 Pos: [3.7725 0.     0.2925] angle 0
+time=1763199623.7007914 Pos: [3.8125 0.     0.2925] angle 0
+time=1763199623.7476447 Pos: [3.8525 0.     0.2925] angle 0
+time=1763199623.7940798 Pos: [3.8925 0.     0.2925] angle 0
+time=1763199623.8401186 Pos: [3.9325 0.     0.2925] angle 0
+time=1763199623.8860376 Pos: [3.9725 0.     0.2925] angle 0
+time=1763199623.9336562 Pos: [4.0125 0.     0.2925] angle 0
+time=1763199623.9819944 Pos: [4.0525 0.     0.2925] angle 0
+time=1763199624.0316362 Pos: [4.0925 0.     0.2925] angle 0
+time=1763199624.078888 Pos: [4.1325 0.     0.2925] angle 0
+time=1763199624.1298528 Pos: [4.1725 0.     0.2925] angle 0
+time=1763199624.18037 Pos: [4.2125 0.     0.2925] angle 0
+time=1763199624.2335114 Pos: [4.2525 0.     0.2925] angle 0
+time=1763199624.2806537 Pos: [4.2925 0.     0.2925] angle 0
+time=1763199624.3276496 Pos: [4.3325 0.     0.2925] angle 0
+time=1763199624.3746336 Pos: [4.3725 0.     0.2925] angle 0
+time=1763199624.422182 Pos: [4.4125 0.     0.2925] angle 0
+time=1763199624.4710226 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.519822 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.5680108 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.6139345 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.6602838 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.7063491 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.755786 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.8045406 Pos: [4.4525 0.     0.2925] angle 0
+0.585
+0.2925 0.2925
+0.585
+0.2925 0.2925
+brown_pixels: 513
+red_pixels: 43
+brown_pixels: 515
+red_pixels: 0
+brown_pixels: 536
+red_pixels: 0
+brown_pixels: 605
+red_pixels: 0
+brown_pixels: 644
+red_pixels: 0
+brown_pixels: 613
+red_pixels: 0
+brown_pixels: 677
+red_pixels: 0
+brown_pixels: 747
+red_pixels: 0
+brown_pixels: 743
+red_pixels: 0
+brown_pixels: 822
+red_pixels: 0
+brown_pixels: 852
+red_pixels: 0
+brown_pixels: 805
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 799
+red_pixels: 0
+brown_pixels: 847
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 840
+red_pixels: 0
+brown_pixels: 873
+red_pixels: 0
+brown_pixels: 870
+red_pixels: 0
+brown_pixels: 858
+red_pixels: 0
+brown_pixels: 885
+red_pixels: 0
+brown_pixels: 877
+red_pixels: 0
+brown_pixels: 860
+red_pixels: 0
+brown_pixels: 763
+red_pixels: 0
+brown_pixels: 697
+red_pixels: 0
+brown_pixels: 608
+red_pixels: 0
+brown_pixels: 515
+red_pixels: 0
+brown_pixels: 443
+red_pixels: 0
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 320
+red_pixels: 25
+brown_pixels: 323
+red_pixels: 0
+brown_pixels: 280
+red_pixels: 0
+brown_pixels: 273
+red_pixels: 0
+brown_pixels: 298
+red_pixels: 0
+brown_pixels: 284
+red_pixels: 0
+brown_pixels: 309
+red_pixels: 0
+brown_pixels: 306
+red_pixels: 0
+brown_pixels: 312
+red_pixels: 0
+brown_pixels: 333
+red_pixels: 0
+brown_pixels: 361
+red_pixels: 0
+brown_pixels: 371
+red_pixels: 0
+brown_pixels: 402
+red_pixels: 0
+brown_pixels: 418
+red_pixels: 0
+brown_pixels: 417
+red_pixels: 0
+brown_pixels: 439
+red_pixels: 0
+brown_pixels: 485
+red_pixels: 0
+brown_pixels: 479
+red_pixels: 0
+brown_pixels: 482
+red_pixels: 0
+brown_pixels: 514
+red_pixels: 0
+brown_pixels: 552
+red_pixels: 0
+brown_pixels: 598
+red_pixels: 0
+brown_pixels: 639
+red_pixels: 0
+brown_pixels: 629
+red_pixels: 0
+brown_pixels: 668
+red_pixels: 0
+brown_pixels: 727
+red_pixels: 0
+brown_pixels: 731
+red_pixels: 0
+brown_pixels: 843
+red_pixels: 0
+brown_pixels: 809
+red_pixels: 0
+brown_pixels: 811
+red_pixels: 0
+brown_pixels: 827
+red_pixels: 0
+brown_pixels: 812
+red_pixels: 0
+brown_pixels: 838
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 97
+brown_pixels: 854
+red_pixels: 97
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 854
+red_pixels: 0
+brown_pixels: 830
+red_pixels: 0
+brown_pixels: 873
+red_pixels: 0
+brown_pixels: 867
+red_pixels: 0
+brown_pixels: 888
+red_pixels: 0
+brown_pixels: 881
+red_pixels: 0
+brown_pixels: 891
+red_pixels: 0
+brown_pixels: 759
+red_pixels: 0
+brown_pixels: 670
+red_pixels: 0
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 18
+brown_pixels: 633
+red_pixels: 0
+brown_pixels: 485
+red_pixels: 0
+brown_pixels: 433
+red_pixels: 0
+brown_pixels: 287
+red_pixels: 0
+brown_pixels: 281
+red_pixels: 0
+brown_pixels: 269
+red_pixels: 0
+brown_pixels: 297
+red_pixels: 0
+brown_pixels: 289
+red_pixels: 0
+brown_pixels: 298
+red_pixels: 0
+brown_pixels: 316
+red_pixels: 0
+brown_pixels: 322
+red_pixels: 0
+brown_pixels: 322
+red_pixels: 0
+brown_pixels: 342
+red_pixels: 0
+brown_pixels: 382
+red_pixels: 0
+brown_pixels: 411
+red_pixels: 0
+brown_pixels: 408
+red_pixels: 0
+brown_pixels: 416
+red_pixels: 0
+brown_pixels: 414
+red_pixels: 0
+brown_pixels: 485
+red_pixels: 0
+brown_pixels: 482
+red_pixels: 0
+brown_pixels: 490
+red_pixels: 0
+brown_pixels: 522
+red_pixels: 0
+brown_pixels: 562
+red_pixels: 0
+brown_pixels: 584
+red_pixels: 0
+brown_pixels: 619
+red_pixels: 0
+brown_pixels: 634
+red_pixels: 0
+brown_pixels: 667
+red_pixels: 0
+brown_pixels: 711
+red_pixels: 0
+brown_pixels: 763
+red_pixels: 0
+brown_pixels: 786
+red_pixels: 0
+brown_pixels: 797
+red_pixels: 0
+brown_pixels: 828
+red_pixels: 0
+brown_pixels: 814
+red_pixels: 0
+brown_pixels: 826
+red_pixels: 0
+brown_pixels: 847
+red_pixels: 0
+brown_pixels: 855
+red_pixels: 0
+brown_pixels: 833
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+time=1763199624.8500085 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.898902 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199624.9491608 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199625.0083408 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199625.0542343 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199625.1005535 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199625.145078 Pos: [4.4525 0.     0.2925] angle 0
+time=1763199625.189368 Pos: [4.4925 0.     0.2925] angle 0
+time=1763199625.234942 Pos: [4.5325 0.     0.2925] angle 0
+time=1763199625.2842462 Pos: [4.5725 0.     0.2925] angle 0
+time=1763199625.344786 Pos: [4.6125 0.     0.2925] angle 0
+time=1763199625.3905861 Pos: [4.6525 0.     0.2925] angle 0
+time=1763199625.437342 Pos: [4.6925 0.     0.2925] angle 0
+time=1763199625.483633 Pos: [4.7325 0.     0.2925] angle 0
+time=1763199625.5301368 Pos: [4.7725 0.     0.2925] angle 0
+time=1763199625.5915093 Pos: [4.8125 0.     0.2925] angle 0
+time=1763199625.652736 Pos: [4.8525 0.     0.2925] angle 0
+time=1763199625.7168758 Pos: [4.8925 0.     0.2925] angle 0
+time=1763199625.777616 Pos: [4.9325 0.     0.2925] angle 0
+time=1763199625.8224294 Pos: [4.9725 0.     0.2925] angle 0
+time=1763199625.8682997 Pos: [5.0125 0.     0.2925] angle 0
+time=1763199625.9134264 Pos: [5.0525 0.     0.2925] angle 0
+time=1763199625.9582577 Pos: [5.0925 0.     0.2925] angle 0
+time=1763199626.0050561 Pos: [5.1325 0.     0.2925] angle 0
+time=1763199626.051098 Pos: [5.1725 0.     0.2925] angle 0
+time=1763199626.0960338 Pos: [5.2125 0.     0.2925] angle 0
+time=1763199626.1409183 Pos: [5.2525 0.     0.2925] angle 0
+time=1763199626.1857028 Pos: [5.2925 0.     0.2925] angle 0
+time=1763199626.2313156 Pos: [5.3325 0.     0.2925] angle 0
+time=1763199626.2769098 Pos: [5.3725 0.     0.2925] angle 0
+time=1763199626.3416402 Pos: [5.4125 0.     0.2925] angle 0
+time=1763199626.4062905 Pos: [5.4525 0.     0.2925] angle 0
+time=1763199626.4710605 Pos: [5.4925 0.     0.2925] angle 0
+time=1763199626.530254 Pos: [5.5325 0.     0.2925] angle 0
+time=1763199626.5761006 Pos: [5.5725 0.     0.2925] angle 0
+time=1763199626.6416202 Pos: [5.6125 0.     0.2925] angle 0
+time=1763199626.7072508 Pos: [5.6525 0.     0.2925] angle 0
+time=1763199626.7719283 Pos: [5.6925 0.     0.2925] angle 0
+time=1763199626.836509 Pos: [5.7325 0.     0.2925] angle 0
+time=1763199626.9006023 Pos: [5.7725 0.     0.2925] angle 0
+time=1763199626.9626071 Pos: [5.8125 0.     0.2925] angle 0
+time=1763199627.0118582 Pos: [5.8525 0.     0.2925] angle 0
+time=1763199627.0575433 Pos: [5.8925 0.     0.2925] angle 0
+time=1763199627.106338 Pos: [5.9325 0.     0.2925] angle 0
+time=1763199627.1562183 Pos: [5.9725 0.     0.2925] angle 0
+time=1763199627.219313 Pos: [6.0125 0.     0.2925] angle 0
+time=1763199627.282798 Pos: [6.0125 0.     0.2925] angle 0
+time=1763199627.3391485 Pos: [6.0125 0.     0.2925] angle 0
+time=1763199627.3828027 Pos: [6.0525 0.     0.2925] angle 0
+time=1763199627.4271536 Pos: [6.0925 0.     0.2925] angle 0
+time=1763199627.4715264 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.5219896 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.5823452 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.6298902 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.6888585 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.7486331 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.7919743 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.8537197 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.9147437 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199627.9759755 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.0393558 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.1009648 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.160871 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.2059507 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.2502406 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.3001125 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.3610554 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.4219244 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.4817255 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.5401855 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.582957 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.628379 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.6723747 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.7176576 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.7651978 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.820725 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.8643174 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.920466 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199628.9629066 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.0070274 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.04928 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.0915053 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.133458 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.1781633 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.222348 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.2681692 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.310267 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.3528302 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.3997679 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.4418542 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.4877944 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.548675 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.6086977 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.6505747 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.693401 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.7356117 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.7806866 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.823685 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.87014 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.915329 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199629.9712262 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.0217142 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.0686424 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.1114445 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.1542292 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.1997318 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.24436 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.28936 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.3357675 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.3917806 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.4531953 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.5121865 Pos: [6.1325 0.     0.2925] angle 0
+time=1763199630.5575771 Pos: [6.1725 0.     0.2925] angle 0
+time=1763199630.603234 Pos: [6.2125 0.     0.2925] angle 0
+time=1763199630.6525986 Pos: [6.2525 0.     0.2925] angle 0
+time=1763199630.6989324 Pos: [6.2925 0.     0.2925] angle 0
+time=1763199630.7421181 Pos: [6.3325 0.     0.2925] angle 0
+time=1763199630.785575 Pos: [6.3725 0.     0.2925] angle 0
+time=1763199630.8319697 Pos: [6.4125 0.     0.2925] angle 0
+time=1763199630.8767688 Pos: [6.4525 0.     0.2925] angle 0
+time=1763199630.9212925 Pos: [6.4925 0.     0.2925] angle 0
+time=1763199630.9647558 Pos: [6.5325 0.     0.2925] angle 0
+time=1763199631.0114954 Pos: [6.5725 0.     0.2925] angle 0
+time=1763199631.0699148 Pos: [6.6125 0.     0.2925] angle 0
+time=1763199631.121073 Pos: [6.6525 0.     0.2925] angle 0
+time=1763199631.165346 Pos: [6.6925 0.     0.2925] angle 0
+time=1763199631.210098 Pos: [6.7325 0.     0.2925] angle 0
+time=1763199631.2569656 Pos: [6.7725 0.     0.2925] angle 0
+time=1763199631.3024433 Pos: [6.8125 0.     0.2925] angle 0
+time=1763199631.3480673 Pos: [6.8525 0.     0.2925] angle 0
+time=1763199631.393761 Pos: [6.8925 0.     0.2925] angle 0
+time=1763199631.43796 Pos: [6.9325 0.     0.2925] angle 0
+time=1763199631.4842916 Pos: [6.9725 0.     0.2925] angle 0
+time=1763199631.529245 Pos: [7.0125 0.     0.2925] angle 0
+time=1763199631.5746307 Pos: [7.0525 0.     0.2925] angle 0
+time=1763199631.619118 Pos: [7.0925 0.     0.2925] angle 0
+time=1763199631.66368 Pos: [7.1325 0.     0.2925] angle 0
+time=1763199631.7085445 Pos: [7.1725 0.     0.2925] angle 0
+time=1763199631.752991 Pos: [7.2125 0.     0.2925] angle 0
+time=1763199631.7984717 Pos: [7.2525 0.     0.2925] angle 0
+time=1763199631.8438103 Pos: [7.2925 0.     0.2925] angle 0
+time=1763199631.888767 Pos: [7.3325 0.     0.2925] angle 0
+time=1763199631.9339924 Pos: [7.3725 0.     0.2925] angle 0
+time=1763199631.9805472 Pos: [7.4125 0.     0.2925] angle 0
+time=1763199632.0260386 Pos: [7.4525 0.     0.2925] angle 0
+time=1763199632.0718613 Pos: [7.4925 0.     0.2925] angle 0
+time=1763199632.1459436 Pos: [7.5325 0.     0.2925] angle 0
+time=1763199632.1909297 Pos: [7.5725 0.     0.2925] angle 0
+time=1763199632.2353227 Pos: [7.6125 0.     0.2925] angle 0
+time=1763199632.27976 Pos: [7.6525 0.     0.2925] angle 0
+time=1763199632.3246994 Pos: [7.6925 0.     0.2925] angle 0
+time=1763199632.36862 Pos: [7.7325 0.     0.2925] angle 0
+time=1763199632.4125583 Pos: [7.7725 0.     0.2925] angle 0
+time=1763199632.4568012 Pos: [7.8125 0.     0.2925] angle 0
+time=1763199632.5005836 Pos: [7.8525 0.     0.2925] angle 0
+time=1763199632.5446475 Pos: [7.8925 0.     0.2925] angle 0
+time=1763199632.5898566 Pos: [7.9325 0.     0.2925] angle 0
+time=1763199632.6394124 Pos: [7.9725 0.     0.2925] angle 0
+time=1763199632.6840763 Pos: [8.0125 0.     0.2925] angle 0
+time=1763199632.732141 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.7784207 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.8227377 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.8686576 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.9106605 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.955351 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199632.9972248 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.0445762 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.0882888 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.1317341 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.1742568 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.216463 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.2593863 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.3014758 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.3530939 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.4069283 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.4477265 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.4883885 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.5302176 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.5746071 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.6163287 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.663709 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.72105 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.7687252 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.817027 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.8575861 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.9007015 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.9431393 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199633.9893796 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.0339184 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.0852287 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.1258402 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.1673837 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.2096965 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.251624 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.2926137 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.3339908 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.3789 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.4337025 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.4741087 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.5165665 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.5579522 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.5987918 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.6404953 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.6844583 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.7327375 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.7757874 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.8163817 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.8580205 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.9010086 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.9425282 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199634.9857934 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.0284908 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.0696828 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.1106913 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.1515398 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.1922874 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.2345734 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.2772045 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.3181517 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.3606758 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.402532 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.459656 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.5041654 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.5449657 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.5855887 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.6261284 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.6670153 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.7085803 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.753281 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.7966843 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.8400707 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.8837016 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.9242496 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199635.9666994 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.0081775 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.0487916 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.0916002 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.1321175 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.177114 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.2360008 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.295662 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.3543692 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.3962564 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.4375799 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.480898 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.5252292 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.5732338 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.6141942 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.6552725 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.6960578 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.737291 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.777969 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.820456 Pos: [8.0525 0.     0.2925] angle 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 866
+red_pixels: 0
+brown_pixels: 835
+red_pixels: 0
+brown_pixels: 844
+red_pixels: 0
+brown_pixels: 882
+red_pixels: 0
+brown_pixels: 835
+red_pixels: 0
+brown_pixels: 758
+red_pixels: 0
+brown_pixels: 683
+red_pixels: 0
+brown_pixels: 564
+red_pixels: 0
+brown_pixels: 467
+red_pixels: 0
+brown_pixels: 404
+red_pixels: 0
+brown_pixels: 278
+red_pixels: 0
+brown_pixels: 282
+red_pixels: 0
+brown_pixels: 263
+red_pixels: 0
+brown_pixels: 290
+red_pixels: 0
+brown_pixels: 283
+red_pixels: 0
+brown_pixels: 317
+red_pixels: 0
+brown_pixels: 318
+red_pixels: 0
+brown_pixels: 306
+red_pixels: 0
+brown_pixels: 319
+red_pixels: 0
+brown_pixels: 334
+red_pixels: 0
+brown_pixels: 386
+red_pixels: 0
+brown_pixels: 406
+red_pixels: 0
+brown_pixels: 400
+red_pixels: 0
+brown_pixels: 413
+red_pixels: 0
+brown_pixels: 426
+red_pixels: 0
+brown_pixels: 475
+red_pixels: 0
+brown_pixels: 480
+red_pixels: 0
+brown_pixels: 482
+red_pixels: 0
+brown_pixels: 541
+red_pixels: 0
+brown_pixels: 565
+red_pixels: 0
+brown_pixels: 551
+red_pixels: 0
+brown_pixels: 628
+red_pixels: 0
+brown_pixels: 636
+red_pixels: 0
+brown_pixels: 663
+red_pixels: 0
+brown_pixels: 724
+red_pixels: 0
+brown_pixels: 752
+red_pixels: 0
+brown_pixels: 824
+red_pixels: 0
+brown_pixels: 792
+red_pixels: 0
+brown_pixels: 828
+red_pixels: 0
+brown_pixels: 809
+red_pixels: 76
+brown_pixels: 809
+red_pixels: 76
+brown_pixels: 808
+red_pixels: 0
+brown_pixels: 824
+red_pixels: 0
+brown_pixels: 815
+red_pixels: 0
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 837
+red_pixels: 96
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 842
+red_pixels: 0
+brown_pixels: 822
+red_pixels: 0
+brown_pixels: 848
+red_pixels: 0
+brown_pixels: 829
+red_pixels: 0
+brown_pixels: 853
+red_pixels: 0
+brown_pixels: 864
+red_pixels: 0
+brown_pixels: 839
+red_pixels: 0
+brown_pixels: 721
+red_pixels: 0
+brown_pixels: 640
+red_pixels: 0
+brown_pixels: 552
+red_pixels: 0
+brown_pixels: 449
+red_pixels: 0
+brown_pixels: 389
+red_pixels: 0
+brown_pixels: 279
+red_pixels: 0
+brown_pixels: 260
+red_pixels: 0
+brown_pixels: 264
+red_pixels: 0
+brown_pixels: 264
+red_pixels: 0
+brown_pixels: 276
+red_pixels: 0
+brown_pixels: 292
+red_pixels: 0
+brown_pixels: 324
+red_pixels: 0
+brown_pixels: 290
+red_pixels: 0
+brown_pixels: 319
+red_pixels: 0
+brown_pixels: 332
+red_pixels: 0
+brown_pixels: 362
+red_pixels: 0
+brown_pixels: 385
+red_pixels: 0
+brown_pixels: 382
+red_pixels: 0
+brown_pixels: 417
+red_pixels: 0
+brown_pixels: 420
+red_pixels: 0
+brown_pixels: 459
+red_pixels: 0
+brown_pixels: 466
+red_pixels: 0
+brown_pixels: 473
+red_pixels: 0
+brown_pixels: 524
+red_pixels: 0
+brown_pixels: 562
+red_pixels: 0
+brown_pixels: 548
+red_pixels: 0
+brown_pixels: 607
+red_pixels: 0
+brown_pixels: 641
+red_pixels: 0
+brown_pixels: 664
+red_pixels: 0
+brown_pixels: 712
+red_pixels: 0
+brown_pixels: 747
+red_pixels: 0
+brown_pixels: 783
+red_pixels: 0
+brown_pixels: 784
+red_pixels: 0
+brown_pixels: 788
+red_pixels: 0
+brown_pixels: 793
+red_pixels: 0
+brown_pixels: 819
+red_pixels: 0
+brown_pixels: 794
+red_pixels: 0
+brown_pixels: 853
+red_pixels: 0
+brown_pixels: 800
+red_pixels: 0
+brown_pixels: 816
+red_pixels: 0
+brown_pixels: 838
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 817
+red_pixels: 18
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+time=1763199636.8618295 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.9053102 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.9469087 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199636.9875154 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.030891 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.07168 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.1123915 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.1587756 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.2174532 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.2734694 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.3286219 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.3711946 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.4120646 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.4528928 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.4951942 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.5386355 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.594068 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.6395082 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.688129 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.731046 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.774508 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.8233817 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.8640294 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.9067237 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.9501073 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199637.9929943 Pos: [8.0525 0.     0.2925] angle 0
+time=1763199638.052017 Pos: [8.0925 0.     0.2925] angle 0
+time=1763199638.0950513 Pos: [8.1325 0.     0.2925] angle 0
+time=1763199638.1400704 Pos: [8.1725 0.     0.2925] angle 0
+time=1763199638.1866992 Pos: [8.2125 0.     0.2925] angle 0
+time=1763199638.2488203 Pos: [8.2525 0.     0.2925] angle 0
+time=1763199638.311863 Pos: [8.2925 0.     0.2925] angle 0
+time=1763199638.3743896 Pos: [8.3325 0.     0.2925] angle 0
+time=1763199638.436261 Pos: [8.3725 0.     0.2925] angle 0
+time=1763199638.4978356 Pos: [8.4125 0.     0.2925] angle 0
+time=1763199638.560976 Pos: [8.4525 0.     0.2925] angle 0
+time=1763199638.6112947 Pos: [8.4925 0.     0.2925] angle 0
+time=1763199638.6630478 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.7240093 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.7658544 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.809371 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.8554275 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.8987112 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.9401946 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199638.9811175 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199639.0305023 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199639.0853777 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199639.1280777 Pos: [8.5325 0.     0.2925] angle 0
+time=1763199639.1689358 Pos: [8.5725 0.     0.2925] angle 0
+time=1763199639.2136662 Pos: [8.6125 0.     0.2925] angle 0
+time=1763199639.2574255 Pos: [8.6525 0.     0.2925] angle 0
+time=1763199639.311586 Pos: [8.6925 0.     0.2925] angle 0
+time=1763199639.354074 Pos: [8.7325 0.     0.2925] angle 0
+time=1763199639.3970985 Pos: [8.7725 0.     0.2925] angle 0
+time=1763199639.4395173 Pos: [8.8125 0.     0.2925] angle 0
+time=1763199639.4824195 Pos: [8.8525 0.     0.2925] angle 0
+time=1763199639.5247583 Pos: [8.8925 0.     0.2925] angle 0
+time=1763199639.5674949 Pos: [8.9325 0.     0.2925] angle 0
+time=1763199639.612653 Pos: [8.9725 0.     0.2925] angle 0
+time=1763199639.6568515 Pos: [9.0125 0.     0.2925] angle 0
+time=1763199639.7075293 Pos: [9.0525 0.     0.2925] angle 0
+time=1763199639.7507653 Pos: [9.0925 0.     0.2925] angle 0
+time=1763199639.7968404 Pos: [9.1325 0.     0.2925] angle 0
+time=1763199639.8583207 Pos: [9.1725 0.     0.2925] angle 0
+time=1763199639.900669 Pos: [9.2125 0.     0.2925] angle 0
+time=1763199639.9461918 Pos: [9.2525 0.     0.2925] angle 0
+time=1763199639.9886336 Pos: [9.2925 0.     0.2925] angle 0
+time=1763199640.035746 Pos: [9.3325 0.     0.2925] angle 0
+time=1763199640.0859654 Pos: [9.3725 0.     0.2925] angle 0
+time=1763199640.147348 Pos: [9.4125 0.     0.2925] angle 0
+time=1763199640.2088346 Pos: [9.4525 0.     0.2925] angle 0
+time=1763199640.2747104 Pos: [9.4925 0.     0.2925] angle 0
+time=1763199640.3169777 Pos: [9.5325 0.     0.2925] angle 0
+time=1763199640.3600547 Pos: [9.5725 0.     0.2925] angle 0
+time=1763199640.404642 Pos: [9.6125 0.     0.2925] angle 0
+time=1763199640.4470162 Pos: [9.6525 0.     0.2925] angle 0
+time=1763199640.489329 Pos: [9.6925 0.     0.2925] angle 0
+time=1763199640.5312655 Pos: [9.7325 0.     0.2925] angle 0
+time=1763199640.573735 Pos: [9.7725 0.     0.2925] angle 0
+time=1763199640.6170342 Pos: [9.8125 0.     0.2925] angle 0
+time=1763199640.6591592 Pos: [9.8525 0.     0.2925] angle 0
+time=1763199640.704872 Pos: [9.8925 0.     0.2925] angle 0
+time=1763199640.7576425 Pos: [9.9325 0.     0.2925] angle 0
+time=1763199640.81346 Pos: [9.9725 0.     0.2925] angle 0
+time=1763199640.8548877 Pos: [10.0125  0.      0.2925] angle 0
+time=1763199640.8998551 Pos: [10.0525  0.      0.2925] angle 0
+time=1763199640.9420478 Pos: [10.0925  0.      0.2925] angle 0
+time=1763199641.0018733 Pos: [10.1325  0.      0.2925] angle 0
+time=1763199641.0565553 Pos: [10.1725  0.      0.2925] angle 0
+time=1763199641.0989134 Pos: [10.2125  0.      0.2925] angle 0
+time=1763199641.1427314 Pos: [10.2525  0.      0.2925] angle 0
+time=1763199641.1836102 Pos: [10.2925  0.      0.2925] angle 0
+time=1763199641.2248893 Pos: [10.3325  0.      0.2925] angle 0
+time=1763199641.2655613 Pos: [10.3725  0.      0.2925] angle 0
+time=1763199641.3066368 Pos: [10.4125  0.      0.2925] angle 0
+time=1763199641.3497722 Pos: [10.4525  0.      0.2925] angle 0
+time=1763199641.410175 Pos: [10.4925  0.      0.2925] angle 0
+time=1763199641.4662879 Pos: [10.5325  0.      0.2925] angle 0
+time=1763199641.5148964 Pos: [10.5725  0.      0.2925] angle 0
+time=1763199641.555955 Pos: [10.6125  0.      0.2925] angle 0
+time=1763199641.5968187 Pos: [10.6525  0.      0.2925] angle 0
+time=1763199641.638019 Pos: [10.6925  0.      0.2925] angle 0
+time=1763199641.6793246 Pos: [10.7325  0.      0.2925] angle 0
+time=1763199641.7202275 Pos: [10.7725  0.      0.2925] angle 0
+time=1763199641.7607756 Pos: [10.8125  0.      0.2925] angle 0
+time=1763199641.8022423 Pos: [10.8525  0.      0.2925] angle 0
+time=1763199641.8457143 Pos: [10.8925  0.      0.2925] angle 0
+time=1763199641.887335 Pos: [10.9325  0.      0.2925] angle 0
+time=1763199641.9284613 Pos: [10.9725  0.      0.2925] angle 0
+time=1763199641.9697244 Pos: [11.0125  0.      0.2925] angle 0
+time=1763199642.0127277 Pos: [11.0525  0.      0.2925] angle 0
+time=1763199642.0565176 Pos: [11.0925  0.      0.2925] angle 0
+time=1763199642.0987878 Pos: [11.1325  0.      0.2925] angle 0
+time=1763199642.1429315 Pos: [11.1725  0.      0.2925] angle 0
+time=1763199642.197744 Pos: [11.2125  0.      0.2925] angle 0
+time=1763199642.2407722 Pos: [11.2525  0.      0.2925] angle 0
+time=1763199642.2816186 Pos: [11.2925  0.      0.2925] angle 0
+time=1763199642.3266902 Pos: [11.3325  0.      0.2925] angle 0
+time=1763199642.3696158 Pos: [11.3725  0.      0.2925] angle 0
+time=1763199642.4106405 Pos: [11.4125  0.      0.2925] angle 0
+time=1763199642.4523942 Pos: [11.4525  0.      0.2925] angle 0
+time=1763199642.5093675 Pos: [11.4925  0.      0.2925] angle 0
+time=1763199642.5505176 Pos: [11.5325  0.      0.2925] angle 0
+time=1763199642.5920706 Pos: [11.5725  0.      0.2925] angle 0
+time=1763199642.647838 Pos: [11.6125  0.      0.2925] angle 0
+time=1763199642.6889148 Pos: [11.6525  0.      0.2925] angle 0
+time=1763199642.732936 Pos: [11.6925  0.      0.2925] angle 0
+time=1763199642.7757602 Pos: [11.7325  0.      0.2925] angle 0
+time=1763199642.8186603 Pos: [11.7725  0.      0.2925] angle 0
+time=1763199642.8591335 Pos: [11.8125  0.      0.2925] angle 0
+time=1763199642.896557 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1763199642.896826 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1763199642.8969948 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1763199642.897128 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1763199642.8972862 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1763199642.8974473 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1763199642.8976076 CHECKER pos [0.2925 0.     0.2925] pattern 1 dist 1.5795
+time=1763199642.8977401 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1763199642.8978667 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1763199642.8979905 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1763199642.89812 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1763199642.8982723 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1763199642.8984303 CHECKER pos [0.3325 0.     0.2925] pattern 1 dist 1.5394999999999999
+time=1763199642.8985915 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 3.2944999999999998
+time=1763199642.8987496 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 5.0495
+time=1763199642.898905 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 6.8045
+time=1763199642.8990753 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 8.5595
+time=1763199642.8992658 CHECKER pos [0.3325 0.     0.2925] pattern 0 dist 10.314499999999999
+time=1763199642.8994286 CHECKER pos [0.3725 0.     0.2925] pattern 1 dist 1.4994999999999998
+time=1763199642.8995895 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 3.2544999999999997
+time=1763199642.8997478 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 5.0095
+time=1763199642.8999035 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 6.7645
+time=1763199642.9000661 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 8.519499999999999
+time=1763199642.9002328 CHECKER pos [0.3725 0.     0.2925] pattern 0 dist 10.274499999999998
+time=1763199642.9004016 CHECKER pos [0.4125 0.     0.2925] pattern 1 dist 1.4595
+time=1763199642.9005647 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 3.2144999999999997
+time=1763199642.90073 CHECKER pos [0.4125 0.     0.2925] pattern 1 dist 4.9695
+time=1763199642.9008904 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 6.7245
+time=1763199642.9010546 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 8.4795
+time=1763199642.9012315 CHECKER pos [0.4125 0.     0.2925] pattern 0 dist 10.234499999999999
+time=1763199642.9013898 CHECKER pos [0.4525 0.     0.2925] pattern 1 dist 1.4195
+time=1763199642.9015422 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 3.1745
+time=1763199642.901723 CHECKER pos [0.4525 0.     0.2925] pattern 1 dist 4.9295
+time=1763199642.9018734 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 6.6845
+time=1763199642.902026 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 8.439499999999999
+time=1763199642.9021788 CHECKER pos [0.4525 0.     0.2925] pattern 0 dist 10.194499999999998
+time=1763199642.9023318 CHECKER pos [0.4925 0.     0.2925] pattern 1 dist 1.3795
+time=1763199642.9024835 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 3.1345
+time=1763199642.9026363 CHECKER pos [0.4925 0.     0.2925] pattern 1 dist 4.8895
+time=1763199642.9027867 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 6.6445
+time=1763199642.9029384 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 8.3995
+time=1763199642.9031177 CHECKER pos [0.4925 0.     0.2925] pattern 0 dist 10.154499999999999
+time=1763199642.903286 CHECKER pos [0.5325 0.     0.2925] pattern 1 dist 1.3395000000000001
+time=1763199642.903443 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 3.0945
+time=1763199642.9036028 CHECKER pos [0.5325 0.     0.2925] pattern 1 dist 4.8495
+time=1763199642.9037585 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 6.6045
+time=1763199642.9039168 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 8.359499999999999
+time=1763199642.9041014 CHECKER pos [0.5325 0.     0.2925] pattern 0 dist 10.114499999999998
+time=1763199642.9042597 CHECKER pos [0.5725 0.     0.2925] pattern 1 dist 1.2995
+time=1763199642.9044158 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 3.0545
+time=1763199642.904574 CHECKER pos [0.5725 0.     0.2925] pattern 1 dist 4.8095
+time=1763199642.9047306 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 6.5645
+time=1763199642.904889 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 8.3195
+time=1763199642.9050488 CHECKER pos [0.5725 0.     0.2925] pattern 0 dist 10.074499999999999
+time=1763199642.9052088 CHECKER pos [0.6125 0.     0.2925] pattern 1 dist 1.2595
+time=1763199642.9053655 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 3.0145
+time=1763199642.9055493 CHECKER pos [0.6125 0.     0.2925] pattern 1 dist 4.7695
+time=1763199642.905706 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 6.5245
+time=1763199642.9058642 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 8.279499999999999
+time=1763199642.9060223 CHECKER pos [0.6125 0.     0.2925] pattern 0 dist 10.034499999999998
+time=1763199642.9061763 CHECKER pos [0.6525 0.     0.2925] pattern 1 dist 1.2195
+time=1763199642.9063292 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 2.9745
+time=1763199642.9064875 CHECKER pos [0.6525 0.     0.2925] pattern 1 dist 4.7295
+time=1763199642.9066436 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 6.4845
+time=1763199642.9068015 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 8.2395
+time=1763199642.9069593 CHECKER pos [0.6525 0.     0.2925] pattern 0 dist 9.994499999999999
+time=1763199642.907126 CHECKER pos [0.6925 0.     0.2925] pattern 1 dist 1.1795
+time=1763199642.9073155 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 2.9345
+time=1763199642.9075131 CHECKER pos [0.6925 0.     0.2925] pattern 1 dist 4.6895
+time=1763199642.9077075 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 6.4445
+time=1763199642.9078665 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 8.199499999999999
+time=1763199642.9080253 CHECKER pos [0.6925 0.     0.2925] pattern 0 dist 9.954499999999998
+time=1763199642.9081845 CHECKER pos [0.7325 0.     0.2925] pattern 1 dist 1.1395
+time=1763199642.9083412 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 2.8945
+time=1763199642.9084997 CHECKER pos [0.7325 0.     0.2925] pattern 1 dist 4.6495
+time=1763199642.9086556 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 6.4045
+time=1763199642.9088135 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 8.1595
+time=1763199642.9089725 CHECKER pos [0.7325 0.     0.2925] pattern 0 dist 9.914499999999999
+time=1763199642.9091315 CHECKER pos [0.7725 0.     0.2925] pattern 1 dist 1.0995
+time=1763199642.9092877 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 2.8545
+time=1763199642.909446 CHECKER pos [0.7725 0.     0.2925] pattern 1 dist 4.6095
+time=1763199642.9096007 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 6.3645
+time=1763199642.909759 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 8.119499999999999
+time=1763199642.9099164 CHECKER pos [0.7725 0.     0.2925] pattern 0 dist 9.874499999999998
+time=1763199642.9100752 CHECKER pos [0.8125 0.     0.2925] pattern 1 dist 1.0594999999999999
+time=1763199642.9102316 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 2.8145
+time=1763199642.9103894 CHECKER pos [0.8125 0.     0.2925] pattern 1 dist 4.5695
+time=1763199642.910546 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 6.3245
+time=1763199642.9107108 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 8.0795
+time=1763199642.9108765 CHECKER pos [0.8125 0.     0.2925] pattern 0 dist 9.834499999999998
+time=1763199642.9110377 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.911203 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9113615 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9115198 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.911679 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9118736 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.912082 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.912252 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9124112 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9125676 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9127262 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9128845 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9130428 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9131992 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9133568 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9135134 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9136722 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9138312 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9139912 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.914148 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9143586 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9145164 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.914699 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9148817 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9150405 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9152455 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9154189 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9155765 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9157345 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.915931 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9161325 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9163175 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9165003 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9166925 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.916887 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9170468 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9172063 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9173634 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.917521 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9176767 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9178355 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9179943 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.918154 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9183109 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9184692 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9186265 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9187858 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.918944 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9191184 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.919286 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.919448 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9196045 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9197617 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9199193 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9200776 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.920234 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9203913 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9205477 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9207351 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9208953 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9210558 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9212132 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9213715 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9215283 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.921686 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.921844 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9220018 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.922157 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9223132 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9224713 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9226336 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9228003 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.922974 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.923142 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9233117 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.923481 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.923652 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.923819 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9239855 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9241564 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9243255 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9244983 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 6.2844999999999995
+time=1763199642.9246674 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9248402 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9250085 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.92518 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.925348 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.92551 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9256637 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9258237 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9259806 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9261394 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9262738 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9264274 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.926584 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9267442 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9269035 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9270618 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.927223 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.927383 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9275398 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9277 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9278593 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.928018 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9281769 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9283447 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9285142 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.928688 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9288585 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.929031 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9291985 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9293597 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9295213 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9296834 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.929848 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.930009 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9301713 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9303339 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9304929 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9306595 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9308214 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9309886 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9311705 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9313295 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9314797 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9316294 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.93183 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9320345 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.93224 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9323938 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9325476 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.932704 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.932861 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9330158 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.933172 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9333265 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9334815 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9336374 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9337945 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9339483 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9341052 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9342725 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9344435 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9346082 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.934788 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9349563 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9351397 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.935356 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9355388 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9357445 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9359353 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.936119 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9362943 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9364665 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9366398 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9368162 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9369912 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9371634 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9373376 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9375303 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9376786 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9378273 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.937977 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9380977 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9382136 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9383307 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9384468 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9385629 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9387069 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9388542 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9389768 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9391146 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9392328 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9393508 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9394684 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9395845 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9397285 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.939876 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.939998 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9401407 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9402647 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9403803 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9404964 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9406128 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9407334 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9408789 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9410305 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9411523 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9412963 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.941418 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9415338 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.94165 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9417672 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9418826 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9420254 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9421735 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9423208 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9424698 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.942593 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9427366 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9428854 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9430327 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.94316 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9432776 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9433954 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9435127 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9436293 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9437726 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9439209 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9440706 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9442055 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.944341 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9444888 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9446497 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9448075 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9449685 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9451284 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.945288 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.9454463 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9456053 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.9457624 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.9459233 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9460826 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 1.0194999999999999
+time=1763199642.9462426 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 2.7744999999999997
+time=1763199642.946401 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 4.5295
+time=1763199642.9465585 CHECKER pos [0.8525 0.     0.2925] pattern 1 dist 6.2844999999999995
+time=1763199642.946715 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 8.039499999999999
+time=1763199642.946875 CHECKER pos [0.8525 0.     0.2925] pattern 0 dist 9.794499999999998
+time=1763199642.9472098 CHECKER pos [0.8925 0.     0.2925] pattern 1 dist 0.9794999999999997
+time=1763199642.947381 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 2.7344999999999997
+time=1763199642.947548 CHECKER pos [0.8925 0.     0.2925] pattern 1 dist 4.4895
+time=1763199642.947712 CHECKER pos [0.8925 0.     0.2925] pattern 1 dist 6.2444999999999995
+time=1763199642.947872 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 7.999499999999999
+time=1763199642.948041 CHECKER pos [0.8925 0.     0.2925] pattern 0 dist 9.754499999999998
+time=1763199642.9482176 CHECKER pos [0.9325 0.     0.2925] pattern 1 dist 0.9394999999999997
+time=1763199642.9483821 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 2.6944999999999997
+time=1763199642.9485433 CHECKER pos [0.9325 0.     0.2925] pattern 1 dist 4.4495
+time=1763199642.9486818 CHECKER pos [0.9325 0.     0.2925] pattern 1 dist 6.2044999999999995
+time=1763199642.9488304 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 7.959499999999999
+time=1763199642.948993 CHECKER pos [0.9325 0.     0.2925] pattern 0 dist 9.714499999999997
+time=1763199642.9491546 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 0.8994999999999996
+time=1763199642.9493144 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 2.6544999999999996
+time=1763199642.9494739 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 4.4094999999999995
+time=1763199642.9496436 CHECKER pos [0.9725 0.     0.2925] pattern 1 dist 6.164499999999999
+time=1763199642.949807 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 7.919499999999999
+time=1763199642.9499698 CHECKER pos [0.9725 0.     0.2925] pattern 0 dist 9.674499999999998
+time=1763199642.9501302 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 0.8594999999999997
+time=1763199642.9502892 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 2.6144999999999996
+time=1763199642.9504445 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 4.3694999999999995
+time=1763199642.9506092 CHECKER pos [1.0125 0.     0.2925] pattern 1 dist 6.124499999999999
+time=1763199642.9507682 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 7.879499999999999
+time=1763199642.9509306 CHECKER pos [1.0125 0.     0.2925] pattern 0 dist 9.6345
+time=1763199642.9511006 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 0.8194999999999997
+time=1763199642.951263 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 2.5744999999999996
+time=1763199642.9514234 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 4.3294999999999995
+time=1763199642.9515824 CHECKER pos [1.0525 0.     0.2925] pattern 1 dist 6.084499999999999
+time=1763199642.9517393 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 7.839499999999999
+time=1763199642.951899 CHECKER pos [1.0525 0.     0.2925] pattern 0 dist 9.594499999999998
+time=1763199642.9520583 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 0.7794999999999996
+time=1763199642.9522178 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 2.5344999999999995
+time=1763199642.9523745 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 4.289499999999999
+time=1763199642.9525113 CHECKER pos [1.0925 0.     0.2925] pattern 1 dist 6.044499999999999
+time=1763199642.9526591 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 7.799499999999999
+time=1763199642.9528205 CHECKER pos [1.0925 0.     0.2925] pattern 0 dist 9.554499999999997
+time=1763199642.9529822 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 0.7394999999999996
+time=1763199642.9531422 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 2.4944999999999995
+time=1763199642.953301 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 4.249499999999999
+time=1763199642.9534676 CHECKER pos [1.1325 0.     0.2925] pattern 1 dist 6.004499999999999
+time=1763199642.9536283 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 7.759499999999999
+time=1763199642.9537885 CHECKER pos [1.1325 0.     0.2925] pattern 0 dist 9.514499999999998
+time=1763199642.9539511 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 0.6994999999999996
+time=1763199642.9541097 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 2.4544999999999995
+time=1763199642.954271 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 4.209499999999999
+time=1763199642.9544284 CHECKER pos [1.1725 0.     0.2925] pattern 1 dist 5.964499999999999
+time=1763199642.9545865 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 7.719499999999999
+time=1763199642.9547448 CHECKER pos [1.1725 0.     0.2925] pattern 0 dist 9.474499999999999
+time=1763199642.9549062 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 0.6594999999999995
+time=1763199642.9550714 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 2.4144999999999994
+time=1763199642.9552987 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 4.169499999999999
+time=1763199642.9555194 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 5.924499999999999
+time=1763199642.9557402 CHECKER pos [1.2125 0.     0.2925] pattern 1 dist 7.679499999999999
+time=1763199642.9559608 CHECKER pos [1.2125 0.     0.2925] pattern 0 dist 9.434499999999998
+time=1763199642.9561899 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 0.6194999999999995
+time=1763199642.95637 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 2.3744999999999994
+time=1763199642.956552 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 4.129499999999999
+time=1763199642.9567015 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 5.884499999999999
+time=1763199642.9568546 CHECKER pos [1.2525 0.     0.2925] pattern 1 dist 7.639499999999999
+time=1763199642.9570127 CHECKER pos [1.2525 0.     0.2925] pattern 0 dist 9.394499999999997
+time=1763199642.9571967 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 0.5794999999999995
+time=1763199642.9573548 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 2.3344999999999994
+time=1763199642.9575114 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 4.089499999999999
+time=1763199642.9576669 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 5.844499999999999
+time=1763199642.957823 CHECKER pos [1.2925 0.     0.2925] pattern 1 dist 7.599499999999999
+time=1763199642.9579866 CHECKER pos [1.2925 0.     0.2925] pattern 0 dist 9.354499999999998
+time=1763199642.9581573 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9583523 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9585102 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9586663 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9588213 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9589767 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9591506 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9593434 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.959501 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9596562 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9598103 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9599645 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9601324 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9602995 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9604552 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9606097 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9607632 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9609165 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9610717 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9612257 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9613807 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.961535 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.961689 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.961843 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.961999 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9621649 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.962355 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9625132 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9626672 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.962821 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9629772 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9631636 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9633205 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9634778 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9636328 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.963787 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9639435 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.964102 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.964264 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9644158 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9645653 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9647133 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9648373 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9649549 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.965072 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.965216 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9653635 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9655101 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9656603 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9658055 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9659426 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.966078 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9662132 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9663472 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9664843 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9666207 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9667447 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9668567 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9669652 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9670799 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 9.314499999999999
+time=1763199642.9671926 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 0.5394999999999994
+time=1763199642.9673014 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 2.2944999999999993
+time=1763199642.9674103 CHECKER pos [1.3325 0.     0.2925] pattern 0 dist 4.049499999999999
+time=1763199642.9675186 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 5.804499999999999
+time=1763199642.9676254 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 7.559499999999999
+time=1763199642.9677312 CHECKER pos [1.3325 0.     0.2925] pattern 1 dist 9.314499999999999
+time=1763199642.9678388 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 0.4994999999999994
+time=1763199642.9679465 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 2.2544999999999993
+time=1763199642.9680848 CHECKER pos [1.3725 0.     0.2925] pattern 0 dist 4.009499999999999
+time=1763199642.9682226 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 5.764499999999999
+time=1763199642.9683566 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 7.519499999999999
+time=1763199642.9685059 CHECKER pos [1.3725 0.     0.2925] pattern 1 dist 9.274499999999998
+time=1763199642.9686553 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 0.45949999999999935
+time=1763199642.968808 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 2.2144999999999992
+time=1763199642.9689577 CHECKER pos [1.4125 0.     0.2925] pattern 0 dist 3.969499999999999
+time=1763199642.9691308 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 5.724499999999999
+time=1763199642.9692824 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 7.479499999999999
+time=1763199642.969431 CHECKER pos [1.4125 0.     0.2925] pattern 1 dist 9.234499999999997
+time=1763199642.9695802 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 0.4194999999999993
+time=1763199642.9697306 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 2.174499999999999
+time=1763199642.969881 CHECKER pos [1.4525 0.     0.2925] pattern 0 dist 3.929499999999999
+time=1763199642.9700308 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 5.684499999999999
+time=1763199642.970179 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 7.439499999999999
+time=1763199642.9703271 CHECKER pos [1.4525 0.     0.2925] pattern 1 dist 9.194499999999998
+time=1763199642.970492 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 0.3794999999999993
+time=1763199642.970658 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 2.134499999999999
+time=1763199642.9708269 CHECKER pos [1.4925 0.     0.2925] pattern 0 dist 3.889499999999999
+time=1763199642.9709902 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 5.644499999999999
+time=1763199642.971155 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 7.399499999999999
+time=1763199642.971319 CHECKER pos [1.4925 0.     0.2925] pattern 1 dist 9.154499999999999
+time=1763199642.9715068 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 0.33949999999999925
+time=1763199642.9716651 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 2.094499999999999
+time=1763199642.9718258 CHECKER pos [1.5325 0.     0.2925] pattern 0 dist 3.849499999999999
+time=1763199642.971988 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 5.604499999999999
+time=1763199642.9721453 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 7.359499999999999
+time=1763199642.9723074 CHECKER pos [1.5325 0.     0.2925] pattern 1 dist 9.114499999999998
+time=1763199642.9724693 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 0.2994999999999992
+time=1763199642.97263 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 2.054499999999999
+time=1763199642.9728198 CHECKER pos [1.5725 0.     0.2925] pattern 0 dist 3.809499999999999
+time=1763199642.9729779 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 5.564499999999999
+time=1763199642.9731405 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 7.319499999999999
+time=1763199642.9733012 CHECKER pos [1.5725 0.     0.2925] pattern 1 dist 9.074499999999997
+time=1763199642.9734623 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 0.2594999999999992
+time=1763199642.973624 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 2.014499999999999
+time=1763199642.9737937 CHECKER pos [1.6125 0.     0.2925] pattern 0 dist 3.769499999999999
+time=1763199642.9739473 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 5.524499999999999
+time=1763199642.9740963 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 7.279499999999999
+time=1763199642.974238 CHECKER pos [1.6125 0.     0.2925] pattern 1 dist 9.034499999999998
+time=1763199642.9743824 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 0.21949999999999914
+time=1763199642.9745347 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 1.974499999999999
+time=1763199642.9746869 CHECKER pos [1.6525 0.     0.2925] pattern 0 dist 3.729499999999999
+time=1763199642.97484 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 5.484499999999999
+time=1763199642.9749906 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 7.239499999999999
+time=1763199642.9751484 CHECKER pos [1.6525 0.     0.2925] pattern 1 dist 8.994499999999999
+time=1763199642.9753542 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 0.1794999999999991
+time=1763199642.975538 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 1.934499999999999
+time=1763199642.9757416 CHECKER pos [1.6925 0.     0.2925] pattern 0 dist 3.689499999999999
+time=1763199642.975895 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 5.444499999999999
+time=1763199642.9760475 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 7.199499999999999
+time=1763199642.9762013 CHECKER pos [1.6925 0.     0.2925] pattern 1 dist 8.954499999999998
+time=1763199642.9763553 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 0.13949999999999907
+time=1763199642.9765089 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 1.894499999999999
+time=1763199642.976662 CHECKER pos [1.7325 0.     0.2925] pattern 0 dist 3.649499999999999
+time=1763199642.9768786 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 5.404499999999999
+time=1763199642.977044 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 7.159499999999999
+time=1763199642.9771967 CHECKER pos [1.7325 0.     0.2925] pattern 1 dist 8.914499999999997
+time=1763199642.9773495 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 0.09949999999999903
+time=1763199642.9775028 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 1.854499999999999
+time=1763199642.977656 CHECKER pos [1.7725 0.     0.2925] pattern 0 dist 3.609499999999999
+time=1763199642.9778259 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 5.364499999999999
+time=1763199642.9779782 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 7.119499999999999
+time=1763199642.9781287 CHECKER pos [1.7725 0.     0.2925] pattern 1 dist 8.874499999999998
+time=1763199642.9782796 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 0.059499999999999
+time=1763199642.978431 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 1.814499999999999
+time=1763199642.9785795 CHECKER pos [1.8125 0.     0.2925] pattern 0 dist 3.569499999999999
+time=1763199642.9787295 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 5.324499999999999
+time=1763199642.9788783 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 7.079499999999999
+time=1763199642.9790268 CHECKER pos [1.8125 0.     0.2925] pattern 1 dist 8.834499999999998
+time=1763199642.9791849 CHECKER pos [1.8525 0.     0.2925] pattern 0 dist 0.019499999999998963
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 820
+red_pixels: 0
+brown_pixels: 839
+red_pixels: 0
+brown_pixels: 768
+red_pixels: 0
+brown_pixels: 664
+red_pixels: 0
+brown_pixels: 593
+red_pixels: 0
+brown_pixels: 520
+red_pixels: 0
+brown_pixels: 418
+red_pixels: 0
+brown_pixels: 317
+red_pixels: 0
+brown_pixels: 229
+red_pixels: 0
+brown_pixels: 229
+red_pixels: 0
+brown_pixels: 228
+red_pixels: 0
+brown_pixels: 227
+red_pixels: 0
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 245
+red_pixels: 20
+brown_pixels: 243
+red_pixels: 0
+brown_pixels: 256
+red_pixels: 0
+brown_pixels: 268
+red_pixels: 0
+brown_pixels: 280
+red_pixels: 0
+brown_pixels: 267
+red_pixels: 0
+brown_pixels: 272
+red_pixels: 0
+brown_pixels: 285
+red_pixels: 0
+brown_pixels: 309
+red_pixels: 0
+brown_pixels: 339
+red_pixels: 0
+brown_pixels: 337
+red_pixels: 0
+brown_pixels: 346
+red_pixels: 0
+brown_pixels: 364
+red_pixels: 0
+brown_pixels: 412
+red_pixels: 0
+brown_pixels: 419
+red_pixels: 0
+brown_pixels: 447
+red_pixels: 0
+brown_pixels: 481
+red_pixels: 0
+brown_pixels: 471
+red_pixels: 0
+brown_pixels: 522
+red_pixels: 0
+brown_pixels: 555
+red_pixels: 0
+brown_pixels: 551
+red_pixels: 0
+brown_pixels: 609
+red_pixels: 0
+brown_pixels: 649
+red_pixels: 0
+brown_pixels: 667
+red_pixels: 0
+brown_pixels: 655
+red_pixels: 0
+brown_pixels: 650
+red_pixels: 0
+brown_pixels: 677
+red_pixels: 0
+brown_pixels: 661
+red_pixels: 0
+brown_pixels: 678
+red_pixels: 0
+brown_pixels: 641
+red_pixels: 0
+brown_pixels: 697
+red_pixels: 0
+brown_pixels: 665
+red_pixels: 0
+brown_pixels: 657
+red_pixels: 0
+brown_pixels: 675
+red_pixels: 0
+brown_pixels: 674
+red_pixels: 0
+brown_pixels: 598
+red_pixels: 0
+brown_pixels: 517
+red_pixels: 0
+brown_pixels: 426
+red_pixels: 0
+brown_pixels: 322
+red_pixels: 0
+brown_pixels: 215
+red_pixels: 0
+brown_pixels: 129
+red_pixels: 0
+brown_pixels: 38
+red_pixels: 0
+brown_pixels: 7
+red_pixels: 0
+brown_pixels: 5
+red_pixels: 0
+brown_pixels: 6
+red_pixels: 0
+brown_pixels: 7
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 6
+red_pixels: 0
+brown_pixels: 4
+red_pixels: 0
+brown_pixels: 5
+red_pixels: 0
+brown_pixels: 3
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 6
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 8
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 7
+red_pixels: 0
+brown_pixels: 5
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 4
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 5
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 3
+red_pixels: 0
+brown_pixels: 4
+red_pixels: 0
+brown_pixels: 3
+red_pixels: 0
+brown_pixels: 3
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 3
+red_pixels: 0
+brown_pixels: 4
+red_pixels: 0
+brown_pixels: 6
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 2
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 1
+red_pixels: 0
+brown_pixels: 0
+red_pixels: 0
+dist = 0.019499999999998963 self.safe_distance = 0.04095
+False: CorrectTrafficlightPassingChecker has failed
