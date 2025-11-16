@@ -1,0 +1,68 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1763324527.8600821 gym-duckietown 2019.0.0
+
+time=1763324527.9954014 Registering gym environment id: Duckietown-4way-v0
+time=1763324527.9955378 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763324527.9956188 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763324527.9956977 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763324527.9957783 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763324527.9958615 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763324527.9959414 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763324527.996023 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763324527.996104 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763324527.9961846 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763324527.9962704 Registering gym environment id: Duckietown-small_loop-v0
+time=1763324527.996349 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763324527.9964287 Registering gym environment id: Duckietown-straight_road-v0
+time=1763324527.996511 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763324527.9965909 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763324527.9966767 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763324527.996755 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763324527.9968345 Registering gym environment id: Duckietown-udem1-v0
+time=1763324527.9969184 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763324530.1230357 Falling back to non-multisampled frame buffer
+time=1763324530.125205 Falling back to non-multisampled frame buffer
+time=1763324530.1284904 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1763324530.1463974 loading mesh "duckiebot.obj"
+time=1763324530.1466622 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763324530.5063312 loading mesh "bus.obj"
+time=1763324530.5180907 loading texture "bus.png"
+time=1763324531.0014422 loading mesh "truck.obj"
+time=1763324531.0139978 loading texture "truck.png"
+time=1763324531.4928508 loading mesh "tree.obj"
+time=1763324531.4931052 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1763324531.4957485 loading mesh "sign_blank.obj"
+time=1763324531.4979234 loading texture "sign_blank.png"
+time=1763324531.612186 loading texture "asphalt_1.png"
+time=1763324531.9032333 loading texture "curve_left_1.png"
+time=1763324531.9130373 loading texture "straight_1.png"
+time=1763324531.9226463 loading texture "curve_right_1.png"
+time=1763324531.9389184 using user tile start: (1, 1)
+time=1763324531.9396107 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc67a0882b0>, 'color': array([1, 1, 1])}
+time=1763324531.9407604 road_tile_size=0.585
+time=1763324531.9409788 Starting at [0.71389911 0.         0.91968314] -1.7901899600837288
+time=1763324531.9411657 Pos: [0.71389911 0.         0.91968314] angle -1.7901899600837288
+time=1763324532.6993587 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/solutions/solution.py", line 7, in __init__
+    self.target_coords = generated_task.generate_target_coordinates()
+AttributeError: 'dict' object has no attribute 'generate_target_coordinates'
+0.585
+0.713899114187287 0.9196831379253751
