@@ -1,0 +1,149 @@
+False: Incorrect solution execution: 'NoneType' object is not subscriptable
+time=1763836067.7467535 gym-duckietown 2019.0.0
+
+time=1763836067.8304067 Registering gym environment id: Duckietown-4way-v0
+time=1763836067.8304908 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763836067.830529 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763836067.8306127 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763836067.8306797 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763836067.8307447 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763836067.830793 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763836067.8308325 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763836067.8308833 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763836067.8309314 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763836067.8309896 Registering gym environment id: Duckietown-small_loop-v0
+time=1763836067.8310483 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763836067.8311157 Registering gym environment id: Duckietown-straight_road-v0
+time=1763836067.8311682 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763836067.831223 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763836067.8312733 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763836067.8313224 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763836067.831369 Registering gym environment id: Duckietown-udem1-v0
+time=1763836067.83142 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763836069.3244898 Falling back to non-multisampled frame buffer
+time=1763836069.3262432 Falling back to non-multisampled frame buffer
+time=1763836069.3287613 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1763836069.3473547 loading mesh "duckiebot.obj"
+time=1763836069.3475 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763836069.5828123 loading mesh "bus.obj"
+time=1763836069.6142151 loading texture "bus.png"
+time=1763836069.9600854 loading mesh "truck.obj"
+time=1763836070.4987504 loading texture "truck.png"
+time=1763836070.898223 loading mesh "tree.obj"
+time=1763836070.8983932 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1763836071.2452605 loading mesh "sign_blank.obj"
+time=1763836071.264688 loading texture "sign_blank.png"
+time=1763836071.3406873 loading texture "asphalt_1.png"
+time=1763836071.5269954 loading texture "curve_left_1.png"
+time=1763836071.5334857 loading texture "straight_1.png"
+time=1763836071.5399544 loading texture "curve_right_1.png"
+time=1763836071.5517547 using user tile start: (1, 1)
+time=1763836071.5523682 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fd070113820>, 'color': array([1, 1, 1])}
+time=1763836071.553236 road_tile_size=0.585
+time=1763836071.553444 Starting at [0.72938391 0.         0.88235848] -1.3627656154389487
+time=1763836071.5536401 Pos: [0.72938391 0.         0.88235848] angle -1.3627656154389487
+time=1763836071.713984 using DuckietownEnv
+0.585
+0.7293839073324635 0.8823584840831679
+[4.387499999999999, 0, 6.727499999999999]
+[['asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt'], ['asphalt', 'curve_left/W', 'curve_left/N', 'asphalt', 'curve_left/W', 'straight/W', 'straight/W', 'curve_left/N', 'asphalt'], ['asphalt', 'straight/S', 'curve_right/W', 'straight/W', 'curve_right/S', 'asphalt', 'curve_right/N', 'curve_left/E', 'asphalt'], ['asphalt', 'straight/S', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'straight/N', 'asphalt', 'asphalt'], ['asphalt', 'straight/S', 'asphalt', 'asphalt', 'curve_right/N', 'straight/E', 'curve_left/E', 'asphalt', 'asphalt'], ['asphalt', 'straight/S', 'asphalt', 'curve_right/N', 'curve_left/E', 'asphalt', 'asphalt', 'asphalt', 'asphalt'], ['asphalt', 'straight/S', 'asphalt', 'straight/N', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt'], ['asphalt', 'curve_left/S', 'straight/E', 'curve_left/E', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt'], ['asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt']]
+['asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt']
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+['asphalt', 'curve_left/W', 'curve_left/N', 'asphalt', 'curve_left/W', 'straight/W', 'straight/W', 'curve_left/N', 'asphalt']
+asphalt
+curve_left/W
+curve_left/N
+asphalt
+curve_left/W
+straight/W
+straight/W
+curve_left/N
+asphalt
+['asphalt', 'straight/S', 'curve_right/W', 'straight/W', 'curve_right/S', 'asphalt', 'curve_right/N', 'curve_left/E', 'asphalt']
+asphalt
+straight/S
+curve_right/W
+straight/W
+curve_right/S
+asphalt
+curve_right/N
+curve_left/E
+asphalt
+['asphalt', 'straight/S', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'straight/N', 'asphalt', 'asphalt']
+asphalt
+straight/S
+asphalt
+asphalt
+asphalt
+asphalt
+straight/N
+asphalt
+asphalt
+['asphalt', 'straight/S', 'asphalt', 'asphalt', 'curve_right/N', 'straight/E', 'curve_left/E', 'asphalt', 'asphalt']
+asphalt
+straight/S
+asphalt
+asphalt
+curve_right/N
+straight/E
+curve_left/E
+asphalt
+asphalt
+['asphalt', 'straight/S', 'asphalt', 'curve_right/N', 'curve_left/E', 'asphalt', 'asphalt', 'asphalt', 'asphalt']
+asphalt
+straight/S
+asphalt
+curve_right/N
+curve_left/E
+asphalt
+asphalt
+asphalt
+asphalt
+['asphalt', 'straight/S', 'asphalt', 'straight/N', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt']
+asphalt
+straight/S
+asphalt
+straight/N
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+['asphalt', 'curve_left/S', 'straight/E', 'curve_left/E', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt']
+asphalt
+curve_left/S
+straight/E
+curve_left/E
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+['asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt', 'asphalt']
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+asphalt
+total reward =  0
+False: Incorrect solution execution: 'NoneType' object is not subscriptable
