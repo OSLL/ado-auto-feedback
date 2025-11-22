@@ -1,0 +1,1289 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1763813105.3753698 gym-duckietown 2019.0.0
+
+time=1763813105.4647627 Registering gym environment id: Duckietown-4way-v0
+time=1763813105.4648495 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763813105.464884 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763813105.464948 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763813105.4650068 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763813105.465068 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763813105.4651105 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763813105.4651616 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763813105.4652083 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763813105.46526 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763813105.4653115 Registering gym environment id: Duckietown-small_loop-v0
+time=1763813105.46536 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763813105.4654057 Registering gym environment id: Duckietown-straight_road-v0
+time=1763813105.4654765 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763813105.4655235 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763813105.4655704 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763813105.4656155 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763813105.4656625 Registering gym environment id: Duckietown-udem1-v0
+time=1763813105.465705 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763813107.0180335 Falling back to non-multisampled frame buffer
+time=1763813107.0200098 Falling back to non-multisampled frame buffer
+time=1763813107.0228066 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1763813107.08255 loading mesh "duckiebot.obj"
+time=1763813107.0827353 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763813107.3116832 loading mesh "bus.obj"
+time=1763813107.3387315 loading texture "bus.png"
+time=1763813107.6737795 loading mesh "truck.obj"
+time=1763813107.696164 loading texture "truck.png"
+time=1763813108.0281358 loading mesh "tree.obj"
+time=1763813108.0283203 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1763813108.8491485 loading mesh "sign_blank.obj"
+time=1763813108.8512778 loading texture "sign_blank.png"
+time=1763813108.9752786 loading texture "asphalt_1.png"
+time=1763813109.1629262 loading texture "curve_left_1.png"
+time=1763813109.1693122 loading texture "straight_1.png"
+time=1763813109.1756065 loading texture "curve_right_1.png"
+time=1763813109.1874483 using user tile start: (1, 1)
+time=1763813109.1880288 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f6c6d3d82b0>, 'color': array([1, 1, 1])}
+time=1763813109.1888883 road_tile_size=0.585
+time=1763813109.189092 Starting at [0.72120989 0.         0.88255917] -1.7239870553899497
+time=1763813109.1892314 Pos: [0.72120989 0.         0.88255917] angle -1.7239870553899497
+time=1763813109.3535826 using DuckietownEnv
+time=1763813109.4942586 Pos: [0.71972628 0.         0.89175771] angle -1.7374270813434893
+time=1763813109.6767821 Pos: [0.71815639 0.         0.90094199] angle -1.7427582866789864
+time=1763813109.750775 Pos: [0.71620494 0.         0.91242418] angle -1.7355249651795364
+time=1763813109.810731 Pos: [0.71434512 0.         0.92392156] angle -1.726809839012516
+time=1763813109.8690562 Pos: [0.71260149 0.         0.93543711] angle -1.7153307509228306
+time=1763813109.9318972 Pos: [0.71100171 0.         0.94697349] angle -1.7018492947220212
+time=1763813109.988967 Pos: [0.70956569 0.         0.95853138] angle -1.6869684131789715
+time=1763813110.0546052 Pos: [0.70830716 0.         0.97010993] angle -1.6711648695586565
+time=1763813110.1315494 Pos: [0.70720152 0.         0.98170415] angle -1.6605747589033697
+time=1763813110.1942627 Pos: [0.70619523 0.         0.99330744] angle -1.654033666327826
+time=1763813110.2494576 Pos: [0.70521025 0.         1.00724855] angle -1.6286303664328325
+time=1763813110.3065147 Pos: [0.70457112 0.         1.02120983] angle -1.604457155875095
+time=1763813110.369732 Pos: [0.70425437 0.         1.0351822 ] angle -1.5824672336794379
+time=1763813110.428072 Pos: [0.70423164 0.         1.04915818] angle -1.5623776422329996
+time=1763813110.4859576 Pos: [0.70448413 0.         1.06313193] angle -1.543081022340375
+time=1763813110.5422063 Pos: [0.70486754 0.         1.07477243] angle -1.5326599498782394
+time=1763813110.600058 Pos: [0.70552473 0.         1.08873302] angle -1.5148531163196632
+time=1763813110.6563463 Pos: [0.70677268 0.         1.1073258 ] angle -1.4927001682966246
+time=1763813110.7132666 Pos: [0.70841244 0.         1.12588819] angle -1.472674517783735
+time=1763813110.7700784 Pos: [0.71041047 0.         1.14441548] angle -1.4540637758382327
+time=1763813110.8320637 Pos: [0.7127358 0.        1.1629046] angle -1.4373073001704118
+time=1763813110.8904247 Pos: [0.71535515 0.         1.1813544 ] angle -1.4222269156939678
+time=1763813110.9471478 Pos: [0.71822833 0.         1.19976644] angle -1.4097646557714083
+time=1763813111.0094032 Pos: [0.72006136 0.         1.21126814] angle -1.4157445852567618
+time=1763813111.0918517 Pos: [0.72182708 0.         1.22278036] angle -1.4214645992468764
+time=1763813111.1480515 Pos: [0.72468605 0.         1.24119466] angle -1.412071448886203
+time=1763813111.2049985 Pos: [0.72647167 0.         1.25270379] angle -1.4216796701816166
+time=1763813111.2614086 Pos: [0.72930759 0.         1.27112168] angle -1.4143602598365963
+time=1763813111.3203733 Pos: [0.7310528  0.         1.28263698] angle -1.4264101666165565
+time=1763813111.380431 Pos: [0.73378971 0.         1.30106986] angle -1.420376928300768
+time=1763813111.439143 Pos: [0.73545726 0.         1.31259665] angle -1.4338741647889883
+time=1763813111.4958854 Pos: [0.73804964 0.         1.33105041] angle -1.4285851957357278
+time=1763813111.5545266 Pos: [0.7407206  0.         1.34949298] angle -1.4253559395352424
+time=1763813111.6112463 Pos: [0.74343496 0.         1.36792922] angle -1.423877683924041
+time=1763813111.6707845 Pos: [0.74616296 0.         1.38636345] angle -1.4238769697915723
+time=1763813111.7323217 Pos: [0.74887957 0.         1.40479936] angle -1.425112214939497
+time=1763813111.7919097 Pos: [0.75156398 0.         1.42323998] angle -1.4273706019590868
+time=1763813111.8535857 Pos: [0.75419902 0.         1.44168772] angle -1.4304652185907434
+time=1763813111.9285855 Pos: [0.75677075 0.         1.46014439] angle -1.4342324375610305
+time=1763813111.9879515 Pos: [0.75926804 0.         1.47861127] angle -1.4385295218928025
+time=1763813112.0625048 Pos: [0.76168221 0.         1.4970892 ] angle -1.4432324411519288
+time=1763813112.1288695 Pos: [0.76400668 0.         1.51557862] angle -1.4482338839601039
+time=1763813112.19432 Pos: [0.76623675 0.         1.53407967] angle -1.4534414523029346
+time=1763813112.2545567 Pos: [0.76836927 0.         1.55259222] angle -1.4587760236132408
+time=1763813112.3324814 Pos: [0.77040245 0.         1.57111593] angle -1.4641702672349226
+time=1763813112.3878314 Pos: [0.77233565 0.         1.58965035] angle -1.4695673026079819
+time=1763813112.4501805 Pos: [0.77416921 0.         1.60819489] angle -1.4749194873086588
+time=1763813112.5322506 Pos: [0.77590427 0.         1.62674891] angle -1.4801873238913084
+time=1763813112.615313 Pos: [0.77754265 0.         1.64531171] angle -1.4853384752828307
+time=1763813112.6937587 Pos: [0.77908672 0.         1.6638826 ] angle -1.4903468792576218
+time=1763813112.7490413 Pos: [0.78053927 0.         1.68246087] angle -1.495191953259539
+time=1763813112.8067243 Pos: [0.78190346 0.         1.70104584] angle -1.499857881531084
+time=1763813112.8634481 Pos: [0.78318269 0.         1.71963685] angle -1.504332977156378
+time=1763813112.9221075 Pos: [0.78438057 0.         1.73823328] angle -1.5086091122235925
+time=1763813112.9789915 Pos: [0.78550081 0.         1.75683456] angle -1.5126812098659597
+time=1763813113.03632 Pos: [0.78654721 0.         1.77544013] angle -1.5165467924509273
+time=1763813113.0942638 Pos: [0.78752361 0.         1.79404951] angle -1.5202055806574741
+time=1763813113.149583 Pos: [0.78843383 0.         1.81266224] angle -1.5236591386152456
+time=1763813113.2037156 Pos: [0.78928164 0.         1.83127793] angle -1.5269105606790818
+time=1763813113.2604015 Pos: [0.79007076 0.         1.84989619] angle -1.5299641957816121
+time=1763813113.3161235 Pos: [0.79080482 0.         1.86851671] angle -1.5328254056475095
+time=1763813113.3727837 Pos: [0.79148733 0.         1.88713919] angle -1.5355003534680953
+time=1763813113.427922 Pos: [0.7921217  0.         1.90576337] angle -1.53799581992639
+time=1763813113.482695 Pos: [0.79271119 0.         1.92438903] angle -1.5403190437322423
+time=1763813113.539189 Pos: [0.79325894 0.         1.94301596] angle -1.5424775840765275
+time=1763813113.5976365 Pos: [0.79376795 0.         1.96164399] angle -1.5444792026439969
+time=1763813113.6529977 Pos: [0.79424106 0.         1.98027297] angle -1.5463317630375315
+time=1763813113.7342553 Pos: [0.79468097 0.         1.99890276] angle -1.548043145663476
+time=1763813113.7896507 Pos: [0.79509023 0.         2.01753325] angle -1.5496211763094303
+time=1763813113.8455403 Pos: [0.79547127 0.         2.03616434] angle -1.5510735668134383
+time=1763813113.9272165 Pos: [0.79582635 0.         2.05479594] angle -1.5524078663777519
+time=1763813114.004395 Pos: [0.7961576  0.         2.07342798] angle -1.5536314222221854
+time=1763813114.0625443 Pos: [0.79646702 0.         2.0920604 ] angle -1.554751348402307
+time=1763813114.118991 Pos: [0.79675648 0.         2.11069314] angle -1.5557745017370814
+time=1763813114.173963 Pos: [0.79702771 0.         2.12932615] angle -1.556707463899827
+time=1763813114.231433 Pos: [0.79728233 0.         2.1479594 ] angle -1.5575565288261888
+time=1763813114.285685 Pos: [0.79752186 0.         2.16659284] angle -1.5583276946838471
+time=1763813114.3401272 Pos: [0.7977477  0.         2.18522646] angle -1.5590266597315832
+time=1763813114.3967984 Pos: [0.79796113 0.         2.20386023] angle -1.559658821470648
+time=1763813114.463043 Pos: [0.79816336 0.         2.22249412] angle -1.5602292785597247
+time=1763813114.5185273 Pos: [0.79835549 0.         2.24112811] angle -1.5607428350266142
+0.585
+0.7212098918701458 0.8825591660117005
+Start position: [0.72120989 0.         0.88255917]
+Start angle: -1.7239870553899497
+Target position: [4.387499999999999, 0, 6.727499999999999]
+=== PHASE 1: Move to target ===
+Step 0: Dist: 6.900
+  SLOW: sharp turn, Speed: 0.20, Turn: -0.288
+  Lane: dist=0.095, angle=-0.313
+Step 1: Dist: 6.893
+  SLOW: sharp turn, Speed: 0.20, Turn: -0.114
+  Lane: dist=0.092, angle=-0.277
+Step 2: Dist: 6.886
+  MEDIUM: curve, Speed: 0.25, Turn: 0.155
+  Lane: dist=0.090, angle=-0.249
+Step 3: Dist: 6.877
+  MEDIUM: curve, Speed: 0.25, Turn: 0.187
+  Lane: dist=0.087, angle=-0.235
+Step 4: Dist: 6.868
+  MEDIUM: curve, Speed: 0.25, Turn: 0.246
+  Lane: dist=0.084, angle=-0.216
+Step 5: Dist: 6.860
+  MEDIUM: curve, Speed: 0.25, Turn: 0.289
+  Lane: dist=0.082, angle=-0.200
+Step 6: Dist: 6.851
+  MEDIUM: curve, Speed: 0.25, Turn: 0.319
+  Lane: dist=0.080, angle=-0.187
+Step 7: Dist: 6.842
+  MEDIUM: curve, Speed: 0.25, Turn: 0.339
+  Lane: dist=0.078, angle=-0.177
+Step 8: Dist: 6.833
+  MEDIUM: curve, Speed: 0.25, Turn: 0.227
+  Lane: dist=0.075, angle=-0.193
+Step 9: Dist: 6.823
+  MEDIUM: curve, Speed: 0.25, Turn: 0.140
+  Lane: dist=0.073, angle=-0.203
+Step 10: Dist: 6.814
+  MEDIUM: off center, Speed: 0.30, Turn: 0.545
+  Lane: dist=0.072, angle=-0.145
+Step 11: Dist: 6.803
+  MEDIUM: off center, Speed: 0.30, Turn: 0.519
+  Lane: dist=0.070, angle=-0.143
+Step 12: Dist: 6.792
+  MEDIUM: off center, Speed: 0.30, Turn: 0.472
+  Lane: dist=0.068, angle=-0.146
+Step 13: Dist: 6.780
+  MEDIUM: off center, Speed: 0.30, Turn: 0.431
+  Lane: dist=0.066, angle=-0.148
+Step 14: Dist: 6.768
+  MEDIUM: off center, Speed: 0.30, Turn: 0.414
+  Lane: dist=0.064, angle=-0.145
+Step 15: Dist: 6.756
+  MEDIUM: curve, Speed: 0.25, Turn: 0.224
+  Lane: dist=0.062, angle=-0.150
+Step 16: Dist: 6.746
+  MEDIUM: off center, Speed: 0.30, Turn: 0.382
+  Lane: dist=0.060, angle=-0.139
+Step 17: Dist: 6.734
+  FAST: straight, Speed: 0.40, Turn: 0.476
+  Lane: dist=0.058, angle=-0.140
+Step 18: Dist: 6.718
+  FAST: straight, Speed: 0.40, Turn: 0.430
+  Lane: dist=0.056, angle=-0.142
+Step 19: Dist: 6.702
+  FAST: straight, Speed: 0.40, Turn: 0.399
+  Lane: dist=0.053, angle=-0.140
+Step 20: Dist: 6.685
+  FAST: straight, Speed: 0.40, Turn: 0.360
+  Lane: dist=0.050, angle=-0.141
+Step 21: Dist: 6.668
+  FAST: straight, Speed: 0.40, Turn: 0.324
+  Lane: dist=0.048, angle=-0.141
+Step 22: Dist: 6.652
+  FAST: straight, Speed: 0.40, Turn: 0.268
+  Lane: dist=0.045, angle=-0.149
+Step 23: Dist: 6.635
+  MEDIUM: curve, Speed: 0.25, Turn: -0.128
+  Lane: dist=0.042, angle=-0.161
+Step 24: Dist: 6.624
+  MEDIUM: curve, Speed: 0.25, Turn: -0.123
+  Lane: dist=0.040, angle=-0.155
+Step 25: Dist: 6.614
+  FAST: straight, Speed: 0.40, Turn: 0.202
+  Lane: dist=0.039, angle=-0.149
+Step 26: Dist: 6.597
+  MEDIUM: curve, Speed: 0.25, Turn: -0.206
+  Lane: dist=0.036, angle=-0.159
+Step 27: Dist: 6.586
+  FAST: straight, Speed: 0.40, Turn: 0.157
+  Lane: dist=0.034, angle=-0.149
+Step 28: Dist: 6.569
+  MEDIUM: curve, Speed: 0.25, Turn: -0.259
+  Lane: dist=0.031, angle=-0.156
+Step 29: Dist: 6.559
+  FAST: straight, Speed: 0.40, Turn: 0.130
+  Lane: dist=0.029, angle=-0.144
+Step 30: Dist: 6.542
+  MEDIUM: curve, Speed: 0.25, Turn: -0.290
+  Lane: dist=0.027, angle=-0.150
+Step 31: Dist: 6.531
+  FAST: straight, Speed: 0.40, Turn: 0.114
+  Lane: dist=0.025, angle=-0.137
+Step 32: Dist: 6.515
+  FAST: straight, Speed: 0.40, Turn: 0.069
+  Lane: dist=0.022, angle=-0.142
+Step 33: Dist: 6.498
+  FAST: straight, Speed: 0.40, Turn: 0.032
+  Lane: dist=0.020, angle=-0.145
+Step 34: Dist: 6.481
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=0.017, angle=-0.147
+Step 35: Dist: 6.464
+  FAST: straight, Speed: 0.40, Turn: -0.027
+  Lane: dist=0.014, angle=-0.147
+Step 36: Dist: 6.448
+  FAST: straight, Speed: 0.40, Turn: -0.048
+  Lane: dist=0.012, angle=-0.146
+Step 37: Dist: 6.431
+  FAST: straight, Speed: 0.40, Turn: -0.066
+  Lane: dist=0.009, angle=-0.143
+Step 38: Dist: 6.414
+  FAST: straight, Speed: 0.40, Turn: -0.081
+  Lane: dist=0.006, angle=-0.140
+Step 39: Dist: 6.397
+  FAST: straight, Speed: 0.40, Turn: -0.092
+  Lane: dist=0.004, angle=-0.137
+Step 40: Dist: 6.381
+  FAST: straight, Speed: 0.40, Turn: -0.101
+  Lane: dist=0.001, angle=-0.132
+Step 41: Dist: 6.364
+  FAST: straight, Speed: 0.40, Turn: -0.107
+  Lane: dist=-0.001, angle=-0.128
+Step 42: Dist: 6.348
+  FAST: straight, Speed: 0.40, Turn: -0.112
+  Lane: dist=-0.004, angle=-0.123
+Step 43: Dist: 6.331
+  FAST: straight, Speed: 0.40, Turn: -0.115
+  Lane: dist=-0.006, angle=-0.117
+Step 44: Dist: 6.315
+  FAST: straight, Speed: 0.40, Turn: -0.116
+  Lane: dist=-0.008, angle=-0.112
+Step 45: Dist: 6.299
+  FAST: straight, Speed: 0.40, Turn: -0.116
+  Lane: dist=-0.010, angle=-0.107
+Step 46: Dist: 6.282
+  FAST: straight, Speed: 0.40, Turn: -0.115
+  Lane: dist=-0.012, angle=-0.101
+Step 47: Dist: 6.266
+  FAST: straight, Speed: 0.40, Turn: -0.113
+  Lane: dist=-0.014, angle=-0.096
+Step 48: Dist: 6.250
+  FAST: straight, Speed: 0.40, Turn: -0.111
+  Lane: dist=-0.015, angle=-0.091
+Step 49: Dist: 6.234
+  FAST: straight, Speed: 0.40, Turn: -0.108
+  Lane: dist=-0.017, angle=-0.085
+Step 50: Dist: 6.218
+  FAST: straight, Speed: 0.40, Turn: -0.104
+  Lane: dist=-0.019, angle=-0.080
+Step 51: Dist: 6.202
+  FAST: straight, Speed: 0.40, Turn: -0.100
+  Lane: dist=-0.020, angle=-0.076
+Step 52: Dist: 6.186
+  FAST: straight, Speed: 0.40, Turn: -0.096
+  Lane: dist=-0.021, angle=-0.071
+Step 53: Dist: 6.170
+  FAST: straight, Speed: 0.40, Turn: -0.092
+  Lane: dist=-0.023, angle=-0.066
+Step 54: Dist: 6.154
+  FAST: straight, Speed: 0.40, Turn: -0.087
+  Lane: dist=-0.024, angle=-0.062
+Step 55: Dist: 6.139
+  FAST: straight, Speed: 0.40, Turn: -0.083
+  Lane: dist=-0.025, angle=-0.058
+Step 56: Dist: 6.123
+  FAST: straight, Speed: 0.40, Turn: -0.079
+  Lane: dist=-0.026, angle=-0.054
+Step 57: Dist: 6.107
+  FAST: straight, Speed: 0.40, Turn: -0.074
+  Lane: dist=-0.027, angle=-0.051
+Step 58: Dist: 6.092
+  FAST: straight, Speed: 0.40, Turn: -0.070
+  Lane: dist=-0.028, angle=-0.047
+Step 59: Dist: 6.076
+  FAST: straight, Speed: 0.40, Turn: -0.066
+  Lane: dist=-0.029, angle=-0.044
+Step 60: Dist: 6.061
+  FAST: straight, Speed: 0.40, Turn: -0.061
+  Lane: dist=-0.030, angle=-0.041
+Step 61: Dist: 6.045
+  FAST: straight, Speed: 0.40, Turn: -0.057
+  Lane: dist=-0.030, angle=-0.038
+Step 62: Dist: 6.030
+  FAST: straight, Speed: 0.40, Turn: -0.054
+  Lane: dist=-0.031, angle=-0.035
+Step 63: Dist: 6.015
+  FAST: straight, Speed: 0.40, Turn: -0.050
+  Lane: dist=-0.032, angle=-0.033
+Step 64: Dist: 5.999
+  FAST: straight, Speed: 0.40, Turn: -0.046
+  Lane: dist=-0.032, angle=-0.030
+Step 65: Dist: 5.984
+  FAST: straight, Speed: 0.40, Turn: -0.043
+  Lane: dist=-0.033, angle=-0.028
+Step 66: Dist: 5.969
+  FAST: straight, Speed: 0.40, Turn: -0.040
+  Lane: dist=-0.033, angle=-0.026
+Step 67: Dist: 5.954
+  FAST: straight, Speed: 0.40, Turn: -0.037
+  Lane: dist=-0.034, angle=-0.024
+Step 68: Dist: 5.939
+  FAST: straight, Speed: 0.40, Turn: -0.034
+  Lane: dist=-0.034, angle=-0.023
+Step 69: Dist: 5.924
+  FAST: straight, Speed: 0.40, Turn: -0.031
+  Lane: dist=-0.035, angle=-0.021
+Step 70: Dist: 5.909
+  FAST: straight, Speed: 0.40, Turn: -0.029
+  Lane: dist=-0.035, angle=-0.020
+Step 71: Dist: 5.894
+  FAST: straight, Speed: 0.40, Turn: -0.026
+  Lane: dist=-0.035, angle=-0.018
+Step 72: Dist: 5.879
+  FAST: straight, Speed: 0.40, Turn: -0.024
+  Lane: dist=-0.036, angle=-0.017
+Step 73: Dist: 5.864
+  FAST: straight, Speed: 0.40, Turn: -0.022
+  Lane: dist=-0.036, angle=-0.016
+Step 74: Dist: 5.849
+  FAST: straight, Speed: 0.40, Turn: -0.020
+  Lane: dist=-0.036, angle=-0.015
+Step 75: Dist: 5.834
+  FAST: straight, Speed: 0.40, Turn: -0.018
+  Lane: dist=-0.037, angle=-0.014
+Step 76: Dist: 5.819
+  FAST: straight, Speed: 0.40, Turn: -0.017
+  Lane: dist=-0.037, angle=-0.013
+Step 77: Dist: 5.804
+  FAST: straight, Speed: 0.40, Turn: -0.015
+  Lane: dist=-0.037, angle=-0.012
+Step 78: Dist: 5.790
+  FAST: straight, Speed: 0.40, Turn: -0.014
+  Lane: dist=-0.037, angle=-0.012
+Step 79: Dist: 5.775
+  FAST: straight, Speed: 0.40, Turn: -0.012
+  Lane: dist=-0.037, angle=-0.011
+Step 80: Dist: 5.760
+  FAST: straight, Speed: 0.40, Turn: -0.011
+  Lane: dist=-0.038, angle=-0.011
+time=1763813114.5749857 Pos: [0.79853853 0.         2.2597622 ] angle -1.561204006365691
+time=1763813114.629573 Pos: [0.79871344 0.         2.27839637] angle -1.5616170271606298
+time=1763813114.6858146 Pos: [0.79888105 0.         2.2970306 ] angle -1.561985859917195
+time=1763813114.7431107 Pos: [0.79904217 0.         2.31566489] angle -1.5623142048317313
+time=1763813114.7990544 Pos: [0.79919752 0.         2.33429923] angle -1.562605510257479
+time=1763813114.8565714 Pos: [0.79934776 0.         2.35293361] angle -1.562862983663498
+time=1763813114.9189827 Pos: [0.79949348 0.         2.37156803] angle -1.5630896029101355
+time=1763813114.9741688 Pos: [0.79963525 0.         2.39020248] angle -1.5632881276908939
+time=1763813115.0303817 Pos: [0.79977355 0.         2.40883695] angle -1.5634611110136054
+time=1763813115.084376 Pos: [0.79990884 0.         2.42747145] angle -1.5636109106142038
+time=1763813115.1412554 Pos: [0.80004154 0.         2.44610596] angle -1.563739700214319
+time=1763813115.1972284 Pos: [0.80017202 0.         2.46474049] angle -1.5638494805498566
+time=1763813115.2528577 Pos: [0.80030061 0.         2.48337504] angle -1.5639420901114935
+time=1763813115.3147306 Pos: [0.80042762 0.         2.50200959] angle -1.5640192155503174
+time=1763813115.369685 Pos: [0.80055332 0.         2.52064415] angle -1.564082401712268
+time=1763813115.4250622 Pos: [0.80067796 0.         2.53927872] angle -1.564133061274301
+time=1763813115.4802055 Pos: [0.80080176 0.         2.5579133 ] angle -1.5641724839629836
+time=1763813115.5415845 Pos: [0.80092492 0.         2.57654788] angle -1.5642018453431807
+time=1763813115.599415 Pos: [0.80104762 0.         2.59518246] angle -1.5642222151702314
+time=1763813115.654189 Pos: [0.80117001 0.         2.61381705] angle -1.564234565303627
+time=1763813115.708402 Pos: [0.80129224 0.         2.63245164] angle -1.564239777185097
+time=1763813115.7641964 Pos: [0.80141443 0.         2.65108622] angle -1.5642386488859328
+time=1763813115.8183367 Pos: [0.8015367  0.         2.66972081] angle -1.5642319017334154
+time=1763813115.8729184 Pos: [0.80165913 0.         2.68835539] angle -1.5642201865260077
+time=1763813115.9271212 Pos: [0.80178183 0.         2.70698998] angle -1.564204089351256
+time=1763813115.982005 Pos: [0.80190486 0.         2.72562456] angle -1.5641841370194962
+time=1763813116.0365348 Pos: [0.80202829 0.         2.74425914] angle -1.5641608021288134
+time=1763813116.0959892 Pos: [0.80215219 0.         2.76289371] angle -1.5641345077771256
+time=1763813116.178256 Pos: [0.8022766  0.         2.78152828] angle -1.5641056319384392
+time=1763813116.2457128 Pos: [0.80240157 0.         2.80016285] angle -1.5640745115187829
+time=1763813116.3267453 Pos: [0.80252714 0.         2.81879742] angle -1.5640414461096006
+time=1763813116.402111 Pos: [0.80265334 0.         2.83743198] angle -1.5640067014545862
+time=1763813116.4580526 Pos: [0.8027802  0.         2.85606653] angle -1.563970512646674
+time=1763813116.516525 Pos: [0.80290775 0.         2.87470108] angle -1.5639330870713317
+time=1763813116.5836236 Pos: [0.803036   0.         2.89333563] angle -1.5638946071117676
+time=1763813116.6395743 Pos: [0.80316498 0.         2.91197017] angle -1.5638552326311408
+time=1763813116.713696 Pos: [0.8032947 0.        2.9306047] angle -1.563815103246811
+time=1763813116.7693417 Pos: [0.80342517 0.         2.94923923] angle -1.5637743404103952
+time=1763813116.8436677 Pos: [0.80355641 0.         2.96787376] angle -1.5637330493073411
+time=1763813116.9073188 Pos: [0.80368842 0.         2.98650828] angle -1.5636913205887573
+time=1763813116.962858 Pos: [0.80382122 0.         3.00514279] angle -1.5636492319477941
+time=1763813117.0189457 Pos: [0.8039548 0.        3.0237773] angle -1.5636068495522495
+time=1763813117.075663 Pos: [0.80408917 0.         3.0424118 ] angle -1.5635642293441765
+time=1763813117.1297047 Pos: [0.80422434 0.         3.0610463 ] angle -1.5635214182171124
+time=1763813117.1853082 Pos: [0.8043603  0.         3.07968079] angle -1.5634784550803285
+time=1763813117.2386775 Pos: [0.80449707 0.         3.09831528] angle -1.5634353718194431
+time=1763813117.2981348 Pos: [0.80463464 0.         3.11694976] angle -1.5633921941618936
+time=1763813117.3540952 Pos: [0.80477302 0.         3.13558423] angle -1.563348942455148
+time=1763813117.4116313 Pos: [0.80491221 0.         3.1542187 ] angle -1.563305632365239
+time=1763813117.4690478 Pos: [0.8050522  0.         3.17285316] angle -1.5632622755024337
+time=1763813117.5247393 Pos: [0.805193   0.         3.19148761] angle -1.5632188799804665
+time=1763813117.5785027 Pos: [0.80533461 0.         3.21012206] angle -1.5631754509153921
+time=1763813117.6349294 Pos: [0.80547703 0.         3.22875651] angle -1.5631319908694266
+time=1763813117.6887796 Pos: [0.80562025 0.         3.24739094] angle -1.5630885002450507
+time=1763813117.7433064 Pos: [0.80576429 0.         3.26602537] angle -1.5630449776339137
+time=1763813117.7984803 Pos: [0.80590914 0.         3.2846598 ] angle -1.5630014201248896
+time=1763813117.8536663 Pos: [0.80605481 0.         3.30329422] angle -1.562957823575408
+time=1763813117.90718 Pos: [0.80620128 0.         3.32192863] angle -1.56291418284953
+time=1763813117.9654515 Pos: [0.80634857 0.         3.34056303] angle -1.5628704920261431
+time=1763813118.0212717 Pos: [0.80649668 0.         3.35919743] angle -1.5628267445805366
+time=1763813118.0764515 Pos: [0.8066456  0.         3.37783182] angle -1.562782933541739
+time=1763813118.1307418 Pos: [0.80679533 0.         3.39646621] angle -1.5627390516286508
+time=1763813118.1885908 Pos: [0.80694589 0.         3.41510059] angle -1.5626950913669795
+time=1763813118.2448094 Pos: [0.80709726 0.         3.43373496] angle -1.5626510451891364
+time=1763813118.300668 Pos: [0.80724946 0.         3.45236933] angle -1.5626069055190488
+time=1763813118.3553486 Pos: [0.80740248 0.         3.47100368] angle -1.5625626648436226
+time=1763813118.4102318 Pos: [0.80755633 0.         3.48963804] angle -1.5625183157724536
+time=1763813118.4650912 Pos: [0.807711   0.         3.50827238] angle -1.5624738510870826
+time=1763813118.523552 Pos: [0.8078665  0.         3.52690672] angle -1.562429263781132
+time=1763813118.5771816 Pos: [0.80802284 0.         3.54554105] angle -1.5623845470925315
+time=1763813118.6384795 Pos: [0.80818001 0.         3.56417538] angle -1.5623396945288617
+time=1763813118.7154546 Pos: [0.80833801 0.         3.58280969] angle -1.5622946998865475
+time=1763813118.7730994 Pos: [0.80849686 0.         3.601444  ] angle -1.5622495572649484
+time=1763813118.8308904 Pos: [0.80865655 0.         3.62007831] angle -1.5622042610760112
+time=1763813118.8873475 Pos: [0.80881708 0.         3.6387126 ] angle -1.5621588060500697
+time=1763813118.942469 Pos: [0.80897847 0.         3.65734689] angle -1.5621131872385197
+time=1763813119.004631 Pos: [0.8091407  0.         3.67598117] angle -1.5620674000135883
+time=1763813119.0608556 Pos: [0.80930379 0.         3.69461545] angle -1.5620214400661163
+time=1763813119.118268 Pos: [0.80946774 0.         3.71324971] angle -1.5619753034013075
+time=1763813119.1739042 Pos: [0.80963255 0.         3.73188397] angle -1.5619289863330543
+time=1763813119.2311976 Pos: [0.80979822 0.         3.75051822] angle -1.5618824854770164
+time=1763813119.289601 Pos: [0.80996476 0.         3.76915246] angle -1.5618357977427784
+Step 81: Dist: 5.745
+  FAST: straight, Speed: 0.40, Turn: -0.010
+  Lane: dist=-0.038, angle=-0.010
+Step 82: Dist: 5.731
+  FAST: straight, Speed: 0.40, Turn: -0.009
+  Lane: dist=-0.038, angle=-0.010
+Step 83: Dist: 5.716
+  FAST: straight, Speed: 0.40, Turn: -0.008
+  Lane: dist=-0.038, angle=-0.009
+Step 84: Dist: 5.702
+  FAST: straight, Speed: 0.40, Turn: -0.007
+  Lane: dist=-0.038, angle=-0.009
+Step 85: Dist: 5.687
+  FAST: straight, Speed: 0.40, Turn: -0.006
+  Lane: dist=-0.039, angle=-0.008
+Step 86: Dist: 5.672
+  FAST: straight, Speed: 0.40, Turn: -0.006
+  Lane: dist=-0.039, angle=-0.008
+Step 87: Dist: 5.658
+  FAST: straight, Speed: 0.40, Turn: -0.005
+  Lane: dist=-0.039, angle=-0.008
+Step 88: Dist: 5.643
+  FAST: straight, Speed: 0.40, Turn: -0.004
+  Lane: dist=-0.039, angle=-0.008
+Step 89: Dist: 5.629
+  FAST: straight, Speed: 0.40, Turn: -0.004
+  Lane: dist=-0.039, angle=-0.008
+Step 90: Dist: 5.615
+  FAST: straight, Speed: 0.40, Turn: -0.003
+  Lane: dist=-0.039, angle=-0.007
+Step 91: Dist: 5.600
+  FAST: straight, Speed: 0.40, Turn: -0.003
+  Lane: dist=-0.039, angle=-0.007
+Step 92: Dist: 5.586
+  FAST: straight, Speed: 0.40, Turn: -0.002
+  Lane: dist=-0.040, angle=-0.007
+Step 93: Dist: 5.571
+  FAST: straight, Speed: 0.40, Turn: -0.002
+  Lane: dist=-0.040, angle=-0.007
+Step 94: Dist: 5.557
+  FAST: straight, Speed: 0.40, Turn: -0.002
+  Lane: dist=-0.040, angle=-0.007
+Step 95: Dist: 5.543
+  FAST: straight, Speed: 0.40, Turn: -0.001
+  Lane: dist=-0.040, angle=-0.007
+Step 96: Dist: 5.528
+  FAST: straight, Speed: 0.40, Turn: -0.001
+  Lane: dist=-0.040, angle=-0.007
+Step 97: Dist: 5.514
+  FAST: straight, Speed: 0.40, Turn: -0.001
+  Lane: dist=-0.040, angle=-0.007
+Step 98: Dist: 5.500
+  FAST: straight, Speed: 0.40, Turn: -0.001
+  Lane: dist=-0.040, angle=-0.007
+Step 99: Dist: 5.486
+  FAST: straight, Speed: 0.40, Turn: -0.000
+  Lane: dist=-0.040, angle=-0.007
+Step 100: Dist: 5.472
+  FAST: straight, Speed: 0.40, Turn: -0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 101: Dist: 5.457
+  FAST: straight, Speed: 0.40, Turn: -0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 102: Dist: 5.443
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 103: Dist: 5.429
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 104: Dist: 5.415
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 105: Dist: 5.401
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 106: Dist: 5.387
+  FAST: straight, Speed: 0.40, Turn: 0.000
+  Lane: dist=-0.041, angle=-0.007
+Step 107: Dist: 5.373
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.041, angle=-0.007
+Step 108: Dist: 5.359
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 109: Dist: 5.345
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 110: Dist: 5.331
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 111: Dist: 5.318
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 112: Dist: 5.304
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 113: Dist: 5.290
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 114: Dist: 5.276
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 115: Dist: 5.262
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.042, angle=-0.007
+Step 116: Dist: 5.249
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 117: Dist: 5.235
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 118: Dist: 5.221
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 119: Dist: 5.208
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 120: Dist: 5.194
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 121: Dist: 5.181
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 122: Dist: 5.167
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 123: Dist: 5.154
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.043, angle=-0.007
+Step 124: Dist: 5.140
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 125: Dist: 5.127
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 126: Dist: 5.113
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 127: Dist: 5.100
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 128: Dist: 5.087
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 129: Dist: 5.073
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 130: Dist: 5.060
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.044, angle=-0.007
+Step 131: Dist: 5.047
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 132: Dist: 5.034
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 133: Dist: 5.020
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 134: Dist: 5.007
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 135: Dist: 4.994
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 136: Dist: 4.981
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 137: Dist: 4.968
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.045, angle=-0.008
+Step 138: Dist: 4.955
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 139: Dist: 4.942
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 140: Dist: 4.929
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 141: Dist: 4.916
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 142: Dist: 4.903
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 143: Dist: 4.891
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 144: Dist: 4.878
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.046, angle=-0.008
+Step 145: Dist: 4.865
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 146: Dist: 4.852
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 147: Dist: 4.840
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 148: Dist: 4.827
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 149: Dist: 4.814
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 150: Dist: 4.802
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.047, angle=-0.008
+Step 151: Dist: 4.789
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.008
+Step 152: Dist: 4.777
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.008
+Step 153: Dist: 4.764
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.009
+Step 154: Dist: 4.752
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.009
+Step 155: Dist: 4.740
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.009
+Step 156: Dist: 4.727
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.009
+Step 157: Dist: 4.715
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.048, angle=-0.009
+Step 158: Dist: 4.703
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.049, angle=-0.009
+Step 159: Dist: 4.691
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.049, angle=-0.009
+Step 160: Dist: 4.678
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.049, angle=-0.009
+Step 161: Dist: 4.666
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.049, angle=-0.009
+Step 162: Dist: 4.654
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.049, angle=-0.009
+Step 163: Dist: 4.642
+  FAST: straight, Speed: 0.40, Turn: 0.001
+time=1763813119.3469908 Pos: [0.81013218 0.         3.7877867 ] angle -1.5617889203253847
+time=1763813119.411995 Pos: [0.81030047 0.         3.80642093] angle -1.5617418506962626
+time=1763813119.4673429 Pos: [0.81046963 0.         3.82505515] angle -1.561694586593939
+time=1763813119.5245266 Pos: [0.81063968 0.         3.84368936] angle -1.5616471260144942
+time=1763813119.579602 Pos: [0.81081062 0.         3.86232356] angle -1.561599467202052
+time=1763813119.6348226 Pos: [0.81098245 0.         3.88095775] angle -1.561551608639161
+time=1763813119.6898975 Pos: [0.81115517 0.         3.89959194] angle -1.561503549037444
+time=1763813119.7447672 Pos: [0.81132879 0.         3.91822612] angle -1.5614552873285201
+time=1763813119.8020031 Pos: [0.81150331 0.         3.93686029] angle -1.5614068226550009
+time=1763813119.859135 Pos: [0.81167873 0.         3.95549445] angle -1.5613581543618988
+time=1763813119.912564 Pos: [0.81185506 0.         3.9741286 ] angle -1.5613092819884533
+time=1763813119.9664497 Pos: [0.81203231 0.         3.99276275] angle -1.5612602052602773
+time=1763813120.0240633 Pos: [0.81221047 0.         4.01139688] angle -1.5612109240818244
+time=1763813120.07701 Pos: [0.81238955 0.         4.03003101] angle -1.5611614385293824
+time=1763813120.1308856 Pos: [0.81256956 0.         4.04866513] angle -1.561111748844439
+time=1763813120.1910832 Pos: [0.81275049 0.         4.06729924] angle -1.5610618554274447
+time=1763813120.2451904 Pos: [0.81293236 0.         4.08593334] angle -1.561011758832078
+time=1763813120.304431 Pos: [0.81311516 0.         4.10456743] angle -1.5609614597597576
+time=1763813120.363573 Pos: [0.81330941 0.         4.1232014 ] angle -1.559783206248534
+time=1763813120.446103 Pos: [0.81355133 0.         4.14183481] angle -1.5558437570083845
+time=1763813120.5240011 Pos: [0.81389136 0.         4.16046666] angle -1.5492536832802792
+time=1763813120.5997527 Pos: [0.81438322 0.         4.17909508] angle -1.5395432395667896
+time=1763813120.6538742 Pos: [0.81507878 0.         4.19771696] angle -1.527381263472483
+time=1763813120.7079358 Pos: [0.81602926 0.         4.21632752] angle -1.5121557895459925
+time=1763813120.7687469 Pos: [0.81729126 0.         4.23491946] angle -1.4938872560747416
+time=1763813120.8227167 Pos: [0.81892097 0.         4.2534827 ] angle -1.4725692942995292
+time=1763813120.9024973 Pos: [0.82021241 0.         4.26505742] angle -1.4467951755666393
+time=1763813120.9789913 Pos: [0.82177373 0.         4.27659894] angle -1.4258724769104267
+time=1763813121.0431604 Pos: [0.82357091 0.         4.28810612] angle -1.4058643082240623
+time=1763813121.119168 Pos: [0.82562066 0.         4.29957092] angle -1.3818946183863952
+time=1763813121.1764088 Pos: [0.82796411 0.         4.31097922] angle -1.3545016210623593
+time=1763813121.2294843 Pos: [0.83063613 0.         4.32231497] angle -1.3241108986920342
+time=1763813121.2818034 Pos: [0.83367605 0.         4.33355751] angle -1.2893218040118417
+time=1763813121.3356352 Pos: [0.83711635 0.         4.34468399] angle -1.25252188144633
+time=1763813121.3898058 Pos: [0.84098401 0.         4.35566908] angle -1.2120120960098666
+time=1763813121.4428687 Pos: [0.84530033 0.         4.36648569] angle -1.1702141585099024
+time=1763813121.4967978 Pos: [0.85008167 0.         4.3771048 ] angle -1.1252411149871147
+time=1763813121.5502787 Pos: [0.85533911 0.         4.3874964 ] angle -1.0795876255656398
+time=1763813121.6042268 Pos: [0.86107004 0.         4.39763452] angle -1.033000157594524
+time=1763813121.6625924 Pos: [0.86726688 0.         4.40749474] angle -0.9864126896234082
+time=1763813121.7178 Pos: [0.8739162  0.         4.41705568] angle -0.9398252216522924
+time=1763813121.7735834 Pos: [0.88100357 0.         4.42629658] angle -0.8932377536811766
+time=1763813121.8279808 Pos: [0.8885136  0.         4.43519739] angle -0.8466502857100608
+time=1763813121.8816118 Pos: [0.89642999 0.         4.4437388 ] angle -0.800062817738945
+time=1763813121.9354575 Pos: [0.90473558 0.         4.45190227] angle -0.7534753497678293
+time=1763813121.9890485 Pos: [0.91341233 0.         4.45967009] angle -0.7068878817967135
+time=1763813122.0516834 Pos: [0.92244142 0.         4.46702539] angle -0.6603004138255977
+time=1763813122.1321738 Pos: [0.93180325 0.         4.47395223] angle -0.6137129458544819
+time=1763813122.1869326 Pos: [0.94147752 0.         4.48043556] angle -0.5671254778833661
+time=1763813122.243444 Pos: [0.95144321 0.         4.48646132] angle -0.5205380099122503
+time=1763813122.302596 Pos: [0.961675   0.         4.49202343] angle -0.4753115421565045
+time=1763813122.3623812 Pos: [0.97834852 0.         4.5003444 ] angle -0.45046757619499317
+time=1763813122.4187315 Pos: [0.98894784 0.         4.50516926] angle -0.40388010822387743
+time=1763813122.4779134 Pos: [1.00615647 0.         4.51231867] angle -0.3836354953037949
+time=1763813122.532542 Pos: [1.01705435 0.         4.51642491] angle -0.3370480273326792
+time=1763813122.5889068 Pos: [1.03471337 0.         4.52237511] angle -0.31295533923295843
+time=1763813122.6459725 Pos: [1.05251459 0.         4.52788514] angle -0.2874000082676012
+time=1763813122.7015138 Pos: [1.07045329 0.         4.53292948] angle -0.26083983441403835
+time=1763813122.7657309 Pos: [1.08851815 0.         4.5375016 ] angle -0.23493886468513273
+time=1763813122.847594 Pos: [1.10669881 0.         4.54158866] angle -0.20731419801891396
+time=1763813122.9292488 Pos: [1.12498529 0.         4.54517276] angle -0.17977371103374198
+time=1763813123.0109444 Pos: [1.14336301 0.         4.54825509] angle -0.1525749330543326
+time=1763813123.0863993 Pos: [1.16181647 0.         4.55084598] angle -0.12640370260785777
+time=1763813123.1410463 Pos: [1.18033032 0.         4.55296296] angle -0.10129900695507492
+time=1763813123.197388 Pos: [1.19888975 0.         4.55463489] angle -0.07838674810644482
+time=1763813123.2553172 Pos: [1.21748073 0.         4.55591028] angle -0.05860373178122105
+time=1763813123.3104937 Pos: [1.23609211 0.         4.55684365] angle -0.041612941155106414
+time=1763813123.375679 Pos: [1.25471593 0.         4.55748383] angle -0.02710813524347428
+time=1763813123.4309242 Pos: [1.27334671 0.         4.55787438] angle -0.014811379531641642
+time=1763813123.4871855 Pos: [1.29198075 0.         4.55805404] angle -0.004470789938907996
+time=1763813123.5447984 Pos: [1.31061568 0.         4.55805711] angle 0.004141547913965241
+time=1763813123.6028233 Pos: [1.32925007 0.         4.55791387] angle 0.011231509290562736
+time=1763813123.657224 Pos: [1.34788318 0.         4.55765097] angle 0.016984727638545923
+time=1763813123.7117462 Pos: [1.36651469 0.         4.55729178] angle 0.021568270246513973
+time=1763813123.7666225 Pos: [1.38514459 0.         4.55685669] angle 0.02513220071716305
+time=1763813123.8210382 Pos: [1.40377304 0.         4.55636345] angle 0.027811034844358186
+time=1763813123.878334 Pos: [1.42240031 0.         4.55582743] angle 0.029725095434124025
+time=1763813123.9599957 Pos: [1.44102672 0.         4.55526188] angle 0.03098177105942391
+time=1763813124.017781 Pos: [1.45965256 0.         4.55467816] angle 0.03167668347298306
+time=1763813124.0754855 Pos: [1.47827813 0.         4.55408593] angle 0.031894768285657786
+time=1763813124.1303396 Pos: [1.4969037  0.         4.55349338] angle 0.03171127346671314
+time=1763813124.188034 Pos: [1.51552947 0.         4.55290737] angle 0.03119268018802715
+time=1763813124.2425346 Pos: [1.53415562 0.         4.55233359] angle 0.030397550490136177
+time=1763813124.2992914 Pos: [1.55278228 0.         4.55177672] angle 0.029377306182306714
+  Lane: dist=-0.049, angle=-0.009
+Step 164: Dist: 4.630
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 165: Dist: 4.618
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 166: Dist: 4.606
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 167: Dist: 4.595
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 168: Dist: 4.583
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 169: Dist: 4.571
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.050, angle=-0.009
+Step 170: Dist: 4.559
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.051, angle=-0.009
+Step 171: Dist: 4.548
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.051, angle=-0.009
+Step 172: Dist: 4.536
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.051, angle=-0.009
+Step 173: Dist: 4.524
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.051, angle=-0.009
+Step 174: Dist: 4.513
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.051, angle=-0.009
+Step 175: Dist: 4.501
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 176: Dist: 4.490
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 177: Dist: 4.479
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 178: Dist: 4.467
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 179: Dist: 4.456
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 180: Dist: 4.445
+  FAST: straight, Speed: 0.40, Turn: 0.001
+  Lane: dist=-0.052, angle=-0.010
+Step 181: Dist: 4.434
+  FAST: straight, Speed: 0.40, Turn: 0.025
+  Lane: dist=-0.053, angle=-0.002
+Step 182: Dist: 4.422
+  FAST: straight, Speed: 0.40, Turn: 0.085
+  Lane: dist=-0.052, angle=0.017
+Step 183: Dist: 4.411
+  FAST: straight, Speed: 0.40, Turn: 0.141
+  Lane: dist=-0.052, angle=0.034
+Step 184: Dist: 4.400
+  FAST: straight, Speed: 0.40, Turn: 0.208
+  Lane: dist=-0.051, angle=0.054
+Step 185: Dist: 4.389
+  FAST: straight, Speed: 0.40, Turn: 0.261
+  Lane: dist=-0.050, angle=0.069
+Step 186: Dist: 4.377
+  FAST: straight, Speed: 0.40, Turn: 0.327
+  Lane: dist=-0.048, angle=0.088
+Step 187: Dist: 4.366
+  FAST: straight, Speed: 0.40, Turn: 0.392
+  Lane: dist=-0.047, angle=0.106
+Step 188: Dist: 4.354
+  FAST: straight, Speed: 0.40, Turn: 0.458
+  Lane: dist=-0.044, angle=0.124
+Step 189: Dist: 4.342
+  MEDIUM: curve, Speed: 0.25, Turn: 0.553
+  Lane: dist=-0.042, angle=0.195
+Step 190: Dist: 4.335
+  MEDIUM: curve, Speed: 0.25, Turn: 0.449
+  Lane: dist=-0.040, angle=0.169
+Step 191: Dist: 4.327
+  MEDIUM: curve, Speed: 0.25, Turn: 0.429
+  Lane: dist=-0.038, angle=0.161
+Step 192: Dist: 4.319
+  MEDIUM: curve, Speed: 0.25, Turn: 0.515
+  Lane: dist=-0.037, angle=0.173
+Step 193: Dist: 4.311
+  MEDIUM: curve, Speed: 0.25, Turn: 0.588
+  Lane: dist=-0.034, angle=0.183
+Step 194: Dist: 4.302
+  MEDIUM: curve, Speed: 0.25, Turn: 0.652
+  Lane: dist=-0.032, angle=0.190
+Step 195: Dist: 4.294
+  MEDIUM: curve, Speed: 0.25, Turn: 0.747
+  Lane: dist=-0.030, angle=0.204
+Step 196: Dist: 4.285
+  MEDIUM: curve, Speed: 0.25, Turn: 0.790
+  Lane: dist=-0.028, angle=0.207
+Step 197: Dist: 4.276
+  MEDIUM: curve, Speed: 0.25, Turn: 0.870
+  Lane: dist=-0.025, angle=0.218
+Step 198: Dist: 4.267
+  MEDIUM: curve, Speed: 0.25, Turn: 0.897
+  Lane: dist=-0.023, angle=0.218
+Step 199: Dist: 4.257
+  MEDIUM: curve, Speed: 0.25, Turn: 0.965
+  Lane: dist=-0.020, angle=0.226
+Step 200: Dist: 4.247
+  MEDIUM: curve, Speed: 0.25, Turn: 0.980
+  Lane: dist=-0.017, angle=0.223
+Step 201: Dist: 4.237
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.015, angle=0.229
+Step 202: Dist: 4.227
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.012, angle=0.226
+Step 203: Dist: 4.216
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.010, angle=0.231
+Step 204: Dist: 4.205
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.007, angle=0.228
+Step 205: Dist: 4.194
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.004, angle=0.224
+Step 206: Dist: 4.183
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=-0.002, angle=0.229
+Step 207: Dist: 4.172
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.001, angle=0.223
+Step 208: Dist: 4.160
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.003, angle=0.217
+Step 209: Dist: 4.149
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.006, angle=0.210
+Step 210: Dist: 4.137
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.008, angle=0.202
+Step 211: Dist: 4.126
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.010, angle=0.185
+Step 212: Dist: 4.114
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.013, angle=0.167
+Step 213: Dist: 4.102
+  MEDIUM: curve, Speed: 0.25, Turn: 0.971
+  Lane: dist=0.015, angle=0.156
+Step 214: Dist: 4.091
+  FAST: straight, Speed: 0.40, Turn: 0.533
+  Lane: dist=0.016, angle=0.144
+Step 215: Dist: 4.072
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.019, angle=0.158
+Step 216: Dist: 4.061
+  FAST: straight, Speed: 0.40, Turn: 0.435
+  Lane: dist=0.021, angle=0.111
+Step 217: Dist: 4.042
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.024, angle=0.161
+Step 218: Dist: 4.031
+  FAST: straight, Speed: 0.40, Turn: 0.517
+  Lane: dist=0.025, angle=0.136
+Step 219: Dist: 4.013
+  FAST: straight, Speed: 0.40, Turn: 0.549
+  Lane: dist=0.028, angle=0.143
+Step 220: Dist: 3.995
+  FAST: straight, Speed: 0.40, Turn: 0.570
+  Lane: dist=0.031, angle=0.147
+Step 221: Dist: 3.977
+  FAST: straight, Speed: 0.40, Turn: 0.556
+  Lane: dist=0.034, angle=0.138
+Step 222: Dist: 3.960
+  FAST: straight, Speed: 0.40, Turn: 0.593
+  Lane: dist=0.036, angle=0.147
+Step 223: Dist: 3.942
+  FAST: straight, Speed: 0.40, Turn: 0.591
+  Lane: dist=0.039, angle=0.143
+Step 224: Dist: 3.925
+  FAST: straight, Speed: 0.40, Turn: 0.584
+  Lane: dist=0.042, angle=0.138
+Step 225: Dist: 3.908
+  FAST: straight, Speed: 0.40, Turn: 0.562
+  Lane: dist=0.044, angle=0.128
+Step 226: Dist: 3.891
+  FAST: straight, Speed: 0.40, Turn: 0.539
+  Lane: dist=0.046, angle=0.118
+Step 227: Dist: 3.875
+  FAST: straight, Speed: 0.40, Turn: 0.492
+  Lane: dist=0.048, angle=0.101
+Step 228: Dist: 3.859
+  FAST: straight, Speed: 0.40, Turn: 0.425
+  Lane: dist=0.050, angle=0.078
+Step 229: Dist: 3.843
+  FAST: straight, Speed: 0.40, Turn: 0.365
+  Lane: dist=0.051, angle=0.059
+Step 230: Dist: 3.827
+  FAST: straight, Speed: 0.40, Turn: 0.311
+  Lane: dist=0.052, angle=0.042
+Step 231: Dist: 3.811
+  FAST: straight, Speed: 0.40, Turn: 0.264
+  Lane: dist=0.053, angle=0.027
+Step 232: Dist: 3.795
+  FAST: straight, Speed: 0.40, Turn: 0.222
+  Lane: dist=0.053, angle=0.015
+Step 233: Dist: 3.780
+  FAST: straight, Speed: 0.40, Turn: 0.185
+  Lane: dist=0.054, angle=0.004
+Step 234: Dist: 3.765
+  FAST: straight, Speed: 0.40, Turn: 0.152
+  Lane: dist=0.054, angle=-0.004
+Step 235: Dist: 3.750
+  FAST: straight, Speed: 0.40, Turn: 0.123
+  Lane: dist=0.053, angle=-0.011
+Step 236: Dist: 3.735
+  FAST: straight, Speed: 0.40, Turn: 0.098
+  Lane: dist=0.053, angle=-0.017
+Step 237: Dist: 3.720
+  FAST: straight, Speed: 0.40, Turn: 0.076
+  Lane: dist=0.053, angle=-0.022
+Step 238: Dist: 3.705
+  FAST: straight, Speed: 0.40, Turn: 0.058
+  Lane: dist=0.052, angle=-0.025
+Step 239: Dist: 3.690
+  FAST: straight, Speed: 0.40, Turn: 0.041
+  Lane: dist=0.052, angle=-0.028
+Step 240: Dist: 3.675
+  FAST: straight, Speed: 0.40, Turn: 0.027
+  Lane: dist=0.051, angle=-0.030
+Step 241: Dist: 3.661
+  FAST: straight, Speed: 0.40, Turn: 0.015
+  Lane: dist=0.051, angle=-0.031
+Step 242: Dist: 3.646
+  FAST: straight, Speed: 0.40, Turn: 0.005
+  Lane: dist=0.050, angle=-0.032
+Step 243: Dist: 3.631
+  FAST: straight, Speed: 0.40, Turn: -0.004
+  Lane: dist=0.050, angle=-0.032
+Step 244: Dist: 3.617
+  FAST: straight, Speed: 0.40, Turn: -0.011
+  Lane: dist=0.049, angle=-0.032
+Step 245: Dist: 3.602
+  FAST: straight, Speed: 0.40, Turn: -0.017
+  Lane: dist=0.048, angle=-0.031
+Step 246: Dist: 3.588
+  FAST: straight, Speed: 0.40, Turn: -0.022
+  Lane: dist=0.048, angle=-0.030
+Step 247: Dist: 3.573
+time=1763813124.3648481 Pos: [1.57140955 0.         4.55124054] angle 0.028176943296672353
+time=1763813124.4196796 Pos: [1.59003749 0.         4.55072802] angle 0.02683568629960945
+time=1763813124.473442 Pos: [1.60866612 0.         4.55024149] angle 0.025387586124712633
+time=1763813124.5336843 Pos: [1.62729546 0.         4.54978265] angle 0.0238620659355639
+time=1763813124.6072204 Pos: [1.64592548 0.         4.54935272] angle 0.022284418357406795
+time=1763813124.6611319 Pos: [1.66455617 0.         4.54895246] angle 0.020676257739064275
+time=1763813124.7150598 Pos: [1.68318748 0.         4.54858228] angle 0.01905593082371502
+time=1763813124.7690477 Pos: [1.70181936 0.         4.54824226] angle 0.01743888902255178
+time=1763813124.8229735 Pos: [1.72045177 0.         4.54793222] angle 0.015838025301447334
+time=1763813124.8772807 Pos: [1.73908464 0.         4.54765175] angle 0.014263978509519512
+time=1763813124.931527 Pos: [1.75771793 0.         4.54740029] angle 0.012725407801453247
+time=1763813124.9856162 Pos: [1.77635155 0.         4.54717504] angle 0.01144957182970797
+time=1763813125.0405476 Pos: [1.79498515 0.         4.5469472 ] angle 0.013004829675149408
+time=1763813125.0955842 Pos: [1.81361806 0.         4.54666986] angle 0.016761835975794618
+time=1763813125.1551745 Pos: [1.8322493  0.         4.54629788] angle 0.023163562340471844
+time=1763813125.209941 Pos: [1.85087726 0.         4.54578811] angle 0.03155402339986736
+time=1763813125.2673366 Pos: [1.86949939 0.         4.54509841] angle 0.042485485651972625
+time=1763813125.3287637 Pos: [1.88811169 0.         4.54418209] angle 0.055898747192963366
+time=1763813125.387356 Pos: [1.90670854 0.         4.54299351] angle 0.07175329283367725
+time=1763813125.446336 Pos: [1.92528234 0.         4.54148781] angle 0.09002494335703885
+time=1763813125.504222 Pos: [1.94382322 0.         4.5396207 ] angle 0.11070313671228191
+time=1763813125.5705729 Pos: [1.95536464 0.         4.53806486] angle 0.15729060468339767
+time=1763813125.6282165 Pos: [1.9737376  0.         4.53495294] angle 0.1782748963482631
+time=1763813125.686133 Pos: [1.98743349 0.         4.53217326] angle 0.2221993421699259
+time=1763813125.7447164 Pos: [2.00099942 0.         4.52881564] angle 0.2630566416347564
+time=1763813125.801691 Pos: [2.01441898 0.         4.52491372] angle 0.30286792386910816
+time=1763813125.8564463 Pos: [2.02767401 0.         4.5204849 ] angle 0.3420555290448424
+time=1763813125.9126077 Pos: [2.04074605 0.         4.515542  ] angle 0.3809637485012201
+time=1763813125.9674137 Pos: [2.05361595 0.         4.51009439] angle 0.41986717339616136
+time=1763813126.0242822 Pos: [2.06626361 0.         4.50414904] angle 0.45897748518381815
+time=1763813126.080814 Pos: [2.07866795 0.         4.49771148] angle 0.49844909741343524
+time=1763813126.1374304 Pos: [2.09080697 0.         4.49078664] angle 0.5383840244677337
+time=1763813126.1968415 Pos: [2.10265791 0.         4.48337962] angle 0.5788363145074218
+time=1763813126.273167 Pos: [2.11420388 0.         4.47550556] angle 0.6182156081578133
+time=1763813126.329757 Pos: [2.12542744 0.         4.46717845] angle 0.6584185996622487
+time=1763813126.386646 Pos: [2.13630409 0.         4.45840312] angle 0.6993340917087345
+time=1763813126.4446929 Pos: [2.14681    0.         4.44918721] angle 0.7408285301092302
+time=1763813126.5018957 Pos: [2.1569225  0.         4.43954127] angle 0.7827498507651657
+time=1763813126.5736313 Pos: [2.16662857 0.         4.42948639] angle 0.8233454210511992
+time=1763813126.6430001 Pos: [2.17591624 0.         4.41904383] angle 0.8643853764881355
+time=1763813126.698734 Pos: [2.18476652 0.         4.4082281 ] angle 0.9056329927811165
+time=1763813126.7569423 Pos: [2.19317184 0.         4.39706296] angle 0.9453558436530415
+time=1763813126.8164794 Pos: [2.20113497 0.         4.38557819] angle 0.9837190149911775
+time=1763813126.873958 Pos: [2.20864201 0.         4.37379034] angle 1.0237294627931792
+time=1763813126.9304821 Pos: [2.21568251 0.         4.36171793] angle 1.0619283191591817
+time=1763813126.9873252 Pos: [2.22225866 0.         4.34938642] angle 1.099833928980884
+time=1763813127.0466921 Pos: [2.22837422 0.         4.33682004] angle 1.135920030156134
+time=1763813127.1313934 Pos: [2.23403505 0.         4.32404234] angle 1.1715976611161287
+time=1763813127.2169516 Pos: [2.23924839 0.         4.31107554] angle 1.2054440585079607
+time=1763813127.295777 Pos: [2.24403099 0.         4.2979437 ] angle 1.2376139659792182
+time=1763813127.3531566 Pos: [2.24843011 0.         4.28467826] angle 1.2635586048669245
+time=1763813127.4104826 Pos: [2.25244822 0.         4.27129266] angle 1.2947867717372485
+time=1763813127.4684465 Pos: [2.25605166 0.         4.2577895 ] angle 1.3252429035984912
+time=1763813127.5272713 Pos: [2.25925511 0.         4.24418582] angle 1.3538079094456794
+time=1763813127.585721 Pos: [2.26208051 0.         4.23049858] angle 1.3806521437343553
+time=1763813127.6444921 Pos: [2.26454836 0.         4.21674232] angle 1.405920378019847
+time=1763813127.7012029 Pos: [2.26667789 0.         4.2029296 ] angle 1.429736469988779
+time=1763813127.758651 [2.34007762 0.         4.22189776] corresponds to tile at (4, 7) which is not drivable: {'coords': (4, 7), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f6c6d3d8130>, 'color': array([1, 1, 1])}
+time=1763813127.7591212 Invalid pose. Collision free: True On drivable area: False
+time=1763813127.7591617 safety_factor: 1.0
+time=1763813127.7594125 pos: [2.26561938 0.         4.21289939]
+time=1763813127.7596018 l_pos: [2.19116114 0.         4.20390102]
+time=1763813127.7598197 r_pos: [2.34007762 0.         4.22189776]
+time=1763813127.7600322 f_pos: [2.27641743 0.         4.1235495 ]
+time=1763813127.7600706 Stopping the simulator because we are at an invalid pose.
+time=1763813127.7602813 Pos: [2.26849886 0.         4.18907275] angle 1.4505282846251704
+  FAST: straight, Speed: 0.40, Turn: -0.026
+  Lane: dist=0.047, angle=-0.029
+Step 248: Dist: 3.559
+  FAST: straight, Speed: 0.40, Turn: -0.029
+  Lane: dist=0.047, angle=-0.028
+Step 249: Dist: 3.545
+  FAST: straight, Speed: 0.40, Turn: -0.031
+  Lane: dist=0.046, angle=-0.027
+Step 250: Dist: 3.530
+  FAST: straight, Speed: 0.40, Turn: -0.033
+  Lane: dist=0.046, angle=-0.025
+Step 251: Dist: 3.516
+  FAST: straight, Speed: 0.40, Turn: -0.034
+  Lane: dist=0.045, angle=-0.024
+Step 252: Dist: 3.502
+  FAST: straight, Speed: 0.40, Turn: -0.035
+  Lane: dist=0.045, angle=-0.022
+Step 253: Dist: 3.487
+  FAST: straight, Speed: 0.40, Turn: -0.035
+  Lane: dist=0.044, angle=-0.021
+Step 254: Dist: 3.473
+  FAST: straight, Speed: 0.40, Turn: -0.035
+  Lane: dist=0.044, angle=-0.019
+Step 255: Dist: 3.459
+  FAST: straight, Speed: 0.40, Turn: -0.034
+  Lane: dist=0.044, angle=-0.017
+Step 256: Dist: 3.444
+  FAST: straight, Speed: 0.40, Turn: -0.034
+  Lane: dist=0.043, angle=-0.016
+Step 257: Dist: 3.430
+  FAST: straight, Speed: 0.40, Turn: -0.033
+  Lane: dist=0.043, angle=-0.014
+Step 258: Dist: 3.416
+  FAST: straight, Speed: 0.40, Turn: -0.027
+  Lane: dist=0.043, angle=-0.011
+Step 259: Dist: 3.402
+  FAST: straight, Speed: 0.40, Turn: 0.033
+  Lane: dist=0.043, angle=0.010
+Step 260: Dist: 3.388
+  FAST: straight, Speed: 0.40, Turn: 0.081
+  Lane: dist=0.043, angle=0.025
+Step 261: Dist: 3.374
+  FAST: straight, Speed: 0.40, Turn: 0.137
+  Lane: dist=0.044, angle=0.044
+Step 262: Dist: 3.360
+  FAST: straight, Speed: 0.40, Turn: 0.180
+  Lane: dist=0.045, angle=0.057
+Step 263: Dist: 3.346
+  FAST: straight, Speed: 0.40, Turn: 0.235
+  Lane: dist=0.046, angle=0.073
+Step 264: Dist: 3.332
+  FAST: straight, Speed: 0.40, Turn: 0.288
+  Lane: dist=0.047, angle=0.089
+Step 265: Dist: 3.319
+  FAST: straight, Speed: 0.40, Turn: 0.340
+  Lane: dist=0.049, angle=0.104
+Step 266: Dist: 3.306
+  FAST: straight, Speed: 0.40, Turn: 0.392
+  Lane: dist=0.051, angle=0.119
+Step 267: Dist: 3.293
+  FAST: straight, Speed: 0.40, Turn: 0.444
+  Lane: dist=0.054, angle=0.132
+Step 268: Dist: 3.280
+  MEDIUM: curve, Speed: 0.25, Turn: 1.000
+  Lane: dist=0.056, angle=0.182
+Step 269: Dist: 3.272
+  FAST: straight, Speed: 0.40, Turn: 0.450
+  Lane: dist=0.058, angle=0.136
+Step 270: Dist: 3.261
+  MEDIUM: off center, Speed: 0.30, Turn: 0.943
+  Lane: dist=0.060, angle=0.146
+Step 271: Dist: 3.253
+  MEDIUM: off center, Speed: 0.30, Turn: 0.877
+  Lane: dist=0.062, angle=0.129
+Step 272: Dist: 3.245
+  MEDIUM: off center, Speed: 0.30, Turn: 0.855
+  Lane: dist=0.064, angle=0.122
+Step 273: Dist: 3.238
+  MEDIUM: off center, Speed: 0.30, Turn: 0.841
+  Lane: dist=0.066, angle=0.118
+Step 274: Dist: 3.231
+  MEDIUM: off center, Speed: 0.30, Turn: 0.835
+  Lane: dist=0.067, angle=0.116
+Step 275: Dist: 3.225
+  MEDIUM: off center, Speed: 0.30, Turn: 0.835
+  Lane: dist=0.069, angle=0.116
+Step 276: Dist: 3.219
+  MEDIUM: off center, Speed: 0.30, Turn: 0.840
+  Lane: dist=0.071, angle=0.116
+Step 277: Dist: 3.214
+  MEDIUM: off center, Speed: 0.30, Turn: 0.847
+  Lane: dist=0.072, angle=0.118
+Step 278: Dist: 3.210
+  MEDIUM: off center, Speed: 0.30, Turn: 0.857
+  Lane: dist=0.074, angle=0.120
+Step 279: Dist: 3.206
+  MEDIUM: off center, Speed: 0.30, Turn: 0.868
+  Lane: dist=0.075, angle=0.122
+Step 280: Dist: 3.203
+  MEDIUM: off center, Speed: 0.30, Turn: 0.845
+  Lane: dist=0.077, angle=0.116
+Step 281: Dist: 3.200
+  MEDIUM: off center, Speed: 0.30, Turn: 0.863
+  Lane: dist=0.079, angle=0.119
+Step 282: Dist: 3.198
+  MEDIUM: off center, Speed: 0.30, Turn: 0.878
+  Lane: dist=0.080, angle=0.123
+Step 283: Dist: 3.196
+  MEDIUM: off center, Speed: 0.30, Turn: 0.891
+  Lane: dist=0.082, angle=0.125
+Step 284: Dist: 3.196
+  MEDIUM: off center, Speed: 0.30, Turn: 0.900
+  Lane: dist=0.084, angle=0.127
+Step 285: Dist: 3.195
+  MEDIUM: off center, Speed: 0.30, Turn: 0.871
+  Lane: dist=0.086, angle=0.119
+Step 286: Dist: 3.196
+  MEDIUM: off center, Speed: 0.30, Turn: 0.881
+  Lane: dist=0.087, angle=0.121
+Step 287: Dist: 3.197
+  MEDIUM: off center, Speed: 0.30, Turn: 0.885
+  Lane: dist=0.089, angle=0.122
+Step 288: Dist: 3.199
+  MEDIUM: off center, Speed: 0.30, Turn: 0.853
+  Lane: dist=0.091, angle=0.113
+Step 289: Dist: 3.201
+  MEDIUM: off center, Speed: 0.30, Turn: 0.823
+  Lane: dist=0.092, angle=0.105
+Step 290: Dist: 3.204
+  MEDIUM: off center, Speed: 0.30, Turn: 0.859
+  Lane: dist=0.094, angle=0.114
+Step 291: Dist: 3.207
+  MEDIUM: off center, Speed: 0.30, Turn: 0.820
+  Lane: dist=0.095, angle=0.104
+Step 292: Dist: 3.211
+  MEDIUM: off center, Speed: 0.30, Turn: 0.814
+  Lane: dist=0.097, angle=0.102
+Step 293: Dist: 3.216
+  MEDIUM: off center, Speed: 0.30, Turn: 0.775
+  Lane: dist=0.098, angle=0.092
+Step 294: Dist: 3.221
+  MEDIUM: off center, Speed: 0.30, Turn: 0.766
+  Lane: dist=0.099, angle=0.090
+Step 295: Dist: 3.227
+  MEDIUM: off center, Speed: 0.30, Turn: 0.727
+  Lane: dist=0.101, angle=0.081
+Step 296: Dist: 3.233
+  MEDIUM: off center, Speed: 0.30, Turn: 0.691
+  Lane: dist=0.102, angle=0.072
+Step 297: Dist: 3.240
+  MEDIUM: off center, Speed: 0.30, Turn: 0.557
+  Lane: dist=0.103, angle=0.040
+Step 298: Dist: 3.247
+  MEDIUM: off center, Speed: 0.30, Turn: 0.670
+  Lane: dist=0.104, angle=0.068
+Step 299: Dist: 3.254
+  MEDIUM: off center, Speed: 0.30, Turn: 0.654
+  Lane: dist=0.105, angle=0.064
+Step 300: Dist: 3.262
+  MEDIUM: off center, Speed: 0.30, Turn: 0.613
+  Lane: dist=0.105, angle=0.055
+Step 301: Dist: 3.271
+  MEDIUM: off center, Speed: 0.30, Turn: 0.576
+  Lane: dist=0.106, angle=0.047
+Step 302: Dist: 3.279
+  MEDIUM: off center, Speed: 0.30, Turn: 0.542
+  Lane: dist=0.107, angle=0.040
+Step 303: Dist: 3.288
+  MEDIUM: off center, Speed: 0.30, Turn: 0.511
+  Lane: dist=0.107, angle=0.033
+Step 304: Dist: 3.297
+  MEDIUM: off center, Speed: 0.30, Turn: 0.446
+  Lane: dist=0.108, angle=0.019
+total reward =  15.508190361392366
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
