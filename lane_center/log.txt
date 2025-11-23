@@ -1,0 +1,57 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1763911237.7342446 gym-duckietown 2019.0.0
+
+time=1763911237.8810258 Registering gym environment id: Duckietown-4way-v0
+time=1763911237.8811119 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763911237.8811598 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763911237.8812292 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763911237.881308 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763911237.8813543 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763911237.8814023 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763911237.881442 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763911237.8814812 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763911237.8815289 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763911237.88158 Registering gym environment id: Duckietown-small_loop-v0
+time=1763911237.8816311 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763911237.881678 Registering gym environment id: Duckietown-straight_road-v0
+time=1763911237.881734 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763911237.881783 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763911237.8818297 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763911237.8818774 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763911237.8819218 Registering gym environment id: Duckietown-udem1-v0
+time=1763911237.8819754 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763911240.3754714 Falling back to non-multisampled frame buffer
+time=1763911240.3773327 Falling back to non-multisampled frame buffer
+time=1763911240.3804975 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1763911240.3847532 loading mesh "duckiebot.obj"
+time=1763911240.3848996 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763911240.599715 loading texture "straight_1.png"
+time=1763911240.6139233 using user tile start: [7, 0]
+time=1763911240.614552 tile: {'coords': (7, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[4.095  , 0.     , 0.4095 ],
+        [4.24125, 0.     , 0.4095 ],
+        [4.53375, 0.     , 0.4095 ],
+        [4.68   , 0.     , 0.4095 ]],
+
+       [[4.68   , 0.     , 0.1755 ],
+        [4.53375, 0.     , 0.1755 ],
+        [4.24125, 0.     , 0.1755 ],
+        [4.095  , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f443afaae50>, 'color': array([1, 1, 1])}
+time=1763911240.6154695 road_tile_size=0.585
+time=1763911240.61569 Starting at [4.48266578 0.         0.36819389] 6.174854432349959
+time=1763911240.6158726 Pos: [4.48266578 0.         0.36819389] angle 6.174854432349959
+time=1763911240.7210417 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/checker.py", line 25, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/solutions/solution.py", line 15, in __init__
+    self.target_point = self.generated_task.get('target_point', [x, y])  # Замените на свои координаты
+NameError: name 'x' is not defined
+0.585
+4.482665777235356 0.36819388902893274
