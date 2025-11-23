@@ -1,0 +1,1456 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1763881629.1725357 gym-duckietown 2019.0.0
+
+time=1763881629.2559245 Registering gym environment id: Duckietown-4way-v0
+time=1763881629.2560072 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763881629.2560542 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763881629.2560966 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763881629.2561486 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763881629.2562191 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763881629.2562735 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763881629.2563543 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763881629.2564151 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763881629.256467 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763881629.2565272 Registering gym environment id: Duckietown-small_loop-v0
+time=1763881629.2565868 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763881629.256642 Registering gym environment id: Duckietown-straight_road-v0
+time=1763881629.256691 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763881629.2567394 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763881629.2567892 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763881629.2568376 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763881629.2568882 Registering gym environment id: Duckietown-udem1-v0
+time=1763881629.2569385 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763881630.992831 Falling back to non-multisampled frame buffer
+time=1763881630.994641 Falling back to non-multisampled frame buffer
+time=1763881630.997136 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1763881631.0048451 loading mesh "duckiebot_green.obj"
+time=1763881631.0050094 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot_green.mtl"
+time=1763881631.224251 loading texture "floor_1.png"
+time=1763881631.3065786 loading texture "curve_right_1.png"
+time=1763881631.3127615 loading texture "straight_1.png"
+time=1763881631.3186567 loading texture "curve_left_1.png"
+time=1763881631.3251834 loading texture "3way_left_1.png"
+time=1763881631.5177486 loading texture "4way_1.png"
+time=1763881631.7162411 using user tile start: (6, 9)
+time=1763881631.716798 tile: {'coords': (6, 9), 'kind': 'curve_left', 'angle': 1, 'drivable': True, 'curves': array([[[3.51  , 0.    , 5.6745],
+        [3.8025, 0.    , 5.6745],
+        [3.9195, 0.    , 5.5575],
+        [3.9195, 0.    , 5.265 ]],
+
+       [[3.6855, 0.    , 5.265 ],
+        [3.6855, 0.    , 5.382 ],
+        [3.627 , 0.    , 5.4405],
+        [3.51  , 0.    , 5.4405]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7efda11c79a0>, 'color': array([1, 1, 1])}
+time=1763881631.718458 road_tile_size=0.585
+time=1763881631.718634 Starting at [3.91407241 0.         5.63876878] 3.1020189737961643
+time=1763881631.7188277 Pos: [3.91407241 0.         5.63876878] angle 3.1020189737961643
+time=1763881631.855402 using DuckietownEnv
+time=1763881631.856154 Target tile: (1, 1)
+time=1763881631.8562367 2 0 2 1
+time=1763881631.8562827 Placing an aggressive duckie on (2.25, 1.0) with 90 angle
+time=1763881631.8565137 loading mesh "duckiebot.obj"
+time=1763881631.856675 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763881632.2167947 3 0 2 0
+time=1763881632.2168949 Placing an aggressive duckie on (3.0, 0.75) with 0 angle
+time=1763881632.217852 3 4 2 4
+time=1763881632.2179174 Placing an aggressive duckie on (3.0, 4.75) with 0 angle
+time=1763881632.2191467 5 4 4 4
+time=1763881632.2191997 Placing an aggressive duckie on (5.0, 4.75) with 0 angle
+time=1763881632.2207463 5 6 4 6
+time=1763881632.2207983 Placing an aggressive duckie on (5.0, 6.25) with 0 angle
+time=1763881632.2227316 5 2 5 1
+time=1763881632.2227845 Placing an aggressive duckie on (5.75, 2.0) with -90 angle
+time=1763881632.2250125 2 4 1 4
+time=1763881632.2250788 Placing an aggressive duckie on (2.0, 4.75) with 0 angle
+time=1763881632.2277243 3 5 3 4
+time=1763881632.22779 Placing an aggressive duckie on (3.75, 5.0) with -90 angle
+time=1763881632.2308373 7 4 6 4
+time=1763881632.2309022 Placing an aggressive duckie on (7.0, 4.75) with 0 angle
+time=1763881632.2341864 1 2 1 1
+time=1763881632.2342381 Placing an aggressive duckie on (1.25, 2.0) with 270 angle
+time=1763881632.2379446 5 0 4 0
+time=1763881632.2379963 Placing an aggressive duckie on (5.0, 0.75) with 0 angle
+time=1763881632.2420423 7 1 6 1
+time=1763881632.2420955 Placing an aggressive duckie on (7.0, 1.75) with 0 angle
+time=1763881632.2464948 4 4 3 4
+time=1763881632.2465472 Placing an aggressive duckie on (4.0, 4.75) with 0 angle
+time=1763881632.2513635 6 4 5 4
+time=1763881632.2514162 Placing an aggressive duckie on (6.0, 4.75) with 0 angle
+time=1763881632.2565496 7 3 7 4
+time=1763881632.2566018 Placing an aggressive duckie on (7.75, 4.0) with 90 angle
+time=1763881632.2620668 3 6 3 5
+time=1763881632.2621207 Placing an aggressive duckie on (3.75, 6.0) with -90 angle
+time=1763881632.4856362 Pos: [3.90289391 0.         5.63858678] angle 3.14860644176728
+time=1763881632.553573 Pos: [3.89171907 0.         5.63892556] angle 3.195193909738396
+time=1763881632.6277387 Pos: [3.88057212 0.         5.6397844 ] angle 3.2417813777095117
+time=1763881632.6902258 Pos: [3.86947727 0.         5.64116143] angle 3.2883688456806275
+time=1763881632.7558234 Pos: [3.85476303 0.         5.6435539 ] angle 3.3171873232968196
+time=1763881632.82036 Pos: [3.83644008 0.         5.64694887] angle 3.3324127134705885
+time=1763881632.9191136 Pos: [3.81814636 0.         5.65049883] angle 3.3341152535346756
+time=1763881632.9900355 Pos: [3.79984251 0.         5.65399602] angle 3.3266458543519235
+time=1763881633.053692 Pos: [3.78150283 0.         5.65729954] angle 3.312976574338721
+time=1763881633.1212528 Pos: [3.76311349 0.         5.66031383] angle 3.2951483913448456
+time=1763881633.1827202 Pos: [3.7483585  0.         5.66244231] angle 3.274571281492233
+time=1763881633.248539 Pos: [3.73356069 0.         5.66424876] angle 3.2515621325363404
+time=1763881633.3126938 Pos: [3.71872424 0.         5.66570368] angle 3.227126364785791
+time=1763881633.3749201 Pos: [3.70385629 0.         5.66679022] angle 3.2019573353326076
+time=1763881633.4371057 Pos: [3.68896562 0.         5.66750035] angle 3.176534991358412
+time=1763881633.499384 Pos: [3.67406173 0.         5.66783233] angle 3.1511924682257284
+time=1763881633.5617537 Pos: [3.65915419 0.         5.66778886] angle 3.1261611734481796
+time=1763881633.6273172 Pos: [3.64052509 0.         5.6673311 ] angle 3.1078894077802044
+time=1763881633.6952176 Pos: [3.62563517 0.         5.66660844] angle 3.0783049696822524
+time=1763881633.7635393 Pos: [3.61077269 0.         5.66545103] angle 3.049444377848384
+time=1763881633.857932 Pos: [3.59594755 0.         5.66388557] angle 3.02333152985985
+time=1763881633.9202197 Pos: [3.58116798 0.         5.66193615] angle 2.997568969098604
+time=1763881633.9834263 Pos: [3.56644075 0.         5.65962387] angle 2.974144954367778
+time=1763881634.049723 Pos: [3.55177582 0.         5.65694526] angle 2.9477140205724304
+time=1763881634.114154 Pos: [3.53718404 0.         5.65389292] angle 2.923053903632294
+time=1763881634.1762757 Pos: [3.52266925 0.         5.65049304] angle 2.8999566944590973
+time=1763881634.237943 Pos: [3.50823679 0.         5.64675907] angle 2.8768904971333065
+time=1763881634.304987 Pos: [3.49388922 0.         5.64271093] angle 2.856296712934029
+time=1763881634.3693366 Pos: [3.47603809 0.         5.6373634 ] angle 2.844777769679039
+time=1763881634.4320052 Pos: [3.45823138 0.         5.63186947] angle 2.8398768524477247
+time=1763881634.4960208 Pos: [3.44043949 0.         5.62632769] angle 2.839401549022954
+time=1763881634.5604248 Pos: [3.42264211 0.         5.62080356] angle 2.84186048994264
+time=1763881634.6290195 Pos: [3.40482597 0.         5.61534032] angle 2.8462399563301206
+time=1763881634.6956453 Pos: [3.38698276 0.         5.60996615] angle 2.8518515478424096
+time=1763881634.7599025 Pos: [3.36910766 0.         5.60469903] angle 2.8582283770875634
+time=1763881634.8222215 Pos: [3.35119819 0.         5.59955003] angle 2.865054362656538
+time=1763881634.8859239 Pos: [3.3332534  0.         5.59452551] angle 2.8721160792449902
+time=1763881634.951718 Pos: [3.31527335 0.         5.58962867] angle 2.8792699725974287
+time=1763881635.0407662 Pos: [3.29725874 0.         5.58486054] angle 2.886420037003631
+time=1763881635.138699 Pos: [3.27921065 0.         5.58022073] angle 2.8935026160678485
+time=1763881635.2119055 Pos: [3.2611304  0.         5.57570788] angle 2.9004760529959315
+time=1763881635.272959 Pos: [3.24301941 0.         5.57131999] angle 2.9073136424864656
+time=1763881635.3332021 Pos: [3.22487917 0.         5.56705465] angle 2.9139988305325883
+time=1763881635.3951855 Pos: [3.20671115 0.         5.5629092 ] angle 2.9205219448682875
+time=1763881635.4897664 Pos: [3.18851682 0.         5.55888083] angle 2.926877967780616
+time=1763881635.5810437 Pos: [3.17029758 0.         5.55496665] angle 2.9330650188651903
+time=1763881635.6458874 Pos: [3.15205478 0.         5.55116373] angle 2.939083321386554
+time=1763881635.7084198 Pos: [3.13378974 0.         5.54746913] angle 2.944934498117046
+time=1763881635.773033 Pos: [3.11550369 0.         5.54387997] angle 2.9506210916877236
+time=1763881635.8410125 Pos: [3.0971978  0.         5.54039337] angle 2.956146237955199
+time=1763881635.9357312 Pos: [3.0788732  0.         5.53700652] angle 2.961513443679052
+time=1763881636.0041313 Pos: [3.06053093 0.         5.53371666] angle 2.9667264353251843
+time=1763881636.0671258 Pos: [3.042172   0.         5.53052108] angle 2.9717890563815703
+time=1763881636.1276426 Pos: [3.02379736 0.         5.52741713] angle 2.976705197773609
+time=1763881636.1884086 Pos: [3.00540789 0.         5.52440225] angle 2.9814787508719425
+0.585
+3.9140724116496743 5.638768777357644
+0.585
+3.9140724116496743 5.638768777357644
+0.585
+3.9140724116496743 5.638768777357644
+Start position: [3.91407241 0.         5.63876878]
+Start angle: 3.1020189737961643
+Target position: [0.8775, 0, 0.8775]
+=== MOVING TO TARGET ===
+Step 0: Pos: 3.914, 5.639, Dist to target: 5.647
+  Speed: 0.24, Steering: 1.000
+  Lane: dist=-0.364, angle=0.868
+  Closest Duckiebot: 2.216m
+Step 1: Pos: 3.903, 5.639, Dist to target: 5.641
+  Speed: 0.24, Steering: 1.000
+  Lane: dist=-0.356, angle=0.806
+  Closest Duckiebot: 2.217m
+Step 2: Pos: 3.892, 5.639, Dist to target: 5.635
+  Speed: 0.24, Steering: 1.000
+  Lane: dist=-0.348, angle=0.744
+  Closest Duckiebot: 2.220m
+Step 3: Pos: 3.881, 5.640, Dist to target: 5.630
+  Speed: 0.24, Steering: 1.000
+  Lane: dist=-0.341, angle=0.681
+  Closest Duckiebot: 2.223m
+Step 4: Pos: 3.869, 5.641, Dist to target: 5.625
+  Speed: 0.32, Steering: 0.619
+  Lane: dist=-0.334, angle=0.611
+  Closest Duckiebot: 2.227m
+Step 5: Pos: 3.855, 5.644, Dist to target: 5.620
+  Speed: 0.40, Steering: 0.327
+  Lane: dist=-0.326, angle=0.559
+  Closest Duckiebot: 2.230m
+Step 6: Pos: 3.836, 5.647, Dist to target: 5.613
+  Speed: 0.40, Steering: 0.037
+  Lane: dist=-0.317, angle=0.505
+  Closest Duckiebot: 2.232m
+Step 7: Pos: 3.818, 5.650, Dist to target: 5.606
+  Speed: 0.40, Steering: -0.160
+  Lane: dist=-0.308, angle=0.465
+  Closest Duckiebot: 2.234m
+Step 8: Pos: 3.800, 5.654, Dist to target: 5.600
+  Speed: 0.40, Steering: -0.293
+  Lane: dist=-0.300, angle=0.434
+  Closest Duckiebot: 2.237m
+Step 9: Pos: 3.782, 5.657, Dist to target: 5.593
+  Speed: 0.40, Steering: -0.383
+  Lane: dist=-0.292, angle=0.410
+  Closest Duckiebot: 2.239m
+Step 10: Pos: 3.763, 5.660, Dist to target: 5.586
+  Speed: 0.32, Steering: -0.442
+  Lane: dist=-0.285, angle=0.391
+  Closest Duckiebot: 2.241m
+Step 11: Pos: 3.748, 5.662, Dist to target: 5.580
+  Speed: 0.32, Steering: -0.494
+  Lane: dist=-0.279, angle=0.375
+  Closest Duckiebot: 2.244m
+Step 12: Pos: 3.734, 5.664, Dist to target: 5.574
+  Speed: 0.32, Steering: -0.525
+  Lane: dist=-0.274, angle=0.362
+  Closest Duckiebot: 2.247m
+Step 13: Pos: 3.719, 5.666, Dist to target: 5.568
+  Speed: 0.32, Steering: -0.540
+  Lane: dist=-0.269, angle=0.351
+  Closest Duckiebot: 2.249m
+Step 14: Pos: 3.704, 5.667, Dist to target: 5.561
+  Speed: 0.32, Steering: -0.546
+  Lane: dist=-0.264, angle=0.343
+  Closest Duckiebot: 2.251m
+Step 15: Pos: 3.689, 5.668, Dist to target: 5.554
+  Speed: 0.32, Steering: -0.544
+  Lane: dist=-0.259, angle=0.335
+  Closest Duckiebot: 2.253m
+Step 16: Pos: 3.674, 5.668, Dist to target: 5.547
+  Speed: 0.32, Steering: -0.537
+  Lane: dist=-0.254, angle=0.328
+  Closest Duckiebot: 2.254m
+Step 17: Pos: 3.659, 5.668, Dist to target: 5.539
+  Speed: 0.40, Steering: -0.392
+  Lane: dist=-0.249, angle=0.340
+  Closest Duckiebot: 2.255m
+Step 18: Pos: 3.641, 5.667, Dist to target: 5.530
+  Speed: 0.32, Steering: -0.635
+  Lane: dist=-0.243, angle=0.298
+  Closest Duckiebot: 2.254m
+Step 19: Pos: 3.626, 5.667, Dist to target: 5.522
+  Speed: 0.32, Steering: -0.619
+  Lane: dist=-0.239, angle=0.293
+  Closest Duckiebot: 2.254m
+Step 20: Pos: 3.611, 5.665, Dist to target: 5.513
+  Speed: 0.32, Steering: -0.561
+  Lane: dist=-0.235, angle=0.294
+  Closest Duckiebot: 2.254m
+Step 21: Pos: 3.596, 5.664, Dist to target: 5.504
+  Speed: 0.32, Steering: -0.553
+  Lane: dist=-0.230, angle=0.288
+  Closest Duckiebot: 2.253m
+Step 22: Pos: 3.581, 5.662, Dist to target: 5.496
+  Speed: 0.32, Steering: -0.503
+  Lane: dist=-0.226, angle=0.288
+  Closest Duckiebot: 2.252m
+Step 23: Pos: 3.566, 5.660, Dist to target: 5.486
+  Speed: 0.32, Steering: -0.567
+  Lane: dist=-0.222, angle=0.273
+  Closest Duckiebot: 2.251m
+Step 24: Pos: 3.552, 5.657, Dist to target: 5.477
+  Speed: 0.32, Steering: -0.529
+  Lane: dist=-0.218, angle=0.272
+  Closest Duckiebot: 2.249m
+Step 25: Pos: 3.537, 5.654, Dist to target: 5.467
+  Speed: 0.32, Steering: -0.496
+  Lane: dist=-0.214, angle=0.270
+  Closest Duckiebot: 2.247m
+Step 26: Pos: 3.523, 5.650, Dist to target: 5.457
+  Speed: 0.32, Steering: -0.495
+  Lane: dist=-0.210, angle=0.264
+  Closest Duckiebot: 2.245m
+Step 27: Pos: 3.508, 5.647, Dist to target: 5.447
+  Speed: 0.32, Steering: -0.442
+  Lane: dist=-0.206, angle=0.265
+  Closest Duckiebot: 2.242m
+Step 28: Pos: 3.494, 5.643, Dist to target: 5.436
+  Speed: 0.40, Steering: -0.247
+  Lane: dist=-0.202, angle=0.285
+  Closest Duckiebot: 2.239m
+Step 29: Pos: 3.476, 5.637, Dist to target: 5.423
+  Speed: 0.40, Steering: -0.105
+  Lane: dist=-0.197, angle=0.297
+  Closest Duckiebot: 2.233m
+Step 30: Pos: 3.458, 5.632, Dist to target: 5.410
+  Speed: 0.40, Steering: -0.010
+  Lane: dist=-0.191, angle=0.302
+  Closest Duckiebot: 2.226m
+Step 31: Pos: 3.440, 5.626, Dist to target: 5.396
+  Speed: 0.40, Steering: 0.053
+  Lane: dist=-0.186, angle=0.302
+  Closest Duckiebot: 2.220m
+Step 32: Pos: 3.423, 5.621, Dist to target: 5.383
+  Speed: 0.40, Steering: 0.094
+  Lane: dist=-0.180, angle=0.300
+  Closest Duckiebot: 2.213m
+Step 33: Pos: 3.405, 5.615, Dist to target: 5.370
+  Speed: 0.40, Steering: 0.120
+  Lane: dist=-0.175, angle=0.295
+  Closest Duckiebot: 2.206m
+Step 34: Pos: 3.387, 5.610, Dist to target: 5.357
+  Speed: 0.40, Steering: 0.137
+  Lane: dist=-0.169, angle=0.290
+  Closest Duckiebot: 2.199m
+Step 35: Pos: 3.369, 5.605, Dist to target: 5.344
+  Speed: 0.40, Steering: 0.147
+  Lane: dist=-0.164, angle=0.283
+  Closest Duckiebot: 2.192m
+Step 36: Pos: 3.351, 5.600, Dist to target: 5.331
+  Speed: 0.40, Steering: 0.152
+  Lane: dist=-0.159, angle=0.277
+  Closest Duckiebot: 2.184m
+Step 37: Pos: 3.333, 5.595, Dist to target: 5.318
+  Speed: 0.40, Steering: 0.154
+  Lane: dist=-0.154, angle=0.269
+  Closest Duckiebot: 2.177m
+Step 38: Pos: 3.315, 5.590, Dist to target: 5.305
+  Speed: 0.40, Steering: 0.153
+  Lane: dist=-0.149, angle=0.262
+  Closest Duckiebot: 2.169m
+Step 39: Pos: 3.297, 5.585, Dist to target: 5.293
+  Speed: 0.40, Steering: 0.152
+  Lane: dist=-0.144, angle=0.255
+  Closest Duckiebot: 2.161m
+Step 40: Pos: 3.279, 5.580, Dist to target: 5.281
+  Speed: 0.40, Steering: 0.150
+  Lane: dist=-0.140, angle=0.248
+  Closest Duckiebot: 2.153m
+Step 41: Pos: 3.261, 5.576, Dist to target: 5.268
+  Speed: 0.40, Steering: 0.147
+  Lane: dist=-0.135, angle=0.241
+  Closest Duckiebot: 2.145m
+Step 42: Pos: 3.243, 5.571, Dist to target: 5.256
+  Speed: 0.40, Steering: 0.143
+  Lane: dist=-0.131, angle=0.234
+  Closest Duckiebot: 2.137m
+Step 43: Pos: 3.225, 5.567, Dist to target: 5.244
+  Speed: 0.40, Steering: 0.140
+  Lane: dist=-0.127, angle=0.228
+  Closest Duckiebot: 2.128m
+Step 44: Pos: 3.207, 5.563, Dist to target: 5.232
+  Speed: 0.40, Steering: 0.136
+  Lane: dist=-0.122, angle=0.221
+  Closest Duckiebot: 2.119m
+Step 45: Pos: 3.189, 5.559, Dist to target: 5.221
+  Speed: 0.40, Steering: 0.133
+  Lane: dist=-0.118, angle=0.215
+  Closest Duckiebot: 2.110m
+Step 46: Pos: 3.170, 5.555, Dist to target: 5.209
+  Speed: 0.40, Steering: 0.129
+  Lane: dist=-0.114, angle=0.209
+  Closest Duckiebot: 2.100m
+Step 47: Pos: 3.152, 5.551, Dist to target: 5.198
+  Speed: 0.40, Steering: 0.126
+  Lane: dist=-0.111, angle=0.203
+  Closest Duckiebot: 2.090m
+Step 48: Pos: 3.134, 5.547, Dist to target: 5.186
+  Speed: 0.40, Steering: 0.122
+  Lane: dist=-0.107, angle=0.197
+  Closest Duckiebot: 2.080m
+Step 49: Pos: 3.116, 5.544, Dist to target: 5.175
+  Speed: 0.40, Steering: 0.119
+  Lane: dist=-0.103, angle=0.191
+  Closest Duckiebot: 2.070m
+Step 50: Pos: 3.097, 5.540, Dist to target: 5.164
+  Speed: 0.40, Steering: 0.115
+  Lane: dist=-0.100, angle=0.185
+  Closest Duckiebot: 2.059m
+Step 51: Pos: 3.079, 5.537, Dist to target: 5.153
+  Speed: 0.40, Steering: 0.112
+  Lane: dist=-0.097, angle=0.180
+  Closest Duckiebot: 2.047m
+Step 52: Pos: 3.061, 5.534, Dist to target: 5.143
+  Speed: 0.40, Steering: 0.109
+  Lane: dist=-0.093, angle=0.175
+  Closest Duckiebot: 2.036m
+Step 53: Pos: 3.042, 5.531, Dist to target: 5.132
+  Speed: 0.40, Steering: 0.106
+  Lane: dist=-0.090, angle=0.170
+  Closest Duckiebot: 2.024m
+Step 54: Pos: 3.024, 5.527, Dist to target: 5.121
+  Speed: 0.40, Steering: 0.102
+  Lane: dist=-0.087, angle=0.165
+  Closest Duckiebot: 2.011m
+Step 55: Pos: 3.005, 5.524, Dist to target: 5.111
+  Speed: 0.40, Steering: 0.099
+time=1763881636.2488916 Pos: [2.98700444 0.         5.5214739 ] angle 2.986113575928101
+time=1763881636.3097396 Pos: [2.96858781 0.         5.51862964] angle 2.9906134810510943
+time=1763881636.3703744 Pos: [2.95015874 0.         5.51586708] angle 2.9949822083904842
+time=1763881636.4334855 Pos: [2.93171796 0.         5.51318387] angle 2.9992234252497165
+time=1763881636.4943268 Pos: [2.91326611 0.         5.51057776] angle 3.0033407185750054
+time=1763881636.556611 Pos: [2.89480385 0.         5.50804653] angle 3.0073375917571106
+time=1763881636.6186414 Pos: [2.87633176 0.         5.50558803] angle 3.011217463018994
+time=1763881636.6815982 Pos: [2.85785041 0.         5.50320016] angle 3.014983664891381
+time=1763881636.7450795 Pos: [2.83936032 0.         5.5008809 ] angle 3.018639444434631
+time=1763881636.8067563 Pos: [2.820862   0.         5.49862825] angle 3.022187963972118
+time=1763881636.8694139 Pos: [2.80235591 0.         5.4964403 ] angle 3.025632302173337
+time=1763881636.9307458 Pos: [2.7838425  0.         5.49431517] angle 3.0289754553749098
+time=1763881636.9924648 Pos: [2.7653222  0.         5.49225102] angle 3.032220339061882
+time=1763881637.0551775 Pos: [2.74679538 0.         5.49024611] angle 3.0353697894551974
+time=1763881637.117687 Pos: [2.72826244 0.         5.48829869] angle 3.038426565167377
+time=1763881637.1808827 Pos: [2.70972371 0.         5.4864071 ] angle 3.041393348899568
+time=1763881637.2428498 Pos: [2.69117954 0.         5.48456971] angle 3.0442727491608395
+time=1763881637.3063862 Pos: [2.67263022 0.         5.48278493] angle 3.0470673019959578
+time=1763881637.372688 Pos: [2.65407606 0.         5.48105123] angle 3.0497794727116285
+time=1763881637.4667253 Pos: [2.63551733 0.         5.47936712] angle 3.0524116575938245
+time=1763881637.5604892 Pos: [2.6169543  0.         5.47773115] angle 3.05496618561072
+time=1763881637.6553738 Pos: [2.59838721 0.         5.4761419 ] angle 3.057445320097081
+time=1763881637.7273161 Pos: [2.5798163 0.        5.474598 ] angle 3.0598512604169597
+time=1763881637.7962377 Pos: [2.56124177 0.         5.47309813] angle 3.0621861436022852
+time=1763881637.862813 Pos: [2.54266384 0.         5.47164099] angle 3.0644520459654565
+time=1763881637.9267795 Pos: [2.52408271 0.         5.47022533] angle 3.0666509846845194
+time=1763881637.9872408 Pos: [2.50549855 0.         5.46884993] angle 3.0687849193597865
+time=1763881638.0483527 Pos: [2.48923492 0.         5.46768064] angle 3.0708557535410725
+time=1763881638.1121352 Pos: [2.47296898 0.         5.46654388] angle 3.072784360427456
+time=1763881638.1723897 Pos: [2.45670094 0.         5.4654376 ] angle 3.074603000572356
+time=1763881638.232179 Pos: [2.44043097 0.         5.46436019] angle 3.076333919522271
+time=1763881638.2923548 Pos: [2.42415919 0.         5.46331035] angle 3.07799255421588
+time=1763881638.3523262 Pos: [2.40788572 0.         5.46228701] angle 3.079589710265075
+time=1763881638.412381 Pos: [2.39161067 0.         5.46128922] angle 3.0811330404952866
+time=1763881638.473394 Pos: [2.37533411 0.         5.46031616] angle 3.0826280490549354
+time=1763881638.5339305 Pos: [2.35905615 0.         5.45936707] angle 3.0840787733916017
+time=1763881638.5935009 Pos: [2.34277684 0.         5.45844126] angle 3.0854882475002845
+time=1763881638.653227 Pos: [2.32649626 0.         5.45753808] angle 3.0868588166535047
+time=1763881638.7144027 Pos: [2.31021722 0.         5.45660777] angle 3.082155653413657
+time=1763881638.773817 Pos: [2.29394613 0.         5.45554851] angle 3.071011183517688
+time=1763881638.8356946 Pos: [2.28094375 0.         5.45450373] angle 3.051813689943081
+time=1763881638.8974671 Pos: [2.26796686 0.         5.45318044] angle 3.028127571476098
+time=1763881638.9637158 Pos: [2.25502739 0.         5.45153155] angle 3.001562268926727
+time=1763881639.0253232 Pos: [2.24536449 0.         5.4500039 ] angle 2.9680298103246447
+time=1763881639.0879438 Pos: [2.23577094 0.         5.44809057] angle 2.921442342353529
+time=1763881639.1763585 Pos: [2.22626985 0.         5.44576027] angle 2.880707436955295
+time=1763881639.2704875 Pos: [2.21686986 0.         5.44305064] angle 2.8411762240857605
+time=1763881639.3394542 Pos: [2.20759546 0.         5.43993897] angle 2.7945887561146447
+time=1763881639.4035666 Pos: [2.19847604 0.         5.43639876] angle 2.748001288143529
+time=1763881639.4650233 Pos: [2.18953138 0.         5.43243769] angle 2.701413820172413
+time=1763881639.5257607 Pos: [2.1807809  0.         5.42806436] angle 2.6548263522012974
+time=1763881639.5887687 Pos: [2.17224357 0.         5.42328827] angle 2.6082388842301816
+time=1763881639.6514626 Pos: [2.16512446 0.         5.41885812] angle 2.561651416259066
+time=1763881639.7148433 Pos: [2.15821939 0.         5.41410124] angle 2.51506394828795
+time=1763881639.7829316 Pos: [2.15154333 0.         5.40902794] angle 2.468476480316834
+time=1763881639.8488805 Pos: [2.14511079 0.         5.40364924] angle 2.4218890123457184
+time=1763881639.9197288 Pos: [2.13893572 0.         5.39797682] angle 2.3753015443746026
+  Lane: dist=-0.084, angle=0.160
+  Closest Duckiebot: 1.998m
+Step 56: Pos: 2.987, 5.521, Dist to target: 5.101
+  Speed: 0.40, Steering: 0.097
+  Lane: dist=-0.081, angle=0.155
+  Closest Duckiebot: 1.985m
+Step 57: Pos: 2.969, 5.519, Dist to target: 5.090
+  Speed: 0.40, Steering: 0.094
+  Lane: dist=-0.078, angle=0.151
+  Closest Duckiebot: 1.971m
+Step 58: Pos: 2.950, 5.516, Dist to target: 5.080
+  Speed: 0.40, Steering: 0.091
+  Lane: dist=-0.075, angle=0.147
+  Closest Duckiebot: 1.957m
+Step 59: Pos: 2.932, 5.513, Dist to target: 5.070
+  Speed: 0.40, Steering: 0.088
+  Lane: dist=-0.073, angle=0.142
+  Closest Duckiebot: 1.942m
+Step 60: Pos: 2.913, 5.511, Dist to target: 5.061
+  Speed: 0.40, Steering: 0.086
+  Lane: dist=-0.070, angle=0.138
+  Closest Duckiebot: 1.928m
+Step 61: Pos: 2.895, 5.508, Dist to target: 5.051
+  Speed: 0.40, Steering: 0.083
+  Lane: dist=-0.068, angle=0.134
+  Closest Duckiebot: 1.912m
+Step 62: Pos: 2.876, 5.506, Dist to target: 5.041
+  Speed: 0.40, Steering: 0.081
+  Lane: dist=-0.065, angle=0.130
+  Closest Duckiebot: 1.896m
+Step 63: Pos: 2.858, 5.503, Dist to target: 5.032
+  Speed: 0.40, Steering: 0.078
+  Lane: dist=-0.063, angle=0.127
+  Closest Duckiebot: 1.880m
+Step 64: Pos: 2.839, 5.501, Dist to target: 5.022
+  Speed: 0.40, Steering: 0.076
+  Lane: dist=-0.060, angle=0.123
+  Closest Duckiebot: 1.863m
+Step 65: Pos: 2.821, 5.499, Dist to target: 5.013
+  Speed: 0.40, Steering: 0.074
+  Lane: dist=-0.058, angle=0.119
+  Closest Duckiebot: 1.846m
+Step 66: Pos: 2.802, 5.496, Dist to target: 5.004
+  Speed: 0.40, Steering: 0.072
+  Lane: dist=-0.056, angle=0.116
+  Closest Duckiebot: 1.829m
+Step 67: Pos: 2.784, 5.494, Dist to target: 4.995
+  Speed: 0.40, Steering: 0.070
+  Lane: dist=-0.054, angle=0.113
+  Closest Duckiebot: 1.810m
+Step 68: Pos: 2.765, 5.492, Dist to target: 4.986
+  Speed: 0.40, Steering: 0.068
+  Lane: dist=-0.052, angle=0.109
+  Closest Duckiebot: 1.792m
+Step 69: Pos: 2.747, 5.490, Dist to target: 4.977
+  Speed: 0.40, Steering: 0.066
+  Lane: dist=-0.050, angle=0.106
+  Closest Duckiebot: 1.773m
+Step 70: Pos: 2.728, 5.488, Dist to target: 4.968
+  Speed: 0.40, Steering: 0.064
+  Lane: dist=-0.048, angle=0.103
+  Closest Duckiebot: 1.753m
+Step 71: Pos: 2.710, 5.486, Dist to target: 4.960
+  Speed: 0.40, Steering: 0.062
+  Lane: dist=-0.046, angle=0.100
+  Closest Duckiebot: 1.733m
+Step 72: Pos: 2.691, 5.485, Dist to target: 4.951
+  Speed: 0.40, Steering: 0.060
+  Lane: dist=-0.044, angle=0.097
+  Closest Duckiebot: 1.713m
+Step 73: Pos: 2.673, 5.483, Dist to target: 4.943
+  Speed: 0.40, Steering: 0.058
+  Lane: dist=-0.042, angle=0.095
+  Closest Duckiebot: 1.693m
+Step 74: Pos: 2.654, 5.481, Dist to target: 4.934
+  Speed: 0.40, Steering: 0.056
+  Lane: dist=-0.041, angle=0.092
+  Closest Duckiebot: 1.672m
+Step 75: Pos: 2.636, 5.479, Dist to target: 4.926
+  Speed: 0.40, Steering: 0.055
+  Lane: dist=-0.039, angle=0.089
+  Closest Duckiebot: 1.651m
+Step 76: Pos: 2.617, 5.478, Dist to target: 4.918
+  Speed: 0.40, Steering: 0.053
+  Lane: dist=-0.037, angle=0.087
+  Closest Duckiebot: 1.630m
+Step 77: Pos: 2.598, 5.476, Dist to target: 4.910
+  Speed: 0.40, Steering: 0.052
+  Lane: dist=-0.036, angle=0.084
+  Closest Duckiebot: 1.608m
+Step 78: Pos: 2.580, 5.475, Dist to target: 4.902
+  Speed: 0.40, Steering: 0.050
+  Lane: dist=-0.034, angle=0.082
+  Closest Duckiebot: 1.586m
+Step 79: Pos: 2.561, 5.473, Dist to target: 4.894
+  Speed: 0.40, Steering: 0.049
+  Lane: dist=-0.033, angle=0.079
+  Closest Duckiebot: 1.565m
+Step 80: Pos: 2.543, 5.472, Dist to target: 4.887
+  Speed: 0.40, Steering: 0.047
+  Lane: dist=-0.031, angle=0.077
+  Closest Duckiebot: 1.543m
+Step 81: Pos: 2.524, 5.470, Dist to target: 4.879
+  Speed: 0.40, Steering: 0.046
+  Lane: dist=-0.030, angle=0.075
+  Closest Duckiebot: 1.521m
+Step 82: Pos: 2.505, 5.469, Dist to target: 4.871
+  Speed: 0.35, Steering: 0.044
+  Lane: dist=-0.028, angle=0.073
+  Closest Duckiebot: 1.499m
+Step 83: Pos: 2.489, 5.468, Dist to target: 4.865
+  Speed: 0.35, Steering: 0.041
+  Lane: dist=-0.027, angle=0.071
+  Closest Duckiebot: 1.478m
+Step 84: Pos: 2.473, 5.467, Dist to target: 4.858
+  Speed: 0.35, Steering: 0.039
+  Lane: dist=-0.026, angle=0.069
+  Closest Duckiebot: 1.457m
+Step 85: Pos: 2.457, 5.465, Dist to target: 4.852
+  Speed: 0.35, Steering: 0.037
+  Lane: dist=-0.025, angle=0.067
+  Closest Duckiebot: 1.436m
+Step 86: Pos: 2.440, 5.464, Dist to target: 4.846
+  Speed: 0.35, Steering: 0.036
+  Lane: dist=-0.024, angle=0.065
+  Closest Duckiebot: 1.415m
+Step 87: Pos: 2.424, 5.463, Dist to target: 4.840
+  Speed: 0.35, Steering: 0.034
+  Lane: dist=-0.023, angle=0.064
+  Closest Duckiebot: 1.394m
+Step 88: Pos: 2.408, 5.462, Dist to target: 4.833
+  Speed: 0.35, Steering: 0.033
+  Lane: dist=-0.022, angle=0.062
+  Closest Duckiebot: 1.373m
+Step 89: Pos: 2.392, 5.461, Dist to target: 4.827
+  Speed: 0.35, Steering: 0.032
+  Lane: dist=-0.021, angle=0.060
+  Closest Duckiebot: 1.351m
+Step 90: Pos: 2.375, 5.460, Dist to target: 4.821
+  Speed: 0.35, Steering: 0.031
+  Lane: dist=-0.020, angle=0.059
+  Closest Duckiebot: 1.330m
+Step 91: Pos: 2.359, 5.459, Dist to target: 4.815
+  Speed: 0.35, Steering: 0.030
+  Lane: dist=-0.019, angle=0.058
+  Closest Duckiebot: 1.309m
+Step 92: Pos: 2.343, 5.458, Dist to target: 4.810
+  Speed: 0.35, Steering: 0.029
+  Lane: dist=-0.018, angle=0.056
+  Closest Duckiebot: 1.288m
+Step 93: Pos: 2.326, 5.458, Dist to target: 4.804
+  Speed: 0.35, Steering: -0.101
+  Lane: dist=-0.017, angle=0.037
+  Closest Duckiebot: 1.267m
+Step 94: Pos: 2.310, 5.457, Dist to target: 4.798
+  Speed: 0.35, Steering: -0.239
+  Lane: dist=-0.017, angle=0.017
+  Closest Duckiebot: 1.246m
+Step 95: Pos: 2.294, 5.456, Dist to target: 4.792
+  Speed: 0.28, Steering: -0.412
+  Lane: dist=-0.017, angle=-0.007
+  Closest Duckiebot: 1.225m
+Step 96: Pos: 2.281, 5.455, Dist to target: 4.787
+  Speed: 0.28, Steering: -0.508
+  Lane: dist=-0.017, angle=-0.021
+  Closest Duckiebot: 1.206m
+Step 97: Pos: 2.268, 5.453, Dist to target: 4.782
+  Speed: 0.28, Steering: -0.570
+  Lane: dist=-0.017, angle=-0.029
+  Closest Duckiebot: 1.185m
+Step 98: Pos: 2.255, 5.452, Dist to target: 4.777
+  Speed: 0.21, Steering: -0.720
+  Lane: dist=-0.018, angle=-0.050
+  Closest Duckiebot: 1.165m
+Step 99: Pos: 2.245, 5.450, Dist to target: 4.773
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.018, angle=-0.118
+  Closest Duckiebot: 1.146m
+Step 100: Pos: 2.236, 5.448, Dist to target: 4.768
+  Speed: 0.21, Steering: -0.874
+  Lane: dist=-0.019, angle=-0.071
+  Closest Duckiebot: 1.126m
+Step 101: Pos: 2.226, 5.446, Dist to target: 4.763
+  Speed: 0.21, Steering: -0.849
+  Lane: dist=-0.019, angle=-0.068
+  Closest Duckiebot: 1.106m
+Step 102: Pos: 2.217, 5.443, Dist to target: 4.758
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.020, angle=-0.093
+  Closest Duckiebot: 1.086m
+Step 103: Pos: 2.208, 5.440, Dist to target: 4.752
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.021, angle=-0.109
+  Closest Duckiebot: 1.066m
+Step 104: Pos: 2.198, 5.436, Dist to target: 4.746
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.022, angle=-0.140
+  Closest Duckiebot: 1.045m
+Step 105: Pos: 2.190, 5.432, Dist to target: 4.740
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.024, angle=-0.188
+  Closest Duckiebot: 1.023m
+Step 106: Pos: 2.181, 5.428, Dist to target: 4.734
+  Speed: 0.21, Steering: -1.000
+  Lane: dist=-0.026, angle=-0.230
+  Closest Duckiebot: 1.002m
+Step 107: Pos: 2.172, 5.423, Dist to target: 4.727
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.027, angle=-0.400
+  Closest Duckiebot: 0.980m
+Step 108: Pos: 2.165, 5.419, Dist to target: 4.720
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.030, angle=-0.353
+  Closest Duckiebot: 0.958m
+Step 109: Pos: 2.158, 5.414, Dist to target: 4.714
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.033, angle=-0.329
+  Closest Duckiebot: 0.937m
+Step 110: Pos: 2.152, 5.409, Dist to target: 4.707
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.036, angle=-0.348
+  Closest Duckiebot: 0.915m
+Step 111: Pos: 2.145, 5.404, Dist to target: 4.700
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.039, angle=-0.374
+  Closest Duckiebot: 0.893m
+Step 112: Pos: 2.139, 5.398, Dist to target: 4.693
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.042, angle=-0.386
+time=1763881639.990483 Pos: [2.13303151 0.         5.39202296] angle 2.328714076403487
+time=1763881640.0665512 Pos: [2.12741099 0.         5.38580061] angle 2.282126608432371
+time=1763881640.1403513 Pos: [2.12208634 0.         5.37932326] angle 2.2355391404612552
+time=1763881640.2177973 Pos: [2.11706912 0.         5.37260496] angle 2.1889516724901394
+time=1763881640.296488 Pos: [2.11237023 0.         5.36566029] angle 2.1423642045190237
+time=1763881640.370924 Pos: [2.10799984 0.         5.35850433] angle 2.095776736547908
+time=1763881640.4473188 Pos: [2.10396746 0.         5.35115261] angle 2.049189268576792
+time=1763881640.5249758 Pos: [2.10028183 0.         5.34362107] angle 2.0026018006056763
+time=1763881640.6047885 Pos: [2.09695094 0.         5.33592606] angle 1.9560143326345605
+time=1763881640.6882458 Pos: [2.09398204 0.         5.32808427] angle 1.9094268646634447
+time=1763881640.7704344 Pos: [2.09138154 0.         5.32011273] angle 1.862839396692329
+time=1763881640.8500834 Pos: [2.08915511 0.         5.31202874] angle 1.816251928721213
+time=1763881640.932145 Pos: [2.08730757 0.         5.30384983] angle 1.7696644607500973
+time=1763881641.015579 Pos: [2.08584294 0.         5.29559375] angle 1.7230769927789815
+time=1763881641.1009703 Pos: [2.08476438 0.         5.28727842] angle 1.6764895248078657
+time=1763881641.1910317 Pos: [2.08407424 0.         5.27892188] angle 1.62990205683675
+time=1763881641.2770524 Pos: [2.08377402 0.         5.27054227] angle 1.5833145888656341
+time=1763881641.3683689 Pos: [2.0838488 0.        5.2621575] angle 1.5404418732304368
+time=1763881641.453947 Pos: [2.08434628 0.         5.25098796] angle 1.5121327794725883
+time=1763881641.53967 Pos: [2.08529373 0.         5.23704407] angle 1.4937728297529527
+time=1763881641.6303935 Pos: [2.08644989 0.         5.22311581] angle 1.4821835037019786
+time=1763881641.7243493 Pos: [2.08773568 0.         5.20919887] angle 1.4751517719389782
+time=1763881641.811259 Pos: [2.089098   0.         5.19528919] angle 1.4711824892084209
+time=1763881641.8970084 Pos: [2.09050126 0.         5.18138357] angle 1.469265681720765
+time=1763881641.9823833 Pos: [2.09192163 0.         5.1674797 ] angle 1.4687192454616154
+time=1763881642.072085 Pos: [2.09334329 0.         5.15357595] angle 1.4690826291052326
+time=1763881642.1576629 Pos: [2.09475572 0.         5.13967126] angle 1.4700449832723523
+time=1763881642.2465887 Pos: [2.09615207 0.         5.12576495] angle 1.471396606306997
+time=1763881642.335258 Pos: [2.09752789 0.         5.1118566 ] angle 1.4729961347735632
+time=1763881642.4236553 Pos: [2.0988804  0.         5.09794595] angle 1.4747483739135592
+time=1763881642.5091746 Pos: [2.10020793 0.         5.08403291] angle 1.4765893179231515
+time=1763881642.597201 Pos: [2.10150951 0.         5.07011741] angle 1.4784760284663732
+time=1763881642.683403 Pos: [2.10278472 0.         5.05619947] angle 1.4803797958667515
+time=1763881642.7740326 Pos: [2.10403345 0.         5.04227912] angle 1.4822815183529334
+time=1763881642.860377 Pos: [2.1052558  0.         5.02835644] angle 1.4841685799987878
+time=1763881642.9468546 Pos: [2.10645204 0.         5.01443149] angle 1.4860327412995982
+time=1763881643.037383 Pos: [2.10762251 0.         5.00050435] angle 1.4878687139659645
+time=1763881643.129262 Pos: [2.10876763 0.         4.9865751 ] angle 1.4896731980311704
+time=1763881643.2162185 Pos: [2.10988785 0.         4.97264383] angle 1.4914442313365381
+time=1763881643.3009636 Pos: [2.11098363 0.         4.95871061] angle 1.4931807500864858
+time=1763881643.3902464 Pos: [2.11205546 0.         4.94477553] angle 1.494882292021017
+time=1763881643.4767294 Pos: [2.11310383 0.         4.93083867] angle 1.496548795953318
+time=1763881643.5610368 Pos: [2.1141292 0.        4.9169001] angle 1.4981804664201623
+time=1763881643.6497233 Pos: [2.11513207 0.         4.90295988] angle 1.499777682328043
+time=1763881643.736623 Pos: [2.11611292 0.         4.88901811] angle 1.501340935326215
+time=1763881643.8362005 Pos: [2.1170722  0.         4.87507483] angle 1.502870788265108
+time=1763881643.9583492 Pos: [2.11801037 0.         4.86113011] angle 1.5043678472252462
+time=1763881644.0569537 Pos: [2.1189279  0.         4.84718402] angle 1.5058327427144733
+time=1763881644.1448483 Pos: [2.11982521 0.         4.83323662] angle 1.5072661170588337
+time=1763881644.2309737 Pos: [2.12070274 0.         4.81928795] angle 1.5086686159770988
+time=1763881644.3208811 Pos: [2.12156092 0.         4.80533809] angle 1.510040882980694
+time=1763881644.4095347 Pos: [2.12240017 0.         4.79138707] angle 1.5113835556812587
+time=1763881644.4982924 Pos: [2.12322088 0.         4.77743495] angle 1.5126972633856592
+time=1763881644.5851772 Pos: [2.12402347 0.         4.76348177] angle 1.5139826255594042
+time=1763881644.6775625 Pos: [2.12480831 0.         4.74952758] angle 1.5152402508752816
+time=1763881644.7656746 Pos: [2.12557579 0.         4.73557243] angle 1.5164707366559036
+time=1763881644.8881795 Pos: [2.12632628 0.         4.72161636] angle 1.5176746685808666
+  Closest Duckiebot: 0.871m
+Step 113: Pos: 2.133, 5.392, Dist to target: 4.686
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.045, angle=-0.394
+  Closest Duckiebot: 0.849m
+Step 114: Pos: 2.127, 5.386, Dist to target: 4.678
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.048, angle=-0.398
+  Closest Duckiebot: 0.827m
+Step 115: Pos: 2.122, 5.379, Dist to target: 4.671
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.052, angle=-0.397
+  Closest Duckiebot: 0.804m
+Step 116: Pos: 2.117, 5.373, Dist to target: 4.663
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.055, angle=-0.392
+  Closest Duckiebot: 0.781m
+Step 117: Pos: 2.112, 5.366, Dist to target: 4.655
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.058, angle=-0.383
+  Closest Duckiebot: 0.758m
+Step 118: Pos: 2.108, 5.359, Dist to target: 4.647
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.061, angle=-0.364
+  Closest Duckiebot: 0.735m
+Step 119: Pos: 2.104, 5.351, Dist to target: 4.639
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.064, angle=-0.347
+  Closest Duckiebot: 0.712m
+Step 120: Pos: 2.100, 5.344, Dist to target: 4.630
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.067, angle=-0.305
+  Closest Duckiebot: 0.689m
+Step 121: Pos: 2.097, 5.336, Dist to target: 4.622
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.069, angle=-0.303
+  Closest Duckiebot: 0.666m
+Step 122: Pos: 2.094, 5.328, Dist to target: 4.614
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.072, angle=-0.275
+  Closest Duckiebot: 0.643m
+Step 123: Pos: 2.091, 5.320, Dist to target: 4.605
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.074, angle=-0.245
+  Closest Duckiebot: 0.620m
+Step 124: Pos: 2.089, 5.312, Dist to target: 4.597
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.076, angle=-0.214
+  Closest Duckiebot: 0.597m
+Step 125: Pos: 2.087, 5.304, Dist to target: 4.589
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.077, angle=-0.178
+  Closest Duckiebot: 0.574m
+Step 126: Pos: 2.086, 5.296, Dist to target: 4.580
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.079, angle=-0.140
+  Closest Duckiebot: 0.552m
+Step 127: Pos: 2.085, 5.287, Dist to target: 4.572
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.080, angle=-0.099
+  Closest Duckiebot: 0.529m
+Step 128: Pos: 2.084, 5.279, Dist to target: 4.564
+  Speed: 0.18, Steering: -1.000
+  Lane: dist=-0.080, angle=-0.056
+  Closest Duckiebot: 0.507m
+Step 129: Pos: 2.084, 5.271, Dist to target: 4.556
+  Speed: 0.18, Steering: -0.920
+  Lane: dist=-0.081, angle=-0.012
+  Closest Duckiebot: 0.485m
+Step 130: Pos: 2.084, 5.262, Dist to target: 4.548
+  Speed: 0.24, Steering: -0.608
+  Lane: dist=-0.081, angle=0.030
+  Closest Duckiebot: 0.464m
+Step 131: Pos: 2.084, 5.251, Dist to target: 4.537
+  Speed: 0.30, Steering: -0.394
+  Lane: dist=-0.080, angle=0.059
+  Closest Duckiebot: 0.440m
+Step 132: Pos: 2.085, 5.237, Dist to target: 4.524
+  Speed: 0.30, Steering: -0.249
+  Lane: dist=-0.079, angle=0.077
+  Closest Duckiebot: 0.414m
+Step 133: Pos: 2.086, 5.223, Dist to target: 4.511
+  Speed: 0.30, Steering: -0.151
+  Lane: dist=-0.078, angle=0.089
+  Closest Duckiebot: 0.390m
+Step 134: Pos: 2.088, 5.209, Dist to target: 4.498
+  Speed: 0.30, Steering: -0.085
+  Lane: dist=-0.077, angle=0.096
+  Closest Duckiebot: 0.366m
+Step 135: Pos: 2.089, 5.195, Dist to target: 4.485
+  Speed: 0.30, Steering: -0.041
+  Lane: dist=-0.075, angle=0.100
+  Closest Duckiebot: 0.343m
+Step 136: Pos: 2.091, 5.181, Dist to target: 4.472
+  Speed: 0.30, Steering: -0.012
+  Lane: dist=-0.074, angle=0.102
+  Closest Duckiebot: 0.334m
+Step 137: Pos: 2.092, 5.167, Dist to target: 4.459
+  Speed: 0.30, Steering: 0.008
+  Lane: dist=-0.073, angle=0.102
+  Closest Duckiebot: 0.325m
+Step 138: Pos: 2.093, 5.154, Dist to target: 4.446
+  Speed: 0.30, Steering: 0.021
+  Lane: dist=-0.071, angle=0.102
+  Closest Duckiebot: 0.316m
+Step 139: Pos: 2.095, 5.140, Dist to target: 4.433
+  Speed: 0.30, Steering: 0.029
+  Lane: dist=-0.070, angle=0.101
+  Closest Duckiebot: 0.308m
+Step 140: Pos: 2.096, 5.126, Dist to target: 4.420
+  Speed: 0.30, Steering: 0.034
+  Lane: dist=-0.068, angle=0.099
+  Closest Duckiebot: 0.300m
+Step 141: Pos: 2.098, 5.112, Dist to target: 4.407
+  Speed: 0.30, Steering: 0.038
+  Lane: dist=-0.067, angle=0.098
+  Closest Duckiebot: 0.292m
+Step 142: Pos: 2.099, 5.098, Dist to target: 4.394
+  Speed: 0.30, Steering: 0.040
+  Lane: dist=-0.066, angle=0.096
+  Closest Duckiebot: 0.285m
+Step 143: Pos: 2.100, 5.084, Dist to target: 4.381
+  Speed: 0.30, Steering: 0.040
+  Lane: dist=-0.064, angle=0.094
+  Closest Duckiebot: 0.278m
+Step 144: Pos: 2.102, 5.070, Dist to target: 4.368
+  Speed: 0.30, Steering: 0.041
+  Lane: dist=-0.063, angle=0.092
+  Closest Duckiebot: 0.262m
+Step 145: Pos: 2.103, 5.056, Dist to target: 4.355
+  Speed: 0.30, Steering: 0.041
+  Lane: dist=-0.062, angle=0.090
+  Closest Duckiebot: 0.249m
+Step 146: Pos: 2.104, 5.042, Dist to target: 4.342
+  Speed: 0.30, Steering: 0.041
+  Lane: dist=-0.060, angle=0.089
+  Closest Duckiebot: 0.238m
+Step 147: Pos: 2.105, 5.028, Dist to target: 4.329
+  Speed: 0.30, Steering: 0.040
+  Lane: dist=-0.059, angle=0.087
+  Closest Duckiebot: 0.231m
+Step 148: Pos: 2.106, 5.014, Dist to target: 4.316
+  Speed: 0.30, Steering: 0.039
+  Lane: dist=-0.058, angle=0.085
+  Closest Duckiebot: 0.228m
+Step 149: Pos: 2.108, 5.001, Dist to target: 4.303
+  Speed: 0.30, Steering: 0.039
+  Lane: dist=-0.057, angle=0.083
+  Closest Duckiebot: 0.228m
+Step 150: Pos: 2.109, 4.987, Dist to target: 4.290
+  Speed: 0.30, Steering: 0.038
+  Lane: dist=-0.056, angle=0.081
+  Closest Duckiebot: 0.232m
+Step 151: Pos: 2.110, 4.973, Dist to target: 4.277
+  Speed: 0.30, Steering: 0.037
+  Lane: dist=-0.055, angle=0.079
+  Closest Duckiebot: 0.239m
+Step 152: Pos: 2.111, 4.959, Dist to target: 4.264
+  Speed: 0.30, Steering: 0.037
+  Lane: dist=-0.054, angle=0.078
+  Closest Duckiebot: 0.250m
+Step 153: Pos: 2.112, 4.945, Dist to target: 4.251
+  Speed: 0.30, Steering: 0.036
+  Lane: dist=-0.052, angle=0.076
+  Closest Duckiebot: 0.263m
+Step 154: Pos: 2.113, 4.931, Dist to target: 4.237
+  Speed: 0.30, Steering: 0.035
+  Lane: dist=-0.051, angle=0.074
+  Closest Duckiebot: 0.279m
+Step 155: Pos: 2.114, 4.917, Dist to target: 4.224
+  Speed: 0.30, Steering: 0.034
+  Lane: dist=-0.050, angle=0.073
+  Closest Duckiebot: 0.297m
+Step 156: Pos: 2.115, 4.903, Dist to target: 4.211
+  Speed: 0.30, Steering: 0.034
+  Lane: dist=-0.049, angle=0.071
+  Closest Duckiebot: 0.316m
+Step 157: Pos: 2.116, 4.889, Dist to target: 4.198
+  Speed: 0.30, Steering: 0.033
+  Lane: dist=-0.048, angle=0.069
+  Closest Duckiebot: 0.337m
+Step 158: Pos: 2.117, 4.875, Dist to target: 4.185
+  Speed: 0.30, Steering: 0.032
+  Lane: dist=-0.047, angle=0.068
+  Closest Duckiebot: 0.359m
+Step 159: Pos: 2.118, 4.861, Dist to target: 4.172
+  Speed: 0.30, Steering: 0.031
+  Lane: dist=-0.046, angle=0.066
+  Closest Duckiebot: 0.382m
+Step 160: Pos: 2.119, 4.847, Dist to target: 4.159
+  Speed: 0.30, Steering: 0.031
+  Lane: dist=-0.046, angle=0.065
+  Closest Duckiebot: 0.405m
+Step 161: Pos: 2.120, 4.833, Dist to target: 4.146
+  Speed: 0.30, Steering: 0.030
+  Lane: dist=-0.045, angle=0.064
+  Closest Duckiebot: 0.429m
+Step 162: Pos: 2.121, 4.819, Dist to target: 4.133
+  Speed: 0.30, Steering: 0.029
+  Lane: dist=-0.044, angle=0.062
+  Closest Duckiebot: 0.454m
+Step 163: Pos: 2.122, 4.805, Dist to target: 4.120
+  Speed: 0.30, Steering: 0.029
+  Lane: dist=-0.043, angle=0.061
+  Closest Duckiebot: 0.479m
+Step 164: Pos: 2.122, 4.791, Dist to target: 4.107
+  Speed: 0.30, Steering: 0.028
+  Lane: dist=-0.042, angle=0.059
+  Closest Duckiebot: 0.504m
+Step 165: Pos: 2.123, 4.777, Dist to target: 4.094
+  Speed: 0.30, Steering: 0.028
+  Lane: dist=-0.041, angle=0.058
+  Closest Duckiebot: 0.530m
+Step 166: Pos: 2.124, 4.763, Dist to target: 4.081
+  Speed: 0.30, Steering: 0.027
+  Lane: dist=-0.040, angle=0.057
+  Closest Duckiebot: 0.556m
+Step 167: Pos: 2.125, 4.750, Dist to target: 4.068
+  Speed: 0.30, Steering: 0.026
+  Lane: dist=-0.040, angle=0.056
+  Closest Duckiebot: 0.582m
+Step 168: Pos: 2.126, 4.736, Dist to target: 4.055
+  Speed: 0.30, Steering: 0.026
+  Lane: dist=-0.039, angle=0.054
+  Closest Duckiebot: 0.608m
+Step 169: Pos: 2.126, 4.722, Dist to target: 4.042
+  Speed: 0.30, Steering: 0.025
+  Lane: dist=-0.038, angle=0.053
+time=1763881644.986773 Pos: [2.12706015 0.         4.7076594 ] angle 1.5188526205711876
+time=1763881645.0756166 Pos: [2.12777776 0.         4.69370159] angle 1.5200051547920042
+time=1763881645.1896188 Pos: [2.12847945 0.         4.67974298] angle 1.52113282173369
+time=1763881645.2803373 Pos: [2.12916558 0.         4.66578359] angle 1.5222361603444583
+time=1763881645.4063973 Pos: [2.12983646 0.         4.65182346] angle 1.5233156981962872
+time=1763881645.4896796 Pos: [2.13049244 0.         4.63786263] angle 1.5243719516719099
+time=1763881645.5720608 Pos: [2.13113383 0.         4.62390111] angle 1.5254054261645904
+time=1763881645.6575637 Pos: [2.13176095 0.         4.60993895] angle 1.526416616285135
+time=1763881645.768631 Pos: [2.1323741  0.         4.59597617] angle 1.527406006072385
+time=1763881645.8856163 Pos: [2.13297358 0.         4.58201279] angle 1.5283740692046845
+time=1763881645.9932442 Pos: [2.1335597  0.         4.56804884] angle 1.5293212692106488
+time=1763881646.1111581 Pos: [2.13413273 0.         4.55408436] angle 1.530248059678129
+time=1763881646.1905015 Pos: [2.13469295 0.         4.54011935] angle 1.5311548844606289
+time=1763881646.2723355 Pos: [2.13524065 0.         4.52615384] angle 1.5320421778807072
+time=1763881646.351884 Pos: [2.13586533 0.         4.5098602 ] angle 1.5329103649300695
+time=1763881646.432677 Pos: [2.13647563 0.         4.49356601] angle 1.5338062995636939
+time=1763881646.5104637 Pos: [2.13707125 0.         4.47727128] angle 1.5347133098724748
+time=1763881646.5880058 Pos: [2.13765209 0.         4.46097602] angle 1.5356202734895996
+time=1763881646.6658092 Pos: [2.13821821 0.         4.44468023] angle 1.5365198316498532
+time=1763881646.7472553 Pos: [2.13876977 0.         4.42838395] angle 1.5374071764990143
+time=1763881646.8261049 Pos: [2.13930699 0.         4.41208719] angle 1.5382792276883794
+time=1763881646.904544 Pos: [2.13983015 0.         4.39578997] angle 1.5391340733260934
+time=1763881646.9825032 Pos: [2.14033951 0.         4.37949232] angle 1.539970590448001
+time=1763881647.062457 Pos: [2.14083541 0.         4.36319425] angle 1.5407881873960203
+time=1763881647.1442876 Pos: [2.14131813 0.         4.34689578] angle 1.5415866289803777
+time=1763881647.2232673 Pos: [2.14178799 0.         4.33059694] angle 1.5423659178572362
+time=1763881647.3048284 Pos: [2.14224531 0.         4.31429774] angle 1.543126214079317
+time=1763881647.3823526 Pos: [2.14269038 0.         4.2979982 ] angle 1.5438677805670953
+time=1763881647.4610367 Pos: [2.14312352 0.         4.28169834] angle 1.5445909461800786
+time=1763881647.5385096 Pos: [2.14354502 0.         4.26539818] angle 1.5452960807378093
+time=1763881647.6221492 Pos: [2.14395517 0.         4.24909772] angle 1.545983578153479
+time=1763881647.70497 Pos: [2.14435425 0.         4.23279699] angle 1.5466538450744676
+time=1763881647.786311 Pos: [2.14474255 0.         4.216496  ] angle 1.5473072932602907
+time=1763881647.8668056 Pos: [2.14512032 0.         4.20019477] angle 1.5479443344963912
+time=1763881647.9495857 Pos: [2.14548784 0.         4.1838933 ] angle 1.5485653772277828
+time=1763881648.0719612 Pos: [2.14584537 0.         4.1675916 ] angle 1.5491708243584748
+time=1763881648.16507 Pos: [2.14619315 0.         4.1512897 ] angle 1.5497610718404848
+time=1763881648.2720714 Pos: [2.14653142 0.         4.1349876 ] angle 1.5503365077969726
+time=1763881648.3922365 Pos: [2.14686044 0.         4.1186853 ] angle 1.5508975120060713
+time=1763881648.4716914 Pos: [2.14718042 0.         4.10238283] angle 1.551444455627709
+time=1763881648.5509598 Pos: [2.1474916  0.         4.08608018] angle 1.5519777010934959
+time=1763881648.6313531 Pos: [2.14779419 0.         4.06977738] angle 1.552497602105485
+time=1763881648.7146947 Pos: [2.14808842 0.         4.05347442] angle 1.5530045037070104
+time=1763881648.7958884 Pos: [2.14837448 0.         4.03717131] angle 1.5534987424006952
+time=1763881648.8780313 Pos: [2.14861285 0.         4.02319711] angle 1.5539806462967398
+time=1763881648.958823 Pos: [2.14884473 0.         4.00922279] angle 1.5544286713970978
+time=1763881649.0436044 Pos: [2.14907053 0.         3.99524837] angle 1.554851222089798
+time=1763881649.1278317 Pos: [2.14929056 0.         3.98127387] angle 1.5552540351768016
+time=1763881649.209924 Pos: [2.14950507 0.         3.96729927] angle 1.55564104342573
+time=1763881649.2896252 Pos: [2.14971426 0.         3.9533246 ] angle 1.5560149592021
+time=1763881649.3838089 Pos: [2.14991831 0.         3.93934985] angle 1.5563776689260271
+time=1763881649.4690719 Pos: [2.15011735 0.         3.92537502] angle 1.5567304996799096
+time=1763881649.5543654 Pos: [2.15031153 0.         3.91140013] angle 1.557074399412615
+time=1763881649.648791 Pos: [2.15050096 0.         3.89742518] angle 1.5574100587498558
+time=1763881649.7384906 Pos: [2.15068575 0.         3.88345016] angle 1.5577379933403297
+time=1763881649.8319058 Pos: [2.15086601 0.         3.86947508] angle 1.5580585995305092
+time=1763881649.9175 Pos: [2.15104184 0.         3.85549995] angle 1.5583721920138867
+time=1763881650.0044043 Pos: [2.15121334 0.         3.84152476] angle 1.5586790292976653
+  Closest Duckiebot: 0.634m
+Step 170: Pos: 2.127, 4.708, Dist to target: 4.029
+  Speed: 0.30, Steering: 0.025
+  Lane: dist=-0.037, angle=0.052
+  Closest Duckiebot: 0.661m
+Step 171: Pos: 2.128, 4.694, Dist to target: 4.016
+  Speed: 0.30, Steering: 0.024
+  Lane: dist=-0.037, angle=0.051
+  Closest Duckiebot: 0.688m
+Step 172: Pos: 2.128, 4.680, Dist to target: 4.003
+  Speed: 0.30, Steering: 0.024
+  Lane: dist=-0.036, angle=0.050
+  Closest Duckiebot: 0.714m
+Step 173: Pos: 2.129, 4.666, Dist to target: 3.990
+  Speed: 0.30, Steering: 0.023
+  Lane: dist=-0.035, angle=0.049
+  Closest Duckiebot: 0.741m
+Step 174: Pos: 2.130, 4.652, Dist to target: 3.977
+  Speed: 0.30, Steering: 0.023
+  Lane: dist=-0.035, angle=0.047
+  Closest Duckiebot: 0.767m
+Step 175: Pos: 2.130, 4.638, Dist to target: 3.964
+  Speed: 0.30, Steering: 0.022
+  Lane: dist=-0.034, angle=0.046
+  Closest Duckiebot: 0.794m
+Step 176: Pos: 2.131, 4.624, Dist to target: 3.951
+  Speed: 0.30, Steering: 0.022
+  Lane: dist=-0.033, angle=0.045
+  Closest Duckiebot: 0.821m
+Step 177: Pos: 2.132, 4.610, Dist to target: 3.938
+  Speed: 0.30, Steering: 0.021
+  Lane: dist=-0.033, angle=0.044
+  Closest Duckiebot: 0.847m
+Step 178: Pos: 2.132, 4.596, Dist to target: 3.925
+  Speed: 0.30, Steering: 0.021
+  Lane: dist=-0.032, angle=0.043
+  Closest Duckiebot: 0.873m
+Step 179: Pos: 2.133, 4.582, Dist to target: 3.911
+  Speed: 0.30, Steering: 0.020
+  Lane: dist=-0.032, angle=0.042
+  Closest Duckiebot: 0.900m
+Step 180: Pos: 2.134, 4.568, Dist to target: 3.898
+  Speed: 0.30, Steering: 0.020
+  Lane: dist=-0.031, angle=0.041
+  Closest Duckiebot: 0.926m
+Step 181: Pos: 2.134, 4.554, Dist to target: 3.885
+  Speed: 0.30, Steering: 0.019
+  Lane: dist=-0.030, angle=0.041
+  Closest Duckiebot: 0.952m
+Step 182: Pos: 2.135, 4.540, Dist to target: 3.872
+  Speed: 0.30, Steering: 0.019
+  Lane: dist=-0.030, angle=0.040
+  Closest Duckiebot: 0.978m
+Step 183: Pos: 2.135, 4.526, Dist to target: 3.859
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.029, angle=0.039
+  Closest Duckiebot: 1.004m
+Step 184: Pos: 2.136, 4.510, Dist to target: 3.844
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.029, angle=0.038
+  Closest Duckiebot: 1.032m
+Step 185: Pos: 2.136, 4.494, Dist to target: 3.829
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.028, angle=0.037
+  Closest Duckiebot: 1.059m
+Step 186: Pos: 2.137, 4.477, Dist to target: 3.814
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.027, angle=0.036
+  Closest Duckiebot: 1.087m
+Step 187: Pos: 2.138, 4.461, Dist to target: 3.799
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.027, angle=0.035
+  Closest Duckiebot: 1.114m
+Step 188: Pos: 2.138, 4.445, Dist to target: 3.783
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.026, angle=0.034
+  Closest Duckiebot: 1.141m
+Step 189: Pos: 2.139, 4.428, Dist to target: 3.768
+  Speed: 0.35, Steering: 0.019
+  Lane: dist=-0.026, angle=0.033
+  Closest Duckiebot: 1.168m
+Step 190: Pos: 2.139, 4.412, Dist to target: 3.753
+  Speed: 0.35, Steering: 0.018
+  Lane: dist=-0.025, angle=0.033
+  Closest Duckiebot: 1.195m
+Step 191: Pos: 2.140, 4.396, Dist to target: 3.738
+  Speed: 0.35, Steering: 0.018
+  Lane: dist=-0.025, angle=0.032
+  Closest Duckiebot: 1.221m
+Step 192: Pos: 2.140, 4.379, Dist to target: 3.723
+  Speed: 0.35, Steering: 0.018
+  Lane: dist=-0.024, angle=0.031
+  Closest Duckiebot: 1.247m
+Step 193: Pos: 2.141, 4.363, Dist to target: 3.708
+  Speed: 0.35, Steering: 0.017
+  Lane: dist=-0.024, angle=0.030
+  Closest Duckiebot: 1.273m
+Step 194: Pos: 2.141, 4.347, Dist to target: 3.692
+  Speed: 0.35, Steering: 0.017
+  Lane: dist=-0.023, angle=0.029
+  Closest Duckiebot: 1.293m
+Step 195: Pos: 2.142, 4.331, Dist to target: 3.677
+  Speed: 0.35, Steering: 0.016
+  Lane: dist=-0.023, angle=0.028
+  Closest Duckiebot: 1.276m
+Step 196: Pos: 2.142, 4.314, Dist to target: 3.662
+  Speed: 0.35, Steering: 0.016
+  Lane: dist=-0.022, angle=0.028
+  Closest Duckiebot: 1.258m
+Step 197: Pos: 2.143, 4.298, Dist to target: 3.647
+  Speed: 0.35, Steering: 0.016
+  Lane: dist=-0.022, angle=0.027
+  Closest Duckiebot: 1.240m
+Step 198: Pos: 2.143, 4.282, Dist to target: 3.632
+  Speed: 0.35, Steering: 0.015
+  Lane: dist=-0.021, angle=0.026
+  Closest Duckiebot: 1.239m
+Step 199: Pos: 2.144, 4.265, Dist to target: 3.617
+  Speed: 0.35, Steering: 0.015
+  Lane: dist=-0.021, angle=0.026
+  Closest Duckiebot: 1.221m
+Step 200: Pos: 2.144, 4.249, Dist to target: 3.602
+  Speed: 0.35, Steering: 0.014
+  Lane: dist=-0.021, angle=0.025
+  Closest Duckiebot: 1.203m
+Step 201: Pos: 2.144, 4.233, Dist to target: 3.586
+  Speed: 0.35, Steering: 0.014
+  Lane: dist=-0.020, angle=0.024
+  Closest Duckiebot: 1.185m
+Step 202: Pos: 2.145, 4.216, Dist to target: 3.571
+  Speed: 0.35, Steering: 0.014
+  Lane: dist=-0.020, angle=0.023
+  Closest Duckiebot: 1.168m
+Step 203: Pos: 2.145, 4.200, Dist to target: 3.556
+  Speed: 0.35, Steering: 0.013
+  Lane: dist=-0.019, angle=0.023
+  Closest Duckiebot: 1.151m
+Step 204: Pos: 2.145, 4.184, Dist to target: 3.541
+  Speed: 0.35, Steering: 0.013
+  Lane: dist=-0.019, angle=0.022
+  Closest Duckiebot: 1.133m
+Step 205: Pos: 2.146, 4.168, Dist to target: 3.526
+  Speed: 0.35, Steering: 0.013
+  Lane: dist=-0.019, angle=0.022
+  Closest Duckiebot: 1.132m
+Step 206: Pos: 2.146, 4.151, Dist to target: 3.511
+  Speed: 0.35, Steering: 0.012
+  Lane: dist=-0.018, angle=0.021
+  Closest Duckiebot: 1.114m
+Step 207: Pos: 2.147, 4.135, Dist to target: 3.496
+  Speed: 0.35, Steering: 0.012
+  Lane: dist=-0.018, angle=0.020
+  Closest Duckiebot: 1.097m
+Step 208: Pos: 2.147, 4.119, Dist to target: 3.481
+  Speed: 0.35, Steering: 0.012
+  Lane: dist=-0.018, angle=0.020
+  Closest Duckiebot: 1.079m
+Step 209: Pos: 2.147, 4.102, Dist to target: 3.466
+  Speed: 0.35, Steering: 0.011
+  Lane: dist=-0.017, angle=0.019
+  Closest Duckiebot: 1.061m
+Step 210: Pos: 2.147, 4.086, Dist to target: 3.451
+  Speed: 0.35, Steering: 0.011
+  Lane: dist=-0.017, angle=0.019
+  Closest Duckiebot: 1.043m
+Step 211: Pos: 2.148, 4.070, Dist to target: 3.436
+  Speed: 0.35, Steering: 0.011
+  Lane: dist=-0.017, angle=0.018
+  Closest Duckiebot: 1.025m
+Step 212: Pos: 2.148, 4.053, Dist to target: 3.421
+  Speed: 0.35, Steering: 0.011
+  Lane: dist=-0.016, angle=0.018
+  Closest Duckiebot: 1.008m
+Step 213: Pos: 2.148, 4.037, Dist to target: 3.406
+  Speed: 0.30, Steering: 0.010
+  Lane: dist=-0.016, angle=0.017
+  Closest Duckiebot: 0.989m
+Step 214: Pos: 2.149, 4.023, Dist to target: 3.393
+  Speed: 0.30, Steering: 0.010
+  Lane: dist=-0.016, angle=0.017
+  Closest Duckiebot: 0.974m
+Step 215: Pos: 2.149, 4.009, Dist to target: 3.380
+  Speed: 0.30, Steering: 0.009
+  Lane: dist=-0.016, angle=0.016
+  Closest Duckiebot: 0.959m
+Step 216: Pos: 2.149, 3.995, Dist to target: 3.367
+  Speed: 0.30, Steering: 0.009
+  Lane: dist=-0.015, angle=0.016
+  Closest Duckiebot: 0.944m
+Step 217: Pos: 2.149, 3.981, Dist to target: 3.354
+  Speed: 0.30, Steering: 0.008
+  Lane: dist=-0.015, angle=0.016
+  Closest Duckiebot: 0.928m
+Step 218: Pos: 2.150, 3.967, Dist to target: 3.341
+  Speed: 0.30, Steering: 0.008
+  Lane: dist=-0.015, angle=0.015
+  Closest Duckiebot: 0.913m
+Step 219: Pos: 2.150, 3.953, Dist to target: 3.329
+  Speed: 0.30, Steering: 0.008
+  Lane: dist=-0.015, angle=0.015
+  Closest Duckiebot: 0.898m
+Step 220: Pos: 2.150, 3.939, Dist to target: 3.316
+  Speed: 0.30, Steering: 0.008
+  Lane: dist=-0.015, angle=0.014
+  Closest Duckiebot: 0.882m
+Step 221: Pos: 2.150, 3.925, Dist to target: 3.303
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.014, angle=0.014
+  Closest Duckiebot: 0.867m
+Step 222: Pos: 2.150, 3.911, Dist to target: 3.290
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.014, angle=0.014
+  Closest Duckiebot: 0.852m
+Step 223: Pos: 2.151, 3.897, Dist to target: 3.277
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.014, angle=0.013
+  Closest Duckiebot: 0.836m
+Step 224: Pos: 2.151, 3.883, Dist to target: 3.264
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.014, angle=0.013
+  Closest Duckiebot: 0.820m
+Step 225: Pos: 2.151, 3.869, Dist to target: 3.252
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.014, angle=0.013
+  Closest Duckiebot: 0.805m
+Step 226: Pos: 2.151, 3.855, Dist to target: 3.239
+  Speed: 0.30, Steering: 0.007
+  Lane: dist=-0.013, angle=0.012
+  Closest Duckiebot: 0.790m
+time=1763881650.1040409 Pos: [2.15138059 0.         3.82754952] angle 1.5589793309357007
+time=1763881650.193649 Pos: [2.15154369 0.         3.81357423] angle 1.559273289196443
+time=1763881650.277386 Pos: [2.15170272 0.         3.79959889] angle 1.5595610769694384
+time=1763881650.3623624 Pos: [2.15185778 0.         3.78562351] angle 1.5598428531293276
+time=1763881650.4485624 Pos: [2.15200893 0.         3.77164809] angle 1.5601187661811025
+time=1763881650.5336823 Pos: [2.15215628 0.         3.75767263] angle 1.5603889567433729
+time=1763881650.6196418 Pos: [2.15229988 0.         3.74369712] angle 1.5606535592459274
+time=1763881650.7052839 Pos: [2.15243982 0.         3.72972158] angle 1.5609127030958467
+time=1763881650.7916772 Pos: [2.15257618 0.         3.71574601] angle 1.5611665134840769
+time=1763881650.8794093 Pos: [2.15270903 0.         3.7017704 ] angle 1.5614151119485853
+time=1763881650.9688542 Pos: [2.15283844 0.         3.68779476] angle 1.5616586167726902
+time=1763881651.0892105 Pos: [2.15296449 0.         3.67381909] angle 1.56189714327151
+time=1763881651.1808472 Pos: [2.15308723 0.         3.65984339] angle 1.5621308040025612
+time=1763881651.273163 Pos: [2.15320674 0.         3.64586766] angle 1.562359708924613
+time=1763881651.3657935 Pos: [2.15332308 0.         3.6318919 ] angle 1.5625839655212903
+time=1763881651.4584353 Pos: [2.15343632 0.         3.61791612] angle 1.5628036789004824
+time=1763881651.5492496 Pos: [2.15354653 0.         3.60394031] angle 1.563018951877059
+time=1763881651.647444 Pos: [2.15365375 0.         3.58996448] angle 1.5632298850439834
+time=1763881651.7452211 Pos: [2.15375805 0.         3.57598863] angle 1.5634365768352434
+time=1763881651.8404386 Pos: [2.1538595  0.         3.56201276] angle 1.5636391235829272
+time=1763881651.9318156 Pos: [2.15395814 0.         3.54803687] angle 1.563837619570088
+time=1763881652.0232244 Pos: [2.15405404 0.         3.53406096] angle 1.5640321570803961
+time=1763881652.1425319 Pos: [2.15414724 0.         3.52008503] angle 1.5642228264453233
+time=1763881652.2315168 Pos: [2.15423781 0.         3.50610908] angle 1.5644097160894224
+time=1763881652.3191698 Pos: [2.15432579 0.         3.49213312] angle 1.5645929125739706
+time=1763881652.4100063 Pos: [2.15441123 0.         3.47815714] angle 1.5647725006392594
+time=1763881652.5001137 Pos: [2.15449419 0.         3.46418114] angle 1.5649485632457165
+time=1763881652.5896444 Pos: [2.15457472 0.         3.45020514] angle 1.565121181613925
+time=1763881652.6800666 Pos: [2.15465285 0.         3.43622911] angle 1.5652904352636579
+time=1763881652.7723296 Pos: [2.15472864 0.         3.42225308] angle 1.5654564020520378
+time=1763881652.8692806 Pos: [2.15480214 0.         3.40827703] angle 1.5656191582107444
+time=1763881652.9663217 Pos: [2.15487338 0.         3.39430097] angle 1.565778778382418
+time=1763881653.0671616 Pos: [2.15494241 0.         3.3803249 ] angle 1.565935335656324
+time=1763881653.1669939 Pos: [2.15500928 0.         3.36634882] angle 1.5660889016031225
+time=1763881653.310261 Pos: [2.15507402 0.         3.35237273] angle 1.5662395463089822
+time=1763881653.4418273 Pos: [2.15513667 0.         3.33839663] angle 1.5663873384088878
+time=1763881653.5449173 Pos: [2.15519728 0.         3.32442052] angle 1.5665323451192683
+time=1763881653.6620266 Pos: [2.15525588 0.         3.31044441] angle 1.5666746322699485
+time=1763881653.7891705 Pos: [2.15531251 0.         3.29646828] angle 1.5668142643353706
+time=1763881653.884281 Pos: [2.1553672  0.         3.28249215] angle 1.5669513044651424
+time=1763881653.9966545 Pos: [2.15542    0.         3.26851601] angle 1.5670858145139985
+time=1763881654.0822499 Pos: [2.15547094 0.         3.25453986] angle 1.5672178550710696
+time=1763881654.1609764 Pos: [2.15552005 0.         3.2405637 ] angle 1.5673474854885021
+time=1763881654.2393699 Invalid pose. Collision free: False On drivable area: True
+time=1763881654.2394357 safety_factor: 1.0
+time=1763881654.2397013 pos: [2.15548764 0.         3.25058741]
+time=1763881654.239908 l_pos: [2.08048805 0.         3.25033829]
+time=1763881654.2400515 r_pos: [2.23048723 0.         3.25083653]
+time=1763881654.240191 f_pos: [2.15578658 0.         3.16058791]
+time=1763881654.2402291 Stopping the simulator because we are at an invalid pose.
+time=1763881654.2404032 Pos: [2.15556736 0.         3.22658754] angle 1.567474763909567
+Step 227: Pos: 2.151, 3.842, Dist to target: 3.226
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.013, angle=0.012
+  Closest Duckiebot: 0.775m
+Step 228: Pos: 2.151, 3.828, Dist to target: 3.213
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.013, angle=0.012
+  Closest Duckiebot: 0.760m
+Step 229: Pos: 2.152, 3.814, Dist to target: 3.201
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.013, angle=0.012
+  Closest Duckiebot: 0.744m
+Step 230: Pos: 2.152, 3.800, Dist to target: 3.188
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.013, angle=0.011
+  Closest Duckiebot: 0.729m
+Step 231: Pos: 2.152, 3.786, Dist to target: 3.175
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.013, angle=0.011
+  Closest Duckiebot: 0.713m
+Step 232: Pos: 2.152, 3.772, Dist to target: 3.162
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.012, angle=0.011
+  Closest Duckiebot: 0.698m
+Step 233: Pos: 2.152, 3.758, Dist to target: 3.150
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.012, angle=0.010
+  Closest Duckiebot: 0.683m
+Step 234: Pos: 2.152, 3.744, Dist to target: 3.137
+  Speed: 0.30, Steering: 0.006
+  Lane: dist=-0.012, angle=0.010
+  Closest Duckiebot: 0.667m
+Step 235: Pos: 2.152, 3.730, Dist to target: 3.124
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.012, angle=0.010
+  Closest Duckiebot: 0.652m
+Step 236: Pos: 2.153, 3.716, Dist to target: 3.112
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.012, angle=0.010
+  Closest Duckiebot: 0.637m
+Step 237: Pos: 2.153, 3.702, Dist to target: 3.099
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.012, angle=0.009
+  Closest Duckiebot: 0.622m
+Step 238: Pos: 2.153, 3.688, Dist to target: 3.086
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.012, angle=0.009
+  Closest Duckiebot: 0.607m
+Step 239: Pos: 2.153, 3.674, Dist to target: 3.073
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.012, angle=0.009
+  Closest Duckiebot: 0.591m
+Step 240: Pos: 2.153, 3.660, Dist to target: 3.061
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.011, angle=0.009
+  Closest Duckiebot: 0.576m
+Step 241: Pos: 2.153, 3.646, Dist to target: 3.048
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.011, angle=0.008
+  Closest Duckiebot: 0.561m
+Step 242: Pos: 2.153, 3.632, Dist to target: 3.036
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.011, angle=0.008
+  Closest Duckiebot: 0.545m
+Step 243: Pos: 2.153, 3.618, Dist to target: 3.023
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.011, angle=0.008
+  Closest Duckiebot: 0.531m
+Step 244: Pos: 2.154, 3.604, Dist to target: 3.010
+  Speed: 0.30, Steering: 0.005
+  Lane: dist=-0.011, angle=0.008
+  Closest Duckiebot: 0.515m
+Step 245: Pos: 2.154, 3.590, Dist to target: 2.998
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.011, angle=0.008
+  Closest Duckiebot: 0.500m
+Step 246: Pos: 2.154, 3.576, Dist to target: 2.985
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.011, angle=0.007
+  Closest Duckiebot: 0.484m
+Step 247: Pos: 2.154, 3.562, Dist to target: 2.972
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.011, angle=0.007
+  Closest Duckiebot: 0.470m
+Step 248: Pos: 2.154, 3.548, Dist to target: 2.960
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.011, angle=0.007
+  Closest Duckiebot: 0.454m
+Step 249: Pos: 2.154, 3.534, Dist to target: 2.947
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.007
+  Closest Duckiebot: 0.438m
+Step 250: Pos: 2.154, 3.520, Dist to target: 2.935
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.007
+  Closest Duckiebot: 0.423m
+Step 251: Pos: 2.154, 3.506, Dist to target: 2.922
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.407m
+Step 252: Pos: 2.154, 3.492, Dist to target: 2.910
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.392m
+Step 253: Pos: 2.154, 3.478, Dist to target: 2.897
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.377m
+Step 254: Pos: 2.154, 3.464, Dist to target: 2.885
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.362m
+Step 255: Pos: 2.155, 3.450, Dist to target: 2.872
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.347m
+Step 256: Pos: 2.155, 3.436, Dist to target: 2.860
+  Speed: 0.30, Steering: 0.004
+  Lane: dist=-0.010, angle=0.006
+  Closest Duckiebot: 0.331m
+Step 257: Pos: 2.155, 3.422, Dist to target: 2.847
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.010, angle=0.005
+  Closest Duckiebot: 0.316m
+Step 258: Pos: 2.155, 3.408, Dist to target: 2.835
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.010, angle=0.005
+  Closest Duckiebot: 0.300m
+Step 259: Pos: 2.155, 3.394, Dist to target: 2.822
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.010, angle=0.005
+  Closest Duckiebot: 0.286m
+Step 260: Pos: 2.155, 3.380, Dist to target: 2.810
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.010, angle=0.005
+  Closest Duckiebot: 0.271m
+Step 261: Pos: 2.155, 3.366, Dist to target: 2.798
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.005
+  Closest Duckiebot: 0.272m
+Step 262: Pos: 2.155, 3.352, Dist to target: 2.785
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.005
+  Closest Duckiebot: 0.257m
+Step 263: Pos: 2.155, 3.338, Dist to target: 2.773
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.258m
+Step 264: Pos: 2.155, 3.324, Dist to target: 2.760
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.243m
+Step 265: Pos: 2.155, 3.310, Dist to target: 2.748
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.229m
+Step 266: Pos: 2.155, 3.296, Dist to target: 2.736
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.214m
+Step 267: Pos: 2.155, 3.282, Dist to target: 2.723
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.200m
+Step 268: Pos: 2.155, 3.269, Dist to target: 2.711
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.185m
+Step 269: Pos: 2.155, 3.255, Dist to target: 2.699
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.004
+  Closest Duckiebot: 0.171m
+Step 270: Pos: 2.156, 3.241, Dist to target: 2.687
+  Speed: 0.30, Steering: 0.003
+  Lane: dist=-0.009, angle=0.003
+  Closest Duckiebot: 0.157m
+total reward =  -224.95525119058243
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
