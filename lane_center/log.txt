@@ -1,0 +1,59 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1763910575.8890061 gym-duckietown 2019.0.0
+
+time=1763910575.9727824 Registering gym environment id: Duckietown-4way-v0
+time=1763910575.9728706 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763910575.9729197 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763910575.9730074 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763910575.9730601 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763910575.9731078 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763910575.973155 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763910575.9732106 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763910575.9732876 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763910575.9733422 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763910575.9733965 Registering gym environment id: Duckietown-small_loop-v0
+time=1763910575.973443 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763910575.9734938 Registering gym environment id: Duckietown-straight_road-v0
+time=1763910575.97354 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763910575.973596 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763910575.973647 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763910575.9737005 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763910575.9737523 Registering gym environment id: Duckietown-udem1-v0
+time=1763910575.9738038 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1763910577.3511186 Falling back to non-multisampled frame buffer
+time=1763910577.354031 Falling back to non-multisampled frame buffer
+time=1763910577.3574646 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1763910577.3921385 loading mesh "duckiebot.obj"
+time=1763910577.3924043 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1763910577.6504095 loading texture "straight_1.png"
+time=1763910577.664562 using user tile start: [33, 0]
+time=1763910577.6651626 tile: {'coords': (33, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[19.305  ,  0.     ,  0.4095 ],
+        [19.45125,  0.     ,  0.4095 ],
+        [19.74375,  0.     ,  0.4095 ],
+        [19.89   ,  0.     ,  0.4095 ]],
+
+       [[19.89   ,  0.     ,  0.1755 ],
+        [19.74375,  0.     ,  0.1755 ],
+        [19.45125,  0.     ,  0.1755 ],
+        [19.305  ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f6e78e3ddf0>, 'color': array([1, 1, 1])}
+time=1763910577.6659718 road_tile_size=0.585
+time=1763910577.6661766 Starting at [19.33527588  0.          0.39056838] 0.23162212826920336
+time=1763910577.6663299 Pos: [19.33527588  0.          0.39056838] angle 0.23162212826920336
+time=1763910577.771353 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/checker.py", line 25, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/solutions/solution.py", line 8, in __init__
+    agent_pos = self.generated_task['env'].agent_pos
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+AttributeError: 'DuckietownEnv' object has no attribute 'agent_pos'
+0.585
+19.335275884183407 0.3905683827850182
