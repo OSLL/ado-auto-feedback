@@ -1,0 +1,50 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764010585.3220274 gym-duckietown 2019.0.0
+
+time=1764010585.4056318 Registering gym environment id: Duckietown-4way-v0
+time=1764010585.405715 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764010585.4057777 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764010585.4058576 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764010585.4059205 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764010585.4060092 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764010585.4060583 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764010585.4061038 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764010585.406152 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764010585.4061995 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764010585.4062443 Registering gym environment id: Duckietown-small_loop-v0
+time=1764010585.4062903 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764010585.4063334 Registering gym environment id: Duckietown-straight_road-v0
+time=1764010585.4063792 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764010585.4064262 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764010585.406473 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764010585.406538 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764010585.4065835 Registering gym environment id: Duckietown-udem1-v0
+time=1764010585.406625 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764010586.8151956 Falling back to non-multisampled frame buffer
+time=1764010586.8171144 Falling back to non-multisampled frame buffer
+time=1764010586.8198476 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1764010586.8474681 loading mesh "duckiebot.obj"
+time=1764010586.8476481 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764010587.0660126 loading texture "floor_1.png"
+time=1764010587.1499283 loading texture "straight_1.png"
+time=1764010587.1621363 road_tile_size=0.585
+time=1764010587.1624396 Starting at [0.2925 0.     0.8775] 0
+time=1764010587.162591 Pos: [0.2925 0.     0.8775] angle 0
+time=1764010587.287874 using DuckietownEnv
+time=1764010587.2885923 loading mesh "duckie.obj"
+time=1764010587.3353388 loading texture "duckie.png"
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_pedestrian/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_pedestrian/solutions/solution.py", line 28, in __init__
+    self.target = generated_task.generate_target_coordinates()
+AttributeError: 'dict' object has no attribute 'generate_target_coordinates'
+0.585
+0.2925 0.8775
