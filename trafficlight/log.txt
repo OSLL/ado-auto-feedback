@@ -1,0 +1,31 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1763976280.6028278 gym-duckietown 2019.0.0
+
+time=1763976280.686782 Registering gym environment id: Duckietown-4way-v0
+time=1763976280.6868658 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1763976280.686914 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1763976280.6869617 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1763976280.6870058 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1763976280.6870494 Registering gym environment id: Duckietown-loop_empty-v0
+time=1763976280.687142 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1763976280.687188 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1763976280.6872613 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1763976280.6873107 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1763976280.6873598 Registering gym environment id: Duckietown-small_loop-v0
+time=1763976280.6874056 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1763976280.6874502 Registering gym environment id: Duckietown-straight_road-v0
+time=1763976280.6875103 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1763976280.6875608 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1763976280.6876287 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1763976280.6876793 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1763976280.687738 Registering gym environment id: Duckietown-udem1-v0
+time=1763976280.687786 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/trafficlight/checker.py", line 48, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.trafficlight.solutions.solution' has no attribute 'TrafficlightTaskSolution'
