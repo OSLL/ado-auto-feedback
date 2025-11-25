@@ -1,0 +1,65 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764090759.5262125 gym-duckietown 2019.0.0
+
+time=1764090759.6088498 Registering gym environment id: Duckietown-4way-v0
+time=1764090759.6089497 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764090759.6090255 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764090759.609101 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764090759.6091526 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764090759.6092026 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764090759.6092567 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764090759.609304 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764090759.6093552 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764090759.6094072 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764090759.6094584 Registering gym environment id: Duckietown-small_loop-v0
+time=1764090759.6095061 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764090759.6095538 Registering gym environment id: Duckietown-straight_road-v0
+time=1764090759.6096246 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764090759.6096728 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764090759.6097198 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764090759.6097684 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764090759.6098163 Registering gym environment id: Duckietown-udem1-v0
+time=1764090759.6098616 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764090760.9860482 Falling back to non-multisampled frame buffer
+time=1764090760.9879942 Falling back to non-multisampled frame buffer
+time=1764090760.9905927 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764090760.9977038 loading mesh "duckiebot.obj"
+time=1764090760.9978843 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764090761.216879 loading texture "curve_right_1.png"
+time=1764090761.2291133 loading texture "straight_1.png"
+time=1764090761.2355602 loading texture "3way_left_1.png"
+time=1764090761.4561448 loading texture "curve_left_1.png"
+time=1764090761.4620473 loading texture "floor_1.png"
+time=1764090761.540698 loading texture "4way_1.png"
+time=1764090761.7378736 using user tile start: (1, 2)
+time=1764090761.7384846 tile: {'coords': (1, 2), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[0.585  , 0.     , 1.5795 ],
+        [0.73125, 0.     , 1.5795 ],
+        [1.02375, 0.     , 1.5795 ],
+        [1.17   , 0.     , 1.5795 ]],
+
+       [[1.17   , 0.     , 1.3455 ],
+        [1.02375, 0.     , 1.3455 ],
+        [0.73125, 0.     , 1.3455 ],
+        [0.585  , 0.     , 1.3455 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f3acaa79b20>, 'color': array([1, 1, 1])}
+time=1764090761.739334 road_tile_size=0.585
+time=1764090761.7395146 Starting at [0.87505878 0.         1.48264528] 3.949706359544554
+time=1764090761.7396812 Pos: [0.87505878 0.         1.48264528] angle 3.949706359544554
+time=1764090761.8597844 using DuckietownEnv
+time=1764090761.8607173 Target tile: (6, 8)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 83, in __init__
+    self.map = self.construct_map()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 103, in construct_map
+    map[x][y] = 1
+IndexError: list assignment index out of range
+0.585
+0.875058781862212 1.4826452831647476
