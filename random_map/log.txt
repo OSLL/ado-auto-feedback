@@ -1,0 +1,67 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764090154.0323858 gym-duckietown 2019.0.0
+
+time=1764090154.1890035 Registering gym environment id: Duckietown-4way-v0
+time=1764090154.189129 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764090154.1891952 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764090154.1892688 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764090154.1893141 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764090154.1894128 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764090154.1894765 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764090154.1895373 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764090154.1895845 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764090154.1896176 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764090154.1896672 Registering gym environment id: Duckietown-small_loop-v0
+time=1764090154.1897075 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764090154.1897488 Registering gym environment id: Duckietown-straight_road-v0
+time=1764090154.1897848 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764090154.189857 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764090154.1899042 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764090154.1899567 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764090154.190008 Registering gym environment id: Duckietown-udem1-v0
+time=1764090154.190065 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764090155.6066012 Falling back to non-multisampled frame buffer
+time=1764090155.6084054 Falling back to non-multisampled frame buffer
+time=1764090155.6110198 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764090155.6181195 loading mesh "duckiebot.obj"
+time=1764090155.6183064 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764090155.8323793 loading texture "floor_1.png"
+time=1764090155.9124923 loading texture "curve_right_1.png"
+time=1764090155.9185216 loading texture "straight_1.png"
+time=1764090155.9242952 loading texture "curve_left_1.png"
+time=1764090155.9316366 loading texture "4way_1.png"
+time=1764090156.1187863 loading texture "3way_left_1.png"
+time=1764090156.3038335 using user tile start: (6, 9)
+time=1764090156.304453 tile: {'coords': (6, 9), 'kind': 'curve_left', 'angle': 1, 'drivable': True, 'curves': array([[[3.51  , 0.    , 5.6745],
+        [3.8025, 0.    , 5.6745],
+        [3.9195, 0.    , 5.5575],
+        [3.9195, 0.    , 5.265 ]],
+
+       [[3.6855, 0.    , 5.265 ],
+        [3.6855, 0.    , 5.382 ],
+        [3.627 , 0.    , 5.4405],
+        [3.51  , 0.    , 5.4405]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f5b17073850>, 'color': array([1, 1, 1])}
+time=1764090156.3058083 road_tile_size=0.585
+time=1764090156.3060355 Starting at [3.80073323 0.         5.56261911] 0.897727224331467
+time=1764090156.306259 Pos: [3.80073323 0.         5.56261911] angle 0.897727224331467
+time=1764090156.4294312 using DuckietownEnv
+time=1764090156.430222 Target tile: (4, 1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 83, in __init__
+    self.map = self.construct_map()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 101, in construct_map
+    map = [[0 for _ in range(cols)] for _ in range(rows)]
+TypeError: 'tuple' object cannot be interpreted as an integer
+0.585
+3.8007332288690496 5.562619106255415
+0.585
+3.8007332288690496 5.562619106255415
