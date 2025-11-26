@@ -1,0 +1,44 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764154553.5984788 gym-duckietown 2019.0.0
+
+time=1764154553.6808963 Registering gym environment id: Duckietown-4way-v0
+time=1764154553.6809964 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764154553.6810737 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764154553.6811273 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764154553.6812296 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764154553.6812696 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764154553.6813085 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764154553.6813703 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764154553.6814177 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764154553.6814864 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764154553.6815357 Registering gym environment id: Duckietown-small_loop-v0
+time=1764154553.681586 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764154553.6816325 Registering gym environment id: Duckietown-straight_road-v0
+time=1764154553.68168 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764154553.6817284 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764154553.6817756 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764154553.6818223 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764154553.6818647 Registering gym environment id: Duckietown-udem1-v0
+time=1764154553.681912 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 26, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/solutions/solution.py", line 34
+    return math.sqrt((pos1[0] - pos2[0])**2 + **(pos1[2] - pos2[2])2)
+                                              ^
+SyntaxError: invalid syntax
