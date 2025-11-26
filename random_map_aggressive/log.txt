@@ -1,0 +1,44 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764141621.0609627 gym-duckietown 2019.0.0
+
+time=1764141621.145048 Registering gym environment id: Duckietown-4way-v0
+time=1764141621.1451304 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764141621.1451786 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764141621.1452518 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764141621.1452987 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764141621.145357 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764141621.1454246 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764141621.1454654 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764141621.1455116 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764141621.1455626 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764141621.1456068 Registering gym environment id: Duckietown-small_loop-v0
+time=1764141621.1456513 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764141621.1457014 Registering gym environment id: Duckietown-straight_road-v0
+time=1764141621.1457577 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764141621.1458106 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764141621.1458614 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764141621.1459136 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764141621.1459637 Registering gym environment id: Duckietown-udem1-v0
+time=1764141621.14601 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map_aggressive/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map_aggressive/solutions/solution.py", line 131
+    speed = 0.7 * \n                            (1 - 0.995 * np.clip((abs(rot) - 0.10) * dist_to_target, 0, 1)) * \n                            np.clip(dist_to_target / env.road_tile_size, 0.35, 0.5) * 2 * \n                            (1 - np.clip(1.8 * math.sqrt(np.clip(1 - closest_dist, 0, 1)), 0, 1))
+                                                                                                                                                                                                                                                                                                                ^
+SyntaxError: unexpected character after line continuation character
