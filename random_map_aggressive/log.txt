@@ -1,0 +1,140 @@
+False: Incorrect solution execution: local variable 'obs' referenced before assignment
+time=1764249867.9326198 gym-duckietown 2019.0.0
+
+time=1764249868.0164938 Registering gym environment id: Duckietown-4way-v0
+time=1764249868.0165803 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764249868.016614 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764249868.0166707 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764249868.0167325 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764249868.016806 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764249868.0168574 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764249868.0169277 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764249868.0169635 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764249868.017007 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764249868.0170586 Registering gym environment id: Duckietown-small_loop-v0
+time=1764249868.0171053 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764249868.0171492 Registering gym environment id: Duckietown-straight_road-v0
+time=1764249868.0171986 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764249868.0172498 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764249868.0173042 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764249868.017354 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764249868.017408 Registering gym environment id: Duckietown-udem1-v0
+time=1764249868.0174575 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764249869.7193727 Falling back to non-multisampled frame buffer
+time=1764249869.7212095 Falling back to non-multisampled frame buffer
+time=1764249869.7236989 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764249869.7314646 loading mesh "duckiebot_green.obj"
+time=1764249869.7316265 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot_green.mtl"
+time=1764249869.959883 loading texture "floor_1.png"
+time=1764249870.0527482 loading texture "curve_right_1.png"
+time=1764249870.0603166 loading texture "straight_1.png"
+time=1764249870.0661867 loading texture "curve_left_1.png"
+time=1764249870.0742948 loading texture "3way_left_1.png"
+time=1764249870.2670763 loading texture "4way_1.png"
+time=1764249870.4602513 using user tile start: (5, 3)
+time=1764249870.4608307 tile: {'coords': (5, 3), 'kind': 'curve_right', 'angle': 2, 'drivable': True, 'curves': array([[[3.3345, 0.    , 2.34  ],
+        [3.3345, 0.    , 2.1645],
+        [3.393 , 0.    , 2.1645],
+        [3.51  , 0.    , 2.1645]],
+
+       [[3.51  , 0.    , 1.9305],
+        [3.393 , 0.    , 1.9305],
+        [3.042 , 0.    , 2.0475],
+        [3.1005, 0.    , 2.34  ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f59fd0b07c0>, 'color': array([1, 1, 1])}
+time=1764249870.461689 road_tile_size=0.585
+time=1764249870.461889 Starting at [3.36900848 0.         2.14361156] 4.5209342089911555
+time=1764249870.4620275 Pos: [3.36900848 0.         2.14361156] angle 4.5209342089911555
+time=1764249870.5824351 using DuckietownEnv
+time=1764249870.5830464 Target tile: (1, 8)
+time=1764249870.5831332 7 6 7 7
+time=1764249870.5831857 Placing an aggressive duckie on (7.75, 7.0) with 90 angle
+time=1764249870.5833755 loading mesh "duckiebot.obj"
+time=1764249870.583533 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764249870.7984416 5 9 4 9
+time=1764249870.798511 Placing an aggressive duckie on (5.0, 9.25) with 0 angle
+time=1764249870.799306 6 6 5 6
+time=1764249870.7993608 Placing an aggressive duckie on (6.0, 6.75) with 0 angle
+time=1764249870.8002365 4 2 3 2
+time=1764249870.8002906 Placing an aggressive duckie on (4.0, 2.75) with 0 angle
+time=1764249870.8013802 5 8 5 9
+time=1764249870.801423 Placing an aggressive duckie on (5.25, 9.0) with 90 angle
+time=1764249870.8027165 4 9 3 9
+time=1764249870.8027596 Placing an aggressive duckie on (4.0, 9.25) with 0 angle
+time=1764249870.804282 0 6 0 7
+time=1764249870.8043242 Placing an aggressive duckie on (0.75, 7.0) with 90 angle
+time=1764249870.8066027 0 8 1 8
+time=1764249870.8066423 Placing an aggressive duckie on (1.0, 8.25) with 180 angle
+time=1764249870.8086865 5 1 4 1
+time=1764249870.8087258 Placing an aggressive duckie on (5.0, 1.25) with 0 angle
+time=1764249870.81097 3 9 2 9
+time=1764249870.811009 Placing an aggressive duckie on (3.0, 9.75) with 0 angle
+time=1764249870.8135042 3 3 3 4
+time=1764249870.813543 Placing an aggressive duckie on (3.25, 4.0) with 90 angle
+time=1764249870.8162973 3 6 2 6
+time=1764249870.8163362 Placing an aggressive duckie on (3.0, 6.75) with 0 angle
+time=1764249870.8193328 7 7 7 8
+time=1764249870.8193789 Placing an aggressive duckie on (7.75, 8.0) with 90 angle
+time=1764249870.8225439 1 6 0 6
+time=1764249870.8225834 Placing an aggressive duckie on (1.0, 6.25) with 0 angle
+time=1764249870.826014 3 2 3 3
+time=1764249870.8260534 Placing an aggressive duckie on (3.75, 3.0) with 90 angle
+time=1764249870.8296692 2 6 1 6
+time=1764249870.8297086 Placing an aggressive duckie on (2.0, 6.25) with 0 angle
+time=1764249871.0573745 Pos: [3.36900848 0.         2.14361156] angle 4.483664234614263
+time=1764249871.3206747 Pos: [3.36900848 0.         2.14361156] angle 4.446394260237371
+time=1764249871.4810283 Pos: [3.36900848 0.         2.14361156] angle 4.409124285860479
+time=1764249871.6264868 Pos: [3.36900848 0.         2.14361156] angle 4.371854311483586
+time=1764249871.8185468 Pos: [3.36900848 0.         2.14361156] angle 4.334584337106694
+time=1764249871.9614441 Pos: [3.36900848 0.         2.14361156] angle 4.297314362729802
+time=1764249872.168614 Pos: [3.36900848 0.         2.14361156] angle 4.2600443883529096
+time=1764249872.3025901 Pos: [3.36900848 0.         2.14361156] angle 4.222774413976017
+time=1764249872.4414823 Pos: [3.36900848 0.         2.14361156] angle 4.185504439599125
+time=1764249872.5819178 Pos: [3.36900848 0.         2.14361156] angle 4.148234465222233
+0.585
+3.3690084817788684 2.143611560866287
+Карта {(4, 1): {'kind': 'curve_right', 'dir': 'N'}, (5, 1): {'kind': 'straight', 'dir': 'E'}, (6, 1): {'kind': 'curve_left', 'dir': 'N'}, (3, 2): {'kind': 'curve_right', 'dir': 'N'}, (4, 2): {'kind': 'curve_left', 'dir': 'E'}, (6, 2): {'kind': 'straight', 'dir': 'N'}, (3, 3): {'kind': 'straight', 'dir': 'N'}, (5, 3): {'kind': 'curve_right', 'dir': 'N'}, (6, 3): {'kind': 'curve_left', 'dir': 'E'}, (3, 4): {'kind': '3way_left', 'dir': 'S'}, (4, 4): {'kind': 'straight', 'dir': 'E'}, (5, 4): {'kind': '3way_left', 'dir': 'N'}, (3, 5): {'kind': 'straight', 'dir': 'N'}, (5, 5): {'kind': 'straight', 'dir': 'N'}, (0, 6): {'kind': 'curve_right', 'dir': 'N'}, (1, 6): {'kind': 'straight', 'dir': 'E'}, (2, 6): {'kind': 'straight', 'dir': 'E'}, (3, 6): {'kind': '3way_left', 'dir': 'E'}, (4, 6): {'kind': 'straight', 'dir': 'E'}, (5, 6): {'kind': '4way', 'dir': 'N'}, (6, 6): {'kind': 'straight', 'dir': 'E'}, (7, 6): {'kind': 'curve_left', 'dir': 'N'}, (0, 7): {'kind': 'straight', 'dir': 'N'}, (5, 7): {'kind': 'straight', 'dir': 'N'}, (7, 7): {'kind': 'straight', 'dir': 'N'}, (0, 8): {'kind': 'curve_right', 'dir': 'W'}, (1, 8): {'kind': 'curve_left', 'dir': 'N'}, (5, 8): {'kind': 'straight', 'dir': 'N'}, (7, 8): {'kind': 'straight', 'dir': 'N'}, (1, 9): {'kind': 'curve_right', 'dir': 'W'}, (2, 9): {'kind': 'straight', 'dir': 'E'}, (3, 9): {'kind': 'straight', 'dir': 'E'}, (4, 9): {'kind': 'straight', 'dir': 'E'}, (5, 9): {'kind': '3way_left', 'dir': 'E'}, (6, 9): {'kind': 'straight', 'dir': 'E'}, (7, 9): {'kind': 'curve_left', 'dir': 'E'}}
+Raw data:  [0.8775, 0, 4.9725]
+Target coordinates:  0.8775 4.9725
+Target tile (1, 8) {'kind': 'curve_left', 'dir': 'N'}
+Стартовая клетка (5, 3) {'kind': 'curve_right', 'dir': 'N'}
+(4, 1) {'kind': 'curve_right', 'dir': 'N'}
+(5, 1) {'kind': 'straight', 'dir': 'E'}
+(6, 1) {'kind': 'curve_left', 'dir': 'N'}
+(3, 2) {'kind': 'curve_right', 'dir': 'N'}
+(4, 2) {'kind': 'curve_left', 'dir': 'E'}
+(6, 2) {'kind': 'straight', 'dir': 'N'}
+(3, 3) {'kind': 'straight', 'dir': 'N'}
+(5, 3) {'kind': 'curve_right', 'dir': 'N'}
+(6, 3) {'kind': 'curve_left', 'dir': 'E'}
+(3, 4) {'kind': '3way_left', 'dir': 'S'}
+(4, 4) {'kind': 'straight', 'dir': 'E'}
+(5, 4) {'kind': '3way_left', 'dir': 'N'}
+(3, 5) {'kind': 'straight', 'dir': 'N'}
+(5, 5) {'kind': 'straight', 'dir': 'N'}
+(0, 6) {'kind': 'curve_right', 'dir': 'N'}
+(1, 6) {'kind': 'straight', 'dir': 'E'}
+(2, 6) {'kind': 'straight', 'dir': 'E'}
+(3, 6) {'kind': '3way_left', 'dir': 'E'}
+(4, 6) {'kind': 'straight', 'dir': 'E'}
+(5, 6) {'kind': '4way', 'dir': 'N'}
+(6, 6) {'kind': 'straight', 'dir': 'E'}
+(7, 6) {'kind': 'curve_left', 'dir': 'N'}
+(0, 7) {'kind': 'straight', 'dir': 'N'}
+(5, 7) {'kind': 'straight', 'dir': 'N'}
+(7, 7) {'kind': 'straight', 'dir': 'N'}
+(0, 8) {'kind': 'curve_right', 'dir': 'W'}
+(1, 8) {'kind': 'curve_left', 'dir': 'N'}
+(5, 8) {'kind': 'straight', 'dir': 'N'}
+(7, 8) {'kind': 'straight', 'dir': 'N'}
+(1, 9) {'kind': 'curve_right', 'dir': 'W'}
+(2, 9) {'kind': 'straight', 'dir': 'E'}
+(3, 9) {'kind': 'straight', 'dir': 'E'}
+(4, 9) {'kind': 'straight', 'dir': 'E'}
+(5, 9) {'kind': '3way_left', 'dir': 'E'}
+(6, 9) {'kind': 'straight', 'dir': 'E'}
+(7, 9) {'kind': 'curve_left', 'dir': 'E'}
+Путь [(5, 3), (5, 4), (5, 5), (5, 6), (4, 6), (3, 6), (2, 6), (1, 6), (0, 6), (0, 7), (0, 8), (1, 8)]
+Повороты {(5, 4): 0, (5, 5): 0, (5, 6): -90.0, (4, 6): 0, (3, 6): 0, (2, 6): 0, (1, 6): 0, (0, 6): 90.0, (0, 7): 0, (0, 8): 90.0}
+direction else (5, 4) (5, 5) 90.0
+total reward =  -16.84625094432961
+False: Incorrect solution execution: local variable 'obs' referenced before assignment
