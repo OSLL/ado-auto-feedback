@@ -1,0 +1,105 @@
+False: Incorrect solution execution: name 'detect_asphalt_mask' is not defined
+time=1764221601.2825844 gym-duckietown 2019.0.0
+
+time=1764221601.411334 Registering gym environment id: Duckietown-4way-v0
+time=1764221601.4114199 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764221601.411459 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764221601.411552 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764221601.4116323 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764221601.4116838 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764221601.411756 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764221601.4118152 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764221601.411877 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764221601.4119217 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764221601.4119728 Registering gym environment id: Duckietown-small_loop-v0
+time=1764221601.4120226 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764221601.4120743 Registering gym environment id: Duckietown-straight_road-v0
+time=1764221601.4121206 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764221601.4121723 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764221601.4122207 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764221601.412271 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764221601.412317 Registering gym environment id: Duckietown-udem1-v0
+time=1764221601.4123657 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764221604.4523966 Falling back to non-multisampled frame buffer
+time=1764221604.4542236 Falling back to non-multisampled frame buffer
+time=1764221604.456879 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764221604.4632392 loading mesh "duckiebot.obj"
+time=1764221604.4633927 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764221604.689319 loading texture "floor_1.png"
+time=1764221604.7756338 loading texture "curve_right_1.png"
+time=1764221604.7817557 loading texture "straight_1.png"
+time=1764221604.7875857 loading texture "curve_left_1.png"
+time=1764221604.7950265 loading texture "4way_1.png"
+time=1764221604.9870596 using user tile start: (2, 4)
+time=1764221604.9882488 tile: {'coords': (2, 4), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.6325 ],
+        [1.4625 , 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.48625],
+        [1.3455 , 0.     , 2.77875],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.3455 , 0.     , 2.34   ],
+        [1.3455 , 0.     , 2.5155 ],
+        [1.287  , 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.4625 , 0.     , 2.7495 ],
+        [1.5795 , 0.     , 2.6325 ],
+        [1.5795 , 0.     , 2.34   ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.31625, 0.     , 2.7495 ],
+        [1.60875, 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.17   , 0.     , 2.7495 ],
+        [1.3455 , 0.     , 2.7495 ],
+        [1.3455 , 0.     , 2.808  ],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.6325 ],
+        [1.4625 , 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.77875],
+        [1.5795 , 0.     , 2.48625],
+        [1.5795 , 0.     , 2.34   ]],
+
+       [[1.5795 , 0.     , 2.925  ],
+        [1.5795 , 0.     , 2.7495 ],
+        [1.638  , 0.     , 2.7495 ],
+        [1.755  , 0.     , 2.7495 ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.4625 , 0.     , 2.5155 ],
+        [1.3455 , 0.     , 2.6325 ],
+        [1.3455 , 0.     , 2.925  ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.60875, 0.     , 2.5155 ],
+        [1.31625, 0.     , 2.5155 ],
+        [1.17   , 0.     , 2.5155 ]],
+
+       [[1.755  , 0.     , 2.5155 ],
+        [1.5795 , 0.     , 2.5155 ],
+        [1.5795 , 0.     , 2.457  ],
+        [1.5795 , 0.     , 2.34   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f011a178040>, 'color': array([1, 1, 1])}
+time=1764221604.9890406 road_tile_size=0.585
+time=1764221604.989201 Starting at [1.4372884  0.         2.63719683] 4.205361739289884
+time=1764221604.9893436 Pos: [1.4372884  0.         2.63719683] angle 4.205361739289884
+time=1764221605.1100223 using DuckietownEnv
+time=1764221605.1107078 Target tile: (4, 5)
+time=1764221605.2481706 Pos: [1.4372884  0.         2.63719683] angle 4.205361739289884
+0.585
+1.4372884036697293 2.6371968284171547
+Цель: [2.6325, 0, 3.2175]
+Стартовая позиция: [1.4372884  0.         2.63719683]
+Стартовый угол: -2.077823567889702  В градусах:  240.9494789871056
+total reward =  -0.1557037224986291
+False: Incorrect solution execution: name 'detect_asphalt_mask' is not defined
