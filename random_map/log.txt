@@ -1,0 +1,58 @@
+False: Accepted
+time=1764272812.8356416 gym-duckietown 2019.0.0
+
+time=1764272812.919457 Registering gym environment id: Duckietown-4way-v0
+time=1764272812.9195466 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764272812.9195812 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764272812.9196277 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764272812.9196787 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764272812.9197638 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764272812.9198236 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764272812.919878 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764272812.9199288 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764272812.9199834 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764272812.9200313 Registering gym environment id: Duckietown-small_loop-v0
+time=1764272812.9200873 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764272812.9201396 Registering gym environment id: Duckietown-straight_road-v0
+time=1764272812.920186 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764272812.9202344 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764272812.9202807 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764272812.9203281 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764272812.9203942 Registering gym environment id: Duckietown-udem1-v0
+time=1764272812.9204392 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764272814.4338486 Falling back to non-multisampled frame buffer
+time=1764272814.4361205 Falling back to non-multisampled frame buffer
+time=1764272814.43869 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764272814.4456892 loading mesh "duckiebot.obj"
+time=1764272814.4458578 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764272814.6612134 loading texture "floor_1.png"
+time=1764272814.743243 loading texture "curve_right_1.png"
+time=1764272814.7494392 loading texture "straight_1.png"
+time=1764272814.755273 loading texture "curve_left_1.png"
+time=1764272814.7627065 loading texture "3way_left_1.png"
+time=1764272814.9526212 loading texture "4way_1.png"
+time=1764272815.1464999 using user tile start: (4, 2)
+time=1764272815.1470964 tile: {'coords': (4, 2), 'kind': 'curve_right', 'angle': 2, 'drivable': True, 'curves': array([[[2.7495, 0.    , 1.755 ],
+        [2.7495, 0.    , 1.5795],
+        [2.808 , 0.    , 1.5795],
+        [2.925 , 0.    , 1.5795]],
+
+       [[2.925 , 0.    , 1.3455],
+        [2.808 , 0.    , 1.3455],
+        [2.457 , 0.    , 1.4625],
+        [2.5155, 0.    , 1.755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7efe37a96970>, 'color': array([1, 1, 1])}
+time=1764272815.147894 road_tile_size=0.585
+time=1764272815.1480556 Starting at [2.61443354 0.         1.44138834] 2.939638444100641
+time=1764272815.148193 Pos: [2.61443354 0.         1.44138834] angle 2.939638444100641
+time=1764272815.266997 using DuckietownEnv
+time=1764272815.2677052 Target tile: (6, 8)
+time=1764272815.4017153 Pos: [2.61443354 0.         1.44138834] angle 2.939638444100641
+0.585
+2.6144335412900284 1.4413883371732958
+tests
+[2.61443354 0.         1.44138834]
+[3.8025 0.     4.9725]
+4
+2
+ENV DIR: ['__annotations__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_collidable_object', '_collision', '_compute_done_reward', '_cur_angle', '_cur_pos', '_drivable_pos', '_drivable_tiles', '_get_curve', '_get_tile', '_grid', '_inconvenient_spawn', '_init_vlists', '_interpret_map', '_load_map', '_load_objects', '_map_data', '_objects', '_perturb', '_proximity_penalty2', '_render_img', '_road_tile_size', '_set_tile', '_valid_pose', 'accept_start_angle_deg', 'action_space', 'add_object', 'cam_angle', 'cam_fov_y', 'cam_height', 'cam_offset', 'camera_height', 'camera_width', 'cartesian_from_weird', 'close', 'closest_curve_point', 'collidable_centers', 'collidable_corners', 'collidable_norms', 'collidable_safety_radii', 'compute_reward', 'cur_angle', 'cur_pos', 'delta_time', 'distortion', 'domain_rand', 'draw_bbox', 'draw_curve', 'drivable_tiles', 'final_fbo', 'final_fbo_human', 'frame_rate', 'frame_skip', 'full_transparency', 'gain', 'get_agent_info', 'get_closest_visible_object', 'get_dir_vec', 'get_grid_coords', 'get_lane_pos2', 'get_right_vec', 'graphics', 'grid', 'grid_height', 'grid_width', 'ground_color', 'ground_vlist', 'horizon_color', 'img_array', 'img_array_human', 'k', 'last_action', 'limit', 'map_data', 'map_file_path', 'map_name', 'max_steps', 'mesh', 'mesh_name', 'metadata', 'multi_fbo', 'multi_fbo_human', 'np_random', 'object_corners', 'objects', 'observation_space', 'position_on_initial_road_tile', 'radius', 'randomize_maps_on_reset', 'rc', 'render', 'render_obs', 'reset', 'reward_range', 'road_tile_size', 'road_vlist', 'robot_speed', 'seed', 'seed_value', 'shadow_window', 'spec', 'speed', 'start_tile', 'step', 'step_count', 'text_label', 'timeout', 'timestamp', 'total_reward', 'trackers', 'tri_vlist', 'trim', 'undistort', 'unwrapped', 'update_physics', 'user_tile_start', 'weird_from_cartesian', 'wheelVels', 'wheel_dist', 'window']
+False: Accepted
