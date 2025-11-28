@@ -1,0 +1,62 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764346517.0977798 gym-duckietown 2019.0.0
+
+time=1764346517.18322 Registering gym environment id: Duckietown-4way-v0
+time=1764346517.1833038 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764346517.1833522 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764346517.1833947 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764346517.1834636 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764346517.1835167 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764346517.1835718 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764346517.1836462 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764346517.183701 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764346517.183757 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764346517.1838183 Registering gym environment id: Duckietown-small_loop-v0
+time=1764346517.1838744 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764346517.1839302 Registering gym environment id: Duckietown-straight_road-v0
+time=1764346517.1839843 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764346517.1840413 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764346517.1840968 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764346517.1841521 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764346517.1842077 Registering gym environment id: Duckietown-udem1-v0
+time=1764346517.184261 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764346520.590431 Falling back to non-multisampled frame buffer
+time=1764346520.5926116 Falling back to non-multisampled frame buffer
+time=1764346520.595249 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/udem1.yaml"
+time=1764346520.6028657 loading mesh "duckiebot.obj"
+time=1764346520.603027 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764346520.8195992 loading mesh "sign_right_T_intersect.obj"
+time=1764346520.8198197 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/sign_right_T_intersect.mtl"
+time=1764346520.824142 loading texture "sign_right_T_intersect.png"
+time=1764346521.1810918 loading texture "wood_osb.jpg"
+time=1764346521.2446496 loading mesh "sign_left_T_intersect.obj"
+time=1764346521.2448325 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/sign_left_T_intersect.mtl"
+time=1764346521.2480032 loading texture "sign_left_T_intersect.png"
+time=1764346521.5791013 loading texture "wood_osb.jpg"
+time=1764346521.642918 loading texture "floor_1.png"
+time=1764346521.727287 loading texture "curve_left_1.png"
+time=1764346521.7333162 loading texture "straight_1.png"
+time=1764346521.7391713 loading texture "3way_left_1.png"
+time=1764346521.9315226 loading texture "asphalt_1.png"
+time=1764346522.1473303 loading texture "grass_1.png"
+time=1764346522.4582624 loading texture "curve_right_1.png"
+time=1764346522.466746 road_tile_size=0.585
+time=1764346522.4670432 Starting at [1.4274 0.     1.9188] 3.141592653589793
+time=1764346522.4672747 Pos: [1.4274 0.     1.9188] angle 3.141592653589793
+time=1764346522.6410155 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/right_corner/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/right_corner/solutions/solution.py", line 17, in __init__
+    return results
+NameError: name 'results' is not defined
+0.585
+1.4273999999999998 1.9187999999999998
+env.road_tile_size = 0.585
