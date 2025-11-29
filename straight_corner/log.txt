@@ -1,0 +1,41 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764427846.2650192 gym-duckietown 2019.0.0
+
+time=1764427846.3483493 Registering gym environment id: Duckietown-4way-v0
+time=1764427846.3484337 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764427846.3484826 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764427846.3485131 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764427846.348572 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764427846.3486564 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764427846.348709 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764427846.348754 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764427846.3488066 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764427846.3488562 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764427846.348906 Registering gym environment id: Duckietown-small_loop-v0
+time=1764427846.3489525 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764427846.3489983 Registering gym environment id: Duckietown-straight_road-v0
+time=1764427846.349044 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764427846.349091 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764427846.3491318 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764427846.3491843 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764427846.349232 Registering gym environment id: Duckietown-udem1-v0
+time=1764427846.3492806 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/straight_corner/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/straight_corner/solutions/solution.py", line 2, in <module>
+    import apriltag
+ModuleNotFoundError: No module named 'apriltag'
