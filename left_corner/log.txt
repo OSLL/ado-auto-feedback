@@ -1,0 +1,31 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764429146.974796 gym-duckietown 2019.0.0
+
+time=1764429147.0668545 Registering gym environment id: Duckietown-4way-v0
+time=1764429147.0669518 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764429147.0670137 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764429147.067059 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764429147.06712 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764429147.0671706 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764429147.0672143 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764429147.067273 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764429147.067325 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764429147.0673747 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764429147.0674284 Registering gym environment id: Duckietown-small_loop-v0
+time=1764429147.067482 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764429147.0675347 Registering gym environment id: Duckietown-straight_road-v0
+time=1764429147.0675821 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764429147.0676274 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764429147.0676785 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764429147.0677264 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764429147.0677729 Registering gym environment id: Duckietown-udem1-v0
+time=1764429147.0678177 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/left_corner/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.left_corner.solutions.solution' has no attribute 'LeftCornerTaskSolution'
