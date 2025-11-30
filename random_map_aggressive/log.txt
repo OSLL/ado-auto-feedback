@@ -1,0 +1,31 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764519079.513557 gym-duckietown 2019.0.0
+
+time=1764519079.645862 Registering gym environment id: Duckietown-4way-v0
+time=1764519079.645945 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764519079.6459928 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764519079.6460223 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764519079.6460776 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764519079.6461327 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764519079.6461835 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764519079.646232 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764519079.6462889 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764519079.646336 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764519079.6463833 Registering gym environment id: Duckietown-small_loop-v0
+time=1764519079.6464279 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764519079.6464791 Registering gym environment id: Duckietown-straight_road-v0
+time=1764519079.6465302 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764519079.646577 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764519079.6466227 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764519079.6466715 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764519079.6467283 Registering gym environment id: Duckietown-udem1-v0
+time=1764519079.646776 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map_aggressive/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.random_map_aggressive.solutions.solution' has no attribute 'RandomMapAggressiveTaskSolution'
