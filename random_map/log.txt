@@ -1,0 +1,69 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764509057.0422065 gym-duckietown 2019.0.0
+
+time=1764509057.1246717 Registering gym environment id: Duckietown-4way-v0
+time=1764509057.1247573 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764509057.1248057 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764509057.1248488 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764509057.1249037 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764509057.1249676 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764509057.1250126 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764509057.1250541 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764509057.1251607 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764509057.1252115 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764509057.1252687 Registering gym environment id: Duckietown-small_loop-v0
+time=1764509057.125323 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764509057.125378 Registering gym environment id: Duckietown-straight_road-v0
+time=1764509057.1254308 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764509057.1254878 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764509057.1255434 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764509057.1255977 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764509057.12565 Registering gym environment id: Duckietown-udem1-v0
+time=1764509057.1257067 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1764509058.5601318 Falling back to non-multisampled frame buffer
+time=1764509058.5622258 Falling back to non-multisampled frame buffer
+time=1764509058.5648186 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1764509058.5718193 loading mesh "duckiebot.obj"
+time=1764509058.5719702 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1764509058.7887213 loading texture "floor_1.png"
+time=1764509058.8716977 loading texture "curve_right_1.png"
+time=1764509058.877781 loading texture "straight_1.png"
+time=1764509058.8835542 loading texture "3way_left_1.png"
+time=1764509059.0985825 loading texture "curve_left_1.png"
+time=1764509059.1063414 loading texture "4way_1.png"
+time=1764509059.31438 using user tile start: (0, 1)
+time=1764509059.3150382 tile: {'coords': (0, 1), 'kind': 'curve_right', 'angle': 2, 'drivable': True, 'curves': array([[[0.4095, 0.    , 1.17  ],
+        [0.4095, 0.    , 0.9945],
+        [0.468 , 0.    , 0.9945],
+        [0.585 , 0.    , 0.9945]],
+
+       [[0.585 , 0.    , 0.7605],
+        [0.468 , 0.    , 0.7605],
+        [0.117 , 0.    , 0.8775],
+        [0.1755, 0.    , 1.17  ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f98bea2e100>, 'color': array([1, 1, 1])}
+time=1764509059.3158762 road_tile_size=0.585
+time=1764509059.3160381 Starting at [0.29207092 0.         0.87786971] 6.186066588306771
+time=1764509059.316206 Pos: [0.29207092 0.         0.87786971] angle 6.186066588306771
+time=1764509059.440471 using DuckietownEnv
+time=1764509059.441302 Target tile: (6, 7)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 17, in __init__
+    self.route = self.build_route(self.start_pos, self.target_coords, drivable_tiles)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 23, in build_route
+    good_tiles = [tuple(env.get_grid_coords(c)) for c in drivable_tiles]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/random_map/solutions/solution.py", line 23, in <listcomp>
+    good_tiles = [tuple(env.get_grid_coords(c)) for c in drivable_tiles]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 969, in get_grid_coords
+    x, _, z = abs_pos
+ValueError: not enough values to unpack (expected 3, got 2)
+0.585
+0.2920709166987165 0.8778697146589233
