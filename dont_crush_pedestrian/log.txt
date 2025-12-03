@@ -1,0 +1,41 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1764752267.4867048 gym-duckietown 2019.0.0
+
+time=1764752267.569673 Registering gym environment id: Duckietown-4way-v0
+time=1764752267.5697575 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1764752267.569791 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1764752267.569857 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1764752267.569924 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1764752267.5700243 Registering gym environment id: Duckietown-loop_empty-v0
+time=1764752267.5700977 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1764752267.5701468 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1764752267.5701947 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1764752267.5702412 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1764752267.5702891 Registering gym environment id: Duckietown-small_loop-v0
+time=1764752267.5703363 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1764752267.570388 Registering gym environment id: Duckietown-straight_road-v0
+time=1764752267.5704424 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1764752267.5704935 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1764752267.5705364 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1764752267.570587 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1764752267.5706348 Registering gym environment id: Duckietown-udem1-v0
+time=1764752267.5706854 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_pedestrian/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_pedestrian/solutions/solution.py", line 2, in <module>
+    from gym_duckietown.objects import Duckie, Pedestrian  # Pedestrian class if needed
+ImportError: cannot import name 'Duckie' from 'gym_duckietown.objects' (/home/appuser/aido-auto/gym-duckietown/gym_duckietown/objects.py)
