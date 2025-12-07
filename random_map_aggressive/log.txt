@@ -1,0 +1,107 @@
+False: Incorrect solution execution: local variable 'start_pos' referenced before assignment
+time=1765106791.1113303 gym-duckietown 2019.0.0
+
+time=1765106791.195951 Registering gym environment id: Duckietown-4way-v0
+time=1765106791.1960573 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1765106791.1961184 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1765106791.1962013 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1765106791.1962783 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1765106791.1963584 Registering gym environment id: Duckietown-loop_empty-v0
+time=1765106791.1964157 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1765106791.1964946 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1765106791.1965742 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1765106791.1966505 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1765106791.1967034 Registering gym environment id: Duckietown-small_loop-v0
+time=1765106791.1967485 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1765106791.196793 Registering gym environment id: Duckietown-straight_road-v0
+time=1765106791.1968386 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1765106791.196884 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1765106791.1969292 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1765106791.1969745 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1765106791.1970217 Registering gym environment id: Duckietown-udem1-v0
+time=1765106791.1970668 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1765106792.70375 Falling back to non-multisampled frame buffer
+time=1765106792.705702 Falling back to non-multisampled frame buffer
+time=1765106792.7088802 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1765106792.7159133 loading mesh "duckiebot_green.obj"
+time=1765106792.7160463 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot_green.mtl"
+time=1765106792.9327216 loading texture "floor_1.png"
+time=1765106793.0142446 loading texture "curve_right_1.png"
+time=1765106793.020445 loading texture "straight_1.png"
+time=1765106793.026372 loading texture "curve_left_1.png"
+time=1765106793.0333574 loading texture "3way_left_1.png"
+time=1765106793.2237573 loading texture "4way_1.png"
+time=1765106793.4129562 using user tile start: (4, 4)
+time=1765106793.4137676 tile: {'coords': (4, 4), 'kind': '3way_left', 'angle': 1, 'drivable': True, 'curves': array([[[2.34   , 0.     , 2.7495 ],
+        [2.48625, 0.     , 2.7495 ],
+        [2.77875, 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]],
+
+       [[2.34   , 0.     , 2.7495 ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.7495 , 0.     , 2.6325 ],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.77875, 0.     , 2.5155 ],
+        [2.48625, 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.457  ],
+        [2.5155 , 0.     , 2.5155 ],
+        [2.34   , 0.     , 2.5155 ]],
+
+       [[2.925  , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.5155 ],
+        [2.7495 , 0.     , 2.457  ],
+        [2.7495 , 0.     , 2.34   ]],
+
+       [[2.5155 , 0.     , 2.34   ],
+        [2.5155 , 0.     , 2.457  ],
+        [2.6325 , 0.     , 2.7495 ],
+        [2.925  , 0.     , 2.7495 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ff9a8821040>, 'color': array([1, 1, 1])}
+time=1765106793.414592 road_tile_size=0.585
+time=1765106793.4147847 Starting at [2.74207036 0.         2.73787473] 1.4168361525232862
+time=1765106793.4149158 Pos: [2.74207036 0.         2.73787473] angle 1.4168361525232862
+time=1765106793.532692 using DuckietownEnv
+time=1765106793.5333986 Target tile: (7, 0)
+time=1765106793.53346 1 3 2 3
+time=1765106793.5334897 Placing an aggressive duckie on (2.0, 3.25) with 180 angle
+time=1765106793.533685 loading mesh "duckiebot.obj"
+time=1765106793.5338166 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1765106793.74074 5 1 5 0
+time=1765106793.7408214 Placing an aggressive duckie on (5.25, 1.0) with 270 angle
+time=1765106793.7414968 7 3 7 2
+time=1765106793.741549 Placing an aggressive duckie on (7.75, 3.0) with -90 angle
+time=1765106793.742404 2 2 3 2
+time=1765106793.7424572 Placing an aggressive duckie on (3.0, 2.75) with -180 angle
+time=1765106793.7435472 6 0 7 0
+time=1765106793.7436028 Placing an aggressive duckie on (7.0, 0.25) with 180 angle
+time=1765106793.7449615 7 5 7 4
+time=1765106793.7450023 Placing an aggressive duckie on (7.25, 5.0) with 270 angle
+time=1765106793.7465374 6 6 7 6
+time=1765106793.746576 Placing an aggressive duckie on (7.0, 6.25) with 180 angle
+time=1765106793.7484152 2 3 2 2
+time=1765106793.7484543 Placing an aggressive duckie on (2.25, 3.0) with 270 angle
+time=1765106793.7504103 5 0 6 0
+time=1765106793.7504492 Placing an aggressive duckie on (6.0, 0.25) with 180 angle
+time=1765106793.7526715 5 9 6 9
+time=1765106793.75271 Placing an aggressive duckie on (6.0, 9.75) with -180 angle
+time=1765106793.755181 6 9 7 9
+time=1765106793.7552197 Placing an aggressive duckie on (7.0, 9.75) with -180 angle
+time=1765106793.7578282 7 7 7 6
+time=1765106793.757867 Placing an aggressive duckie on (7.25, 7.0) with 270 angle
+time=1765106793.760787 5 8 5 7
+time=1765106793.7608256 Placing an aggressive duckie on (5.75, 8.0) with -90 angle
+time=1765106793.7639353 7 1 7 0
+time=1765106793.763974 Placing an aggressive duckie on (7.25, 1.0) with 270 angle
+time=1765106793.7680538 1 4 1 3
+time=1765106793.7680986 Placing an aggressive duckie on (1.25, 4.0) with 270 angle
+time=1765106793.7724493 7 4 7 3
+time=1765106793.7724879 Placing an aggressive duckie on (7.25, 4.0) with 270 angle
+0.585
+2.742070363934273 2.737874733508319
+НАЧАЛО
+total reward =  0
+False: Incorrect solution execution: local variable 'start_pos' referenced before assignment
