@@ -1,0 +1,44 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1768904295.6084342 gym-duckietown 2019.0.0
+
+time=1768904295.6913402 Registering gym environment id: Duckietown-4way-v0
+time=1768904295.6914258 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1768904295.6915116 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1768904295.6915953 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1768904295.691672 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1768904295.691735 Registering gym environment id: Duckietown-loop_empty-v0
+time=1768904295.6918058 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1768904295.691853 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1768904295.6919017 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1768904295.6919515 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1768904295.6919994 Registering gym environment id: Duckietown-small_loop-v0
+time=1768904295.6920483 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1768904295.6920955 Registering gym environment id: Duckietown-straight_road-v0
+time=1768904295.6921442 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1768904295.692192 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1768904295.6922357 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1768904295.6922822 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1768904295.6923273 Registering gym environment id: Duckietown-udem1-v0
+time=1768904295.6923728 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 26, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/solutions/solution.py", line 35
+    print(f"
+           ^
+SyntaxError: EOL while scanning string literal
