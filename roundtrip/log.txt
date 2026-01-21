@@ -1,0 +1,31 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1768975430.391906 gym-duckietown 2019.0.0
+
+time=1768975430.4741218 Registering gym environment id: Duckietown-4way-v0
+time=1768975430.474217 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1768975430.4742517 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1768975430.474283 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1768975430.4743388 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1768975430.4743764 Registering gym environment id: Duckietown-loop_empty-v0
+time=1768975430.4744573 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1768975430.4745452 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1768975430.4745882 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1768975430.474654 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1768975430.4747012 Registering gym environment id: Duckietown-small_loop-v0
+time=1768975430.4747434 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1768975430.4747899 Registering gym environment id: Duckietown-straight_road-v0
+time=1768975430.4748373 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1768975430.474886 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1768975430.4749322 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1768975430.4749792 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1768975430.4750245 Registering gym environment id: Duckietown-udem1-v0
+time=1768975430.4750752 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 26, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.roundtrip.solutions.solution' has no attribute 'RoundtripTaskSolution'
