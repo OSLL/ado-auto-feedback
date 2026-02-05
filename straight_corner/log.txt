@@ -1,0 +1,78 @@
+False: Accepted
+time=1770279427.0965838 gym-duckietown 2019.0.0
+
+time=1770279427.178744 Registering gym environment id: Duckietown-4way-v0
+time=1770279427.1788507 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1770279427.1788855 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1770279427.178914 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1770279427.1789567 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1770279427.1789842 Registering gym environment id: Duckietown-loop_empty-v0
+time=1770279427.179013 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1770279427.179061 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1770279427.1791115 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1770279427.1791642 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1770279427.1792088 Registering gym environment id: Duckietown-small_loop-v0
+time=1770279427.1792555 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1770279427.1793005 Registering gym environment id: Duckietown-straight_road-v0
+time=1770279427.1793478 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1770279427.1793966 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1770279427.1794407 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1770279427.1794875 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1770279427.179533 Registering gym environment id: Duckietown-udem1-v0
+time=1770279427.1795795 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1770279429.7988942 Falling back to non-multisampled frame buffer
+time=1770279429.8007166 Falling back to non-multisampled frame buffer
+time=1770279429.8032737 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/udem1.yaml"
+time=1770279429.8102257 loading mesh "duckiebot.obj"
+time=1770279429.8103912 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1770279430.0313175 loading mesh "sign_right_T_intersect.obj"
+time=1770279430.0315018 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/sign_right_T_intersect.mtl"
+time=1770279430.034501 loading texture "sign_right_T_intersect.png"
+time=1770279430.3526957 loading texture "wood_osb.jpg"
+time=1770279430.412913 loading mesh "sign_left_T_intersect.obj"
+time=1770279430.4130645 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/sign_left_T_intersect.mtl"
+time=1770279430.4161277 loading texture "sign_left_T_intersect.png"
+time=1770279430.7284472 loading texture "wood_osb.jpg"
+time=1770279430.7892697 loading texture "floor_1.png"
+time=1770279430.863609 loading texture "curve_left_1.png"
+time=1770279430.8694127 loading texture "straight_1.png"
+time=1770279430.8751543 loading texture "3way_left_1.png"
+time=1770279431.0577395 loading texture "asphalt_1.png"
+time=1770279431.2435303 loading texture "grass_1.png"
+time=1770279431.5406241 loading texture "curve_right_1.png"
+time=1770279431.5489087 road_tile_size=0.585
+time=1770279431.5491865 Starting at [0.7839 0.     1.4625] -1.5707963267948966
+time=1770279431.549417 Pos: [0.7839 0.     1.4625] angle -1.5707963267948966
+time=1770279431.7252765 using DuckietownEnv
+time=1770279431.8556936 Pos: [0.7839 0.     1.4625] angle -1.5707963267948966
+0.585
+0.7839 1.4625
+env.road_tile_size = 0.585
+=== АНАЛИЗ ИЗОБРАЖЕНИЯ RGB ===
+Размер: 640x480
+=== Проверяем разные пороги белого ===
+Порог 180: найдено 9 контуров (1 больших)
+Порог 190: найдено 5 контуров (0 больших)
+Порог 200: найдено 0 контуров (0 больших)
+Порог 210: найдено 0 контуров (0 больших)
+Порог 220: найдено 0 контуров (0 больших)
+Порог 230: найдено 0 контуров (0 больших)
+=== Анализ яркости в правой части ===
+Средняя яркость правой части: 92.3
+=== Поиск любых объектов в правой части ===
+Контуров в правой части: 92
+  Объект 38: 202x151, площадь: 147
+    Соотношение сторон: 1.34
+  Объект 55: 218x123, площадь: 83
+    Соотношение сторон: 1.77
+  Объект 67: 148x32, площадь: 219
+    Соотношение сторон: 4.62
+  Объект 88: 32x34, площадь: 610
+    Соотношение сторон: 0.94
+    ✓ Квадрат!
+  Объект 90: 38x36, площадь: 1159
+    Соотношение сторон: 1.06
+    ✓ Квадрат!
+=== Анализ цветов в правой части ===
+Средние значения RGB: R=88.3, G=94.6, B=90.8
+False: Accepted
