@@ -1,0 +1,72 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1791042603.0029523 gym-duckietown 2019.0.0
+
+time=1791042603.1107435 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1791042603.1108265 Registering gym environment id: Duckietown-udem1-v0
+time=1791042603.110845 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1791042603.1108582 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1791042603.1108694 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1791042603.1108797 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1791042603.1108897 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1791042603.1109123 Registering gym environment id: Duckietown-straight_road-v0
+time=1791042603.1109276 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1791042603.1109512 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1791042603.1109765 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1791042603.1109908 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1791042603.1110022 Registering gym environment id: Duckietown-small_loop-v0
+time=1791042603.1110127 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1791042603.1110334 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1791042603.1110473 Registering gym environment id: Duckietown-loop_empty-v0
+time=1791042603.111069 Registering gym environment id: Duckietown-4way-v0
+time=1791042603.1110933 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1791042603.1111183 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1791042604.0492427 Falling back to non-multisampled frame buffer
+time=1791042604.0511513 Falling back to non-multisampled frame buffer
+time=1791042604.0537367 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1791042604.0598195 loading mesh "duckiebot.obj"
+time=1791042604.0603743 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1791042604.179077 loading mesh "house.obj"
+time=1791042604.194331 loading texture "house.png"
+time=1791042604.7645118 loading mesh "truck.obj"
+time=1791042604.7682147 loading texture "truck.png"
+time=1791042604.897084 loading mesh "bus.obj"
+time=1791042604.901588 loading texture "bus.png"
+time=1791042605.0301585 loading mesh "barrier.obj"
+time=1791042605.0353622 loading texture "barrier.png"
+time=1791042605.067678 loading mesh "duckie.obj"
+time=1791042605.0795062 loading texture "duckie.png"
+time=1791042605.2080295 loading mesh "cone.obj"
+time=1791042605.2118487 loading texture "cone.png"
+time=1791042605.2260647 loading texture "floor_1.png"
+time=1791042605.2600844 loading texture "curve_left_1.png"
+time=1791042605.2648644 loading texture "straight_1.png"
+time=1791042605.2693899 loading texture "grass_1.png"
+time=1791042605.400368 loading texture "3way_left_1.png"
+time=1791042605.4778812 loading texture "curve_right_1.png"
+time=1791042605.483646 using user tile start: (1, 1)
+time=1791042605.483959 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fd965d651c0>, 'color': array([1, 1, 1])}
+time=1791042605.4844985 road_tile_size=0.585
+time=1791042605.484606 Starting at [0.81649648 0.         1.02829812] 0.2779221712987285
+time=1791042605.4847548 Pos: [0.81649648 0.         1.02829812] angle 0.2779221712987285
+time=1791042605.589982 using DuckietownEnv
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 51, in evaluate_solution
+    generated_task = self.task_generator.generate_task()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/task_generator.py", line 36, in generate_task
+    self.generated_task['target_coordinates'] = [np.array([goal[0], 0., goal[1]])] # goal duckie
+TypeError: 'WorldObj' object is not subscriptable
+0.585
+0.8164964798662355 1.0282981220129874
